@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\UnrealCPP.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{51660BC4-C765-496D-868B-764566C4A663}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UnrealCPP.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\UnrealCPPEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{8E82C4AD-F591-4EE8-9280-E8FEF0845B5C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\UnrealCPP">
+			<UniqueIdentifier>{8E4D6A0A-4949-4705-ABF5-EE2D915EEB61}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UnrealCPP\UnrealCPP.Build.cs">
+			<Filter>Source\UnrealCPP</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\UnrealCPP\UnrealCPP.cpp">
+			<Filter>Source\UnrealCPP</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealCPP\UnrealCPP.h">
+			<Filter>Source\UnrealCPP</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UnrealCPP\UnrealCPPCharacter.cpp">
+			<Filter>Source\UnrealCPP</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealCPP\UnrealCPPCharacter.h">
+			<Filter>Source\UnrealCPP</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UnrealCPP\UnrealCPPGameMode.cpp">
+			<Filter>Source\UnrealCPP</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealCPP\UnrealCPPGameMode.h">
+			<Filter>Source\UnrealCPP</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UnrealCPP\UnrealCPPHUD.cpp">
+			<Filter>Source\UnrealCPP</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealCPP\UnrealCPPHUD.h">
+			<Filter>Source\UnrealCPP</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UnrealCPP\UnrealCPPProjectile.cpp">
+			<Filter>Source\UnrealCPP</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealCPP\UnrealCPPProjectile.h">
+			<Filter>Source\UnrealCPP</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

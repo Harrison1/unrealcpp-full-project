@@ -1536,3 +1536,9 @@ LogInit: Object subsystem initialized
 [2018.04.16-11.00.22:776][ 73]Display: HotReload successful (30 functions remapped  0 scriptstructs remapped)
 [2018.04.16-11.00.23:080][ 73]LogContentBrowser: Native class hierarchy populated in 0.0245 seconds. Added 2498 classes and 601 folders.
 [2018.04.16-11.00.23:080][ 73]Display: HotReload took 23.9s.
+[2018.04.16-11.01.01:013][695]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.16-11.01.02:240][823]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.16-11.01.02:508][823]LogSavePackage: Save=136.75ms
+[2018.04.16-11.01.02:509][823]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPersonExampleMap6C5C4AE14AD95853A353F78C22B4C699.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2018.04.16-11.01.02:518][823]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2018.04.16-11.01.02:548][823]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.304

@@ -59,7 +59,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AUnrealCPPHUD); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AUnrealCPPHUD)
 
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPHUD_h_12_PRIVATE_PROPERTY_OFFSET
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPHUD_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__HUDWidgetClass() { return STRUCT_OFFSET(AUnrealCPPHUD, HUDWidgetClass); } \
+	FORCEINLINE static uint32 __PPO__CurrentWidget() { return STRUCT_OFFSET(AUnrealCPPHUD, CurrentWidget); }
+
+
 #define UnrealCPP_Source_UnrealCPP_UnrealCPPHUD_h_9_PROLOG
 #define UnrealCPP_Source_UnrealCPP_UnrealCPPHUD_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

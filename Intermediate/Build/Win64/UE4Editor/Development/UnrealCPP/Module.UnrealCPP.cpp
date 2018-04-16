@@ -43,5 +43,4 @@
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPCharacter.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPCharacterDefault.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPGameMode.cpp"
-#include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPProjectile.cpp"

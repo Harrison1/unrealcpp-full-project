@@ -495,3 +495,646 @@ LogInit: Object subsystem initialized
 [2018.04.16-08.53.50:209][552]Display: HotReload took 21.0s.
 [2018.04.16-08.53.53:924][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2018.04.16-08.53.55:570][186]LogActor: Warning: ActorLineTrace /Engine/Transient.World_0:PersistentLevel.ActorLineTrace_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.04.16-08.57.15:039][355]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.04.16-08.57.15:142][356]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.UnrealCPP
+[2018.04.16-08.57.15:143][356]LogTemp: CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.04.16-08.57.15:143][356]LogTemp: Initial Dir: D:\Epic Games\UE_4.19
+[2018.04.16-08.57.15:143][356]LogTemp: Env CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.04.16-08.57.15:143][356]LogTemp: BranchPath = HARRYPC/D/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = HARRYPC/D/Epic Games/UE_4.19/Engine/Binaries
+[2018.04.16-08.57.15:143][356]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Harrison\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.04.16-09.00.38:287][ 89]LogSlate: Took 0.000371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.16-09.00.38:399][ 89]LogSlate: Took 0.046964 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.16-09.00.51:121][558]Running D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP Win64 Development -editorrecompile "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" -invalidatemakefilesonly
+[2018.04.16-09.00.51:424][558]Invalidating makefiles only in this run.
+[2018.04.16-09.00.51:565][558]Candidate modules for hot reload:
+[2018.04.16-09.00.51:565][558]  UnrealCPP
+[2018.04.16-09.00.51:566][558]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,677 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.16-09.01.16:551][558]CompilerResultsLog: New page: Compilation - Apr 16, 2018, 1:01:16 AM
+[2018.04.16-09.01.16:551][558]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.16-09.01.16:551][558]CompilerResultsLog: Creating makefile for hot reloading UnrealCPP (no existing makefile)
+[2018.04.16-09.01.16:551][558]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.16-09.01.16:551][558]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.16-09.01.16:551][558]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.16-09.01.16:552][558]CompilerResultsLog: Reflection code generated for UnrealCPPEditor in 12.9138489 seconds
+[2018.04.16-09.01.16:552][558]CompilerResultsLog: [Adaptive unity build] Disabling PCH for excluded files. Set bAdaptiveUnityDisablesPCH to false in BuildConfiguration.xml to change this behavior.
+[2018.04.16-09.01.16:552][558]CompilerResultsLog: [Adaptive unity build] Excluded from UnrealCPP unity file: MyActorNewClass.cpp
+[2018.04.16-09.01.16:552][558]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.04.16-09.01.16:552][558]CompilerResultsLog: MyActorNewClass.cpp
+[2018.04.16-09.01.16:552][558]CompilerResultsLog: Module.UnrealCPP.gen.cpp
+[2018.04.16-09.01.16:552][558]CompilerResultsLog: [3/4] Link UE4Editor-UnrealCPP-677.dll
+[2018.04.16-09.01.16:552][558]CompilerResultsLog: [4/4] Link UE4Editor-UnrealCPP-677.lib
+[2018.04.16-09.01.16:552][558]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-677.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-677.exp
+[2018.04.16-09.01.16:552][558]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-677.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-677.suppressed.exp
+[2018.04.16-09.01.16:552][558]CompilerResultsLog: Total build time: 24.61 seconds (Local executor: 4.34 seconds)
+[2018.04.16-09.01.16:552][558]LogMainFrame: MainFrame: Module compiling took 24.996 seconds
+[2018.04.16-09.01.16:636][558]LogClass: Could not find existing class MyActorNewClass in package /Script/UnrealCPP for HotReload, assuming new class
+[2018.04.16-09.01.16:671][558]LogHotReload: Re-instancing MyCameraShake after hot-reload.
+[2018.04.16-09.01.16:935][558]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0517 seconds. Added 45 classes and 41 folders.
+[2018.04.16-09.01.16:938][558]Display: HotReload successful (30 functions remapped  0 scriptstructs remapped)
+[2018.04.16-09.01.17:007][558]LogContentBrowser: Native class hierarchy populated in 0.0207 seconds. Added 2498 classes and 601 folders.
+[2018.04.16-09.01.17:007][558]Display: HotReload took 25.5s.
+[2018.04.16-09.01.17:008][558]Warning: HotReload operation took 25.5s.
+[2018.04.16-09.01.17:116][558]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.04.16-09.01.17:120][558]LogHotReload: New module detected: UE4Editor-UnrealCPP-677.dll
+[2018.04.16-09.01.17:205][559]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.16-09.01.17:266][559]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0141 seconds. Added 45 classes and 41 folders.
+[2018.04.16-09.01.17:268][559]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.16-09.01.17:307][559]LogContentBrowser: Native class hierarchy populated in 0.0248 seconds. Added 2498 classes and 601 folders.
+[2018.04.16-09.01.17:310][559]Display: HotReload took  0.1s.
+[2018.04.16-09.02.01:291][435]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.04.16-09.02.01:404][436]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.UnrealCPP
+[2018.04.16-09.02.01:404][436]LogTemp: CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.04.16-09.02.01:404][436]LogTemp: Initial Dir: D:\Epic Games\UE_4.19
+[2018.04.16-09.02.01:404][436]LogTemp: Env CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.04.16-09.02.01:404][436]LogTemp: BranchPath = HARRYPC/D/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = HARRYPC/D/Epic Games/UE_4.19/Engine/Binaries
+[2018.04.16-09.02.01:405][436]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Harrison\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.04.16-09.02.12:300][683]Candidate modules for hot reload:
+[2018.04.16-09.02.12:300][683]  UnrealCPP
+[2018.04.16-09.02.12:300][683]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,4311 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.16-09.02.12:302][683]Warning: Starting HotReload took  0.0s.
+[2018.04.16-09.02.30:779][886]CompilerResultsLog: New page: Compilation - Apr 16, 2018, 1:02:30 AM
+[2018.04.16-09.02.30:780][886]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.16-09.02.30:780][886]CompilerResultsLog: Creating makefile for hot reloading UnrealCPP (UHT file was deleted)
+[2018.04.16-09.02.30:780][886]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.16-09.02.30:780][886]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.16-09.02.30:780][886]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.16-09.02.30:780][886]CompilerResultsLog: Reflection code generated for UnrealCPPEditor in 9.8727003 seconds
+[2018.04.16-09.02.30:780][886]CompilerResultsLog: [Adaptive unity build] Disabling PCH for excluded files. Set bAdaptiveUnityDisablesPCH to false in BuildConfiguration.xml to change this behavior.
+[2018.04.16-09.02.30:780][886]CompilerResultsLog: [Adaptive unity build] Excluded from UnrealCPP.gen unity file: UnrealCPP.init.gen.cpp
+[2018.04.16-09.02.30:780][886]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.04.16-09.02.30:780][886]CompilerResultsLog: Module.UnrealCPP.gen.cpp
+[2018.04.16-09.02.30:780][886]CompilerResultsLog: UnrealCPP.init.gen.cpp
+[2018.04.16-09.02.30:780][886]CompilerResultsLog: [3/4] Link UE4Editor-UnrealCPP-4311.dll
+[2018.04.16-09.02.30:780][886]CompilerResultsLog: [4/4] Link UE4Editor-UnrealCPP-4311.lib
+[2018.04.16-09.02.30:780][886]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4311.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4311.exp
+[2018.04.16-09.02.30:780][886]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4311.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4311.suppressed.exp
+[2018.04.16-09.02.30:780][886]CompilerResultsLog: Total build time: 18.28 seconds (Local executor: 3.02 seconds)
+[2018.04.16-09.02.30:780][886]LogMainFrame: MainFrame: Module compiling took 18.483 seconds
+[2018.04.16-09.02.30:833][886]LogHotReload: Re-instancing MyCameraShake after hot-reload.
+[2018.04.16-09.02.30:893][886]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0123 seconds. Added 45 classes and 41 folders.
+[2018.04.16-09.02.30:894][886]Display: HotReload successful (30 functions remapped  0 scriptstructs remapped)
+[2018.04.16-09.02.30:943][886]LogContentBrowser: Native class hierarchy populated in 0.0211 seconds. Added 2498 classes and 601 folders.
+[2018.04.16-09.02.30:943][886]Display: HotReload took 18.6s.
+[2018.04.16-09.02.35:229][399]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-09.02.35:244][399]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.02.35:244][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-09.02.35:244][399]PIE: New page: PIE session: FirstPersonExampleMap (Apr 16, 2018, 1:02:35 AM)
+[2018.04.16-09.02.35:245][399]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.16-09.02.35:266][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021186s)
+[2018.04.16-09.02.35:267][399]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.16-09.02.35:267][399]LogPlayLevel: PIE: World Init took: (0.001118s)
+[2018.04.16-09.02.35:267][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022552s)
+[2018.04.16-09.02.35:289][399]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-09.02.35:297][399]LogInit: FAudioDevice initialized.
+[2018.04.16-09.02.35:343][399]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.16-09.02.35:350][399]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.16-05.02.35
+[2018.04.16-09.02.35:351][399]LogWorld: Bringing up level for play took: 0.004632
+[2018.04.16-09.02.35:406][399]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0146 seconds. Added 11 classes and 0 folders.
+[2018.04.16-09.02.35:406][399]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.217
+[2018.04.16-09.02.35:407][399]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.02.39:088][835]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.02.39:124][835]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.02.43:845][394]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.16-09.03.58:276][ 81]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Harrison\Downloads\health-bar.png)
+[2018.04.16-09.03.58:320][ 81]LogTexture: Display: Building textures: health-bar (AutoDXT, 500X100)
+[2018.04.16-09.03.58:537][ 81]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Harrison\Downloads\health-bar-empty.png)
+[2018.04.16-09.03.58:546][ 81]LogTexture: Display: Building textures: health-bar-empty (AutoDXT, 500X100)
+[2018.04.16-09.03.58:711][ 81]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Harrison\Downloads\health-bar-empty-black.png)
+[2018.04.16-09.03.58:714][ 81]LogTexture: Display: Building textures: health-bar-empty-black (AutoDXT, 500X100)
+[2018.04.16-09.04.07:568][108]LogEditorFactories: Performing atomic reimport of [C:/Users/Harrison/Downloads/hearts/health-bar-empty.png]
+[2018.04.16-09.04.07:572][108]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Harrison/Downloads/hearts/health-bar-empty.png)
+[2018.04.16-09.04.07:585][108]LogTexture: Display: Building textures: health-bar-empty (BGRA8, 603X117)
+[2018.04.16-09.04.07:616][108]LogEditorFactories: -- imported successfully
+[2018.04.16-09.04.07:662][108]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Harrison\Downloads\hearts\health-bar-full.png)
+[2018.04.16-09.04.07:668][108]LogTexture: Display: Building textures: health-bar-full (BGRA8, 603X117)
+[2018.04.16-09.04.07:700][108]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Harrison\Downloads\hearts\health-bar-full-2.png)
+[2018.04.16-09.04.07:707][108]LogTexture: Display: Building textures: health-bar-full-2 (BGRA8, 603X117)
+[2018.04.16-09.04.34:501][189]LogEditorFactories: Performing atomic reimport of [C:/Users/Harrison/Downloads/health-bar-empty.png]
+[2018.04.16-09.04.34:502][189]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Harrison/Downloads/health-bar-empty.png)
+[2018.04.16-09.04.34:515][189]LogTexture: Display: Building textures: health-bar-empty (AutoDXT, 500X100)
+[2018.04.16-09.04.34:678][189]LogEditorFactories: -- imported successfully
+[2018.04.16-09.04.59:616][264]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.031
+[2018.04.16-09.04.59:646][264]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/UI/health-bar] ([1] browsable assets)...
+[2018.04.16-09.04.59:650][264]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FirstPerson/UI/health-bar.health-bar]
+[2018.04.16-09.04.59:650][264]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/UI/health-bar]
+[2018.04.16-09.04.59:651][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/health-bar" FILE="../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/health-bar_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.04.16-09.04.59:677][264]LogSavePackage: Save=20.90ms
+[2018.04.16-09.04.59:677][264]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar_Auto15E4A8A2747EFCCF4FAB8A19C0C1AFD63.tmp' to '../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/health-bar_Auto1.uasset'
+[2018.04.16-09.04.59:690][264]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/health-bar_Auto1.uasset
+[2018.04.16-09.04.59:695][264]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/UI/health-bar-empty] ([1] browsable assets)...
+[2018.04.16-09.04.59:702][264]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FirstPerson/UI/health-bar-empty.health-bar-empty]
+[2018.04.16-09.04.59:702][264]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/UI/health-bar-empty]
+[2018.04.16-09.04.59:740][264]LogSavePackage: Save=25.62ms
+[2018.04.16-09.04.59:740][264]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar-empty_Auto127D05A7444251D97400ECABD91EAE9C0.tmp' to '../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/health-bar-empty_Auto1.uasset'
+[2018.04.16-09.04.59:749][264]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/health-bar-empty_Auto1.uasset
+[2018.04.16-09.04.59:754][264]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/UI/health-bar-empty-black] ([1] browsable assets)...
+[2018.04.16-09.04.59:760][264]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FirstPerson/UI/health-bar-empty-black.health-bar-empty-black]
+[2018.04.16-09.04.59:760][264]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/UI/health-bar-empty-black]
+[2018.04.16-09.04.59:796][264]LogSavePackage: Save=24.07ms
+[2018.04.16-09.04.59:796][264]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar-empty-black_Auto17C663B8F43113F09D99F48A13670C5E5.tmp' to '../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/health-bar-empty-black_Auto1.uasset'
+[2018.04.16-09.04.59:805][264]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/health-bar-empty-black_Auto1.uasset
+[2018.04.16-09.04.59:810][264]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/UI/health-bar-full] ([1] browsable assets)...
+[2018.04.16-09.04.59:817][264]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FirstPerson/UI/health-bar-full.health-bar-full]
+[2018.04.16-09.04.59:817][264]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/UI/health-bar-full]
+[2018.04.16-09.04.59:857][264]LogSavePackage: Save=25.33ms
+[2018.04.16-09.04.59:857][264]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar-full_Auto182CCBBE648B52F9B2A62B5A1B8E1DCF2.tmp' to '../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/health-bar-full_Auto1.uasset'
+[2018.04.16-09.04.59:866][264]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/health-bar-full_Auto1.uasset
+[2018.04.16-09.04.59:870][264]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/UI/health-bar-full-2] ([1] browsable assets)...
+[2018.04.16-09.04.59:878][264]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FirstPerson/UI/health-bar-full-2.health-bar-full-2]
+[2018.04.16-09.04.59:878][264]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/UI/health-bar-full-2]
+[2018.04.16-09.04.59:915][264]LogSavePackage: Save=25.41ms
+[2018.04.16-09.04.59:915][264]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar-full-2_Auto196E24ACE4680A1E41D7437B4248EC4EA.tmp' to '../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/health-bar-full-2_Auto1.uasset'
+[2018.04.16-09.04.59:924][264]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/health-bar-full-2_Auto1.uasset
+[2018.04.16-09.04.59:925][264]LogFileHelpers: Auto-saving content packages took 0.308
+[2018.04.16-09.05.06:996][286]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Harrison\Downloads\hearts\health-bar-empty-hearts.png)
+[2018.04.16-09.05.07:003][286]LogTexture: Display: Building textures: health-bar-empty-hearts (BGRA8, 603X117)
+[2018.04.16-09.07.51:762][  3]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Harrison\Downloads\health-bar-empty-hearts-black.png)
+[2018.04.16-09.07.51:775][  3]LogTexture: Display: Building textures: health-bar-empty-hearts-black (BGRA8, 603X117)
+[2018.04.16-09.08.01:088][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/health-bar" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar.uasset" SILENT=true
+[2018.04.16-09.08.01:115][208]LogSavePackage: Save=24.18ms
+[2018.04.16-09.08.01:115][208]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar6D7A6463427CF6A30011DCAAF48827C0.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar.uasset'
+[2018.04.16-09.08.01:124][208]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar.uasset
+[2018.04.16-09.08.01:128][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/health-bar-empty" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty.uasset" SILENT=true
+[2018.04.16-09.08.01:140][208]LogSavePackage: Save=9.49ms
+[2018.04.16-09.08.01:141][208]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar-empty45E679E54F982963F4020B901E53F024.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty.uasset'
+[2018.04.16-09.08.01:150][208]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty.uasset
+[2018.04.16-09.08.01:153][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/health-bar-empty-black" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-black.uasset" SILENT=true
+[2018.04.16-09.08.01:165][208]LogSavePackage: Save=8.71ms
+[2018.04.16-09.08.01:165][208]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar-empty-black770E763D4E4CCAE1B96BE9B76AFA0677.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-black.uasset'
+[2018.04.16-09.08.01:172][208]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-black.uasset
+[2018.04.16-09.08.01:176][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/health-bar-full" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-full.uasset" SILENT=true
+[2018.04.16-09.08.01:188][208]LogSavePackage: Save=8.99ms
+[2018.04.16-09.08.01:188][208]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar-full6ACE537E44666E78DD774C8AF178933D.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-full.uasset'
+[2018.04.16-09.08.01:195][208]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-full.uasset
+[2018.04.16-09.08.01:199][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/health-bar-full-2" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-full-2.uasset" SILENT=true
+[2018.04.16-09.08.01:212][208]LogSavePackage: Save=10.52ms
+[2018.04.16-09.08.01:212][208]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar-full-269E71C304B12E24B51EF8582C670C79D.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-full-2.uasset'
+[2018.04.16-09.08.01:224][208]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-full-2.uasset
+[2018.04.16-09.08.01:228][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/health-bar-empty-hearts" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-hearts.uasset" SILENT=true
+[2018.04.16-09.08.01:248][208]LogSavePackage: Save=17.58ms
+[2018.04.16-09.08.01:249][208]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar-empty-heartsFD2961A8475CC809AEFE0A9C6B2483A7.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-hearts.uasset'
+[2018.04.16-09.08.01:258][208]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-hearts.uasset
+[2018.04.16-09.08.01:262][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/health-bar-empty-hearts-black" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-hearts-black.uasset" SILENT=true
+[2018.04.16-09.08.01:275][208]LogSavePackage: Save=9.56ms
+[2018.04.16-09.08.01:275][208]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar-empty-hearts-black2CA0942C43DFD08EBBF7D7ADD5CF6FDC.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-hearts-black.uasset'
+[2018.04.16-09.08.01:280][208]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-hearts-black.uasset
+[2018.04.16-09.13.32:956][622]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0398 seconds. Added 116 classes and 0 folders.
+[2018.04.16-09.13.38:015][818]LogSlate: Window 'Health_UI*' being destroyed
+[2018.04.16-09.13.46:289][762]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_76' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:399][762]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_78' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:407][762]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_80' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:440][763]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_82' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:444][763]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_84' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:455][764]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_86' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:459][764]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_88' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:470][765]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_90' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:474][765]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_92' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:484][766]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_94' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:487][766]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_96' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:490][766]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_98' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:501][767]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_100' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:504][767]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_102' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:508][767]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_104' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:519][768]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_106' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:523][768]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_108' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:535][769]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_110' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:538][769]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_112' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:544][770]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_114' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:547][770]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_116' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:554][771]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_118' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:556][771]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_120' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:562][772]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_122' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:564][772]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_124' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:571][773]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_126' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:572][773]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_128' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:579][774]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_130' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:581][774]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_132' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:587][775]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_134' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:589][775]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_136' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:596][776]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_138' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:598][776]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_140' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:604][777]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_142' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:606][777]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_144' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:613][778]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_146' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:621][779]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_148' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:624][779]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_150' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:635][780]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_152' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:677][785]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_154' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:680][785]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_156' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:698][786]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_158' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:703][786]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_160' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:709][786]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_162' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:727][787]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_164' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:733][787]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_166' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:746][788]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_168' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:749][788]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_170' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:757][789]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_172' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:760][789]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_174' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:769][790]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_176' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:784][792]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_178' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:786][792]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_180' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:794][793]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_182' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:843][799]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_184' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:848][799]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_186' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:863][800]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_188' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:871][801]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_190' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:875][801]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_192' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:884][802]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_194' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:892][803]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_196' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:894][803]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_198' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:901][804]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_200' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:917][806]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_202' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:918][806]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_204' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:932][807]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_206' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:954][809]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_208' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:959][809]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_210' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:976][810]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_212' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:991][811]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_214' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.46:995][811]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_216' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:010][812]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_218' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:015][812]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_220' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:030][813]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_222' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:035][813]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_224' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:050][814]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_226' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:055][814]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_228' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:070][815]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_230' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:075][815]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_232' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:092][816]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_234' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:104][817]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_236' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:107][817]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_238' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:117][818]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_240' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:120][818]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_242' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:129][819]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_244' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:132][819]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_246' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:142][820]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_248' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:144][820]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_250' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:155][821]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_252' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:167][822]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_254' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:173][822]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_256' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:188][823]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_258' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:192][823]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_260' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:209][824]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_262' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:282][832]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_264' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:286][832]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_266' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:291][832]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_268' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:311][833]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_270' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:369][837]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_272' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.13.47:390][838]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_274' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.16.02:430][837]LogSlate: Window 'Color Picker' being destroyed
+[2018.04.16-09.16.57:518][905]LogSlate: Window 'Color Picker' being destroyed
+[2018.04.16-09.17.26:074][ 12]LogSlate: Window 'Save Asset As' being destroyed
+[2018.04.16-09.17.45:159][ 95]BlueprintLog: New page: Compile Health_UI
+[2018.04.16-09.17.46:810][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
+[2018.04.16-09.17.46:831][249]LogSavePackage: Save=17.71ms
+[2018.04.16-09.17.46:831][249]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI267B885946FBC9EFB793ABB09CD03C53.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
+[2018.04.16-09.17.46:836][249]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
+[2018.04.16-09.18.02:079][ 28]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2018.04.16-09.18.03:306][ 34]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2018.04.16-09.18.04:270][138]LogSlate: Took 0.016001 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.16-09.18.06:291][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.16-09.18.31:170][ 94]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.16-09.19.02:691][655]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2018.04.16-09.19.05:626][759]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2018.04.16-09.19.05:631][759]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2018.04.16-09.19.32:634][837]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.16-09.19.54:303][273]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.16-09.20.04:381][396]Cmd: MODE GRID=0
+[2018.04.16-09.20.04:826][404]Cmd: MODE GRID=1
+[2018.04.16-09.20.05:342][461]Cmd: MODE GRID=0
+[2018.04.16-09.20.16:379][727]Cmd: TRANSACTION UNDO
+[2018.04.16-09.20.16:379][727]LogEditorTransaction: Undo Move Components
+[2018.04.16-09.20.16:410][727]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.Widget' 
+[2018.04.16-09.20.16:419][727]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.Widget' 
+[2018.04.16-09.20.18:035][883]Cmd: TRANSACTION UNDO
+[2018.04.16-09.20.18:035][883]LogEditorTransaction: Undo Scale Components
+[2018.04.16-09.20.23:039][440]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.16-09.20.23:100][447]Cmd: MODE GRID=1
+[2018.04.16-09.20.51:371][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.16-09.20.51:389][609]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-09.20.51:406][609]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.20.51:406][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-09.20.51:406][609]PIE: New page: PIE session: FirstPersonExampleMap (Apr 16, 2018, 1:20:51 AM)
+[2018.04.16-09.20.51:406][609]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.16-09.20.51:421][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014076s)
+[2018.04.16-09.20.51:422][609]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.16-09.20.51:422][609]LogPlayLevel: PIE: World Init took: (0.001245s)
+[2018.04.16-09.20.51:423][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015626s)
+[2018.04.16-09.20.51:516][609]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-09.20.51:525][609]LogInit: FAudioDevice initialized.
+[2018.04.16-09.20.51:557][609]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.16-09.20.51:570][609]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.16-05.20.51
+[2018.04.16-09.20.51:588][609]LogWorld: Bringing up level for play took: 0.029762
+[2018.04.16-09.20.51:608][609]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.015
+[2018.04.16-09.20.51:608][609]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.21.01:935][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.21.01:967][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.21.03:708][ 43]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2018.04.16-09.21.05:122][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.16-09.21.20:774][916]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-09.21.20:790][916]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.21.20:790][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-09.21.20:790][916]PIE: New page: PIE session: FirstPersonExampleMap (Apr 16, 2018, 1:21:20 AM)
+[2018.04.16-09.21.20:790][916]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.16-09.21.20:803][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012303s)
+[2018.04.16-09.21.20:803][916]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.16-09.21.20:804][916]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2018.04.16-09.21.20:804][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013322s)
+[2018.04.16-09.21.20:865][916]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-09.21.20:883][916]LogInit: FAudioDevice initialized.
+[2018.04.16-09.21.20:920][916]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.16-09.21.20:923][916]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.16-05.21.20
+[2018.04.16-09.21.20:923][916]LogWorld: Bringing up level for play took: 0.002546
+[2018.04.16-09.21.20:924][916]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.699
+[2018.04.16-09.21.20:925][916]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.21.25:356][441]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.21.25:387][441]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.21.27:457][684]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2018.04.16-09.21.30:307][962]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.16-09.21.41:613][205]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-09.21.41:629][205]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.21.41:629][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-09.21.41:629][205]PIE: New page: PIE session: FirstPersonExampleMap (Apr 16, 2018, 1:21:41 AM)
+[2018.04.16-09.21.41:629][205]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.16-09.21.41:643][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014094s)
+[2018.04.16-09.21.41:644][205]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.16-09.21.41:644][205]LogPlayLevel: PIE: World Init took: (0.001050s)
+[2018.04.16-09.21.41:644][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015405s)
+[2018.04.16-09.21.41:696][205]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-09.21.41:705][205]LogInit: FAudioDevice initialized.
+[2018.04.16-09.21.41:741][205]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.16-09.21.41:748][205]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.16-05.21.41
+[2018.04.16-09.21.41:748][205]LogWorld: Bringing up level for play took: 0.005556
+[2018.04.16-09.21.41:751][205]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.128
+[2018.04.16-09.21.41:752][205]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.21.44:802][561]Cmd: LevelEditor.ToggleImmersive
+[2018.04.16-09.21.45:021][562]LogRenderer: Reallocating scene render targets to support 1476x792 Format 10 NumSamples 1 (Frame:358).
+[2018.04.16-09.21.45:103][563]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:360).
+[2018.04.16-09.21.45:109][563]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.16-09.21.50:476][204]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.21.50:538][204]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.21.53:134][476]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.16-09.22.02:285][533]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2018.04.16-09.22.05:302][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.16-09.22.28:571][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.04.16-09.22.30:102][578]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2018.04.16-09.22.31:491][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.16-09.22.38:990][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.16-09.22.39:088][563]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-09.22.39:103][563]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.22.39:104][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-09.22.39:104][563]PIE: New page: PIE session: FirstPersonExampleMap (Apr 16, 2018, 1:22:39 AM)
+[2018.04.16-09.22.39:104][563]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.16-09.22.39:117][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013383s)
+[2018.04.16-09.22.39:118][563]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.16-09.22.39:118][563]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2018.04.16-09.22.39:118][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014402s)
+[2018.04.16-09.22.39:169][563]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-09.22.39:179][563]LogInit: FAudioDevice initialized.
+[2018.04.16-09.22.39:209][563]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.16-09.22.39:213][563]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.16-05.22.39
+[2018.04.16-09.22.39:214][563]LogWorld: Bringing up level for play took: 0.003888
+[2018.04.16-09.22.39:216][563]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.407
+[2018.04.16-09.22.39:217][563]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.22.54:199][352]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.22.54:232][352]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.22.58:629][874]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.16-09.22.58:915][883]LogSavePackage: Save=143.40ms
+[2018.04.16-09.22.58:915][883]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPersonExampleMap79AED53F424C889F78269B8F154C85FB.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2018.04.16-09.22.58:931][883]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2018.04.16-09.23.00:194][883]LogSavePackage: Save=1123.48ms
+[2018.04.16-09.23.00:194][883]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPersonExampleMap_BuiltData502797AE45FD0D661C346CAE453D277C.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.04.16-09.23.00:197][883]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.04.16-09.23.20:454][120]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_184' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:457][120]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_278' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:460][120]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_280' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:469][121]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_282' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:471][121]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_284' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:473][121]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_286' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:479][122]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_288' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:482][122]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_290' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:488][123]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_292' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:491][123]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_294' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:497][124]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_296' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:500][124]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_298' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:507][125]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_300' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:510][125]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_302' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:517][126]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_304' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:525][127]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_306' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:526][127]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_308' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:528][127]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_310' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:535][128]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_312' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:537][128]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_314' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:544][129]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_316' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:547][129]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_318' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:553][130]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_320' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:555][130]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_322' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:561][131]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_324' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:563][131]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_326' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:570][132]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_328' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:571][132]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_330' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:578][133]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_332' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:580][133]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_334' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:587][134]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_336' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:595][135]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_338' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:596][135]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_340' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:603][136]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_342' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:605][136]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_344' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:611][137]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_346' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:613][137]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_348' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:620][138]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_350' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:621][138]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_352' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:628][139]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_354' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:629][139]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_356' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:636][140]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_358' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:638][140]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_360' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:645][141]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_362' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:653][142]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_364' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:654][142]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_366' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:655][142]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_368' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:662][143]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_370' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:678][145]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_372' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:681][145]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_374' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:690][146]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_376' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:699][147]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_378' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:703][147]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_380' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:712][148]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_382' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:714][148]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_384' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:723][149]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_386' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:726][149]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_388' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:734][150]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_390' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:737][150]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_392' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:747][151]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_394' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:755][152]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_396' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:758][152]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_398' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:768][153]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_400' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:777][154]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_402' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:780][154]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_404' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:789][155]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_406' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:798][156]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_408' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:801][156]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_410' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:811][157]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_412' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:854][162]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_414' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:857][162]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_416' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:864][162]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_418' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:882][163]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_420' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:888][163]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_422' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:910][164]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_424' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:928][165]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_426' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:934][165]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_428' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:947][166]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_430' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:950][166]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_432' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:960][167]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_434' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:964][167]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_436' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:975][168]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_438' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.20:981][168]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_440' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:001][169]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_442' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:006][169]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_444' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:017][170]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_446' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:020][170]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_448' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:033][171]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_450' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:102][179]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_452' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:109][179]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_454' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:130][180]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_456' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:150][181]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_458' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:154][181]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_460' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:166][182]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_462' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:203][186]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_464' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:206][186]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_466' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:224][187]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_468' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:275][192]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_470' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:281][192]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_472' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.23.21:302][193]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ProgressBar_474' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.25.58:334][505]LogSlate: Window 'Color Picker' being destroyed
+[2018.04.16-09.26.45:003][691]LogSlate: Window 'Color Picker' being destroyed
+[2018.04.16-09.27.25:219][188]LogSlate: Window 'Color Picker' being destroyed
+[2018.04.16-09.27.44:822][298]LogSlate: Window 'Color Picker' being destroyed
+[2018.04.16-09.28.14:719][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
+[2018.04.16-09.28.14:738][741]LogSavePackage: Save=8.77ms
+[2018.04.16-09.28.14:738][741]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI2294EB17481D356ABAE2A0AD26C5BE17.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
+[2018.04.16-09.28.14:744][741]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
+[2018.04.16-09.28.15:279][805]BlueprintLog: New page: Compile Health_UI
+[2018.04.16-09.28.15:475][805]PIE: UWidget::RemoveFromParent() called on '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.28.16:179][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
+[2018.04.16-09.28.16:192][883]LogSavePackage: Save=8.72ms
+[2018.04.16-09.28.16:192][883]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI6C2F31D94703CB97F49811BCD3B886EE.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
+[2018.04.16-09.28.16:194][883]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
+[2018.04.16-09.28.18:009][ 83]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-09.28.18:027][ 83]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.28.18:027][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-09.28.18:027][ 83]PIE: New page: PIE session: FirstPersonExampleMap (Apr 16, 2018, 1:28:18 AM)
+[2018.04.16-09.28.18:028][ 83]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.16-09.28.18:041][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013622s)
+[2018.04.16-09.28.18:042][ 83]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.16-09.28.18:042][ 83]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2018.04.16-09.28.18:042][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014779s)
+[2018.04.16-09.28.18:070][ 83]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-09.28.18:080][ 83]LogInit: FAudioDevice initialized.
+[2018.04.16-09.28.18:112][ 83]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.16-09.28.18:114][ 83]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.16-05.28.18
+[2018.04.16-09.28.18:115][ 83]LogWorld: Bringing up level for play took: 0.001930
+[2018.04.16-09.28.18:115][ 83]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.492
+[2018.04.16-09.28.18:116][ 83]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.28.34:184][  2]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.28.34:219][  2]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.28.36:586][277]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2018.04.16-09.28.38:981][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.16-09.28.56:419][450]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-09.28.56:437][450]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.28.56:437][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-09.28.56:437][450]PIE: New page: PIE session: FirstPersonExampleMap (Apr 16, 2018, 1:28:56 AM)
+[2018.04.16-09.28.56:437][450]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.16-09.28.56:451][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013679s)
+[2018.04.16-09.28.56:452][450]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.16-09.28.56:452][450]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2018.04.16-09.28.56:452][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014754s)
+[2018.04.16-09.28.56:503][450]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-09.28.56:512][450]LogInit: FAudioDevice initialized.
+[2018.04.16-09.28.56:543][450]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.16-09.28.56:545][450]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.16-05.28.56
+[2018.04.16-09.28.56:545][450]LogWorld: Bringing up level for play took: 0.001843
+[2018.04.16-09.28.56:546][450]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.923
+[2018.04.16-09.28.56:547][450]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.29.16:516][840]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.29.16:549][840]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.29.18:596][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.16-09.29.35:528][821]BlueprintLog: New page: Compile Health_UI
+[2018.04.16-09.29.36:216][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
+[2018.04.16-09.29.36:229][869]LogSavePackage: Save=8.98ms
+[2018.04.16-09.29.36:229][869]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI2E190E6C4752091689E8398F8A4E94D6.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
+[2018.04.16-09.29.36:234][869]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
+[2018.04.16-09.29.38:152][ 87]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-09.29.38:169][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.29.38:169][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-09.29.38:169][ 87]PIE: New page: PIE session: FirstPersonExampleMap (Apr 16, 2018, 1:29:38 AM)
+[2018.04.16-09.29.38:169][ 87]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.16-09.29.38:182][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013044s)
+[2018.04.16-09.29.38:183][ 87]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.16-09.29.38:184][ 87]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2018.04.16-09.29.38:184][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014320s)
+[2018.04.16-09.29.38:210][ 87]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-09.29.38:219][ 87]LogInit: FAudioDevice initialized.
+[2018.04.16-09.29.38:250][ 87]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.16-09.29.38:253][ 87]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.16-05.29.38
+[2018.04.16-09.29.38:253][ 87]LogWorld: Bringing up level for play took: 0.002035
+[2018.04.16-09.29.38:254][ 87]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.631
+[2018.04.16-09.29.38:254][ 87]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.29.48:222][277]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.29.48:252][277]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.29.49:552][427]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.16-09.30.07:361][321]BlueprintLog: New page: Compile Health_UI
+[2018.04.16-09.30.07:447][321]PIE: UWidget::RemoveFromParent() called on '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.16-09.30.08:241][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
+[2018.04.16-09.30.08:255][391]LogSavePackage: Save=8.96ms
+[2018.04.16-09.30.08:255][391]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI2BAA9DC046533A240EFC00B61C98A204.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
+[2018.04.16-09.30.08:260][391]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
+[2018.04.16-09.30.11:852][768]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-09.30.11:867][768]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.30.11:867][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-09.30.11:868][768]PIE: New page: PIE session: FirstPersonExampleMap (Apr 16, 2018, 1:30:11 AM)
+[2018.04.16-09.30.11:868][768]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.16-09.30.11:879][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011023s)
+[2018.04.16-09.30.11:879][768]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.16-09.30.11:880][768]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2018.04.16-09.30.11:880][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011995s)
+[2018.04.16-09.30.11:907][768]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-09.30.11:916][768]LogInit: FAudioDevice initialized.
+[2018.04.16-09.30.11:954][768]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.16-09.30.11:962][768]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.16-05.30.11
+[2018.04.16-09.30.11:963][768]LogWorld: Bringing up level for play took: 0.006891
+[2018.04.16-09.30.11:965][768]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.342
+[2018.04.16-09.30.11:966][768]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.30.17:124][380]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.30.17:160][380]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.16-09.30.18:654][549]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.16-09.30.20:842][806]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.16-09.30.21:074][806]LogSavePackage: Save=134.52ms
+[2018.04.16-09.30.21:075][806]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPersonExampleMapDD378F6F4488E2BFBD901FAEDD1BF837.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2018.04.16-09.30.21:087][806]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2018.04.16-09.30.21:147][806]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.301
+[2018.04.16-09.30.21:169][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/health-bar_Sprite" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar_Sprite.uasset" SILENT=true
+[2018.04.16-09.30.21:196][806]LogSavePackage: Save=20.33ms
+[2018.04.16-09.30.21:196][806]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar_SpriteCBC27C0841F5BFE5AF372BA877DA128B.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar_Sprite.uasset'
+[2018.04.16-09.30.21:208][806]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar_Sprite.uasset
+[2018.04.16-09.30.21:231][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/health-bar-empty_Sprite" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty_Sprite.uasset" SILENT=true
+[2018.04.16-09.30.21:251][806]LogSavePackage: Save=14.42ms
+[2018.04.16-09.30.21:252][806]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar-empty_SpriteB648095043D02002C1CCD189006C01D1.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty_Sprite.uasset'
+[2018.04.16-09.30.21:259][806]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty_Sprite.uasset
+[2018.04.16-09.30.21:277][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/health-bar-empty-black_Sprite" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-black_Sprite.uasset" SILENT=true
+[2018.04.16-09.30.21:306][806]LogSavePackage: Save=20.19ms
+[2018.04.16-09.30.21:306][806]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar-empty-black_SpriteD1841585403EF1D8BC71DB85E7E6AE94.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-black_Sprite.uasset'
+[2018.04.16-09.30.21:314][806]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-black_Sprite.uasset
+[2018.04.16-09.30.21:331][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/health-bar-empty-hearts_Sprite" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-hearts_Sprite.uasset" SILENT=true
+[2018.04.16-09.30.21:350][806]LogSavePackage: Save=12.57ms
+[2018.04.16-09.30.21:350][806]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar-empty-hearts_Sprite9D5DFE6841389F48E94E90993030D1A8.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-hearts_Sprite.uasset'
+[2018.04.16-09.30.21:357][806]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-hearts_Sprite.uasset
+[2018.04.16-09.30.21:390][806]LogSavePackage: Save=12.30ms
+[2018.04.16-09.30.21:390][806]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar-empty-hearts-black_Sp36E3FBAC479B217FF4AD00AF49C317BC.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-hearts-black_Sprite.uasset'
+[2018.04.16-09.30.21:396][806]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-empty-hearts-black_Sprite.uasset
+[2018.04.16-09.30.21:405][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/health-bar-full_Sprite" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-full_Sprite.uasset" SILENT=true
+[2018.04.16-09.30.21:416][806]LogSavePackage: Save=7.85ms
+[2018.04.16-09.30.21:416][806]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar-full_Sprite24F64C3942BE8BD3150FBCB141855F2D.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-full_Sprite.uasset'
+[2018.04.16-09.30.21:421][806]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-full_Sprite.uasset
+[2018.04.16-09.30.21:431][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/health-bar-full-2_Sprite" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-full-2_Sprite.uasset" SILENT=true
+[2018.04.16-09.30.21:443][806]LogSavePackage: Save=8.51ms
+[2018.04.16-09.30.21:443][806]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/health-bar-full-2_SpriteA363DE4C4584D0CCD47AED8B4D8FEA8B.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-full-2_Sprite.uasset'
+[2018.04.16-09.30.21:447][806]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/health-bar-full-2_Sprite.uasset

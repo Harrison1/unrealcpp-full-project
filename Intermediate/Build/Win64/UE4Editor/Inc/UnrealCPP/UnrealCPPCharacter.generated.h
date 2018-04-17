@@ -13,8 +13,44 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define UNREALCPP_UnrealCPPCharacter_generated_h
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_RPC_WRAPPERS
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetPrevHealth) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetPrevHealth(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetHealth) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetHealth(); \
+		P_NATIVE_END; \
+	}
+
+
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetPrevHealth) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetPrevHealth(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetHealth) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetHealth(); \
+		P_NATIVE_END; \
+	}
+
+
 #define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAUnrealCPPCharacter(); \

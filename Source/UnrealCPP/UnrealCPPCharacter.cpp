@@ -11,6 +11,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
+#include "Kismet/KismetMathLibrary.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -82,6 +83,10 @@ AUnrealCPPCharacter::AUnrealCPPCharacter()
 
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
+
+	Health = 1.f;
+	PrevHealth = Health;
+	bHit = true;
 }
 
 void AUnrealCPPCharacter::BeginPlay()
@@ -103,6 +108,21 @@ void AUnrealCPPCharacter::BeginPlay()
 		VR_Gun->SetHiddenInGame(true, true);
 		Mesh1P->SetHiddenInGame(false, true);
 	}
+}
+
+void AUnrealCPPCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	if(bHit)
+	{
+			UE_LOG(LogClass,Warning,TEXT("MyCharacter's Health is %f"), Health );
+
+		UE_LOG(LogClass,Error,TEXT("MyCharacter's Health is %f"), Health );
+		// Health = FMath::FInterpTo(Health, 0.4f, DeltaTime, 0.1f);
+		Health = 0.4f;
+	}
+
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -164,6 +184,10 @@ void AUnrealCPPCharacter::OnFire()
 
 				// spawn the projectile at the muzzle
 				World->SpawnActor<AUnrealCPPProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+
+				// PrevHealth = Health;
+				// Health -= 0.1;
+				bHit = true;
 			}
 		}
 	}
@@ -297,4 +321,14 @@ bool AUnrealCPPCharacter::EnableTouchscreenMovement(class UInputComponent* Playe
 	}
 	
 	return false;
+}
+
+float AUnrealCPPCharacter::GetHealth()
+{
+	return Health;
+}
+
+float AUnrealCPPCharacter::GetPrevHealth()
+{
+	return PrevHealth;
 }

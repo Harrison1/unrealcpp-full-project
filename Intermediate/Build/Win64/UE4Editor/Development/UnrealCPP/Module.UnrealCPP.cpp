@@ -40,7 +40,7 @@
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\TriggerVolume\MyTriggerVolume.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\TriggerVolumeSpecificActor\TriggerVolumeSpecificActor.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPP.cpp"
-#include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPCharacter.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPCharacterDefault.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPGameMode.cpp"
+#include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPProjectile.cpp"

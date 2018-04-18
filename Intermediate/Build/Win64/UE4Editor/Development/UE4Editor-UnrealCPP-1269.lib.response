@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UnrealCPP-1269.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealCPP\Module.UnrealCPP.cpp.obj"
+"D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealCPP\UnrealCPPCharacter.cpp.obj"
+"D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealCPP\Module.UnrealCPP.gen.cpp.obj"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealCPP\PCLaunch.rc.res"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-1269.lib"

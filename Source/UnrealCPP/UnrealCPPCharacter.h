@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Components/TimelineComponent.h"
+#include "Components/BoxComponent.h"
 #include "UnrealCPPCharacter.generated.h"
 
 class UInputComponent;
@@ -91,6 +93,22 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	bool bHit;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float ease;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float diff;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float damage;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	UCurveFloat *HealthCurve;
+
+	float CurveFloatValue;
+	float TimelineValue;
+	FTimeline MyTimeline;
+
 	/** Get Health */
 	UFUNCTION(BlueprintPure, Category = "Health")
 	float GetHealth();
@@ -98,6 +116,10 @@ public:
 	/** Get Previous Health for Lerp */
 	UFUNCTION(BlueprintPure, Category = "Health")
 	float GetPrevHealth();
+
+	/** Set Health */
+	UFUNCTION()
+	void SetHealth();
 
 protected:
 	

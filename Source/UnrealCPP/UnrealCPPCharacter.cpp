@@ -86,13 +86,33 @@ AUnrealCPPCharacter::AUnrealCPPCharacter()
 
 	Health = 1.f;
 	PrevHealth = Health;
-	bHit = true;
 }
 
 void AUnrealCPPCharacter::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
+
+	bHit = true;
+
+	ease = 0.1f;
+
+	damage = 0.4;
+
+	if (HealthCurve)
+    {
+        FOnTimelineFloat TimelineCallback;
+        // FOnTimelineEventStatic TimelineFinishedCallback;
+
+        TimelineCallback.BindUFunction(this, FName("SetHealth"));
+        // TimelineFinishedCallback.BindUFunction(this, FName{ TEXT("SetState") });
+        MyTimeline.AddInterpFloat(HealthCurve, TimelineCallback);
+        // MyTimeline.SetTimelineFinishedFunc(TimelineFinishedCallback);
+
+		PrevHealth = 0.8f;
+
+		MyTimeline.PlayFromStart();
+    }
 
 	//Attach gun mesh component to Skeleton, doing it here because the skeleton is not yet created in the constructor
 	FP_Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
@@ -114,13 +134,26 @@ void AUnrealCPPCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	MyTimeline.TickTimeline(DeltaTime);
+
 	if(bHit)
 	{
-			UE_LOG(LogClass,Warning,TEXT("MyCharacter's Health is %f"), Health );
+		// UE_LOG(LogClass,Error,TEXT("MyCharacter's Health is %f"), Health );
 
-		UE_LOG(LogClass,Error,TEXT("MyCharacter's Health is %f"), Health );
-		// Health = FMath::FInterpTo(Health, 0.4f, DeltaTime, 0.1f);
-		Health = 0.4f;
+		// diff = 0.8f;
+
+		// UE_LOG(LogClass,Warning,TEXT("MyCharacter's Health is %f"), DeltaTime );
+
+		// if(Health > diff)
+		// {
+		// 	ease = FMath::FInterpTo(ease, 0.1f, DeltaTime, 1.0f);
+		// }
+		// else
+		// {
+		// 	ease = FMath::FInterpTo(ease, 0.1f, DeltaTime, 1.0f);
+		// }
+
+		// Health = FMath::FInterpConstantTo(Health, 0.6f, 2.0f, 0.5f);
 	}
 
 }
@@ -331,4 +364,13 @@ float AUnrealCPPCharacter::GetHealth()
 float AUnrealCPPCharacter::GetPrevHealth()
 {
 	return PrevHealth;
+}
+
+void AUnrealCPPCharacter::SetHealth()
+{
+	UE_LOG(LogClass,Error,TEXT("MyCharacter's Health is %f"), Health );
+
+	TimelineValue = MyTimeline.GetPlaybackPosition();
+    CurveFloatValue = PrevHealth - 0.2f*HealthCurve->GetFloatValue(TimelineValue);
+    Health = CurveFloatValue;
 }

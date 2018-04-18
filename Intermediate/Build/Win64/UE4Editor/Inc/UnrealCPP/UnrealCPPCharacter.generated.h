@@ -13,7 +13,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define UNREALCPP_UnrealCPPCharacter_generated_h
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_RPC_WRAPPERS \
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetHealth) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetHealth(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetPrevHealth) \
 	{ \
@@ -32,7 +40,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetHealth) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetHealth(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetPrevHealth) \
 	{ \
@@ -51,7 +67,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_INCLASS_NO_PURE_DECLS \
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAUnrealCPPCharacter(); \
 	friend UNREALCPP_API class UClass* Z_Construct_UClass_AUnrealCPPCharacter(); \
@@ -61,7 +77,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_INCLASS \
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAUnrealCPPCharacter(); \
 	friend UNREALCPP_API class UClass* Z_Construct_UClass_AUnrealCPPCharacter(); \
@@ -71,7 +87,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_STANDARD_CONSTRUCTORS \
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AUnrealCPPCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AUnrealCPPCharacter) \
@@ -84,7 +100,7 @@ private: \
 public:
 
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_ENHANCED_CONSTRUCTORS \
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AUnrealCPPCharacter(AUnrealCPPCharacter&&); \
@@ -95,7 +111,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AUnrealCPPCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AUnrealCPPCharacter)
 
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Mesh1P() { return STRUCT_OFFSET(AUnrealCPPCharacter, Mesh1P); } \
 	FORCEINLINE static uint32 __PPO__FP_Gun() { return STRUCT_OFFSET(AUnrealCPPCharacter, FP_Gun); } \
 	FORCEINLINE static uint32 __PPO__FP_MuzzleLocation() { return STRUCT_OFFSET(AUnrealCPPCharacter, FP_MuzzleLocation); } \
@@ -106,25 +122,25 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AUnrealCPPCharacter); \
 	FORCEINLINE static uint32 __PPO__L_MotionController() { return STRUCT_OFFSET(AUnrealCPPCharacter, L_MotionController); }
 
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_11_PROLOG
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_GENERATED_BODY_LEGACY \
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_13_PROLOG
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_RPC_WRAPPERS \
-	UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_INCLASS \
-	UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_STANDARD_CONSTRUCTORS \
+	UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
+	UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_RPC_WRAPPERS \
+	UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_INCLASS \
+	UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_GENERATED_BODY \
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_INCLASS_NO_PURE_DECLS \
-	UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_14_ENHANCED_CONSTRUCTORS \
+	UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
+	UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_INCLASS_NO_PURE_DECLS \
+	UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

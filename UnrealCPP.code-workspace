@@ -8,9 +8,6 @@
 		}
 	],
 	"settings": {
-		"typescript.tsc.autoDetect": "off",
-		"files.associations": {
-			"xlocale": "cpp"
-		}
+		"typescript.tsc.autoDetect": "off"
 	}
 }

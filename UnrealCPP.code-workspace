@@ -10,7 +10,9 @@
 	"settings": {
 		"typescript.tsc.autoDetect": "off",
 		"files.associations": {
-			"*.rh": "cpp"
+			"*.rh": "cpp",
+			"chrono": "cpp",
+			"cmath": "cpp"
 		}
 	}
 }

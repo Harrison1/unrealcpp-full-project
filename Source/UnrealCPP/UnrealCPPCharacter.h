@@ -100,7 +100,7 @@ public:
 	float diff;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	float damage;
+	float Damage;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	UCurveFloat *HealthCurve;
@@ -112,6 +112,10 @@ public:
 	/** Get Health */
 	UFUNCTION(BlueprintPure, Category = "Health")
 	float GetHealth();
+
+	/** Get Health */
+	UFUNCTION(BlueprintPure, Category = "Health")
+	FText GetHealthIntText();
 
 	/** Get Previous Health for Lerp */
 	UFUNCTION(BlueprintPure, Category = "Health")

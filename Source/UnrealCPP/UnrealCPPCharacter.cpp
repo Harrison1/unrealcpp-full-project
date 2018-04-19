@@ -97,7 +97,7 @@ void AUnrealCPPCharacter::BeginPlay()
 
 	ease = 0.1f;
 
-	damage = 0.4;
+	Damage = 0.4;
 
 	if (HealthCurve)
     {
@@ -109,9 +109,6 @@ void AUnrealCPPCharacter::BeginPlay()
         MyTimeline.AddInterpFloat(HealthCurve, TimelineCallback);
         // MyTimeline.SetTimelineFinishedFunc(TimelineFinishedCallback);
 
-		PrevHealth = 0.8f;
-
-		MyTimeline.PlayFromStart();
     }
 
 	//Attach gun mesh component to Skeleton, doing it here because the skeleton is not yet created in the constructor
@@ -220,7 +217,11 @@ void AUnrealCPPCharacter::OnFire()
 
 				// PrevHealth = Health;
 				// Health -= 0.1;
-				bHit = true;
+				// bHit = true;
+
+				PrevHealth = Health;
+				Damage = 0.2;
+				MyTimeline.PlayFromStart();
 			}
 		}
 	}
@@ -361,6 +362,16 @@ float AUnrealCPPCharacter::GetHealth()
 	return Health;
 }
 
+FText AUnrealCPPCharacter::GetHealthIntText()
+{
+	int H = FMath::RoundHalfFromZero(Health * 100);
+	FString M = FString::FromInt(H);
+	FString HealthHUD = M + FString(TEXT("%"));
+	// UE_LOG(LogClass,Error,TEXT("HealthHUD: %d"), H);
+	FText Go = FText::FromString(HealthHUD);
+	return Go;
+}
+
 float AUnrealCPPCharacter::GetPrevHealth()
 {
 	return PrevHealth;
@@ -368,9 +379,7 @@ float AUnrealCPPCharacter::GetPrevHealth()
 
 void AUnrealCPPCharacter::SetHealth()
 {
-	UE_LOG(LogClass,Error,TEXT("MyCharacter's Health is %f"), Health );
-
 	TimelineValue = MyTimeline.GetPlaybackPosition();
-    CurveFloatValue = PrevHealth - 0.2f*HealthCurve->GetFloatValue(TimelineValue);
+    CurveFloatValue = PrevHealth - Damage*HealthCurve->GetFloatValue(TimelineValue);
     Health = CurveFloatValue;
 }

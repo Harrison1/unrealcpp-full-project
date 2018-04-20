@@ -1,4 +1,4 @@
-﻿Log file open, 04/19/18 07:14:10
+﻿Log file open, 04/20/18 06:25:36
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: UnrealCPP
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1692420370) SRandInit(1692420370).
+LogInit: Display: RandInit(-1235983357) SRandInit(-1235983357).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.257769
+LogStats: Stats thread started at 0.257170
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,8 +84,8 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.114s to configure plugins.
-LogModuleManager: Display: Found up-to-date module file ../../../../../Unreal Projects/UnrealCPP/Binaries/Win64/UE4Editor-UnrealCPP-7620.dll (API version 3944462).
+LogStreaming: Display: Took  0.119s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../Unreal Projects/UnrealCPP/Binaries/Win64/UE4Editor-UnrealCPP-4938.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -223,827 +223,259 @@ LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.19-11.14.12:924][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.19-11.14.12:924][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.19-11.14.12:944][  0]LogInit: Computer: HARRYPC
-[2018.04.19-11.14.12:944][  0]LogInit: User: Harrison
-[2018.04.19-11.14.12:944][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.04.19-11.14.12:944][  0]LogInit: High frequency timer resolution =3.514605 MHz
-[2018.04.19-11.14.12:944][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.04.19-11.14.12:944][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.19-11.14.12:944][  0]LogMemory: Process Physical Memory: 275.16 MB used, 275.16 MB peak
-[2018.04.19-11.14.12:944][  0]LogMemory: Process Virtual Memory: 264.75 MB used, 264.75 MB peak
-[2018.04.19-11.14.12:944][  0]LogMemory: Physical Memory: 6040.32 MB used,  10300.67 MB free, 16340.99 MB total
-[2018.04.19-11.14.12:944][  0]LogMemory: Virtual Memory: 698.76 MB used,  10300.67 MB free, 134217728.00 MB total
-[2018.04.19-11.14.12:960][  0]LogInit: Using OS detected language (en-US).
-[2018.04.19-11.14.12:960][  0]LogInit: Using OS detected locale (en-US).
-[2018.04.19-11.14.12:965][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.04.19-11.14.13:341][  0]LogStreaming: Display: Took  0.381s to EndInitTextLocalization.
-[2018.04.19-11.14.13:341][  0]LogInit: Setting process to per monitor DPI aware
-[2018.04.19-11.14.13:368][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.04.19-11.14.13:368][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.04.19-11.14.13:611][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.19-11.14.13:649][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.04.19-11.14.13:649][  0]LogD3D11RHI:       4043/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.04.19-11.14.13:651][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.19-11.14.13:651][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.19-11.14.13:651][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.19-11.14.13:656][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.19-11.14.13:656][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.19-11.14.13:656][  0]LogWindows: EnumDisplayDevices:
-[2018.04.19-11.14.13:656][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2018.04.19-11.14.13:656][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.04.19-11.14.13:656][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.04.19-11.14.13:656][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.04.19-11.14.13:656][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.19-11.14.13:656][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2018.04.19-11.14.13:657][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.19-11.14.13:657][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.19-11.14.13:657][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2018.04.19-11.14.13:680][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.04.19-11.14.13:680][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.04.19-11.14.13:680][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.19-11.14.13:699][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.04.19-11.14.13:748][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../../Unreal Projects/UnrealCPP/Intermediate/Shaders/WorkingDirectory/7688/).
-[2018.04.19-11.14.13:748][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harrison/AppData/Local/Temp/UnrealShaderWorkingDir/C6E5392248BFA0410EDBECB8A44D46D4/'.
-[2018.04.19-11.14.14:007][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.19-11.14.14:019][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.19-11.14.14:030][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.19-11.14.14:042][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.19-11.14.14:054][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.19-11.14.14:066][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.19-11.14.14:077][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.19-11.14.14:089][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.19-11.14.14:094][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.19-11.14.14:105][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.19-11.14.14:116][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.19-11.14.14:127][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.19-11.14.14:138][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.04.19-11.14.14:149][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.19-11.14.14:159][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.19-11.14.14:181][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.19-11.14.14:181][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.19-11.14.14:192][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.19-11.14.14:193][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.19-11.14.14:228][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.19-11.14.14:238][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.19-11.14.14:249][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.19-11.14.14:260][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.19-11.14.14:272][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.19-11.14.14:284][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.19-11.14.14:284][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.19-11.14.14:381][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.04.19-11.14.14:381][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.04.19-11.14.14:381][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.19-11.14.15:006][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.19-11.14.15:068][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.04.19-11.14.15:068][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.04.19-11.14.15:068][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.19-11.14.15:068][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.19-11.14.15:068][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.19-11.14.15:068][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.19-11.14.15:083][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.19-11.14.15:094][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Harrison/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.19-11.14.15:105][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.19-11.14.15:105][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.19-11.14.15:106][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.19-11.14.15:106][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.19-11.14.15:230][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
-[2018.04.19-11.14.15:489][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.19-11.14.15:612][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.19-11.14.15:614][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.19-11.14.15:614][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.19-11.14.15:614][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.19-11.14.15:614][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.19-11.14.15:614][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.19-11.14.15:646][  0]LogNetVersion: UnrealCPP , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2553546984)
-[2018.04.19-11.14.16:063][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.113411 seconds
-[2018.04.19-11.14.16:068][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.04.19-11.14.16:068][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2018.04.19-11.14.16:068][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.19-11.14.17:625][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.19-11.14.17:656][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.19-11.14.18:416][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.378136ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
-[2018.04.19-11.14.18:424][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.780173ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
-[2018.04.19-11.14.18:590][  0]SourceControl: Source control is disabled
-[2018.04.19-11.14.18:590][  0]SourceControl: Source control is disabled
-[2018.04.19-11.14.18:609][  0]SourceControl: Source control is disabled
-[2018.04.19-11.14.18:626][  0]SourceControl: Source control is disabled
-[2018.04.19-11.14.19:145][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.19-11.14.19:365][  0]LogOcInput: OculusInput pre-init called
-[2018.04.19-11.14.19:466][  0]LogEngine: Initializing Engine...
-[2018.04.19-11.14.19:469][  0]LogHMD: Failed to initialize OpenVR with code 105
-[2018.04.19-11.14.19:470][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.19-11.14.19:470][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.19-11.14.19:649][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.19-11.14.19:672][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.19-11.14.19:683][  0]LogInit: FAudioDevice initialized.
-[2018.04.19-11.14.19:837][  0]LogDerivedDataCache: Saved boot cache 0.15s 78MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.04.19-11.14.19:871][  0]LogInit: Texture streaming: Enabled
-[2018.04.19-11.14.19:894][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.19-11.14.19:905][  0]LogInit: Transaction tracking system initialized
-[2018.04.19-11.14.19:921][  0]BlueprintLog: New page: Editor Load
-[2018.04.19-11.14.20:012][  0]LocalizationService: Localization service is disabled
-[2018.04.19-11.14.20:164][  0]LogConsoleResponse: Display: 
-[2018.04.19-11.14.20:294][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.19-11.14.20:294][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.19-11.14.20:294][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.19-11.14.20:295][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.19-11.14.20:295][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.19-11.14.20:535][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/' took 0.02s
-[2018.04.19-11.14.20:651][  0]SourceControl: Source control is disabled
-[2018.04.19-11.14.20:652][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.19-11.14.20:659][  0]LightingResults: New page: Lighting Build
-[2018.04.19-11.14.20:662][  0]MapCheck: New page: Map Check
-[2018.04.19-11.14.20:662][  0]LightingResults: New page: Lighting Build
-[2018.04.19-11.14.20:854][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.19-11.14.20:866][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.19-11.14.20:876][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.19-11.14.20:935][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 58.151ms to complete.
-[2018.04.19-11.14.20:935][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.283
-[2018.04.19-11.14.21:129][  0]LogCollectionManager: Loaded 0 collections in 0.000975 seconds
-[2018.04.19-11.14.21:169][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Saved/Collections/' took 0.01s
-[2018.04.19-11.14.21:169][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Developers/Harrison/Collections/' took 0.01s
-[2018.04.19-11.14.21:169][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Collections/' took 0.01s
-[2018.04.19-11.14.21:169][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.04.19-11.14.21:198][  0]LogContentBrowser: Native class hierarchy populated in 0.0287 seconds. Added 2496 classes and 599 folders.
-[2018.04.19-11.14.21:218][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0160 seconds. Added 0 classes and 0 folders.
-[2018.04.19-11.14.21:514][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0150 seconds. Added 0 classes and 0 folders.
-[2018.04.19-11.14.21:533][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0140 seconds. Added 1 classes and 2 folders.
-[2018.04.19-11.14.21:612][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.19-11.14.21:615][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.19-11.14.21:623][  0]LogSlate: Took 0.003849 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.19-11.14.21:628][  0]LogSlate: Took 0.005082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.04.19-11.14.21:802][  0]LogRenderer: Reallocating scene render targets to support 1148x612 Format 10 NumSamples 1 (Frame:1).
-[2018.04.19-11.14.21:969][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0251 seconds. Added 0 classes and 0 folders.
-[2018.04.19-11.14.21:969][  0]LogLoad: (Engine Initialization) Total time: 12.12 seconds
-[2018.04.19-11.14.21:969][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.19-11.14.21:979][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.19-11.14.22:000][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.19-11.14.22:034][  1]LogAssetRegistry: Asset discovery search completed in 6.8259 seconds
-[2018.04.19-11.14.22:036][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.04.19-11.14.22:036][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000174 seconds (updated 0 objects)
-[2018.04.19-11.14.23:002][107]LogSlate: Took 0.003616 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.04.19-11.14.28:140][723]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.19-11.14.29:333][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.19-11.14.29:408][874]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.19-11.14.29:424][874]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.14.29:424][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.19-11.14.29:425][874]PIE: New page: PIE session: FirstPersonExampleMap (Apr 19, 2018, 3:14:29 AM)
-[2018.04.19-11.14.29:425][874]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.19-11.14.29:445][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020038s)
-[2018.04.19-11.14.29:446][874]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.19-11.14.29:446][874]LogPlayLevel: PIE: World Init took: (0.000856s)
-[2018.04.19-11.14.29:446][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021520s)
-[2018.04.19-11.14.29:467][874]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.19-11.14.29:475][874]LogInit: FAudioDevice initialized.
-[2018.04.19-11.14.29:520][874]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.19-11.14.29:525][874]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.19-07.14.29
-[2018.04.19-11.14.29:527][874]LogWorld: Bringing up level for play took: 0.004983
-[2018.04.19-11.14.29:565][874]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0315 seconds. Added 11 classes and 0 folders.
-[2018.04.19-11.14.29:567][874]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.218
-[2018.04.19-11.14.29:568][874]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.14.36:249][670]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.14.36:282][670]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.14.48:513][109]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
-[2018.04.19-11.14.50:029][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.19-11.14.50:129][179]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.19-11.14.50:145][179]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.14.50:146][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.19-11.14.50:146][179]PIE: New page: PIE session: FirstPersonExampleMap (Apr 19, 2018, 3:14:50 AM)
-[2018.04.19-11.14.50:146][179]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.19-11.14.50:159][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012316s)
-[2018.04.19-11.14.50:160][179]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.19-11.14.50:160][179]LogPlayLevel: PIE: World Init took: (0.001048s)
-[2018.04.19-11.14.50:160][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013991s)
-[2018.04.19-11.14.50:215][179]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.19-11.14.50:224][179]LogInit: FAudioDevice initialized.
-[2018.04.19-11.14.50:260][179]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.19-11.14.50:266][179]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.19-07.14.50
-[2018.04.19-11.14.50:267][179]LogWorld: Bringing up level for play took: 0.005355
-[2018.04.19-11.14.50:270][179]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.921
-[2018.04.19-11.14.50:271][179]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.14.55:950][854]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.14.55:981][854]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.14.59:930][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.19-11.14.59:950][316]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.04.19-11.15.02:050][524]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0175 seconds. Added 116 classes and 0 folders.
-[2018.04.19-11.15.02:724][524]LogSlate: Took 0.003419 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.04.19-11.15.46:864][656]LogSlate: Took 0.006480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.04.19-11.15.51:989][270]BlueprintLog: New page: Compile Health_UI
-[2018.04.19-11.15.52:476][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
-[2018.04.19-11.15.52:515][321]LogSavePackage: Save=28.85ms
-[2018.04.19-11.15.52:515][321]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI32D6873E4CE6A9D5E9007E8F3C9607F1.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
-[2018.04.19-11.15.52:522][321]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
-[2018.04.19-11.15.54:748][585]Candidate modules for hot reload:
-[2018.04.19-11.15.54:748][585]  UnrealCPP
-[2018.04.19-11.15.54:748][585]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,7814 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
-[2018.04.19-11.15.54:750][585]Warning: Starting HotReload took  0.0s.
-[2018.04.19-11.15.55:576][680]CompilerResultsLog: New page: Compilation - Apr 19, 2018, 3:15:55 AM
-[2018.04.19-11.15.55:576][680]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.04.19-11.15.55:576][680]CompilerResultsLog: Compiling game modules for hot reload
-[2018.04.19-11.15.55:576][680]CompilerResultsLog: Target is up to date
-[2018.04.19-11.15.55:577][680]CompilerResultsLog: Total build time: 0.64 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2018.04.19-11.15.55:577][680]LogMainFrame: MainFrame: Module compiling took 0.832 seconds
-[2018.04.19-11.15.55:828][680]LogContentBrowser: Native class hierarchy populated in 0.0241 seconds. Added 2497 classes and 601 folders.
-[2018.04.19-11.15.55:829][680]Display: HotReload took  1.1s.
-[2018.04.19-11.15.57:303][854]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.19-11.15.57:321][854]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.15.57:322][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.19-11.15.57:322][854]PIE: New page: PIE session: FirstPersonExampleMap (Apr 19, 2018, 3:15:57 AM)
-[2018.04.19-11.15.57:322][854]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.19-11.15.57:335][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012747s)
-[2018.04.19-11.15.57:336][854]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.19-11.15.57:336][854]LogPlayLevel: PIE: World Init took: (0.000960s)
-[2018.04.19-11.15.57:336][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014354s)
-[2018.04.19-11.15.57:383][854]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.19-11.15.57:391][854]LogInit: FAudioDevice initialized.
-[2018.04.19-11.15.57:421][854]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.19-11.15.57:424][854]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.19-07.15.57
-[2018.04.19-11.15.57:425][854]LogWorld: Bringing up level for play took: 0.003040
-[2018.04.19-11.15.57:427][854]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.078
-[2018.04.19-11.15.57:428][854]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.15.57:464][854]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:493][855]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:500][856]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:509][857]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:517][858]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:525][859]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:534][860]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:542][861]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:550][862]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:559][863]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:567][864]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:575][865]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:583][866]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:592][867]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:601][868]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:609][869]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:617][870]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:625][871]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:634][872]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:642][873]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:650][874]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:659][875]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:667][876]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:676][877]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:684][878]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:692][879]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:701][880]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:709][881]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:717][882]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:726][883]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:734][884]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:742][885]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:751][886]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:759][887]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:768][888]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:776][889]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:784][890]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:793][891]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:800][892]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:809][893]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:817][894]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:826][895]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:834][896]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:842][897]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:850][898]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:859][899]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:867][900]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:875][901]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:884][902]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:892][903]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:900][904]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:909][905]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:917][906]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:925][907]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:934][908]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:942][909]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:950][910]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:959][911]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:967][912]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:975][913]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:983][914]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.57:992][915]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:000][916]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:008][917]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:016][918]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:025][919]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:033][920]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:042][921]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:050][922]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:058][923]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:066][924]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:075][925]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:083][926]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:092][927]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:100][928]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:108][929]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:117][930]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:125][931]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:133][932]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:142][933]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:150][934]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:158][935]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:166][936]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:175][937]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:183][938]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:191][939]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:200][940]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:208][941]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:216][942]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:225][943]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:233][944]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:241][945]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:250][946]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:260][947]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:267][948]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:276][949]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:284][950]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:293][951]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:302][952]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:310][953]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:318][954]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:326][955]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:335][956]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:343][957]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:351][958]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:359][959]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:368][960]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:376][961]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:384][962]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:393][963]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:401][964]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:409][965]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:417][966]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:426][967]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:434][968]LogClass: Error: HealthHUD: 100
-[2018.04.19-11.15.58:443][969]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:451][970]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:460][971]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:467][972]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:476][973]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:484][974]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:493][975]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:501][976]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:509][977]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:517][978]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:526][979]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:534][980]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:543][981]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:551][982]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:559][983]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:567][984]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:576][985]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:585][986]LogClass: Error: HealthHUD: 99
-[2018.04.19-11.15.58:593][987]LogClass: Error: HealthHUD: 98
-[2018.04.19-11.15.58:601][988]LogClass: Error: HealthHUD: 98
-[2018.04.19-11.15.58:610][989]LogClass: Error: HealthHUD: 98
-[2018.04.19-11.15.58:618][990]LogClass: Error: HealthHUD: 98
-[2018.04.19-11.15.58:626][991]LogClass: Error: HealthHUD: 98
-[2018.04.19-11.15.58:635][992]LogClass: Error: HealthHUD: 98
-[2018.04.19-11.15.58:643][993]LogClass: Error: HealthHUD: 98
-[2018.04.19-11.15.58:652][994]LogClass: Error: HealthHUD: 98
-[2018.04.19-11.15.58:660][995]LogClass: Error: HealthHUD: 98
-[2018.04.19-11.15.58:668][996]LogClass: Error: HealthHUD: 98
-[2018.04.19-11.15.58:677][997]LogClass: Error: HealthHUD: 98
-[2018.04.19-11.15.58:685][998]LogClass: Error: HealthHUD: 98
-[2018.04.19-11.15.58:693][999]LogClass: Error: HealthHUD: 97
-[2018.04.19-11.15.58:701][  0]LogClass: Error: HealthHUD: 97
-[2018.04.19-11.15.58:710][  1]LogClass: Error: HealthHUD: 97
-[2018.04.19-11.15.58:718][  2]LogClass: Error: HealthHUD: 97
-[2018.04.19-11.15.58:727][  3]LogClass: Error: HealthHUD: 97
-[2018.04.19-11.15.58:735][  4]LogClass: Error: HealthHUD: 97
-[2018.04.19-11.15.58:743][  5]LogClass: Error: HealthHUD: 97
-[2018.04.19-11.15.58:751][  6]LogClass: Error: HealthHUD: 97
-[2018.04.19-11.15.58:759][  7]LogClass: Error: HealthHUD: 97
-[2018.04.19-11.15.58:768][  8]LogClass: Error: HealthHUD: 97
-[2018.04.19-11.15.58:777][  9]LogClass: Error: HealthHUD: 97
-[2018.04.19-11.15.58:784][ 10]LogClass: Error: HealthHUD: 96
-[2018.04.19-11.15.58:793][ 11]LogClass: Error: HealthHUD: 96
-[2018.04.19-11.15.58:801][ 12]LogClass: Error: HealthHUD: 96
-[2018.04.19-11.15.58:809][ 13]LogClass: Error: HealthHUD: 96
-[2018.04.19-11.15.58:817][ 14]LogClass: Error: HealthHUD: 96
-[2018.04.19-11.15.58:826][ 15]LogClass: Error: HealthHUD: 96
-[2018.04.19-11.15.58:834][ 16]LogClass: Error: HealthHUD: 96
-[2018.04.19-11.15.58:842][ 17]LogClass: Error: HealthHUD: 96
-[2018.04.19-11.15.58:851][ 18]LogClass: Error: HealthHUD: 96
-[2018.04.19-11.15.58:859][ 19]LogClass: Error: HealthHUD: 96
-[2018.04.19-11.15.58:867][ 20]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.58:876][ 21]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.58:884][ 22]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.58:894][ 23]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.58:901][ 24]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.58:909][ 25]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.58:918][ 26]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.58:926][ 27]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.58:934][ 28]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.58:943][ 29]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.58:951][ 30]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.58:960][ 31]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.58:968][ 32]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.58:976][ 33]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.58:985][ 34]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.58:993][ 35]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.59:001][ 36]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.59:010][ 37]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.59:019][ 38]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.59:026][ 39]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.59:035][ 40]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.59:043][ 41]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.59:051][ 42]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.59:060][ 43]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.59:068][ 44]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.59:076][ 45]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.59:085][ 46]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.59:093][ 47]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.59:101][ 48]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.59:110][ 49]LogClass: Error: HealthHUD: 95
-[2018.04.19-11.15.59:118][ 50]LogClass: Error: HealthHUD: 94
-[2018.04.19-11.15.59:126][ 51]LogClass: Error: HealthHUD: 94
-[2018.04.19-11.15.59:134][ 52]LogClass: Error: HealthHUD: 94
-[2018.04.19-11.15.59:143][ 53]LogClass: Error: HealthHUD: 94
-[2018.04.19-11.15.59:151][ 54]LogClass: Error: HealthHUD: 94
-[2018.04.19-11.15.59:160][ 55]LogClass: Error: HealthHUD: 94
-[2018.04.19-11.15.59:168][ 56]LogClass: Error: HealthHUD: 94
-[2018.04.19-11.15.59:176][ 57]LogClass: Error: HealthHUD: 94
-[2018.04.19-11.15.59:184][ 58]LogClass: Error: HealthHUD: 94
-[2018.04.19-11.15.59:193][ 59]LogClass: Error: HealthHUD: 94
-[2018.04.19-11.15.59:201][ 60]LogClass: Error: HealthHUD: 94
-[2018.04.19-11.15.59:210][ 61]LogClass: Error: HealthHUD: 94
-[2018.04.19-11.15.59:218][ 62]LogClass: Error: HealthHUD: 94
-[2018.04.19-11.15.59:226][ 63]LogClass: Error: HealthHUD: 94
-[2018.04.19-11.15.59:234][ 64]LogClass: Error: HealthHUD: 94
-[2018.04.19-11.15.59:243][ 65]LogClass: Error: HealthHUD: 94
-[2018.04.19-11.15.59:252][ 66]LogClass: Error: HealthHUD: 93
-[2018.04.19-11.15.59:260][ 67]LogClass: Error: HealthHUD: 93
-[2018.04.19-11.15.59:268][ 68]LogClass: Error: HealthHUD: 93
-[2018.04.19-11.15.59:277][ 69]LogClass: Error: HealthHUD: 93
-[2018.04.19-11.15.59:285][ 70]LogClass: Error: HealthHUD: 93
-[2018.04.19-11.15.59:293][ 71]LogClass: Error: HealthHUD: 93
-[2018.04.19-11.15.59:301][ 72]LogClass: Error: HealthHUD: 93
-[2018.04.19-11.15.59:310][ 73]LogClass: Error: HealthHUD: 93
-[2018.04.19-11.15.59:318][ 74]LogClass: Error: HealthHUD: 93
-[2018.04.19-11.15.59:326][ 75]LogClass: Error: HealthHUD: 93
-[2018.04.19-11.15.59:335][ 76]LogClass: Error: HealthHUD: 93
-[2018.04.19-11.15.59:343][ 77]LogClass: Error: HealthHUD: 93
-[2018.04.19-11.15.59:351][ 78]LogClass: Error: HealthHUD: 92
-[2018.04.19-11.15.59:360][ 79]LogClass: Error: HealthHUD: 92
-[2018.04.19-11.15.59:368][ 80]LogClass: Error: HealthHUD: 92
-[2018.04.19-11.15.59:376][ 81]LogClass: Error: HealthHUD: 92
-[2018.04.19-11.15.59:385][ 82]LogClass: Error: HealthHUD: 92
-[2018.04.19-11.15.59:393][ 83]LogClass: Error: HealthHUD: 92
-[2018.04.19-11.15.59:401][ 84]LogClass: Error: HealthHUD: 92
-[2018.04.19-11.15.59:410][ 85]LogClass: Error: HealthHUD: 92
-[2018.04.19-11.15.59:418][ 86]LogClass: Error: HealthHUD: 92
-[2018.04.19-11.15.59:426][ 87]LogClass: Error: HealthHUD: 92
-[2018.04.19-11.15.59:434][ 88]LogClass: Error: HealthHUD: 92
-[2018.04.19-11.15.59:443][ 89]LogClass: Error: HealthHUD: 91
-[2018.04.19-11.15.59:451][ 90]LogClass: Error: HealthHUD: 91
-[2018.04.19-11.15.59:460][ 91]LogClass: Error: HealthHUD: 91
-[2018.04.19-11.15.59:468][ 92]LogClass: Error: HealthHUD: 91
-[2018.04.19-11.15.59:476][ 93]LogClass: Error: HealthHUD: 91
-[2018.04.19-11.15.59:484][ 94]LogClass: Error: HealthHUD: 91
-[2018.04.19-11.15.59:493][ 95]LogClass: Error: HealthHUD: 91
-[2018.04.19-11.15.59:502][ 96]LogClass: Error: HealthHUD: 91
-[2018.04.19-11.15.59:510][ 97]LogClass: Error: HealthHUD: 91
-[2018.04.19-11.15.59:518][ 98]LogClass: Error: HealthHUD: 90
-[2018.04.19-11.15.59:526][ 99]LogClass: Error: HealthHUD: 90
-[2018.04.19-11.15.59:534][100]LogClass: Error: HealthHUD: 90
-[2018.04.19-11.15.59:543][101]LogClass: Error: HealthHUD: 90
-[2018.04.19-11.15.59:551][102]LogClass: Error: HealthHUD: 90
-[2018.04.19-11.15.59:559][103]LogClass: Error: HealthHUD: 90
-[2018.04.19-11.15.59:568][104]LogClass: Error: HealthHUD: 90
-[2018.04.19-11.15.59:576][105]LogClass: Error: HealthHUD: 90
-[2018.04.19-11.15.59:584][106]LogClass: Error: HealthHUD: 90
-[2018.04.19-11.15.59:593][107]LogClass: Error: HealthHUD: 89
-[2018.04.19-11.15.59:601][108]LogClass: Error: HealthHUD: 89
-[2018.04.19-11.15.59:610][109]LogClass: Error: HealthHUD: 89
-[2018.04.19-11.15.59:618][110]LogClass: Error: HealthHUD: 89
-[2018.04.19-11.15.59:626][111]LogClass: Error: HealthHUD: 89
-[2018.04.19-11.15.59:635][112]LogClass: Error: HealthHUD: 89
-[2018.04.19-11.15.59:644][113]LogClass: Error: HealthHUD: 89
-[2018.04.19-11.15.59:652][114]LogClass: Error: HealthHUD: 89
-[2018.04.19-11.15.59:660][115]LogClass: Error: HealthHUD: 89
-[2018.04.19-11.15.59:669][116]LogClass: Error: HealthHUD: 88
-[2018.04.19-11.15.59:677][117]LogClass: Error: HealthHUD: 88
-[2018.04.19-11.15.59:685][118]LogClass: Error: HealthHUD: 88
-[2018.04.19-11.15.59:693][119]LogClass: Error: HealthHUD: 88
-[2018.04.19-11.15.59:701][120]LogClass: Error: HealthHUD: 88
-[2018.04.19-11.15.59:710][121]LogClass: Error: HealthHUD: 88
-[2018.04.19-11.15.59:718][122]LogClass: Error: HealthHUD: 88
-[2018.04.19-11.15.59:727][123]LogClass: Error: HealthHUD: 88
-[2018.04.19-11.15.59:734][124]LogClass: Error: HealthHUD: 87
-[2018.04.19-11.15.59:743][125]LogClass: Error: HealthHUD: 87
-[2018.04.19-11.15.59:751][126]LogClass: Error: HealthHUD: 87
-[2018.04.19-11.15.59:760][127]LogClass: Error: HealthHUD: 87
-[2018.04.19-11.15.59:768][128]LogClass: Error: HealthHUD: 87
-[2018.04.19-11.15.59:776][129]LogClass: Error: HealthHUD: 87
-[2018.04.19-11.15.59:784][130]LogClass: Error: HealthHUD: 87
-[2018.04.19-11.15.59:793][131]LogClass: Error: HealthHUD: 87
-[2018.04.19-11.15.59:801][132]LogClass: Error: HealthHUD: 86
-[2018.04.19-11.15.59:809][133]LogClass: Error: HealthHUD: 86
-[2018.04.19-11.15.59:817][134]LogClass: Error: HealthHUD: 86
-[2018.04.19-11.15.59:826][135]LogClass: Error: HealthHUD: 86
-[2018.04.19-11.15.59:835][136]LogClass: Error: HealthHUD: 86
-[2018.04.19-11.15.59:843][137]LogClass: Error: HealthHUD: 86
-[2018.04.19-11.15.59:851][138]LogClass: Error: HealthHUD: 86
-[2018.04.19-11.15.59:859][139]LogClass: Error: HealthHUD: 86
-[2018.04.19-11.15.59:868][140]LogClass: Error: HealthHUD: 85
-[2018.04.19-11.15.59:876][141]LogClass: Error: HealthHUD: 85
-[2018.04.19-11.15.59:884][142]LogClass: Error: HealthHUD: 85
-[2018.04.19-11.15.59:893][143]LogClass: Error: HealthHUD: 85
-[2018.04.19-11.15.59:901][144]LogClass: Error: HealthHUD: 85
-[2018.04.19-11.15.59:909][145]LogClass: Error: HealthHUD: 85
-[2018.04.19-11.15.59:917][146]LogClass: Error: HealthHUD: 85
-[2018.04.19-11.15.59:926][147]LogClass: Error: HealthHUD: 85
-[2018.04.19-11.15.59:934][148]LogClass: Error: HealthHUD: 84
-[2018.04.19-11.15.59:942][149]LogClass: Error: HealthHUD: 84
-[2018.04.19-11.15.59:951][150]LogClass: Error: HealthHUD: 84
-[2018.04.19-11.15.59:960][151]LogClass: Error: HealthHUD: 84
-[2018.04.19-11.15.59:968][152]LogClass: Error: HealthHUD: 84
-[2018.04.19-11.15.59:976][153]LogClass: Error: HealthHUD: 84
-[2018.04.19-11.15.59:985][154]LogClass: Error: HealthHUD: 84
-[2018.04.19-11.15.59:993][155]LogClass: Error: HealthHUD: 84
-[2018.04.19-11.16.00:001][156]LogClass: Error: HealthHUD: 83
-[2018.04.19-11.16.00:010][157]LogClass: Error: HealthHUD: 83
-[2018.04.19-11.16.00:018][158]LogClass: Error: HealthHUD: 83
-[2018.04.19-11.16.00:026][159]LogClass: Error: HealthHUD: 83
-[2018.04.19-11.16.00:035][160]LogClass: Error: HealthHUD: 83
-[2018.04.19-11.16.00:043][161]LogClass: Error: HealthHUD: 83
-[2018.04.19-11.16.00:051][162]LogClass: Error: HealthHUD: 83
-[2018.04.19-11.16.00:060][163]LogClass: Error: HealthHUD: 83
-[2018.04.19-11.16.00:068][164]LogClass: Error: HealthHUD: 83
-[2018.04.19-11.16.00:076][165]LogClass: Error: HealthHUD: 82
-[2018.04.19-11.16.00:085][166]LogClass: Error: HealthHUD: 82
-[2018.04.19-11.16.00:093][167]LogClass: Error: HealthHUD: 82
-[2018.04.19-11.16.00:101][168]LogClass: Error: HealthHUD: 82
-[2018.04.19-11.16.00:110][169]LogClass: Error: HealthHUD: 82
-[2018.04.19-11.16.00:118][170]LogClass: Error: HealthHUD: 82
-[2018.04.19-11.16.00:126][171]LogClass: Error: HealthHUD: 82
-[2018.04.19-11.16.00:134][172]LogClass: Error: HealthHUD: 82
-[2018.04.19-11.16.00:143][173]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:151][174]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:160][175]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:168][176]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:177][177]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:184][178]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:193][179]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:201][180]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:210][181]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:218][182]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:226][183]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:235][184]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:243][185]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:251][186]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:259][187]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:267][188]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:276][189]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:284][190]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:292][191]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:301][192]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:310][193]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:317][194]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:326][195]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:334][196]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:344][197]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:353][198]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:361][199]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:370][200]LogClass: Error: HealthHUD: 81
-[2018.04.19-11.16.00:379][201]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:388][202]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:397][203]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:406][204]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:415][205]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:425][206]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:434][207]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:443][208]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:451][209]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:458][210]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:466][211]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:475][212]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:483][213]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:492][214]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:500][215]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:509][216]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:516][217]LogClass: Error: HealthHUD: 80
-[2018.04.19-11.16.00:525][218]LogClass: Error: HealthHUD: 79
-[2018.04.19-11.16.00:533][219]LogClass: Error: HealthHUD: 79
-[2018.04.19-11.16.00:541][220]LogClass: Error: HealthHUD: 79
-[2018.04.19-11.16.00:550][221]LogClass: Error: HealthHUD: 79
-[2018.04.19-11.16.00:558][222]LogClass: Error: HealthHUD: 79
-[2018.04.19-11.16.00:566][223]LogClass: Error: HealthHUD: 79
-[2018.04.19-11.16.00:576][224]LogClass: Error: HealthHUD: 79
-[2018.04.19-11.16.00:583][225]LogClass: Error: HealthHUD: 79
-[2018.04.19-11.16.00:592][226]LogClass: Error: HealthHUD: 79
-[2018.04.19-11.16.00:600][227]LogClass: Error: HealthHUD: 79
-[2018.04.19-11.16.00:608][228]LogClass: Error: HealthHUD: 79
-[2018.04.19-11.16.00:616][229]LogClass: Error: HealthHUD: 79
-[2018.04.19-11.16.00:625][230]LogClass: Error: HealthHUD: 78
-[2018.04.19-11.16.00:634][231]LogClass: Error: HealthHUD: 78
-[2018.04.19-11.16.00:642][232]LogClass: Error: HealthHUD: 78
-[2018.04.19-11.16.00:650][233]LogClass: Error: HealthHUD: 78
-[2018.04.19-11.16.00:658][234]LogClass: Error: HealthHUD: 78
-[2018.04.19-11.16.00:667][235]LogClass: Error: HealthHUD: 78
-[2018.04.19-11.16.00:676][236]LogClass: Error: HealthHUD: 78
-[2018.04.19-11.16.00:684][237]LogClass: Error: HealthHUD: 78
-[2018.04.19-11.16.00:694][238]LogClass: Error: HealthHUD: 78
-[2018.04.19-11.16.00:704][239]LogClass: Error: HealthHUD: 78
-[2018.04.19-11.16.00:715][240]LogClass: Error: HealthHUD: 77
-[2018.04.19-11.16.00:726][241]LogClass: Error: HealthHUD: 77
-[2018.04.19-11.16.00:736][242]LogClass: Error: HealthHUD: 77
-[2018.04.19-11.16.00:744][243]LogClass: Error: HealthHUD: 77
-[2018.04.19-11.16.00:753][244]LogClass: Error: HealthHUD: 77
-[2018.04.19-11.16.00:761][245]LogClass: Error: HealthHUD: 77
-[2018.04.19-11.16.00:770][246]LogClass: Error: HealthHUD: 77
-[2018.04.19-11.16.00:780][247]LogClass: Error: HealthHUD: 77
-[2018.04.19-11.16.00:790][248]LogClass: Error: HealthHUD: 77
-[2018.04.19-11.16.00:800][249]LogClass: Error: HealthHUD: 76
-[2018.04.19-11.16.00:808][250]LogClass: Error: HealthHUD: 76
-[2018.04.19-11.16.00:817][251]LogClass: Error: HealthHUD: 76
-[2018.04.19-11.16.00:825][252]LogClass: Error: HealthHUD: 76
-[2018.04.19-11.16.00:833][253]LogClass: Error: HealthHUD: 76
-[2018.04.19-11.16.00:841][254]LogClass: Error: HealthHUD: 76
-[2018.04.19-11.16.00:849][255]LogClass: Error: HealthHUD: 76
-[2018.04.19-11.16.00:858][256]LogClass: Error: HealthHUD: 76
-[2018.04.19-11.16.00:866][257]LogClass: Error: HealthHUD: 75
-[2018.04.19-11.16.00:874][258]LogClass: Error: HealthHUD: 75
-[2018.04.19-11.16.00:883][259]LogClass: Error: HealthHUD: 75
-[2018.04.19-11.16.00:891][260]LogClass: Error: HealthHUD: 75
-[2018.04.19-11.16.00:899][261]LogClass: Error: HealthHUD: 75
-[2018.04.19-11.16.00:908][262]LogClass: Error: HealthHUD: 75
-[2018.04.19-11.16.00:916][263]LogClass: Error: HealthHUD: 75
-[2018.04.19-11.16.00:924][264]LogClass: Error: HealthHUD: 75
-[2018.04.19-11.16.00:933][265]LogClass: Error: HealthHUD: 75
-[2018.04.19-11.16.00:941][266]LogClass: Error: HealthHUD: 74
-[2018.04.19-11.16.00:949][267]LogClass: Error: HealthHUD: 74
-[2018.04.19-11.16.00:958][268]LogClass: Error: HealthHUD: 74
-[2018.04.19-11.16.00:967][269]LogClass: Error: HealthHUD: 74
-[2018.04.19-11.16.00:976][270]LogClass: Error: HealthHUD: 74
-[2018.04.19-11.16.00:984][271]LogClass: Error: HealthHUD: 74
-[2018.04.19-11.16.00:991][272]LogClass: Error: HealthHUD: 74
-[2018.04.19-11.16.00:999][273]LogClass: Error: HealthHUD: 74
-[2018.04.19-11.16.01:008][274]LogClass: Error: HealthHUD: 73
-[2018.04.19-11.16.01:016][275]LogClass: Error: HealthHUD: 73
-[2018.04.19-11.16.01:025][276]LogClass: Error: HealthHUD: 73
-[2018.04.19-11.16.01:033][277]LogClass: Error: HealthHUD: 73
-[2018.04.19-11.16.01:041][278]LogClass: Error: HealthHUD: 73
-[2018.04.19-11.16.01:049][279]LogClass: Error: HealthHUD: 73
-[2018.04.19-11.16.01:058][280]LogClass: Error: HealthHUD: 73
-[2018.04.19-11.16.01:066][281]LogClass: Error: HealthHUD: 73
-[2018.04.19-11.16.01:075][282]LogClass: Error: HealthHUD: 73
-[2018.04.19-11.16.01:083][283]LogClass: Error: HealthHUD: 72
-[2018.04.19-11.16.01:091][284]LogClass: Error: HealthHUD: 72
-[2018.04.19-11.16.01:100][285]LogClass: Error: HealthHUD: 72
-[2018.04.19-11.16.01:108][286]LogClass: Error: HealthHUD: 72
-[2018.04.19-11.16.01:117][287]LogClass: Error: HealthHUD: 72
-[2018.04.19-11.16.01:124][288]LogClass: Error: HealthHUD: 72
-[2018.04.19-11.16.01:133][289]LogClass: Error: HealthHUD: 72
-[2018.04.19-11.16.01:141][290]LogClass: Error: HealthHUD: 72
-[2018.04.19-11.16.01:150][291]LogClass: Error: HealthHUD: 71
-[2018.04.19-11.16.01:158][292]LogClass: Error: HealthHUD: 71
-[2018.04.19-11.16.01:166][293]LogClass: Error: HealthHUD: 71
-[2018.04.19-11.16.01:174][294]LogClass: Error: HealthHUD: 71
-[2018.04.19-11.16.01:183][295]LogClass: Error: HealthHUD: 71
-[2018.04.19-11.16.01:191][296]LogClass: Error: HealthHUD: 71
-[2018.04.19-11.16.01:200][297]LogClass: Error: HealthHUD: 71
-[2018.04.19-11.16.01:208][298]LogClass: Error: HealthHUD: 71
-[2018.04.19-11.16.01:216][299]LogClass: Error: HealthHUD: 70
-[2018.04.19-11.16.01:224][300]LogClass: Error: HealthHUD: 70
-[2018.04.19-11.16.01:233][301]LogClass: Error: HealthHUD: 70
-[2018.04.19-11.16.01:242][302]LogClass: Error: HealthHUD: 70
-[2018.04.19-11.16.01:250][303]LogClass: Error: HealthHUD: 70
-[2018.04.19-11.16.01:258][304]LogClass: Error: HealthHUD: 70
-[2018.04.19-11.16.01:266][305]LogClass: Error: HealthHUD: 70
-[2018.04.19-11.16.01:274][306]LogClass: Error: HealthHUD: 70
-[2018.04.19-11.16.01:283][307]LogClass: Error: HealthHUD: 69
-[2018.04.19-11.16.01:291][308]LogClass: Error: HealthHUD: 69
-[2018.04.19-11.16.01:299][309]LogClass: Error: HealthHUD: 69
-[2018.04.19-11.16.01:308][310]LogClass: Error: HealthHUD: 69
-[2018.04.19-11.16.01:316][311]LogClass: Error: HealthHUD: 69
-[2018.04.19-11.16.01:326][312]LogClass: Error: HealthHUD: 69
-[2018.04.19-11.16.01:334][313]LogClass: Error: HealthHUD: 69
-[2018.04.19-11.16.01:343][314]LogClass: Error: HealthHUD: 69
-[2018.04.19-11.16.01:353][315]LogClass: Error: HealthHUD: 68
-[2018.04.19-11.16.01:361][316]LogClass: Error: HealthHUD: 68
-[2018.04.19-11.16.01:371][317]LogClass: Error: HealthHUD: 68
-[2018.04.19-11.16.01:380][318]LogClass: Error: HealthHUD: 68
-[2018.04.19-11.16.01:389][319]LogClass: Error: HealthHUD: 68
-[2018.04.19-11.16.01:399][320]LogClass: Error: HealthHUD: 68
-[2018.04.19-11.16.01:407][321]LogClass: Error: HealthHUD: 68
-[2018.04.19-11.16.01:417][322]LogClass: Error: HealthHUD: 67
-[2018.04.19-11.16.01:426][323]LogClass: Error: HealthHUD: 67
-[2018.04.19-11.16.01:435][324]LogClass: Error: HealthHUD: 67
-[2018.04.19-11.16.01:444][325]LogClass: Error: HealthHUD: 67
-[2018.04.19-11.16.01:453][326]LogClass: Error: HealthHUD: 67
-[2018.04.19-11.16.01:460][327]LogClass: Error: HealthHUD: 67
-[2018.04.19-11.16.01:468][328]LogClass: Error: HealthHUD: 67
-[2018.04.19-11.16.01:476][329]LogClass: Error: HealthHUD: 67
-[2018.04.19-11.16.01:484][330]LogClass: Error: HealthHUD: 67
-[2018.04.19-11.16.01:492][331]LogClass: Error: HealthHUD: 66
-[2018.04.19-11.16.01:501][332]LogClass: Error: HealthHUD: 66
-[2018.04.19-11.16.01:509][333]LogClass: Error: HealthHUD: 66
-[2018.04.19-11.16.01:518][334]LogClass: Error: HealthHUD: 66
-[2018.04.19-11.16.01:526][335]LogClass: Error: HealthHUD: 66
-[2018.04.19-11.16.01:534][336]LogClass: Error: HealthHUD: 66
-[2018.04.19-11.16.01:542][337]LogClass: Error: HealthHUD: 66
-[2018.04.19-11.16.01:551][338]LogClass: Error: HealthHUD: 66
-[2018.04.19-11.16.01:560][339]LogClass: Error: HealthHUD: 66
-[2018.04.19-11.16.01:567][340]LogClass: Error: HealthHUD: 65
-[2018.04.19-11.16.01:576][341]LogClass: Error: HealthHUD: 65
-[2018.04.19-11.16.01:584][342]LogClass: Error: HealthHUD: 65
-[2018.04.19-11.16.01:593][343]LogClass: Error: HealthHUD: 65
-[2018.04.19-11.16.01:601][344]LogClass: Error: HealthHUD: 65
-[2018.04.19-11.16.01:610][345]LogClass: Error: HealthHUD: 65
-[2018.04.19-11.16.01:618][346]LogClass: Error: HealthHUD: 65
-[2018.04.19-11.16.01:626][347]LogClass: Error: HealthHUD: 65
-[2018.04.19-11.16.01:634][348]LogClass: Error: HealthHUD: 65
-[2018.04.19-11.16.01:643][349]LogClass: Error: HealthHUD: 65
-[2018.04.19-11.16.01:651][350]LogClass: Error: HealthHUD: 64
-[2018.04.19-11.16.01:660][351]LogClass: Error: HealthHUD: 64
-[2018.04.19-11.16.01:668][352]LogClass: Error: HealthHUD: 64
-[2018.04.19-11.16.01:677][353]LogClass: Error: HealthHUD: 64
-[2018.04.19-11.16.01:685][354]LogClass: Error: HealthHUD: 64
-[2018.04.19-11.16.01:693][355]LogClass: Error: HealthHUD: 64
-[2018.04.19-11.16.01:702][356]LogClass: Error: HealthHUD: 64
-[2018.04.19-11.16.01:711][357]LogClass: Error: HealthHUD: 64
-[2018.04.19-11.16.01:717][358]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.16.01:751][358]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.16.07:554][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.19-11.18.59:084][344]Candidate modules for hot reload:
-[2018.04.19-11.18.59:084][344]  UnrealCPP
-[2018.04.19-11.18.59:084][344]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,6654 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
-[2018.04.19-11.18.59:086][344]Warning: Starting HotReload took  0.0s.
-[2018.04.19-11.19.12:390][940]CompilerResultsLog: New page: Compilation - Apr 19, 2018, 3:19:12 AM
-[2018.04.19-11.19.12:390][940]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.04.19-11.19.12:391][940]CompilerResultsLog: Compiling game modules for hot reload
-[2018.04.19-11.19.12:391][940]CompilerResultsLog: Performing 3 actions (4 in parallel)
-[2018.04.19-11.19.12:391][940]CompilerResultsLog: UnrealCPPCharacter.cpp
-[2018.04.19-11.19.12:391][940]CompilerResultsLog: [2/3] Link UE4Editor-UnrealCPP-6654.dll
-[2018.04.19-11.19.12:391][940]CompilerResultsLog: [3/3] Link UE4Editor-UnrealCPP-6654.lib
-[2018.04.19-11.19.12:391][940]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-6654.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-6654.exp
-[2018.04.19-11.19.12:392][940]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-6654.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-6654.suppressed.exp
-[2018.04.19-11.19.12:392][940]CompilerResultsLog: Total build time: 13.11 seconds (Local executor: 12.43 seconds)
-[2018.04.19-11.19.12:392][940]LogMainFrame: MainFrame: Module compiling took 13.311 seconds
-[2018.04.19-11.19.12:478][940]LogHotReload: Re-instancing MyCameraShake after hot-reload.
-[2018.04.19-11.19.12:588][940]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0160 seconds. Added 44 classes and 41 folders.
-[2018.04.19-11.19.12:592][940]Display: HotReload successful (34 functions remapped  0 scriptstructs remapped)
-[2018.04.19-11.19.13:067][940]LogContentBrowser: Native class hierarchy populated in 0.0798 seconds. Added 2497 classes and 601 folders.
-[2018.04.19-11.19.13:068][940]Display: HotReload took 14.0s.
-[2018.04.19-11.19.14:651][111]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.19-11.19.14:669][111]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.19.14:670][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.19-11.19.14:670][111]PIE: New page: PIE session: FirstPersonExampleMap (Apr 19, 2018, 3:19:14 AM)
-[2018.04.19-11.19.14:671][111]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.19-11.19.14:683][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012335s)
-[2018.04.19-11.19.14:684][111]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.19-11.19.14:685][111]LogPlayLevel: PIE: World Init took: (0.001218s)
-[2018.04.19-11.19.14:685][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014183s)
-[2018.04.19-11.19.14:749][111]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.19-11.19.14:758][111]LogInit: FAudioDevice initialized.
-[2018.04.19-11.19.14:789][111]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.19-11.19.14:791][111]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.19-07.19.14
-[2018.04.19-11.19.14:792][111]LogWorld: Bringing up level for play took: 0.001757
-[2018.04.19-11.19.14:793][111]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.556
-[2018.04.19-11.19.14:794][111]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.19.29:232][838]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.19.29:266][838]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.19.31:152][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.19-11.19.31:243][ 68]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.19-11.19.31:262][ 68]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.19.31:263][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.19-11.19.31:263][ 68]PIE: New page: PIE session: FirstPersonExampleMap (Apr 19, 2018, 3:19:31 AM)
-[2018.04.19-11.19.31:263][ 68]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.19-11.19.31:278][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015091s)
-[2018.04.19-11.19.31:280][ 68]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.19-11.19.31:280][ 68]LogPlayLevel: PIE: World Init took: (0.001174s)
-[2018.04.19-11.19.31:280][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016936s)
-[2018.04.19-11.19.31:309][ 68]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.19-11.19.31:318][ 68]LogInit: FAudioDevice initialized.
-[2018.04.19-11.19.31:352][ 68]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.19-11.19.31:358][ 68]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.19-07.19.31
-[2018.04.19-11.19.31:360][ 68]LogWorld: Bringing up level for play took: 0.007249
-[2018.04.19-11.19.31:365][ 68]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.016
-[2018.04.19-11.19.31:367][ 68]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.19.40:763][189]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.19.40:794][189]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.19.42:324][368]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.19-11.19.42:408][378]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.19-11.19.42:425][378]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.19.42:426][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.19-11.19.42:426][378]PIE: New page: PIE session: FirstPersonExampleMap (Apr 19, 2018, 3:19:42 AM)
-[2018.04.19-11.19.42:426][378]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.19-11.19.42:440][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013663s)
-[2018.04.19-11.19.42:441][378]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.19-11.19.42:442][378]LogPlayLevel: PIE: World Init took: (0.000914s)
-[2018.04.19-11.19.42:442][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015290s)
-[2018.04.19-11.19.42:470][378]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.19-11.19.42:479][378]LogInit: FAudioDevice initialized.
-[2018.04.19-11.19.42:512][378]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.19-11.19.42:516][378]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.19-07.19.42
-[2018.04.19-11.19.42:517][378]LogWorld: Bringing up level for play took: 0.003966
-[2018.04.19-11.19.42:520][378]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.829
-[2018.04.19-11.19.42:521][378]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.19.58:743][318]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.19.58:776][318]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.19-11.19.59:761][430]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.20-10.25.38:336][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.20-10.25.38:336][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.20-10.25.38:357][  0]LogInit: Computer: HARRYPC
+[2018.04.20-10.25.38:358][  0]LogInit: User: Harrison
+[2018.04.20-10.25.38:358][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.20-10.25.38:358][  0]LogInit: High frequency timer resolution =3.514605 MHz
+[2018.04.20-10.25.38:358][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.04.20-10.25.38:358][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.20-10.25.38:359][  0]LogMemory: Process Physical Memory: 275.02 MB used, 275.02 MB peak
+[2018.04.20-10.25.38:359][  0]LogMemory: Process Virtual Memory: 264.60 MB used, 264.60 MB peak
+[2018.04.20-10.25.38:359][  0]LogMemory: Physical Memory: 6722.44 MB used,  9618.55 MB free, 16340.99 MB total
+[2018.04.20-10.25.38:359][  0]LogMemory: Virtual Memory: 698.76 MB used,  9618.55 MB free, 134217728.00 MB total
+[2018.04.20-10.25.38:408][  0]LogInit: Using OS detected language (en-US).
+[2018.04.20-10.25.38:408][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.20-10.25.38:414][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.20-10.25.38:796][  0]LogStreaming: Display: Took  0.388s to EndInitTextLocalization.
+[2018.04.20-10.25.38:797][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.20-10.25.38:821][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.04.20-10.25.38:821][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.04.20-10.25.39:069][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.20-10.25.39:114][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.04.20-10.25.39:114][  0]LogD3D11RHI:       4043/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.20-10.25.39:116][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.20-10.25.39:116][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.20-10.25.39:116][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.20-10.25.39:122][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.20-10.25.39:122][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.20-10.25.39:122][  0]LogWindows: EnumDisplayDevices:
+[2018.04.20-10.25.39:122][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.04.20-10.25.39:122][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.20-10.25.39:122][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.20-10.25.39:122][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.20-10.25.39:122][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.20-10.25.39:122][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.04.20-10.25.39:122][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.20-10.25.39:122][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.20-10.25.39:122][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.04.20-10.25.39:145][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.20-10.25.39:145][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.20-10.25.39:145][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.20-10.25.39:162][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.20-10.25.39:211][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../Unreal Projects/UnrealCPP/Intermediate/Shaders/WorkingDirectory/10888/).
+[2018.04.20-10.25.39:211][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harrison/AppData/Local/Temp/UnrealShaderWorkingDir/99620AFA4B88BEB2B9B11C9CB69FB046/'.
+[2018.04.20-10.25.39:440][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.20-10.25.39:451][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.20-10.25.39:463][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.20-10.25.39:475][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.20-10.25.39:486][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.20-10.25.39:498][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.20-10.25.39:510][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.20-10.25.39:522][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.20-10.25.39:527][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.20-10.25.39:538][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.20-10.25.39:548][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.20-10.25.39:559][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.20-10.25.39:570][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.04.20-10.25.39:581][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.20-10.25.39:593][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.20-10.25.39:614][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.20-10.25.39:614][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.20-10.25.39:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.20-10.25.39:626][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.20-10.25.39:660][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.20-10.25.39:672][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.20-10.25.39:682][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.20-10.25.39:694][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.20-10.25.39:705][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.20-10.25.39:717][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.20-10.25.39:717][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.20-10.25.39:813][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.04.20-10.25.39:813][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.04.20-10.25.39:813][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.20-10.25.40:511][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.20-10.25.40:574][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.20-10.25.40:574][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.04.20-10.25.40:574][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.20-10.25.40:574][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.20-10.25.40:574][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.20-10.25.40:574][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.20-10.25.40:589][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.20-10.25.40:601][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Harrison/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.20-10.25.40:611][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.20-10.25.40:611][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.20-10.25.40:612][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.20-10.25.40:612][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.20-10.25.40:738][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2018.04.20-10.25.41:025][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.20-10.25.41:157][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.20-10.25.41:159][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.20-10.25.41:159][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.20-10.25.41:159][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.20-10.25.41:159][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.20-10.25.41:159][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.20-10.25.41:187][  0]LogNetVersion: UnrealCPP , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2553546984)
+[2018.04.20-10.25.41:621][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.118214 seconds
+[2018.04.20-10.25.41:626][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.04.20-10.25.41:626][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.04.20-10.25.41:626][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.20-10.25.43:503][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.20-10.25.43:534][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.20-10.25.44:258][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.871506ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2018.04.20-10.25.44:267][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.539179ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
+[2018.04.20-10.25.44:430][  0]SourceControl: Source control is disabled
+[2018.04.20-10.25.44:430][  0]SourceControl: Source control is disabled
+[2018.04.20-10.25.44:450][  0]SourceControl: Source control is disabled
+[2018.04.20-10.25.44:468][  0]SourceControl: Source control is disabled
+[2018.04.20-10.25.45:051][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.20-10.25.45:381][  0]LogOcInput: OculusInput pre-init called
+[2018.04.20-10.25.45:490][  0]LogEngine: Initializing Engine...
+[2018.04.20-10.25.45:494][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.04.20-10.25.45:495][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.20-10.25.45:495][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.20-10.25.45:676][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.20-10.25.45:698][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.20-10.25.45:708][  0]LogInit: FAudioDevice initialized.
+[2018.04.20-10.25.45:852][  0]LogDerivedDataCache: Saved boot cache 0.14s 78MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.20-10.25.45:886][  0]LogInit: Texture streaming: Enabled
+[2018.04.20-10.25.45:915][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.20-10.25.45:931][  0]LogInit: Transaction tracking system initialized
+[2018.04.20-10.25.45:958][  0]BlueprintLog: New page: Editor Load
+[2018.04.20-10.25.46:050][  0]LocalizationService: Localization service is disabled
+[2018.04.20-10.25.46:149][  0]LogConsoleResponse: Display: 
+[2018.04.20-10.25.46:273][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.20-10.25.46:273][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.20-10.25.46:273][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.20-10.25.46:273][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.20-10.25.46:273][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.20-10.25.46:649][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/' took 0.02s
+[2018.04.20-10.25.46:649][  0]SourceControl: Source control is disabled
+[2018.04.20-10.25.46:649][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.20-10.25.46:653][  0]LightingResults: New page: Lighting Build
+[2018.04.20-10.25.46:655][  0]MapCheck: New page: Map Check
+[2018.04.20-10.25.46:655][  0]LightingResults: New page: Lighting Build
+[2018.04.20-10.25.46:859][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.20-10.25.46:866][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.20-10.25.46:878][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.20-10.25.46:938][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.647ms to complete.
+[2018.04.20-10.25.46:938][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.289
+[2018.04.20-10.25.47:147][  0]LogCollectionManager: Loaded 0 collections in 0.001032 seconds
+[2018.04.20-10.25.47:186][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Saved/Collections/' took 0.01s
+[2018.04.20-10.25.47:186][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Developers/Harrison/Collections/' took 0.01s
+[2018.04.20-10.25.47:186][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Collections/' took 0.01s
+[2018.04.20-10.25.47:186][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.20-10.25.47:211][  0]LogContentBrowser: Native class hierarchy populated in 0.0241 seconds. Added 2496 classes and 599 folders.
+[2018.04.20-10.25.47:230][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0144 seconds. Added 0 classes and 0 folders.
+[2018.04.20-10.25.47:623][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0163 seconds. Added 0 classes and 0 folders.
+[2018.04.20-10.25.47:642][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0144 seconds. Added 1 classes and 2 folders.
+[2018.04.20-10.25.47:715][  0]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.20-10.25.47:716][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.20-10.25.47:721][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.20-10.25.47:808][  0]LogRenderer: Reallocating scene render targets to support 1148x612 Format 10 NumSamples 1 (Frame:1).
+[2018.04.20-10.25.47:927][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0146 seconds. Added 0 classes and 0 folders.
+[2018.04.20-10.25.47:927][  0]LogLoad: (Engine Initialization) Total time: 12.71 seconds
+[2018.04.20-10.25.47:927][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.20-10.25.47:937][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.20-10.25.47:959][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.20-10.25.47:996][  0]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.20-10.25.48:030][  1]LogAssetRegistry: Asset discovery search completed in 7.3138 seconds
+[2018.04.20-10.25.48:031][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.20-10.25.48:031][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2018.04.20-10.27.09:028][701]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.20-10.27.09:111][711]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.20-10.27.09:127][711]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.20-10.27.09:127][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.20-10.27.09:127][711]PIE: New page: PIE session: FirstPersonExampleMap (Apr 20, 2018, 2:27:09 AM)
+[2018.04.20-10.27.09:127][711]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.20-10.27.09:149][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021880s)
+[2018.04.20-10.27.09:150][711]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.20-10.27.09:151][711]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2018.04.20-10.27.09:151][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023227s)
+[2018.04.20-10.27.09:170][711]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.20-10.27.09:180][711]LogInit: FAudioDevice initialized.
+[2018.04.20-10.27.09:221][711]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.20-10.27.09:228][711]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.20-06.27.09
+[2018.04.20-10.27.09:229][711]LogWorld: Bringing up level for play took: 0.004212
+[2018.04.20-10.27.09:262][711]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0264 seconds. Added 11 classes and 0 folders.
+[2018.04.20-10.27.09:264][711]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.304
+[2018.04.20-10.27.09:264][711]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.20-10.27.16:958][627]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.20-10.27.16:990][627]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.20-10.27.42:926][911]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.20-10.27.43:004][920]Candidate modules for hot reload:
+[2018.04.20-10.27.43:004][920]  UnrealCPP
+[2018.04.20-10.27.43:005][920]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,3760 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.20-10.27.43:006][920]Warning: Starting HotReload took  0.0s.
+[2018.04.20-10.27.52:916][ 98]CompilerResultsLog: New page: Compilation - Apr 20, 2018, 2:27:52 AM
+[2018.04.20-10.27.52:916][ 98]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.20-10.27.52:916][ 98]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.20-10.27.52:916][ 98]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.04.20-10.27.52:916][ 98]CompilerResultsLog: UnrealCPPCharacter.cpp
+[2018.04.20-10.27.52:916][ 98]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPCharacter.cpp(197) : error C2146: syntax error: missing ';' before identifier 'PrevHealth'
+[2018.04.20-10.27.52:916][ 98]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-3760.dll
+[2018.04.20-10.27.52:916][ 98]CompilerResultsLog: Total build time: 9.72 seconds (Local executor: 0.00 seconds)
+[2018.04.20-10.27.52:916][ 98]LogMainFrame: MainFrame: Module compiling took 9.915 seconds
+[2018.04.20-10.27.52:917][ 98]Warning: HotReload failed, recompile failed
+[2018.04.20-10.27.57:252][611]LogSlate: Window 'Message Log' being destroyed
+[2018.04.20-10.27.57:256][611]LogSlate: Window 'Message Log' being destroyed
+[2018.04.20-10.28.02:995][868]Candidate modules for hot reload:
+[2018.04.20-10.28.02:995][868]  UnrealCPP
+[2018.04.20-10.28.02:995][868]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,9079 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.20-10.28.02:996][868]Warning: Starting HotReload took  0.0s.
+[2018.04.20-10.28.14:940][  6]CompilerResultsLog: New page: Compilation - Apr 20, 2018, 2:28:14 AM
+[2018.04.20-10.28.14:940][  6]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.20-10.28.14:940][  6]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.20-10.28.14:941][  6]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.04.20-10.28.14:941][  6]CompilerResultsLog: UnrealCPPCharacter.cpp
+[2018.04.20-10.28.14:941][  6]CompilerResultsLog: [2/3] Link UE4Editor-UnrealCPP-9079.dll
+[2018.04.20-10.28.14:941][  6]CompilerResultsLog: [3/3] Link UE4Editor-UnrealCPP-9079.lib
+[2018.04.20-10.28.14:941][  6]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-9079.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-9079.exp
+[2018.04.20-10.28.14:941][  6]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-9079.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-9079.suppressed.exp
+[2018.04.20-10.28.14:941][  6]CompilerResultsLog: Total build time: 11.52 seconds (Local executor: 10.83 seconds)
+[2018.04.20-10.28.14:941][  6]LogMainFrame: MainFrame: Module compiling took 11.949 seconds
+[2018.04.20-10.28.15:016][  6]LogHotReload: Re-instancing MyCameraShake after hot-reload.
+[2018.04.20-10.28.15:087][  6]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0170 seconds. Added 44 classes and 41 folders.
+[2018.04.20-10.28.15:089][  6]Display: HotReload successful (35 functions remapped  0 scriptstructs remapped)
+[2018.04.20-10.28.15:210][  6]LogContentBrowser: Native class hierarchy populated in 0.0249 seconds. Added 2497 classes and 601 folders.
+[2018.04.20-10.28.15:211][  6]Display: HotReload took 12.2s.
+[2018.04.20-10.28.36:730][184]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.20-10.28.36:746][184]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.20-10.28.36:746][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.20-10.28.36:746][184]PIE: New page: PIE session: FirstPersonExampleMap (Apr 20, 2018, 2:28:36 AM)
+[2018.04.20-10.28.36:746][184]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.20-10.28.36:759][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012464s)
+[2018.04.20-10.28.36:759][184]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.20-10.28.36:760][184]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2018.04.20-10.28.36:760][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013534s)
+[2018.04.20-10.28.36:779][184]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.20-10.28.36:788][184]LogInit: FAudioDevice initialized.
+[2018.04.20-10.28.36:817][184]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.20-10.28.36:821][184]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.20-06.28.36
+[2018.04.20-10.28.36:821][184]LogWorld: Bringing up level for play took: 0.002943
+[2018.04.20-10.28.36:824][184]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.744
+[2018.04.20-10.28.36:824][184]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.20-10.28.49:863][730]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.20-10.28.49:898][730]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.20-10.43.20:445][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.20-10.43.20:525][671]Candidate modules for hot reload:
+[2018.04.20-10.43.20:525][671]  UnrealCPP
+[2018.04.20-10.43.20:525][671]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,1367 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.20-10.43.20:526][671]Warning: Starting HotReload took  0.0s.
+[2018.04.20-10.43.35:076][384]CompilerResultsLog: New page: Compilation - Apr 20, 2018, 2:43:35 AM
+[2018.04.20-10.43.35:076][384]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.20-10.43.35:076][384]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.20-10.43.35:076][384]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.04.20-10.43.35:076][384]CompilerResultsLog: UnrealCPPCharacter.cpp
+[2018.04.20-10.43.35:076][384]CompilerResultsLog: [2/3] Link UE4Editor-UnrealCPP-1367.dll
+[2018.04.20-10.43.35:076][384]CompilerResultsLog: [3/3] Link UE4Editor-UnrealCPP-1367.lib
+[2018.04.20-10.43.35:076][384]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-1367.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-1367.exp
+[2018.04.20-10.43.35:076][384]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-1367.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-1367.suppressed.exp
+[2018.04.20-10.43.35:076][384]CompilerResultsLog: Total build time: 14.35 seconds (Local executor: 13.64 seconds)
+[2018.04.20-10.43.35:076][384]LogMainFrame: MainFrame: Module compiling took 14.555 seconds
+[2018.04.20-10.43.35:139][384]LogHotReload: Re-instancing MyCameraShake after hot-reload.
+[2018.04.20-10.43.35:208][384]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0168 seconds. Added 44 classes and 41 folders.
+[2018.04.20-10.43.35:210][384]Display: HotReload successful (35 functions remapped  0 scriptstructs remapped)
+[2018.04.20-10.43.35:263][384]LogContentBrowser: Native class hierarchy populated in 0.0234 seconds. Added 2497 classes and 601 folders.
+[2018.04.20-10.43.35:263][384]Display: HotReload took 14.7s.

@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHealthIntText();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetPrevHealth();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetHealth();
+	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetState();
 	ENGINE_API UClass* Z_Construct_UClass_UCurveFloat_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
@@ -40,6 +41,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			{ "GetHealthIntText", &AUnrealCPPCharacter::execGetHealthIntText },
 			{ "GetPrevHealth", &AUnrealCPPCharacter::execGetPrevHealth },
 			{ "SetHealth", &AUnrealCPPCharacter::execSetHealth },
+			{ "SetState", &AUnrealCPPCharacter::execSetState },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -134,6 +136,22 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetState()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+				{ "ToolTip", "Set Hit State" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "SetState", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AUnrealCPPCharacter_NoRegister()
 	{
 		return AUnrealCPPCharacter::StaticClass();
@@ -152,6 +170,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHealthIntText, "GetHealthIntText" }, // 4195127740
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetPrevHealth, "GetPrevHealth" }, // 1668926966
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetHealth, "SetHealth" }, // 2045408288
+				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetState, "SetState" }, // 3605931778
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -384,7 +403,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUnrealCPPCharacter, 1517087639);
+	IMPLEMENT_CLASS(AUnrealCPPCharacter, 2414891331);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AUnrealCPPCharacter(Z_Construct_UClass_AUnrealCPPCharacter, &AUnrealCPPCharacter::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("AUnrealCPPCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AUnrealCPPCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

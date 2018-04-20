@@ -84,8 +84,6 @@ AUnrealCPPCharacter::AUnrealCPPCharacter()
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
 
-	Health = 1.f;
-	PrevHealth = Health;
 }
 
 void AUnrealCPPCharacter::BeginPlay()
@@ -93,21 +91,20 @@ void AUnrealCPPCharacter::BeginPlay()
 	// Call the base class  
 	Super::BeginPlay();
 
+
+	Health = 1.f;
+	PrevHealth = Health;
 	bHit = true;
-
-	ease = 0.1f;
-
-	Damage = 0.4;
 
 	if (HealthCurve)
     {
         FOnTimelineFloat TimelineCallback;
-        // FOnTimelineEventStatic TimelineFinishedCallback;
+        FOnTimelineEventStatic TimelineFinishedCallback;
 
         TimelineCallback.BindUFunction(this, FName("SetHealth"));
-        // TimelineFinishedCallback.BindUFunction(this, FName{ TEXT("SetState") });
+        TimelineFinishedCallback.BindUFunction(this, FName{ TEXT("SetState") });
         MyTimeline.AddInterpFloat(HealthCurve, TimelineCallback);
-        // MyTimeline.SetTimelineFinishedFunc(TimelineFinishedCallback);
+        MyTimeline.SetTimelineFinishedFunc(TimelineFinishedCallback);
 
     }
 
@@ -132,27 +129,6 @@ void AUnrealCPPCharacter::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	MyTimeline.TickTimeline(DeltaTime);
-
-	if(bHit)
-	{
-		// UE_LOG(LogClass,Error,TEXT("MyCharacter's Health is %f"), Health );
-
-		// diff = 0.8f;
-
-		// UE_LOG(LogClass,Warning,TEXT("MyCharacter's Health is %f"), DeltaTime );
-
-		// if(Health > diff)
-		// {
-		// 	ease = FMath::FInterpTo(ease, 0.1f, DeltaTime, 1.0f);
-		// }
-		// else
-		// {
-		// 	ease = FMath::FInterpTo(ease, 0.1f, DeltaTime, 1.0f);
-		// }
-
-		// Health = FMath::FInterpConstantTo(Health, 0.6f, 2.0f, 0.5f);
-	}
-
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -215,13 +191,14 @@ void AUnrealCPPCharacter::OnFire()
 				// spawn the projectile at the muzzle
 				World->SpawnActor<AUnrealCPPProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
 
-				// PrevHealth = Health;
-				// Health -= 0.1;
-				// bHit = true;
+				if(bHit)
+				{
+					bHit = false;
+					PrevHealth = Health;
+					Damage = 0.2;
+					MyTimeline.PlayFromStart();
+				}
 
-				PrevHealth = Health;
-				Damage = 0.2;
-				MyTimeline.PlayFromStart();
 			}
 		}
 	}
@@ -375,6 +352,11 @@ FText AUnrealCPPCharacter::GetHealthIntText()
 float AUnrealCPPCharacter::GetPrevHealth()
 {
 	return PrevHealth;
+}
+
+void AUnrealCPPCharacter::SetState()
+{
+	bHit = true;
 }
 
 void AUnrealCPPCharacter::SetHealth()

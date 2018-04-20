@@ -125,6 +125,10 @@ public:
 	UFUNCTION()
 	void SetHealth();
 
+	/** Set Hit State */
+	UFUNCTION()
+	void SetState();
+
 protected:
 	
 	/** Fires a projectile. */

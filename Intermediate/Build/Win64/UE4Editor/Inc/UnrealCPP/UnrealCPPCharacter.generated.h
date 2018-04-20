@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSetState) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetState(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSetHealth) \
 	{ \
 		P_FINISH; \
@@ -49,6 +57,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetState) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetState(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetHealth) \
 	{ \

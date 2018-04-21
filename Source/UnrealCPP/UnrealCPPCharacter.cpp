@@ -356,6 +356,7 @@ float AUnrealCPPCharacter::GetPrevHealth()
 
 void AUnrealCPPCharacter::SetState()
 {
+	Damage = 0.0f;
 	bHit = true;
 }
 

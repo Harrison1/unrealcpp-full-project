@@ -194,8 +194,9 @@ void AUnrealCPPCharacter::OnFire()
 				if(bHit)
 				{
 					bHit = false;
+					redFlash = true;
 					PrevHealth = Health;
-					Damage = 0.2;
+					Damage += 0.2;
 					MyTimeline.PlayFromStart();
 				}
 
@@ -365,4 +366,15 @@ void AUnrealCPPCharacter::SetHealth()
 	TimelineValue = MyTimeline.GetPlaybackPosition();
     CurveFloatValue = PrevHealth - Damage*HealthCurve->GetFloatValue(TimelineValue);
     Health = CurveFloatValue;
+}
+
+bool AUnrealCPPCharacter::GetHit()
+{
+	if(redFlash)
+	{
+		redFlash = false;
+		return true;
+	}
+
+	return false;
 }

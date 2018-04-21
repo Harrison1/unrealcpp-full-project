@@ -94,7 +94,7 @@ public:
 	bool bHit;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	float ease;
+	float redFlash;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	float diff;
@@ -128,6 +128,10 @@ public:
 	/** Set Hit State */
 	UFUNCTION()
 	void SetState();
+
+	/** Get Hit State */
+	UFUNCTION()
+	bool GetHit();
 
 protected:
 	

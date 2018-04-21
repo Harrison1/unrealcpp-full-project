@@ -1,4 +1,4 @@
-﻿Log file open, 04/21/18 09:55:40
+﻿Log file open, 04/21/18 11:29:34
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: UnrealCPP
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1252481707) SRandInit(-1252481707).
+LogInit: Display: RandInit(1465348038) SRandInit(1465348038).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.578353
+LogStats: Stats thread started at 0.261421
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,8 +84,8 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.788s to configure plugins.
-LogModuleManager: Display: Found up-to-date module file ../../../../../Unreal Projects/UnrealCPP/Binaries/Win64/UE4Editor-UnrealCPP-1367.dll (API version 3944462).
+LogStreaming: Display: Took  0.121s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../Unreal Projects/UnrealCPP/Binaries/Win64/UE4Editor-UnrealCPP-2666.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -217,492 +217,477 @@ LogInit: Compiled (64-bit): Apr  6 2018 12:26:04
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
-LogInit: Command Line:  
+LogInit: Command Line: 
 LogInit: Base Directory: D:/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.098s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.21-13.55.54:028][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.21-13.55.54:028][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.21-13.55.54:300][  0]LogInit: Computer: HARRYPC
-[2018.04.21-13.55.54:300][  0]LogInit: User: Harrison
-[2018.04.21-13.55.54:300][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.04.21-13.55.54:300][  0]LogInit: High frequency timer resolution =3.514605 MHz
-[2018.04.21-13.55.54:321][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.04.21-13.55.54:321][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.21-13.55.54:321][  0]LogMemory: Process Physical Memory: 273.98 MB used, 273.98 MB peak
-[2018.04.21-13.55.54:321][  0]LogMemory: Process Virtual Memory: 270.65 MB used, 270.65 MB peak
-[2018.04.21-13.55.54:321][  0]LogMemory: Physical Memory: 3927.45 MB used,  12413.54 MB free, 16340.99 MB total
-[2018.04.21-13.55.54:321][  0]LogMemory: Virtual Memory: 704.70 MB used,  12413.54 MB free, 134217728.00 MB total
-[2018.04.21-13.55.56:622][  0]LogInit: Using OS detected language (en-US).
-[2018.04.21-13.55.56:622][  0]LogInit: Using OS detected locale (en-US).
-[2018.04.21-13.55.57:141][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.04.21-13.55.58:879][  0]LogStreaming: Display: Took  2.248s to EndInitTextLocalization.
-[2018.04.21-13.55.58:923][  0]LogInit: Setting process to per monitor DPI aware
-[2018.04.21-13.56.00:071][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.04.21-13.56.00:071][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.04.21-13.56.13:982][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.21-13.56.14:590][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.04.21-13.56.14:590][  0]LogD3D11RHI:       4043/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.04.21-13.56.14:592][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.21-13.56.14:592][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.21-13.56.14:592][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.21-13.56.14:661][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.21-13.56.14:704][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.21-13.56.14:704][  0]LogWindows: EnumDisplayDevices:
-[2018.04.21-13.56.14:704][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2018.04.21-13.56.14:705][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.04.21-13.56.14:705][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.04.21-13.56.14:705][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.04.21-13.56.14:705][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.21-13.56.14:705][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2018.04.21-13.56.14:705][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.21-13.56.14:705][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.21-13.56.14:705][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2018.04.21-13.56.14:794][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.04.21-13.56.14:794][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.04.21-13.56.14:794][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.21-13.56.15:664][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.04.21-13.56.16:035][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../Unreal Projects/UnrealCPP/Intermediate/Shaders/WorkingDirectory/11936/).
-[2018.04.21-13.56.16:070][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harrison/AppData/Local/Temp/UnrealShaderWorkingDir/5DF3091B4733CC7C19D6CEB49DB6FF40/'.
-[2018.04.21-13.56.19:029][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.21-13.56.19:043][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.21-13.56.19:056][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.21-13.56.19:069][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.21-13.56.19:134][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.21-13.56.19:147][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.21-13.56.19:159][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.21-13.56.19:171][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.21-13.56.19:176][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.21-13.56.19:187][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.21-13.56.19:199][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.21-13.56.19:210][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.21-13.56.19:222][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.04.21-13.56.19:233][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.21-13.56.19:244][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.21-13.56.19:267][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.21-13.56.19:267][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.21-13.56.19:305][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.21-13.56.19:306][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.21-13.56.19:530][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.21-13.56.19:565][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.21-13.56.19:577][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.21-13.56.19:588][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.21-13.56.19:600][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.21-13.56.19:640][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.21-13.56.19:640][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.21-13.56.21:372][  0]LogXGEController: Cleaning working directory: C:/Users/Harrison/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.04.21-13.56.21:372][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.04.21-13.56.21:394][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.04.21-13.56.21:394][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.21-13.56.33:093][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.21-13.56.33:549][  0]LogDerivedDataCache: Loaded boot cache 0.45s 78MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.04.21-13.56.33:549][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.04.21-13.56.33:549][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.21-13.56.33:549][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.21-13.56.33:549][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.21-13.56.33:549][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.21-13.56.33:630][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.21-13.56.33:642][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Harrison/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.21-13.56.33:719][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.21-13.56.33:756][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.21-13.56.33:807][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.21-13.56.33:807][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.21-13.56.41:709][  0]LogAssetRegistry: FAssetRegistry took 0.0437 seconds to start up
-[2018.04.21-13.56.44:904][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.21-13.56.46:484][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.21-13.56.46:508][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.21-13.56.46:521][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.21-13.56.46:529][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.21-13.56.46:529][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.21-13.56.46:529][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.21-13.56.47:338][  0]LogNetVersion: UnrealCPP , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2553546984)
-[2018.04.21-13.56.53:876][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.226246 seconds
-[2018.04.21-13.56.53:907][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.04.21-13.56.53:907][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2018.04.21-13.56.53:907][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.21-13.57.33:633][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.21-13.57.33:709][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.21-13.57.38:542][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [4.713190ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
-[2018.04.21-13.57.38:564][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.641608ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
-[2018.04.21-13.57.39:866][  0]SourceControl: Source control is disabled
-[2018.04.21-13.57.39:866][  0]SourceControl: Source control is disabled
-[2018.04.21-13.57.39:918][  0]SourceControl: Source control is disabled
-[2018.04.21-13.57.39:949][  0]SourceControl: Source control is disabled
-[2018.04.21-13.57.41:140][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.21-13.57.41:376][  0]LogOcInput: OculusInput pre-init called
-[2018.04.21-13.57.42:039][  0]LogEngine: Initializing Engine...
-[2018.04.21-13.57.42:206][  0]LogHMD: Failed to initialize OpenVR with code 105
-[2018.04.21-13.57.42:217][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.21-13.57.42:217][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.21-13.57.44:367][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.21-13.57.44:595][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.21-13.57.44:646][  0]LogInit: FAudioDevice initialized.
-[2018.04.21-13.57.44:810][  0]LogDerivedDataCache: Saved boot cache 0.16s 78MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.04.21-13.57.44:839][  0]LogInit: Texture streaming: Enabled
-[2018.04.21-13.57.44:905][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.21-13.57.45:053][  0]LogInit: Transaction tracking system initialized
-[2018.04.21-13.57.45:369][  0]BlueprintLog: New page: Editor Load
-[2018.04.21-13.57.46:419][  0]LocalizationService: Localization service is disabled
-[2018.04.21-13.57.47:371][  0]LogConsoleResponse: Display: 
-[2018.04.21-13.57.50:051][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.21-13.57.50:052][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.21-13.57.50:052][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.21-13.57.50:052][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.21-13.57.50:052][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.21-13.57.51:038][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/' took 0.04s
-[2018.04.21-13.57.52:444][  0]SourceControl: Source control is disabled
-[2018.04.21-13.57.52:484][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.21-13.57.52:609][  0]LightingResults: New page: Lighting Build
-[2018.04.21-13.57.52:708][  0]MapCheck: New page: Map Check
-[2018.04.21-13.57.52:708][  0]LightingResults: New page: Lighting Build
-[2018.04.21-13.57.54:336][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.21-13.57.54:886][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.21-13.57.55:034][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.21-13.57.55:127][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93.108ms to complete.
-[2018.04.21-13.57.55:127][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.652
-[2018.04.21-13.57.56:563][  0]LogCollectionManager: Loaded 0 collections in 0.004711 seconds
-[2018.04.21-13.57.56:686][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Saved/Collections/' took 0.01s
-[2018.04.21-13.57.56:686][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Developers/Harrison/Collections/' took 0.01s
-[2018.04.21-13.57.56:686][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Collections/' took 0.01s
-[2018.04.21-13.57.56:687][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.04.21-13.57.56:985][  0]LogContentBrowser: Native class hierarchy populated in 0.2971 seconds. Added 2496 classes and 599 folders.
-[2018.04.21-13.57.57:106][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0478 seconds. Added 0 classes and 0 folders.
-[2018.04.21-13.57.58:842][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0402 seconds. Added 0 classes and 0 folders.
-[2018.04.21-13.57.58:946][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0425 seconds. Added 1 classes and 2 folders.
-[2018.04.21-13.58.00:083][  0]LogSlate: Took 0.025288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.21-13.58.00:135][  0]LogSlate: Took 0.049557 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.21-13.58.00:223][  0]LogSlate: Took 0.030311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.21-13.58.00:914][  0]LogRenderer: Reallocating scene render targets to support 1148x612 Format 10 NumSamples 1 (Frame:1).
-[2018.04.21-13.58.01:607][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0449 seconds. Added 0 classes and 0 folders.
-[2018.04.21-13.58.01:607][  0]LogLoad: (Engine Initialization) Total time: 169.97 seconds
-[2018.04.21-13.58.01:607][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.21-13.58.02:063][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.21-13.58.02:261][  0]LogSlate: Took 0.019364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.04.21-13.58.02:321][  1]LogAssetRegistry: Asset discovery search completed in 80.6464 seconds
-[2018.04.21-13.58.02:323][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.04.21-13.58.02:323][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000102 seconds (updated 0 objects)
-[2018.04.21-14.03.29:295][982]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.21-14.03.29:320][982]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.04.21-14.03.30:510][982]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0595 seconds. Added 116 classes and 0 folders.
-[2018.04.21-14.03.33:261][982]LogSlate: Took 0.048069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.04.21-14.15.51:207][456]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Harrison\Downloads\red.png)
-[2018.04.21-14.15.51:380][456]LogTexture: Display: Building textures: red (AutoDXT, 1920X1080)
-[2018.04.21-14.17.59:152][507]LogSlate: Took 0.035951 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.04.21-14.18.25:868][592]BlueprintLog: New page: Compile Health_UI
-[2018.04.21-14.18.26:647][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
-[2018.04.21-14.18.26:902][670]LogSavePackage: Save=122.13ms
-[2018.04.21-14.18.26:902][670]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI4DBE48A244E84F3980F6A687EE00D859.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
-[2018.04.21-14.18.26:933][670]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
-[2018.04.21-14.18.33:362][437]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.21-14.18.33:379][437]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.18.33:379][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.21-14.18.33:404][437]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 6:18:33 AM)
-[2018.04.21-14.18.33:404][437]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.21-14.18.33:430][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025298s)
-[2018.04.21-14.18.33:431][437]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.21-14.18.33:432][437]LogPlayLevel: PIE: World Init took: (0.001542s)
-[2018.04.21-14.18.33:432][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027228s)
-[2018.04.21-14.18.33:469][437]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.21-14.18.33:479][437]LogInit: FAudioDevice initialized.
-[2018.04.21-14.18.33:547][437]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.21-14.18.33:561][437]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-10.18.33
-[2018.04.21-14.18.33:573][437]LogWorld: Bringing up level for play took: 0.024419
-[2018.04.21-14.18.33:750][437]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0593 seconds. Added 11 classes and 0 folders.
-[2018.04.21-14.18.33:762][437]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.438
-[2018.04.21-14.18.33:763][437]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.18.37:010][797]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.18.37:071][797]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.18.37:841][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.21-14.19.12:464][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
-[2018.04.21-14.19.12:484][880]LogSavePackage: Save=16.72ms
-[2018.04.21-14.19.12:484][880]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UIC20488A742D8DEBDFE814DA6726A9816.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
-[2018.04.21-14.19.12:485][880]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
-[2018.04.21-14.19.13:204][966]BlueprintLog: New page: Compile Health_UI
-[2018.04.21-14.19.20:874][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
-[2018.04.21-14.19.20:894][812]LogSavePackage: Save=16.13ms
-[2018.04.21-14.19.20:894][812]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI14CF49B24FAD46731D5D6FBD350A41B1.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
-[2018.04.21-14.19.20:897][812]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
-[2018.04.21-14.19.21:832][923]BlueprintLog: New page: Compile Health_UI
-[2018.04.21-14.19.24:887][267]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.21-14.19.24:914][267]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.19.24:914][267]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.21-14.19.24:914][267]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 6:19:24 AM)
-[2018.04.21-14.19.24:914][267]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.21-14.19.24:927][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013164s)
-[2018.04.21-14.19.24:928][267]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.21-14.19.24:928][267]LogPlayLevel: PIE: World Init took: (0.000858s)
-[2018.04.21-14.19.24:928][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014251s)
-[2018.04.21-14.19.24:955][267]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.21-14.19.24:964][267]LogInit: FAudioDevice initialized.
-[2018.04.21-14.19.25:000][267]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.21-14.19.25:005][267]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-10.19.25
-[2018.04.21-14.19.25:006][267]LogWorld: Bringing up level for play took: 0.004082
-[2018.04.21-14.19.25:009][267]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.808
-[2018.04.21-14.19.25:009][267]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.19.30:168][881]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.19.30:197][881]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.19.57:618][966]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_56' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:619][966]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_1' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:622][966]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_3' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:640][967]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_5' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:642][967]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_7' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:644][967]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_9' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:654][968]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_11' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:657][968]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_13' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:663][969]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_15' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:665][969]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_17' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:672][970]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_19' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:680][971]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_21' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:681][971]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_23' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:682][971]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_25' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:689][972]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_27' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:690][972]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_29' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:697][973]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_31' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:698][973]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_33' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:705][974]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_35' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:707][974]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_37' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:714][975]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_39' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:715][975]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_41' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:722][976]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_43' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:723][976]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_45' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:730][977]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_47' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:732][977]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_49' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:738][978]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_51' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:740][978]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_53' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:747][979]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_55' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:748][979]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_57' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:755][980]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_59' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:757][980]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_61' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:763][981]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_63' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:765][981]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_65' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:772][982]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_67' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:773][982]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_69' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:780][983]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_71' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:781][983]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_73' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:789][984]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_75' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:791][984]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_77' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:797][985]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_79' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:799][985]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_81' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:806][986]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_83' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:822][988]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_85' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:825][988]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_87' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:836][989]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_89' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:839][989]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_91' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:849][990]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_93' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:852][990]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_95' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:863][991]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_97' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:866][991]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_99' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:875][992]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_101' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:882][993]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_103' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:884][993]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_105' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:891][994]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_107' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:893][994]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_109' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:900][995]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_111' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:949][  0]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_113' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.57:967][  1]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_115' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:534][ 67]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_117' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:537][ 67]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_119' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:543][ 67]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_121' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:562][ 68]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_123' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:565][ 68]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_125' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:578][ 69]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_127' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:581][ 69]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_129' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:596][ 70]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_131' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:602][ 70]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_133' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:623][ 71]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_135' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:627][ 71]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_137' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:632][ 71]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_139' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:651][ 72]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_141' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:654][ 72]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_143' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:664][ 73]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_145' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:666][ 73]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_147' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:669][ 73]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_149' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:680][ 74]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_151' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:682][ 74]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_153' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:685][ 74]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_155' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:697][ 75]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_157' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:707][ 76]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_159' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:710][ 76]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_161' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:718][ 77]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_163' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:720][ 77]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_165' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:727][ 78]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_167' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:729][ 78]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_169' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:737][ 79]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_171' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:747][ 80]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_173' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:751][ 80]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_175' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:765][ 81]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_177' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:769][ 81]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_179' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:779][ 82]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_181' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:781][ 82]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_183' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:790][ 83]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_185' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:793][ 83]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_187' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:801][ 84]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_189' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:803][ 84]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_191' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:809][ 85]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_193' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:811][ 85]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_195' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:817][ 86]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_197' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:819][ 86]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_199' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:826][ 87]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_201' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:828][ 87]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_203' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:834][ 88]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_205' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:835][ 88]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_207' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:842][ 89]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_209' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:844][ 89]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_211' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:851][ 90]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_213' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:853][ 90]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_215' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:859][ 91]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_217' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:861][ 91]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_219' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:868][ 92]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_221' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:870][ 92]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_223' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:876][ 93]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_225' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:878][ 93]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_227' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:884][ 94]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_229' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:887][ 94]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_231' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:895][ 95]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_233' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:897][ 95]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_235' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:900][ 95]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_237' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:911][ 96]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_239' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:914][ 96]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_241' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:925][ 97]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_243' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:928][ 97]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_245' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:939][ 98]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_247' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:942][ 98]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_249' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:952][ 99]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_251' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:954][ 99]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_253' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:962][100]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_255' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:964][100]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_257' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:972][101]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_259' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:974][101]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_261' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:982][102]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_263' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:984][102]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_265' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.19.58:992][103]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_267' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.21-14.20.01:149][337]LogEditorTransaction: Undo Move Widget
-[2018.04.21-14.20.39:404][983]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.029
-[2018.04.21-14.20.39:439][983]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/UI/Health_UI] ([1] browsable assets)...
-[2018.04.21-14.20.39:439][983]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/UI/Health_UI]
-[2018.04.21-14.20.39:439][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/Health_UI_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.04.21-14.20.39:468][983]LogSavePackage: Save=24.04ms
-[2018.04.21-14.20.39:468][983]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI_Auto1D8AC2B204C5670560DF51A8695DF9903.tmp' to '../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/Health_UI_Auto1.uasset'
-[2018.04.21-14.20.39:491][983]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/Health_UI_Auto1.uasset
-[2018.04.21-14.20.39:492][983]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/UI/red] ([1] browsable assets)...
-[2018.04.21-14.20.39:511][983]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FirstPerson/UI/red.red]
-[2018.04.21-14.20.39:512][983]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/UI/red]
-[2018.04.21-14.20.39:512][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/red" FILE="../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/red_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.04.21-14.20.39:558][983]LogSavePackage: Save=40.23ms
-[2018.04.21-14.20.39:558][983]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/red_Auto13FFC8CD2424FE51CEB3026BFCE4D0822.tmp' to '../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/red_Auto1.uasset'
-[2018.04.21-14.20.39:562][983]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/red_Auto1.uasset
-[2018.04.21-14.20.39:565][983]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/UI/red_Sprite] ([1] browsable assets)...
-[2018.04.21-14.20.39:589][983]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/FirstPerson/UI/red_Sprite.red_Sprite]
-[2018.04.21-14.20.39:589][983]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/UI/red_Sprite]
-[2018.04.21-14.20.39:589][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/red_Sprite" FILE="../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/red_Sprite_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.04.21-14.20.39:616][983]LogSavePackage: Save=19.47ms
-[2018.04.21-14.20.39:616][983]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/red_Sprite_Auto17255B9D74476A7A978B2A09E9CFCF9B9.tmp' to '../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/red_Sprite_Auto1.uasset'
-[2018.04.21-14.20.39:619][983]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/UI/red_Sprite_Auto1.uasset
-[2018.04.21-14.20.39:619][983]LogFileHelpers: Auto-saving content packages took 0.214
-[2018.04.21-14.21.14:470][382]BlueprintLog: New page: Compile Health_UI
-[2018.04.21-14.21.17:130][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
-[2018.04.21-14.21.17:149][672]LogSavePackage: Save=16.12ms
-[2018.04.21-14.21.17:149][672]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UIE3BFCB6B424B5E688F496CA2272E8FEF.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
-[2018.04.21-14.21.17:154][672]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
-[2018.04.21-14.21.18:700][853]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.21-14.21.18:717][853]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.21.18:717][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.21-14.21.18:718][853]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 6:21:18 AM)
-[2018.04.21-14.21.18:718][853]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.21-14.21.18:730][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012529s)
-[2018.04.21-14.21.18:731][853]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.21-14.21.18:731][853]LogPlayLevel: PIE: World Init took: (0.000846s)
-[2018.04.21-14.21.18:731][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013610s)
-[2018.04.21-14.21.18:759][853]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.21-14.21.18:767][853]LogInit: FAudioDevice initialized.
-[2018.04.21-14.21.18:797][853]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.21-14.21.18:799][853]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-10.21.18
-[2018.04.21-14.21.18:800][853]LogWorld: Bringing up level for play took: 0.001578
-[2018.04.21-14.21.18:801][853]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.6
-[2018.04.21-14.21.18:801][853]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.21.27:589][886]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.21.27:624][886]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.21.29:820][145]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.21-14.21.35:758][798]BlueprintLog: New page: Compile Health_UI
-[2018.04.21-14.21.36:259][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
-[2018.04.21-14.21.36:278][839]LogSavePackage: Save=15.80ms
-[2018.04.21-14.21.36:278][839]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI214F98464A864E905DBCF58CD5BB5F2F.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
-[2018.04.21-14.21.36:280][839]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
-[2018.04.21-14.21.38:092][ 56]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.21-14.21.38:109][ 56]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.21.38:109][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.21-14.21.38:109][ 56]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 6:21:38 AM)
-[2018.04.21-14.21.38:109][ 56]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.21-14.21.38:122][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013145s)
-[2018.04.21-14.21.38:123][ 56]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.21-14.21.38:123][ 56]LogPlayLevel: PIE: World Init took: (0.000845s)
-[2018.04.21-14.21.38:123][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014254s)
-[2018.04.21-14.21.38:150][ 56]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.21-14.21.38:158][ 56]LogInit: FAudioDevice initialized.
-[2018.04.21-14.21.38:186][ 56]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.21-14.21.38:188][ 56]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-10.21.38
-[2018.04.21-14.21.38:188][ 56]LogWorld: Bringing up level for play took: 0.001532
-[2018.04.21-14.21.38:190][ 56]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.011
-[2018.04.21-14.21.38:190][ 56]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.21.54:693][ 32]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.21.54:726][ 32]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.22.45:586][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.21-14.22.45:668][975]Candidate modules for hot reload:
-[2018.04.21-14.22.45:668][975]  UnrealCPP
-[2018.04.21-14.22.45:668][975]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,76 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
-[2018.04.21-14.22.45:669][975]Warning: Starting HotReload took  0.0s.
-[2018.04.21-14.23.04:978][273]CompilerResultsLog: New page: Compilation - Apr 21, 2018, 6:23:04 AM
-[2018.04.21-14.23.04:978][273]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.04.21-14.23.04:978][273]CompilerResultsLog: Compiling game modules for hot reload
-[2018.04.21-14.23.04:978][273]CompilerResultsLog: Performing 3 actions (4 in parallel)
-[2018.04.21-14.23.04:978][273]CompilerResultsLog: UnrealCPPCharacter.cpp
-[2018.04.21-14.23.04:978][273]CompilerResultsLog: [2/3] Link UE4Editor-UnrealCPP-76.dll
-[2018.04.21-14.23.04:978][273]CompilerResultsLog: [3/3] Link UE4Editor-UnrealCPP-76.lib
-[2018.04.21-14.23.04:978][273]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-76.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-76.exp
-[2018.04.21-14.23.04:979][273]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-76.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-76.suppressed.exp
-[2018.04.21-14.23.04:979][273]CompilerResultsLog: Total build time: 19.09 seconds (Local executor: 14.94 seconds)
-[2018.04.21-14.23.04:979][273]LogMainFrame: MainFrame: Module compiling took 19.326 seconds
-[2018.04.21-14.23.05:055][273]LogHotReload: Re-instancing MyCameraShake after hot-reload.
-[2018.04.21-14.23.05:191][273]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0173 seconds. Added 44 classes and 41 folders.
-[2018.04.21-14.23.05:193][273]Display: HotReload successful (35 functions remapped  0 scriptstructs remapped)
-[2018.04.21-14.23.05:580][273]LogContentBrowser: Native class hierarchy populated in 0.0236 seconds. Added 2497 classes and 601 folders.
-[2018.04.21-14.23.05:589][273]Display: HotReload took 19.9s.
-[2018.04.21-14.23.08:049][560]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.21-14.23.08:067][560]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.23.08:067][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.21-14.23.08:067][560]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 6:23:08 AM)
-[2018.04.21-14.23.08:067][560]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.21-14.23.08:080][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013044s)
-[2018.04.21-14.23.08:081][560]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.21-14.23.08:081][560]LogPlayLevel: PIE: World Init took: (0.000928s)
-[2018.04.21-14.23.08:081][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014179s)
-[2018.04.21-14.23.08:130][560]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.21-14.23.08:140][560]LogInit: FAudioDevice initialized.
-[2018.04.21-14.23.08:169][560]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.21-14.23.08:171][560]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-10.23.08
-[2018.04.21-14.23.08:172][560]LogWorld: Bringing up level for play took: 0.001784
-[2018.04.21-14.23.08:173][560]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.028
-[2018.04.21-14.23.08:173][560]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.23.20:056][973]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.23.20:091][973]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.23.35:884][857]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.21-14.23.35:951][865]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.21-14.23.35:969][865]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.23.35:969][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.21-14.23.35:969][865]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 6:23:35 AM)
-[2018.04.21-14.23.35:969][865]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.21-14.23.35:982][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012966s)
-[2018.04.21-14.23.35:983][865]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.21-14.23.35:983][865]LogPlayLevel: PIE: World Init took: (0.000757s)
-[2018.04.21-14.23.35:983][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013924s)
-[2018.04.21-14.23.36:013][865]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.21-14.23.36:022][865]LogInit: FAudioDevice initialized.
-[2018.04.21-14.23.36:054][865]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.21-14.23.36:056][865]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-10.23.36
-[2018.04.21-14.23.36:057][865]LogWorld: Bringing up level for play took: 0.001596
-[2018.04.21-14.23.36:058][865]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.143
-[2018.04.21-14.23.36:058][865]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.23.47:737][263]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-14.23.47:769][263]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.29.36:290][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.21-15.29.36:290][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.21-15.29.36:325][  0]LogInit: Computer: HARRYPC
+[2018.04.21-15.29.36:325][  0]LogInit: User: Harrison
+[2018.04.21-15.29.36:325][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.21-15.29.36:325][  0]LogInit: High frequency timer resolution =3.514605 MHz
+[2018.04.21-15.29.36:326][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.04.21-15.29.36:326][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.21-15.29.36:326][  0]LogMemory: Process Physical Memory: 274.92 MB used, 274.92 MB peak
+[2018.04.21-15.29.36:326][  0]LogMemory: Process Virtual Memory: 264.74 MB used, 264.74 MB peak
+[2018.04.21-15.29.36:326][  0]LogMemory: Physical Memory: 5391.46 MB used,  10949.52 MB free, 16340.99 MB total
+[2018.04.21-15.29.36:326][  0]LogMemory: Virtual Memory: 698.76 MB used,  10949.52 MB free, 134217728.00 MB total
+[2018.04.21-15.29.36:351][  0]LogInit: Using OS detected language (en-US).
+[2018.04.21-15.29.36:351][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.21-15.29.36:357][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.21-15.29.36:715][  0]LogStreaming: Display: Took  0.363s to EndInitTextLocalization.
+[2018.04.21-15.29.36:715][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.21-15.29.36:741][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.04.21-15.29.36:741][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.04.21-15.29.36:978][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.21-15.29.37:017][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.04.21-15.29.37:017][  0]LogD3D11RHI:       4043/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.21-15.29.37:019][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.21-15.29.37:019][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.21-15.29.37:019][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.21-15.29.37:024][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.21-15.29.37:024][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.21-15.29.37:024][  0]LogWindows: EnumDisplayDevices:
+[2018.04.21-15.29.37:024][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.04.21-15.29.37:024][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.21-15.29.37:024][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.21-15.29.37:024][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.21-15.29.37:024][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.21-15.29.37:024][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.04.21-15.29.37:024][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.21-15.29.37:024][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.21-15.29.37:024][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.04.21-15.29.37:046][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.21-15.29.37:046][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.21-15.29.37:046][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.21-15.29.37:063][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.21-15.29.37:112][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../../Unreal Projects/UnrealCPP/Intermediate/Shaders/WorkingDirectory/7132/).
+[2018.04.21-15.29.37:112][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harrison/AppData/Local/Temp/UnrealShaderWorkingDir/3B61919E4C42BFED3422B7A9102B3589/'.
+[2018.04.21-15.29.37:372][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.21-15.29.37:384][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.21-15.29.37:395][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.21-15.29.37:406][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.21-15.29.37:426][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.21-15.29.37:451][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.21-15.29.37:468][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.21-15.29.37:479][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.21-15.29.37:485][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.21-15.29.37:495][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.21-15.29.37:505][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.21-15.29.37:515][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.21-15.29.37:525][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.04.21-15.29.37:535][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.21-15.29.37:546][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.21-15.29.37:567][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.21-15.29.37:567][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.21-15.29.37:577][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.21-15.29.37:578][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.21-15.29.37:613][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.21-15.29.37:643][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.21-15.29.37:661][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.21-15.29.37:674][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.21-15.29.37:686][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.21-15.29.37:698][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.21-15.29.37:698][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.21-15.29.37:790][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.04.21-15.29.37:790][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.04.21-15.29.37:790][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.21-15.29.38:391][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.21-15.29.38:451][  0]LogDerivedDataCache: Loaded boot cache 0.06s 79MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.21-15.29.38:451][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.04.21-15.29.38:452][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.21-15.29.38:452][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.21-15.29.38:452][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.21-15.29.38:452][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.21-15.29.38:466][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.21-15.29.38:478][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Harrison/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.21-15.29.38:488][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.21-15.29.38:488][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.21-15.29.38:489][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.21-15.29.38:489][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.21-15.29.38:627][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2018.04.21-15.29.38:880][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.21-15.29.39:003][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.21-15.29.39:005][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.21-15.29.39:005][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.21-15.29.39:005][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.21-15.29.39:005][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.21-15.29.39:005][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.21-15.29.39:033][  0]LogNetVersion: UnrealCPP , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2553546984)
+[2018.04.21-15.29.39:440][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.104174 seconds
+[2018.04.21-15.29.39:445][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.04.21-15.29.39:445][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.04.21-15.29.39:445][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.21-15.29.40:960][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.21-15.29.40:990][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.21-15.29.41:458][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.700790ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2018.04.21-15.29.41:471][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.493370ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
+[2018.04.21-15.29.41:626][  0]SourceControl: Source control is disabled
+[2018.04.21-15.29.41:626][  0]SourceControl: Source control is disabled
+[2018.04.21-15.29.41:644][  0]SourceControl: Source control is disabled
+[2018.04.21-15.29.41:661][  0]SourceControl: Source control is disabled
+[2018.04.21-15.29.42:181][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.21-15.29.42:352][  0]LogOcInput: OculusInput pre-init called
+[2018.04.21-15.29.42:450][  0]LogEngine: Initializing Engine...
+[2018.04.21-15.29.42:453][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.04.21-15.29.42:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.21-15.29.42:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.21-15.29.42:630][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.21-15.29.42:652][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.21-15.29.42:674][  0]LogInit: FAudioDevice initialized.
+[2018.04.21-15.29.42:822][  0]LogDerivedDataCache: Saved boot cache 0.15s 79MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.21-15.29.42:864][  0]LogInit: Texture streaming: Enabled
+[2018.04.21-15.29.42:886][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.21-15.29.42:902][  0]LogInit: Transaction tracking system initialized
+[2018.04.21-15.29.42:918][  0]BlueprintLog: New page: Editor Load
+[2018.04.21-15.29.43:003][  0]LocalizationService: Localization service is disabled
+[2018.04.21-15.29.43:113][  0]LogConsoleResponse: Display: 
+[2018.04.21-15.29.43:235][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.21-15.29.43:235][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.21-15.29.43:235][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.21-15.29.43:235][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.21-15.29.43:235][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.21-15.29.43:587][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/' took 0.01s
+[2018.04.21-15.29.43:587][  0]SourceControl: Source control is disabled
+[2018.04.21-15.29.43:587][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.21-15.29.43:587][  0]LightingResults: New page: Lighting Build
+[2018.04.21-15.29.43:589][  0]MapCheck: New page: Map Check
+[2018.04.21-15.29.43:589][  0]LightingResults: New page: Lighting Build
+[2018.04.21-15.29.43:739][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.21-15.29.43:747][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.21-15.29.43:758][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.21-15.29.43:815][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.336ms to complete.
+[2018.04.21-15.29.43:815][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.228
+[2018.04.21-15.29.43:993][  0]LogCollectionManager: Loaded 0 collections in 0.000999 seconds
+[2018.04.21-15.29.44:032][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Saved/Collections/' took 0.01s
+[2018.04.21-15.29.44:032][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Developers/Harrison/Collections/' took 0.01s
+[2018.04.21-15.29.44:032][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Collections/' took 0.01s
+[2018.04.21-15.29.44:032][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.21-15.29.44:059][  0]LogContentBrowser: Native class hierarchy populated in 0.0259 seconds. Added 2496 classes and 599 folders.
+[2018.04.21-15.29.44:079][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0156 seconds. Added 0 classes and 0 folders.
+[2018.04.21-15.29.44:157][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0211 seconds. Added 0 classes and 0 folders.
+[2018.04.21-15.29.44:178][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0157 seconds. Added 1 classes and 2 folders.
+[2018.04.21-15.29.44:251][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.21-15.29.44:253][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.21-15.29.44:258][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.21-15.29.44:258][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.04.21-15.29.44:434][  0]LogRenderer: Reallocating scene render targets to support 1148x612 Format 10 NumSamples 1 (Frame:1).
+[2018.04.21-15.29.44:630][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0300 seconds. Added 0 classes and 0 folders.
+[2018.04.21-15.29.44:630][  0]LogLoad: (Engine Initialization) Total time: 11.27 seconds
+[2018.04.21-15.29.44:631][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.21-15.29.44:640][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.21-15.29.44:661][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.21-15.29.44:693][  1]LogAssetRegistry: Asset discovery search completed in 6.0877 seconds
+[2018.04.21-15.29.44:695][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.21-15.29.44:695][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000178 seconds (updated 0 objects)
+[2018.04.21-15.29.46:020][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.21-15.29.46:136][165]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.21-15.29.46:152][165]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.29.46:153][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.21-15.29.46:153][165]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 7:29:46 AM)
+[2018.04.21-15.29.46:153][165]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.21-15.29.46:173][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019869s)
+[2018.04.21-15.29.46:174][165]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.21-15.29.46:175][165]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2018.04.21-15.29.46:175][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021338s)
+[2018.04.21-15.29.46:191][165]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.21-15.29.46:200][165]LogInit: FAudioDevice initialized.
+[2018.04.21-15.29.46:244][165]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.21-15.29.46:253][165]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-11.29.46
+[2018.04.21-15.29.46:255][165]LogWorld: Bringing up level for play took: 0.005961
+[2018.04.21-15.29.46:302][165]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0392 seconds. Added 11 classes and 0 folders.
+[2018.04.21-15.29.46:304][165]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.104
+[2018.04.21-15.29.46:305][165]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.29.46:756][215]LogClass: Error: HealthHUD
+[2018.04.21-15.29.56:073][331]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.29.56:105][331]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.30.11:291][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.21-15.30.11:311][ 44]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.21-15.30.18:596][904]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2018.04.21-15.30.22:496][249]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.21-15.30.23:121][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.21-15.30.35:060][729]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.21-15.30.39:645][266]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.21-15.30.39:660][266]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.30.39:661][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.21-15.30.39:661][266]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 7:30:39 AM)
+[2018.04.21-15.30.39:662][266]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.21-15.30.39:674][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012727s)
+[2018.04.21-15.30.39:675][266]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.21-15.30.39:676][266]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2018.04.21-15.30.39:676][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014598s)
+[2018.04.21-15.30.39:757][266]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.21-15.30.39:775][266]LogInit: FAudioDevice initialized.
+[2018.04.21-15.30.39:807][266]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.21-15.30.39:812][266]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-11.30.39
+[2018.04.21-15.30.39:814][266]LogWorld: Bringing up level for play took: 0.005239
+[2018.04.21-15.30.39:820][266]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.381
+[2018.04.21-15.30.39:821][266]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.30.40:370][323]LogClass: Error: HealthHUD
+[2018.04.21-15.30.44:250][788]LogClass: Error: HealthHUD
+[2018.04.21-15.30.47:593][189]LogClass: Error: HealthHUD
+[2018.04.21-15.30.52:719][804]LogClass: Error: HealthHUD
+[2018.04.21-15.30.55:410][127]LogClass: Error: HealthHUD
+[2018.04.21-15.30.58:169][458]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.30.58:198][458]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.31.08:355][736]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.21-15.31.13:860][346]LogSavePackage: Save=158.22ms
+[2018.04.21-15.31.13:861][346]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPersonExampleMapBA4ADD9B4B070148F65ED29E801DB8FF.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2018.04.21-15.31.13:888][346]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2018.04.21-15.31.13:939][346]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.320
+[2018.04.21-15.31.16:191][575]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0161 seconds. Added 116 classes and 0 folders.
+[2018.04.21-15.31.16:833][575]LogSlate: Took 0.000517 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.21-15.32.28:664][964]BlueprintLog: New page: Compile Health_UI
+[2018.04.21-15.32.29:235][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
+[2018.04.21-15.32.29:280][ 25]LogSavePackage: Save=34.08ms
+[2018.04.21-15.32.29:280][ 25]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UIFBBDD7744C393F68EC41FDA0610416D0.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
+[2018.04.21-15.32.29:286][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
+[2018.04.21-15.32.31:973][341]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.21-15.32.31:990][341]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.32.31:991][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.21-15.32.31:991][341]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 7:32:31 AM)
+[2018.04.21-15.32.31:992][341]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.21-15.32.32:005][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013805s)
+[2018.04.21-15.32.32:006][341]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.21-15.32.32:007][341]LogPlayLevel: PIE: World Init took: (0.001138s)
+[2018.04.21-15.32.32:007][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015651s)
+[2018.04.21-15.32.32:034][341]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.21-15.32.32:042][341]LogInit: FAudioDevice initialized.
+[2018.04.21-15.32.32:073][341]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.21-15.32.32:077][341]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-11.32.32
+[2018.04.21-15.32.32:078][341]LogWorld: Bringing up level for play took: 0.003505
+[2018.04.21-15.32.32:081][341]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.12
+[2018.04.21-15.32.32:082][341]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.32.32:956][440]LogClass: Error: HealthHUD
+[2018.04.21-15.32.35:565][753]LogClass: Error: HealthHUD
+[2018.04.21-15.32.39:406][214]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.32.39:437][214]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.32.40:480][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.21-15.33.13:967][410]Candidate modules for hot reload:
+[2018.04.21-15.33.13:967][410]  UnrealCPP
+[2018.04.21-15.33.13:967][410]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,3607 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.21-15.33.13:969][410]Warning: Starting HotReload took  0.0s.
+[2018.04.21-15.33.32:861][656]CompilerResultsLog: New page: Compilation - Apr 21, 2018, 7:33:32 AM
+[2018.04.21-15.33.32:861][656]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.21-15.33.32:861][656]CompilerResultsLog: Creating makefile for hot reloading UnrealCPP (working set of source files changed)
+[2018.04.21-15.33.32:862][656]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.21-15.33.32:862][656]CompilerResultsLog: [Adaptive unity build] Disabling PCH for excluded files. Set bAdaptiveUnityDisablesPCH to false in BuildConfiguration.xml to change this behavior.
+[2018.04.21-15.33.32:862][656]CompilerResultsLog: [Adaptive unity build] Excluded from UnrealCPP unity file: UnrealCPPCharacter.cpp
+[2018.04.21-15.33.32:862][656]CompilerResultsLog: [Adaptive unity build] Excluded from UnrealCPP.gen unity file: UnrealCPP.init.gen.cpp, UnrealCPPCharacter.gen.cpp
+[2018.04.21-15.33.32:862][656]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2018.04.21-15.33.32:862][656]CompilerResultsLog: Module.UnrealCPP.gen.cpp
+[2018.04.21-15.33.32:863][656]CompilerResultsLog: UnrealCPPCharacter.cpp
+[2018.04.21-15.33.32:863][656]CompilerResultsLog: UnrealCPP.init.gen.cpp
+[2018.04.21-15.33.32:863][656]CompilerResultsLog: UnrealCPPCharacter.gen.cpp
+[2018.04.21-15.33.32:863][656]CompilerResultsLog: [5/6] Link UE4Editor-UnrealCPP-3607.dll
+[2018.04.21-15.33.32:863][656]CompilerResultsLog: [6/6] Link UE4Editor-UnrealCPP-3607.lib
+[2018.04.21-15.33.32:863][656]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-3607.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-3607.exp
+[2018.04.21-15.33.32:864][656]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-3607.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-3607.suppressed.exp
+[2018.04.21-15.33.32:864][656]CompilerResultsLog: Total build time: 18.70 seconds (Local executor: 13.34 seconds)
+[2018.04.21-15.33.32:864][656]LogMainFrame: MainFrame: Module compiling took 18.900 seconds
+[2018.04.21-15.33.32:939][656]LogHotReload: Re-instancing MyCameraShake after hot-reload.
+[2018.04.21-15.33.33:034][656]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0180 seconds. Added 44 classes and 41 folders.
+[2018.04.21-15.33.33:038][656]Display: HotReload successful (36 functions remapped  0 scriptstructs remapped)
+[2018.04.21-15.33.33:465][656]LogContentBrowser: Native class hierarchy populated in 0.0230 seconds. Added 2497 classes and 601 folders.
+[2018.04.21-15.33.33:465][656]Display: HotReload took 19.5s.
+[2018.04.21-15.33.34:837][803]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.21-15.33.34:855][803]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.33.34:856][803]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.21-15.33.34:856][803]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 7:33:34 AM)
+[2018.04.21-15.33.34:856][803]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.21-15.33.34:869][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012499s)
+[2018.04.21-15.33.34:870][803]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.21-15.33.34:870][803]LogPlayLevel: PIE: World Init took: (0.001234s)
+[2018.04.21-15.33.34:870][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014370s)
+[2018.04.21-15.33.34:917][803]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.21-15.33.34:925][803]LogInit: FAudioDevice initialized.
+[2018.04.21-15.33.34:959][803]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.21-15.33.34:965][803]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-11.33.34
+[2018.04.21-15.33.34:966][803]LogWorld: Bringing up level for play took: 0.005508
+[2018.04.21-15.33.34:971][803]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.77
+[2018.04.21-15.33.34:972][803]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.33.38:722][245]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.33.38:756][245]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.33.39:616][338]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.21-15.34.10:848][947]BlueprintLog: New page: Compile Health_UI
+[2018.04.21-15.34.11:462][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
+[2018.04.21-15.34.11:488][ 14]LogSavePackage: Save=20.93ms
+[2018.04.21-15.34.11:488][ 14]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI6621997B47CC118B7B0B52A545212832.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
+[2018.04.21-15.34.11:495][ 14]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
+[2018.04.21-15.34.14:442][354]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.21-15.34.14:459][354]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.34.14:460][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.21-15.34.14:460][354]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 7:34:14 AM)
+[2018.04.21-15.34.14:461][354]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.21-15.34.14:474][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012673s)
+[2018.04.21-15.34.14:474][354]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.21-15.34.14:475][354]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2018.04.21-15.34.14:475][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014334s)
+[2018.04.21-15.34.14:506][354]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.21-15.34.14:515][354]LogInit: FAudioDevice initialized.
+[2018.04.21-15.34.14:548][354]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.21-15.34.14:550][354]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-11.34.14
+[2018.04.21-15.34.14:550][354]LogWorld: Bringing up level for play took: 0.001764
+[2018.04.21-15.34.14:554][354]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.353
+[2018.04.21-15.34.14:555][354]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.34.22:752][332]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.34.22:787][332]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.34.25:103][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.21-15.36.18:238][910]BlueprintLog: New page: Compile Health_UI
+[2018.04.21-15.36.19:322][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
+[2018.04.21-15.36.19:347][ 23]LogSavePackage: Save=20.13ms
+[2018.04.21-15.36.19:347][ 23]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI26EDD1DA49425B45B4B189924140A05E.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
+[2018.04.21-15.36.19:353][ 23]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
+[2018.04.21-15.36.24:090][584]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.21-15.36.24:108][584]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.36.24:109][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.21-15.36.24:109][584]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 7:36:24 AM)
+[2018.04.21-15.36.24:109][584]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.21-15.36.24:122][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012395s)
+[2018.04.21-15.36.24:123][584]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.21-15.36.24:123][584]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2018.04.21-15.36.24:124][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014144s)
+[2018.04.21-15.36.24:154][584]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.21-15.36.24:164][584]LogInit: FAudioDevice initialized.
+[2018.04.21-15.36.24:197][584]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.21-15.36.24:201][584]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-11.36.24
+[2018.04.21-15.36.24:202][584]LogWorld: Bringing up level for play took: 0.003689
+[2018.04.21-15.36.24:205][584]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.005
+[2018.04.21-15.36.24:206][584]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.36.50:131][685]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.36.50:165][685]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.41.24:666][852]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.21-15.42.15:770][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.21-15.49.35:744][836]Candidate modules for hot reload:
+[2018.04.21-15.49.35:744][836]  UnrealCPP
+[2018.04.21-15.49.35:744][836]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,102 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.21-15.49.35:746][836]Warning: Starting HotReload took  0.0s.
+[2018.04.21-15.49.59:316][604]CompilerResultsLog: New page: Compilation - Apr 21, 2018, 7:49:59 AM
+[2018.04.21-15.49.59:316][604]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.21-15.49.59:317][604]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.21-15.49.59:317][604]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.21-15.49.59:317][604]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.21-15.49.59:317][604]CompilerResultsLog: Reflection code generated for UnrealCPPEditor in 9.6756893 seconds
+[2018.04.21-15.49.59:318][604]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.04.21-15.49.59:318][604]CompilerResultsLog: Module.UnrealCPP.cpp
+[2018.04.21-15.49.59:318][604]CompilerResultsLog: UnrealCPPCharacter.gen.cpp
+[2018.04.21-15.49.59:318][604]CompilerResultsLog: UnrealCPPCharacter.cpp
+[2018.04.21-15.49.59:318][604]CompilerResultsLog: [4/5] Link UE4Editor-UnrealCPP-102.dll
+[2018.04.21-15.49.59:318][604]CompilerResultsLog: [5/5] Link UE4Editor-UnrealCPP-102.lib
+[2018.04.21-15.49.59:318][604]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-102.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-102.exp
+[2018.04.21-15.49.59:319][604]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-102.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-102.suppressed.exp
+[2018.04.21-15.49.59:319][604]CompilerResultsLog: Total build time: 23.38 seconds (Local executor: 12.93 seconds)
+[2018.04.21-15.49.59:320][604]LogMainFrame: MainFrame: Module compiling took 23.579 seconds
+[2018.04.21-15.49.59:414][604]LogHotReload: Re-instancing MyCameraShake after hot-reload.
+[2018.04.21-15.49.59:556][604]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0340 seconds. Added 44 classes and 41 folders.
+[2018.04.21-15.49.59:560][604]Display: HotReload successful (36 functions remapped  0 scriptstructs remapped)
+[2018.04.21-15.49.59:990][604]LogContentBrowser: Native class hierarchy populated in 0.0791 seconds. Added 2497 classes and 601 folders.
+[2018.04.21-15.49.59:991][604]Display: HotReload took 24.3s.
+[2018.04.21-15.51.23:808][181]BlueprintLog: New page: Compile Health_UI
+[2018.04.21-15.51.24:408][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
+[2018.04.21-15.51.24:441][240]LogSavePackage: Save=22.66ms
+[2018.04.21-15.51.24:441][240]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UIBE57A8D44C812C4999F2BAA7FC486345.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
+[2018.04.21-15.51.24:450][240]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
+[2018.04.21-15.51.28:454][710]Candidate modules for hot reload:
+[2018.04.21-15.51.28:454][710]  UnrealCPP
+[2018.04.21-15.51.28:455][710]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,2896 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.21-15.51.28:456][710]Warning: Starting HotReload took  0.0s.
+[2018.04.21-15.51.29:281][804]CompilerResultsLog: New page: Compilation - Apr 21, 2018, 7:51:29 AM
+[2018.04.21-15.51.29:281][804]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.21-15.51.29:281][804]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.21-15.51.29:281][804]CompilerResultsLog: Target is up to date
+[2018.04.21-15.51.29:281][804]CompilerResultsLog: Total build time: 0.64 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.04.21-15.51.29:282][804]LogMainFrame: MainFrame: Module compiling took 0.830 seconds
+[2018.04.21-15.51.29:556][804]LogContentBrowser: Native class hierarchy populated in 0.0243 seconds. Added 2497 classes and 601 folders.
+[2018.04.21-15.51.29:557][804]Display: HotReload took  1.1s.
+[2018.04.21-15.51.30:471][912]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.21-15.51.30:490][912]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.51.30:491][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.21-15.51.30:491][912]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 7:51:30 AM)
+[2018.04.21-15.51.30:491][912]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.21-15.51.30:505][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013915s)
+[2018.04.21-15.51.30:506][912]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.21-15.51.30:507][912]LogPlayLevel: PIE: World Init took: (0.001193s)
+[2018.04.21-15.51.30:507][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015831s)
+[2018.04.21-15.51.30:568][912]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.21-15.51.30:577][912]LogInit: FAudioDevice initialized.
+[2018.04.21-15.51.30:615][912]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.21-15.51.30:619][912]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-11.51.30
+[2018.04.21-15.51.30:620][912]LogWorld: Bringing up level for play took: 0.004173
+[2018.04.21-15.51.30:624][912]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.423
+[2018.04.21-15.51.30:624][912]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.51.39:295][942]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.51.39:328][942]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.51.41:464][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.21-15.52.36:726][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
+[2018.04.21-15.52.36:754][268]LogSavePackage: Save=23.29ms
+[2018.04.21-15.52.36:754][268]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI5F5AC15A444A87BDB45C18A4636BEE32.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
+[2018.04.21-15.52.36:761][268]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
+[2018.04.21-15.52.42:228][916]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.21-15.52.42:258][916]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.52.42:259][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.21-15.52.42:259][916]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 7:52:42 AM)
+[2018.04.21-15.52.42:259][916]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.21-15.52.42:272][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013113s)
+[2018.04.21-15.52.42:273][916]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.21-15.52.42:274][916]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2018.04.21-15.52.42:274][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014667s)
+[2018.04.21-15.52.42:305][916]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.21-15.52.42:315][916]LogInit: FAudioDevice initialized.
+[2018.04.21-15.52.42:343][916]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.21-15.52.42:345][916]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-11.52.42
+[2018.04.21-15.52.42:346][916]LogWorld: Bringing up level for play took: 0.001911
+[2018.04.21-15.52.42:347][916]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.147
+[2018.04.21-15.52.42:348][916]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.53.25:430][ 78]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.53.25:463][ 78]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.21-15.53.25:982][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.21-15.54.44:906][899]Candidate modules for hot reload:
+[2018.04.21-15.54.44:906][899]  UnrealCPP
+[2018.04.21-15.54.44:906][899]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,4611 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.21-15.54.44:908][899]Warning: Starting HotReload took  0.0s.
+[2018.04.21-15.55.09:098][707]CompilerResultsLog: New page: Compilation - Apr 21, 2018, 7:55:09 AM
+[2018.04.21-15.55.09:098][707]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.21-15.55.09:099][707]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.21-15.55.09:099][707]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.21-15.55.09:099][707]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.21-15.55.09:099][707]CompilerResultsLog: Reflection code generated for UnrealCPPEditor in 9.8142289 seconds
+[2018.04.21-15.55.09:100][707]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2018.04.21-15.55.09:100][707]CompilerResultsLog: Module.UnrealCPP.cpp
+[2018.04.21-15.55.09:100][707]CompilerResultsLog: UnrealCPP.init.gen.cpp
+[2018.04.21-15.55.09:100][707]CompilerResultsLog: UnrealCPPCharacter.gen.cpp
+[2018.04.21-15.55.09:100][707]CompilerResultsLog: UnrealCPPCharacter.cpp
+[2018.04.21-15.55.09:100][707]CompilerResultsLog: [5/6] Link UE4Editor-UnrealCPP-4611.dll
+[2018.04.21-15.55.09:100][707]CompilerResultsLog: [6/6] Link UE4Editor-UnrealCPP-4611.lib
+[2018.04.21-15.55.09:100][707]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4611.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4611.exp
+[2018.04.21-15.55.09:101][707]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4611.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4611.suppressed.exp
+[2018.04.21-15.55.09:101][707]CompilerResultsLog: Total build time: 24.00 seconds (Local executor: 13.43 seconds)
+[2018.04.21-15.55.09:101][707]LogMainFrame: MainFrame: Module compiling took 24.198 seconds
+[2018.04.21-15.55.09:188][707]LogClass: Could not find existing class UnrealCPPCharacter in package /Script/UnrealCPP for HotReload, assuming new class
+[2018.04.21-15.55.09:189][707]LogClass: Function GetHealth is new.
+[2018.04.21-15.55.09:189][707]LogClass: Function GetHealthIntText is new.
+[2018.04.21-15.55.09:189][707]LogClass: Function GetHit is new.
+[2018.04.21-15.55.09:189][707]LogClass: Function GetPrevHealth is new.
+[2018.04.21-15.55.09:189][707]LogClass: Function SetHealth is new.
+[2018.04.21-15.55.09:189][707]LogClass: Function SetState is new.
+[2018.04.21-15.55.09:194][707]LogHotReload: Re-instancing MyCameraShake after hot-reload.
+[2018.04.21-15.55.09:302][707]LogHotReload: Re-instancing UnrealCPPCharacter after hot-reload.
+[2018.04.21-15.55.09:733][707]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0574 seconds. Added 44 classes and 41 folders.
+[2018.04.21-15.55.09:737][707]Display: HotReload successful (30 functions remapped  0 scriptstructs remapped)
+[2018.04.21-15.55.10:044][707]LogContentBrowser: Native class hierarchy populated in 0.0230 seconds. Added 2497 classes and 601 folders.
+[2018.04.21-15.55.10:045][707]Display: HotReload took 25.1s.
+[2018.04.21-16.00.34:201][755]Candidate modules for hot reload:
+[2018.04.21-16.00.34:201][755]  UnrealCPP
+[2018.04.21-16.00.34:201][755]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,9226 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.21-16.00.34:203][755]Warning: Starting HotReload took  0.0s.
+[2018.04.21-16.00.34:998][848]CompilerResultsLog: New page: Compilation - Apr 21, 2018, 8:00:34 AM
+[2018.04.21-16.00.34:998][848]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.21-16.00.34:998][848]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.21-16.00.34:998][848]CompilerResultsLog: Target is up to date
+[2018.04.21-16.00.34:998][848]CompilerResultsLog: Total build time: 0.62 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.04.21-16.00.34:998][848]LogMainFrame: MainFrame: Module compiling took 0.800 seconds
+[2018.04.21-16.00.35:470][848]LogContentBrowser: Native class hierarchy populated in 0.0592 seconds. Added 2497 classes and 601 folders.
+[2018.04.21-16.00.35:470][848]Display: HotReload took  1.3s.

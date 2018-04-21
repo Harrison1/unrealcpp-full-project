@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetHit) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetHit(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSetState) \
 	{ \
 		P_FINISH; \
@@ -57,6 +65,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetHit) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetHit(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetState) \
 	{ \

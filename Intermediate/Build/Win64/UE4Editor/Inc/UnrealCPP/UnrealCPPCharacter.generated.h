@@ -8,12 +8,27 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UDamageType;
+class AController;
+class AActor;
 #ifdef UNREALCPP_UnrealCPPCharacter_generated_h
 #error "UnrealCPPCharacter.generated.h already included, missing '#pragma once' in UnrealCPPCharacter.h"
 #endif
 #define UNREALCPP_UnrealCPPCharacter_generated_h
 
 #define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execReceiveAnyDamage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Damage); \
+		P_GET_OBJECT(UDamageType,Z_Param_DamageType); \
+		P_GET_OBJECT(AController,Z_Param_InstigatedBy); \
+		P_GET_OBJECT(AActor,Z_Param_DamageCauser); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ReceiveAnyDamage(Z_Param_Damage,Z_Param_DamageType,Z_Param_InstigatedBy,Z_Param_DamageCauser); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetHit) \
 	{ \
@@ -65,6 +80,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execReceiveAnyDamage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Damage); \
+		P_GET_OBJECT(UDamageType,Z_Param_DamageType); \
+		P_GET_OBJECT(AController,Z_Param_InstigatedBy); \
+		P_GET_OBJECT(AActor,Z_Param_DamageCauser); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ReceiveAnyDamage(Z_Param_Damage,Z_Param_DamageType,Z_Param_InstigatedBy,Z_Param_DamageCauser); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetHit) \
 	{ \

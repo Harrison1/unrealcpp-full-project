@@ -55,6 +55,8 @@ protected:
 
 	virtual void Tick(float DeltaTime) override;
 
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const & DamageEvent, class AController * EventInstigator, AActor * DamageCauser);
+
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
@@ -91,16 +93,13 @@ public:
 	float PrevHealth;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	bool bHit;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	float redFlash;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	float diff;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	float Damage;
+	float DamageMain;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	UCurveFloat *HealthCurve;
@@ -130,8 +129,11 @@ public:
 	void SetState();
 
 	/** Get Hit State */
-	UFUNCTION()
+	UFUNCTION(BlueprintPure, Category = "Health")
 	bool GetHit();
+
+	UFUNCTION()
+	void ReceiveAnyDamage(float Damage, const class UDamageType * DamageType, class AController * InstigatedBy, AActor * DamageCauser);
 
 protected:
 	

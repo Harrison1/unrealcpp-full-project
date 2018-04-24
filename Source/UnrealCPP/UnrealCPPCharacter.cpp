@@ -94,7 +94,7 @@ void AUnrealCPPCharacter::BeginPlay()
 
 	Health = 1.f;
 	PrevHealth = Health;
-	bHit = true;
+	bCanBeDamaged = true;
 
 	if (HealthCurve)
     {
@@ -191,14 +191,14 @@ void AUnrealCPPCharacter::OnFire()
 				// spawn the projectile at the muzzle
 				World->SpawnActor<AUnrealCPPProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
 
-				if(bHit)
-				{
-					bHit = false;
-					redFlash = true;
-					PrevHealth = Health;
-					Damage += 0.2;
-					MyTimeline.PlayFromStart();
-				}
+				// if(bCanBeDamaged)
+				// {
+				// 	bCanBeDamaged = false;
+				// 	redFlash = true;
+				// 	PrevHealth = Health;
+				// 	Damage += 0.2;
+				// 	MyTimeline.PlayFromStart();
+				// }
 
 			}
 		}
@@ -357,14 +357,14 @@ float AUnrealCPPCharacter::GetPrevHealth()
 
 void AUnrealCPPCharacter::SetState()
 {
-	Damage = 0.0f;
-	bHit = true;
+	DamageMain = 0.0f;
+	bCanBeDamaged = true;
 }
 
 void AUnrealCPPCharacter::SetHealth()
 {
 	TimelineValue = MyTimeline.GetPlaybackPosition();
-    CurveFloatValue = PrevHealth - Damage*HealthCurve->GetFloatValue(TimelineValue);
+    CurveFloatValue = PrevHealth - DamageMain*HealthCurve->GetFloatValue(TimelineValue);
     Health = CurveFloatValue;
 }
 
@@ -377,4 +377,21 @@ bool AUnrealCPPCharacter::GetHit()
 	}
 
 	return false;
+}
+
+void AUnrealCPPCharacter::ReceiveAnyDamage(float Damage, const class UDamageType * DamageType, class AController * InstigatedBy, AActor * DamageCauser)
+{
+	if(bCanBeDamaged)
+	{
+		bCanBeDamaged = false;
+		redFlash = true;
+		PrevHealth = Health;
+		DamageMain += 0.2;
+		MyTimeline.PlayFromStart();
+	}
+}
+
+float AUnrealCPPCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const & DamageEvent, class AController * EventInstigator, AActor * DamageCauser)
+{
+	return DamageAmount;
 }

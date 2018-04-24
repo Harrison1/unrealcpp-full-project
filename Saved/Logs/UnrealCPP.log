@@ -1,4 +1,4 @@
-﻿Log file open, 04/21/18 11:29:34
+﻿Log file open, 04/24/18 05:47:33
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: UnrealCPP
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1465348038) SRandInit(1465348038).
+LogInit: Display: RandInit(-1282547439) SRandInit(-1282547439).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.261421
+LogStats: Stats thread started at 0.255581
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,8 +84,8 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.121s to configure plugins.
-LogModuleManager: Display: Found up-to-date module file ../../../../../Unreal Projects/UnrealCPP/Binaries/Win64/UE4Editor-UnrealCPP-2666.dll (API version 3944462).
+LogStreaming: Display: Took  0.118s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../Unreal Projects/UnrealCPP/Binaries/Win64/UE4Editor-UnrealCPP-3583.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -223,471 +223,475 @@ LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.21-15.29.36:290][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.21-15.29.36:290][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.21-15.29.36:325][  0]LogInit: Computer: HARRYPC
-[2018.04.21-15.29.36:325][  0]LogInit: User: Harrison
-[2018.04.21-15.29.36:325][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.04.21-15.29.36:325][  0]LogInit: High frequency timer resolution =3.514605 MHz
-[2018.04.21-15.29.36:326][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.04.21-15.29.36:326][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.21-15.29.36:326][  0]LogMemory: Process Physical Memory: 274.92 MB used, 274.92 MB peak
-[2018.04.21-15.29.36:326][  0]LogMemory: Process Virtual Memory: 264.74 MB used, 264.74 MB peak
-[2018.04.21-15.29.36:326][  0]LogMemory: Physical Memory: 5391.46 MB used,  10949.52 MB free, 16340.99 MB total
-[2018.04.21-15.29.36:326][  0]LogMemory: Virtual Memory: 698.76 MB used,  10949.52 MB free, 134217728.00 MB total
-[2018.04.21-15.29.36:351][  0]LogInit: Using OS detected language (en-US).
-[2018.04.21-15.29.36:351][  0]LogInit: Using OS detected locale (en-US).
-[2018.04.21-15.29.36:357][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.04.21-15.29.36:715][  0]LogStreaming: Display: Took  0.363s to EndInitTextLocalization.
-[2018.04.21-15.29.36:715][  0]LogInit: Setting process to per monitor DPI aware
-[2018.04.21-15.29.36:741][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.04.21-15.29.36:741][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.04.21-15.29.36:978][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.21-15.29.37:017][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.04.21-15.29.37:017][  0]LogD3D11RHI:       4043/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.04.21-15.29.37:019][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.21-15.29.37:019][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.21-15.29.37:019][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.21-15.29.37:024][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.21-15.29.37:024][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.21-15.29.37:024][  0]LogWindows: EnumDisplayDevices:
-[2018.04.21-15.29.37:024][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2018.04.21-15.29.37:024][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.04.21-15.29.37:024][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.04.21-15.29.37:024][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.04.21-15.29.37:024][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.21-15.29.37:024][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2018.04.21-15.29.37:024][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.21-15.29.37:024][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.21-15.29.37:024][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2018.04.21-15.29.37:046][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.04.21-15.29.37:046][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.04.21-15.29.37:046][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.21-15.29.37:063][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.04.21-15.29.37:112][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../../Unreal Projects/UnrealCPP/Intermediate/Shaders/WorkingDirectory/7132/).
-[2018.04.21-15.29.37:112][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harrison/AppData/Local/Temp/UnrealShaderWorkingDir/3B61919E4C42BFED3422B7A9102B3589/'.
-[2018.04.21-15.29.37:372][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.21-15.29.37:384][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.21-15.29.37:395][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.21-15.29.37:406][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.21-15.29.37:426][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.21-15.29.37:451][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.21-15.29.37:468][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.21-15.29.37:479][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.21-15.29.37:485][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.21-15.29.37:495][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.21-15.29.37:505][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.21-15.29.37:515][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.21-15.29.37:525][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.04.21-15.29.37:535][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.21-15.29.37:546][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.21-15.29.37:567][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.21-15.29.37:567][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.21-15.29.37:577][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.21-15.29.37:578][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.21-15.29.37:613][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.21-15.29.37:643][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.21-15.29.37:661][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.21-15.29.37:674][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.21-15.29.37:686][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.21-15.29.37:698][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.21-15.29.37:698][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.21-15.29.37:790][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.04.21-15.29.37:790][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.04.21-15.29.37:790][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.21-15.29.38:391][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.21-15.29.38:451][  0]LogDerivedDataCache: Loaded boot cache 0.06s 79MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.04.21-15.29.38:451][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.04.21-15.29.38:452][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.21-15.29.38:452][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.21-15.29.38:452][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.21-15.29.38:452][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.21-15.29.38:466][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.21-15.29.38:478][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Harrison/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.21-15.29.38:488][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.21-15.29.38:488][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.21-15.29.38:489][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.21-15.29.38:489][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.21-15.29.38:627][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
-[2018.04.21-15.29.38:880][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.21-15.29.39:003][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.21-15.29.39:005][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.21-15.29.39:005][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.21-15.29.39:005][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.21-15.29.39:005][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.21-15.29.39:005][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.21-15.29.39:033][  0]LogNetVersion: UnrealCPP , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2553546984)
-[2018.04.21-15.29.39:440][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.104174 seconds
-[2018.04.21-15.29.39:445][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.04.21-15.29.39:445][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2018.04.21-15.29.39:445][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.21-15.29.40:960][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.21-15.29.40:990][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.21-15.29.41:458][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.700790ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
-[2018.04.21-15.29.41:471][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.493370ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
-[2018.04.21-15.29.41:626][  0]SourceControl: Source control is disabled
-[2018.04.21-15.29.41:626][  0]SourceControl: Source control is disabled
-[2018.04.21-15.29.41:644][  0]SourceControl: Source control is disabled
-[2018.04.21-15.29.41:661][  0]SourceControl: Source control is disabled
-[2018.04.21-15.29.42:181][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.21-15.29.42:352][  0]LogOcInput: OculusInput pre-init called
-[2018.04.21-15.29.42:450][  0]LogEngine: Initializing Engine...
-[2018.04.21-15.29.42:453][  0]LogHMD: Failed to initialize OpenVR with code 105
-[2018.04.21-15.29.42:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.21-15.29.42:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.21-15.29.42:630][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.21-15.29.42:652][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.21-15.29.42:674][  0]LogInit: FAudioDevice initialized.
-[2018.04.21-15.29.42:822][  0]LogDerivedDataCache: Saved boot cache 0.15s 79MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.04.21-15.29.42:864][  0]LogInit: Texture streaming: Enabled
-[2018.04.21-15.29.42:886][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.21-15.29.42:902][  0]LogInit: Transaction tracking system initialized
-[2018.04.21-15.29.42:918][  0]BlueprintLog: New page: Editor Load
-[2018.04.21-15.29.43:003][  0]LocalizationService: Localization service is disabled
-[2018.04.21-15.29.43:113][  0]LogConsoleResponse: Display: 
-[2018.04.21-15.29.43:235][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.21-15.29.43:235][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.21-15.29.43:235][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.21-15.29.43:235][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.21-15.29.43:235][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.21-15.29.43:587][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/' took 0.01s
-[2018.04.21-15.29.43:587][  0]SourceControl: Source control is disabled
-[2018.04.21-15.29.43:587][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.21-15.29.43:587][  0]LightingResults: New page: Lighting Build
-[2018.04.21-15.29.43:589][  0]MapCheck: New page: Map Check
-[2018.04.21-15.29.43:589][  0]LightingResults: New page: Lighting Build
-[2018.04.21-15.29.43:739][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.21-15.29.43:747][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.21-15.29.43:758][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.21-15.29.43:815][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.336ms to complete.
-[2018.04.21-15.29.43:815][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.228
-[2018.04.21-15.29.43:993][  0]LogCollectionManager: Loaded 0 collections in 0.000999 seconds
-[2018.04.21-15.29.44:032][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Saved/Collections/' took 0.01s
-[2018.04.21-15.29.44:032][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Developers/Harrison/Collections/' took 0.01s
-[2018.04.21-15.29.44:032][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Collections/' took 0.01s
-[2018.04.21-15.29.44:032][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.04.21-15.29.44:059][  0]LogContentBrowser: Native class hierarchy populated in 0.0259 seconds. Added 2496 classes and 599 folders.
-[2018.04.21-15.29.44:079][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0156 seconds. Added 0 classes and 0 folders.
-[2018.04.21-15.29.44:157][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0211 seconds. Added 0 classes and 0 folders.
-[2018.04.21-15.29.44:178][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0157 seconds. Added 1 classes and 2 folders.
-[2018.04.21-15.29.44:251][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.21-15.29.44:253][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.21-15.29.44:258][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.21-15.29.44:258][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.04.21-15.29.44:434][  0]LogRenderer: Reallocating scene render targets to support 1148x612 Format 10 NumSamples 1 (Frame:1).
-[2018.04.21-15.29.44:630][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0300 seconds. Added 0 classes and 0 folders.
-[2018.04.21-15.29.44:630][  0]LogLoad: (Engine Initialization) Total time: 11.27 seconds
-[2018.04.21-15.29.44:631][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.21-15.29.44:640][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.21-15.29.44:661][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.21-15.29.44:693][  1]LogAssetRegistry: Asset discovery search completed in 6.0877 seconds
-[2018.04.21-15.29.44:695][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.04.21-15.29.44:695][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000178 seconds (updated 0 objects)
-[2018.04.21-15.29.46:020][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.21-15.29.46:136][165]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.21-15.29.46:152][165]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.29.46:153][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.21-15.29.46:153][165]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 7:29:46 AM)
-[2018.04.21-15.29.46:153][165]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.21-15.29.46:173][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019869s)
-[2018.04.21-15.29.46:174][165]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.21-15.29.46:175][165]LogPlayLevel: PIE: World Init took: (0.000803s)
-[2018.04.21-15.29.46:175][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021338s)
-[2018.04.21-15.29.46:191][165]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.21-15.29.46:200][165]LogInit: FAudioDevice initialized.
-[2018.04.21-15.29.46:244][165]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.21-15.29.46:253][165]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-11.29.46
-[2018.04.21-15.29.46:255][165]LogWorld: Bringing up level for play took: 0.005961
-[2018.04.21-15.29.46:302][165]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0392 seconds. Added 11 classes and 0 folders.
-[2018.04.21-15.29.46:304][165]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.104
-[2018.04.21-15.29.46:305][165]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.29.46:756][215]LogClass: Error: HealthHUD
-[2018.04.21-15.29.56:073][331]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.29.56:105][331]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.30.11:291][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.21-15.30.11:311][ 44]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.04.21-15.30.18:596][904]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
-[2018.04.21-15.30.22:496][249]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.04.21-15.30.23:121][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.21-15.30.35:060][729]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.04.21-15.30.39:645][266]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.21-15.30.39:660][266]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.30.39:661][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.21-15.30.39:661][266]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 7:30:39 AM)
-[2018.04.21-15.30.39:662][266]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.21-15.30.39:674][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012727s)
-[2018.04.21-15.30.39:675][266]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.21-15.30.39:676][266]LogPlayLevel: PIE: World Init took: (0.001149s)
-[2018.04.21-15.30.39:676][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014598s)
-[2018.04.21-15.30.39:757][266]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.21-15.30.39:775][266]LogInit: FAudioDevice initialized.
-[2018.04.21-15.30.39:807][266]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.21-15.30.39:812][266]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-11.30.39
-[2018.04.21-15.30.39:814][266]LogWorld: Bringing up level for play took: 0.005239
-[2018.04.21-15.30.39:820][266]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.381
-[2018.04.21-15.30.39:821][266]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.30.40:370][323]LogClass: Error: HealthHUD
-[2018.04.21-15.30.44:250][788]LogClass: Error: HealthHUD
-[2018.04.21-15.30.47:593][189]LogClass: Error: HealthHUD
-[2018.04.21-15.30.52:719][804]LogClass: Error: HealthHUD
-[2018.04.21-15.30.55:410][127]LogClass: Error: HealthHUD
-[2018.04.21-15.30.58:169][458]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.30.58:198][458]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.31.08:355][736]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.21-15.31.13:860][346]LogSavePackage: Save=158.22ms
-[2018.04.21-15.31.13:861][346]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPersonExampleMapBA4ADD9B4B070148F65ED29E801DB8FF.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2018.04.21-15.31.13:888][346]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
-[2018.04.21-15.31.13:939][346]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.320
-[2018.04.21-15.31.16:191][575]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0161 seconds. Added 116 classes and 0 folders.
-[2018.04.21-15.31.16:833][575]LogSlate: Took 0.000517 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.04.21-15.32.28:664][964]BlueprintLog: New page: Compile Health_UI
-[2018.04.21-15.32.29:235][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
-[2018.04.21-15.32.29:280][ 25]LogSavePackage: Save=34.08ms
-[2018.04.21-15.32.29:280][ 25]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UIFBBDD7744C393F68EC41FDA0610416D0.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
-[2018.04.21-15.32.29:286][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
-[2018.04.21-15.32.31:973][341]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.21-15.32.31:990][341]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.32.31:991][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.21-15.32.31:991][341]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 7:32:31 AM)
-[2018.04.21-15.32.31:992][341]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.21-15.32.32:005][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013805s)
-[2018.04.21-15.32.32:006][341]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.21-15.32.32:007][341]LogPlayLevel: PIE: World Init took: (0.001138s)
-[2018.04.21-15.32.32:007][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015651s)
-[2018.04.21-15.32.32:034][341]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.21-15.32.32:042][341]LogInit: FAudioDevice initialized.
-[2018.04.21-15.32.32:073][341]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.21-15.32.32:077][341]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-11.32.32
-[2018.04.21-15.32.32:078][341]LogWorld: Bringing up level for play took: 0.003505
-[2018.04.21-15.32.32:081][341]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.12
-[2018.04.21-15.32.32:082][341]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.32.32:956][440]LogClass: Error: HealthHUD
-[2018.04.21-15.32.35:565][753]LogClass: Error: HealthHUD
-[2018.04.21-15.32.39:406][214]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.32.39:437][214]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.32.40:480][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.21-15.33.13:967][410]Candidate modules for hot reload:
-[2018.04.21-15.33.13:967][410]  UnrealCPP
-[2018.04.21-15.33.13:967][410]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,3607 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
-[2018.04.21-15.33.13:969][410]Warning: Starting HotReload took  0.0s.
-[2018.04.21-15.33.32:861][656]CompilerResultsLog: New page: Compilation - Apr 21, 2018, 7:33:32 AM
-[2018.04.21-15.33.32:861][656]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.04.21-15.33.32:861][656]CompilerResultsLog: Creating makefile for hot reloading UnrealCPP (working set of source files changed)
-[2018.04.21-15.33.32:862][656]CompilerResultsLog: Compiling game modules for hot reload
-[2018.04.21-15.33.32:862][656]CompilerResultsLog: [Adaptive unity build] Disabling PCH for excluded files. Set bAdaptiveUnityDisablesPCH to false in BuildConfiguration.xml to change this behavior.
-[2018.04.21-15.33.32:862][656]CompilerResultsLog: [Adaptive unity build] Excluded from UnrealCPP unity file: UnrealCPPCharacter.cpp
-[2018.04.21-15.33.32:862][656]CompilerResultsLog: [Adaptive unity build] Excluded from UnrealCPP.gen unity file: UnrealCPP.init.gen.cpp, UnrealCPPCharacter.gen.cpp
-[2018.04.21-15.33.32:862][656]CompilerResultsLog: Performing 6 actions (4 in parallel)
-[2018.04.21-15.33.32:862][656]CompilerResultsLog: Module.UnrealCPP.gen.cpp
-[2018.04.21-15.33.32:863][656]CompilerResultsLog: UnrealCPPCharacter.cpp
-[2018.04.21-15.33.32:863][656]CompilerResultsLog: UnrealCPP.init.gen.cpp
-[2018.04.21-15.33.32:863][656]CompilerResultsLog: UnrealCPPCharacter.gen.cpp
-[2018.04.21-15.33.32:863][656]CompilerResultsLog: [5/6] Link UE4Editor-UnrealCPP-3607.dll
-[2018.04.21-15.33.32:863][656]CompilerResultsLog: [6/6] Link UE4Editor-UnrealCPP-3607.lib
-[2018.04.21-15.33.32:863][656]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-3607.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-3607.exp
-[2018.04.21-15.33.32:864][656]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-3607.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-3607.suppressed.exp
-[2018.04.21-15.33.32:864][656]CompilerResultsLog: Total build time: 18.70 seconds (Local executor: 13.34 seconds)
-[2018.04.21-15.33.32:864][656]LogMainFrame: MainFrame: Module compiling took 18.900 seconds
-[2018.04.21-15.33.32:939][656]LogHotReload: Re-instancing MyCameraShake after hot-reload.
-[2018.04.21-15.33.33:034][656]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0180 seconds. Added 44 classes and 41 folders.
-[2018.04.21-15.33.33:038][656]Display: HotReload successful (36 functions remapped  0 scriptstructs remapped)
-[2018.04.21-15.33.33:465][656]LogContentBrowser: Native class hierarchy populated in 0.0230 seconds. Added 2497 classes and 601 folders.
-[2018.04.21-15.33.33:465][656]Display: HotReload took 19.5s.
-[2018.04.21-15.33.34:837][803]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.21-15.33.34:855][803]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.33.34:856][803]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.21-15.33.34:856][803]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 7:33:34 AM)
-[2018.04.21-15.33.34:856][803]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.21-15.33.34:869][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012499s)
-[2018.04.21-15.33.34:870][803]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.21-15.33.34:870][803]LogPlayLevel: PIE: World Init took: (0.001234s)
-[2018.04.21-15.33.34:870][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014370s)
-[2018.04.21-15.33.34:917][803]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.21-15.33.34:925][803]LogInit: FAudioDevice initialized.
-[2018.04.21-15.33.34:959][803]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.21-15.33.34:965][803]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-11.33.34
-[2018.04.21-15.33.34:966][803]LogWorld: Bringing up level for play took: 0.005508
-[2018.04.21-15.33.34:971][803]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.77
-[2018.04.21-15.33.34:972][803]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.33.38:722][245]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.33.38:756][245]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.33.39:616][338]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.21-15.34.10:848][947]BlueprintLog: New page: Compile Health_UI
-[2018.04.21-15.34.11:462][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
-[2018.04.21-15.34.11:488][ 14]LogSavePackage: Save=20.93ms
-[2018.04.21-15.34.11:488][ 14]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI6621997B47CC118B7B0B52A545212832.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
-[2018.04.21-15.34.11:495][ 14]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
-[2018.04.21-15.34.14:442][354]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.21-15.34.14:459][354]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.34.14:460][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.21-15.34.14:460][354]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 7:34:14 AM)
-[2018.04.21-15.34.14:461][354]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.21-15.34.14:474][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012673s)
-[2018.04.21-15.34.14:474][354]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.21-15.34.14:475][354]LogPlayLevel: PIE: World Init took: (0.000995s)
-[2018.04.21-15.34.14:475][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014334s)
-[2018.04.21-15.34.14:506][354]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.21-15.34.14:515][354]LogInit: FAudioDevice initialized.
-[2018.04.21-15.34.14:548][354]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.21-15.34.14:550][354]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-11.34.14
-[2018.04.21-15.34.14:550][354]LogWorld: Bringing up level for play took: 0.001764
-[2018.04.21-15.34.14:554][354]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.353
-[2018.04.21-15.34.14:555][354]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.34.22:752][332]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.34.22:787][332]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.34.25:103][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.21-15.36.18:238][910]BlueprintLog: New page: Compile Health_UI
-[2018.04.21-15.36.19:322][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
-[2018.04.21-15.36.19:347][ 23]LogSavePackage: Save=20.13ms
-[2018.04.21-15.36.19:347][ 23]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI26EDD1DA49425B45B4B189924140A05E.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
-[2018.04.21-15.36.19:353][ 23]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
-[2018.04.21-15.36.24:090][584]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.21-15.36.24:108][584]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.36.24:109][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.21-15.36.24:109][584]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 7:36:24 AM)
-[2018.04.21-15.36.24:109][584]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.21-15.36.24:122][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012395s)
-[2018.04.21-15.36.24:123][584]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.21-15.36.24:123][584]LogPlayLevel: PIE: World Init took: (0.001100s)
-[2018.04.21-15.36.24:124][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014144s)
-[2018.04.21-15.36.24:154][584]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.21-15.36.24:164][584]LogInit: FAudioDevice initialized.
-[2018.04.21-15.36.24:197][584]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.21-15.36.24:201][584]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-11.36.24
-[2018.04.21-15.36.24:202][584]LogWorld: Bringing up level for play took: 0.003689
-[2018.04.21-15.36.24:205][584]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.005
-[2018.04.21-15.36.24:206][584]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.36.50:131][685]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.36.50:165][685]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.41.24:666][852]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.21-15.42.15:770][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.21-15.49.35:744][836]Candidate modules for hot reload:
-[2018.04.21-15.49.35:744][836]  UnrealCPP
-[2018.04.21-15.49.35:744][836]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,102 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
-[2018.04.21-15.49.35:746][836]Warning: Starting HotReload took  0.0s.
-[2018.04.21-15.49.59:316][604]CompilerResultsLog: New page: Compilation - Apr 21, 2018, 7:49:59 AM
-[2018.04.21-15.49.59:316][604]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.04.21-15.49.59:317][604]CompilerResultsLog: Compiling game modules for hot reload
-[2018.04.21-15.49.59:317][604]CompilerResultsLog: Parsing headers for UnrealCPPEditor
-[2018.04.21-15.49.59:317][604]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.04.21-15.49.59:317][604]CompilerResultsLog: Reflection code generated for UnrealCPPEditor in 9.6756893 seconds
-[2018.04.21-15.49.59:318][604]CompilerResultsLog: Performing 5 actions (4 in parallel)
-[2018.04.21-15.49.59:318][604]CompilerResultsLog: Module.UnrealCPP.cpp
-[2018.04.21-15.49.59:318][604]CompilerResultsLog: UnrealCPPCharacter.gen.cpp
-[2018.04.21-15.49.59:318][604]CompilerResultsLog: UnrealCPPCharacter.cpp
-[2018.04.21-15.49.59:318][604]CompilerResultsLog: [4/5] Link UE4Editor-UnrealCPP-102.dll
-[2018.04.21-15.49.59:318][604]CompilerResultsLog: [5/5] Link UE4Editor-UnrealCPP-102.lib
-[2018.04.21-15.49.59:318][604]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-102.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-102.exp
-[2018.04.21-15.49.59:319][604]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-102.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-102.suppressed.exp
-[2018.04.21-15.49.59:319][604]CompilerResultsLog: Total build time: 23.38 seconds (Local executor: 12.93 seconds)
-[2018.04.21-15.49.59:320][604]LogMainFrame: MainFrame: Module compiling took 23.579 seconds
-[2018.04.21-15.49.59:414][604]LogHotReload: Re-instancing MyCameraShake after hot-reload.
-[2018.04.21-15.49.59:556][604]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0340 seconds. Added 44 classes and 41 folders.
-[2018.04.21-15.49.59:560][604]Display: HotReload successful (36 functions remapped  0 scriptstructs remapped)
-[2018.04.21-15.49.59:990][604]LogContentBrowser: Native class hierarchy populated in 0.0791 seconds. Added 2497 classes and 601 folders.
-[2018.04.21-15.49.59:991][604]Display: HotReload took 24.3s.
-[2018.04.21-15.51.23:808][181]BlueprintLog: New page: Compile Health_UI
-[2018.04.21-15.51.24:408][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
-[2018.04.21-15.51.24:441][240]LogSavePackage: Save=22.66ms
-[2018.04.21-15.51.24:441][240]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UIBE57A8D44C812C4999F2BAA7FC486345.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
-[2018.04.21-15.51.24:450][240]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
-[2018.04.21-15.51.28:454][710]Candidate modules for hot reload:
-[2018.04.21-15.51.28:454][710]  UnrealCPP
-[2018.04.21-15.51.28:455][710]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,2896 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
-[2018.04.21-15.51.28:456][710]Warning: Starting HotReload took  0.0s.
-[2018.04.21-15.51.29:281][804]CompilerResultsLog: New page: Compilation - Apr 21, 2018, 7:51:29 AM
-[2018.04.21-15.51.29:281][804]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.04.21-15.51.29:281][804]CompilerResultsLog: Compiling game modules for hot reload
-[2018.04.21-15.51.29:281][804]CompilerResultsLog: Target is up to date
-[2018.04.21-15.51.29:281][804]CompilerResultsLog: Total build time: 0.64 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2018.04.21-15.51.29:282][804]LogMainFrame: MainFrame: Module compiling took 0.830 seconds
-[2018.04.21-15.51.29:556][804]LogContentBrowser: Native class hierarchy populated in 0.0243 seconds. Added 2497 classes and 601 folders.
-[2018.04.21-15.51.29:557][804]Display: HotReload took  1.1s.
-[2018.04.21-15.51.30:471][912]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.21-15.51.30:490][912]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.51.30:491][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.21-15.51.30:491][912]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 7:51:30 AM)
-[2018.04.21-15.51.30:491][912]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.21-15.51.30:505][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013915s)
-[2018.04.21-15.51.30:506][912]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.21-15.51.30:507][912]LogPlayLevel: PIE: World Init took: (0.001193s)
-[2018.04.21-15.51.30:507][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015831s)
-[2018.04.21-15.51.30:568][912]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.21-15.51.30:577][912]LogInit: FAudioDevice initialized.
-[2018.04.21-15.51.30:615][912]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.21-15.51.30:619][912]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-11.51.30
-[2018.04.21-15.51.30:620][912]LogWorld: Bringing up level for play took: 0.004173
-[2018.04.21-15.51.30:624][912]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.423
-[2018.04.21-15.51.30:624][912]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.51.39:295][942]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.51.39:328][942]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.51.41:464][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.21-15.52.36:726][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
-[2018.04.21-15.52.36:754][268]LogSavePackage: Save=23.29ms
-[2018.04.21-15.52.36:754][268]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI5F5AC15A444A87BDB45C18A4636BEE32.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
-[2018.04.21-15.52.36:761][268]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
-[2018.04.21-15.52.42:228][916]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.21-15.52.42:258][916]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.52.42:259][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.21-15.52.42:259][916]PIE: New page: PIE session: FirstPersonExampleMap (Apr 21, 2018, 7:52:42 AM)
-[2018.04.21-15.52.42:259][916]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.04.21-15.52.42:272][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013113s)
-[2018.04.21-15.52.42:273][916]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.21-15.52.42:274][916]LogPlayLevel: PIE: World Init took: (0.000921s)
-[2018.04.21-15.52.42:274][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014667s)
-[2018.04.21-15.52.42:305][916]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.21-15.52.42:315][916]LogInit: FAudioDevice initialized.
-[2018.04.21-15.52.42:343][916]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.04.21-15.52.42:345][916]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.21-11.52.42
-[2018.04.21-15.52.42:346][916]LogWorld: Bringing up level for play took: 0.001911
-[2018.04.21-15.52.42:347][916]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.147
-[2018.04.21-15.52.42:348][916]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.53.25:430][ 78]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.53.25:463][ 78]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.21-15.53.25:982][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.21-15.54.44:906][899]Candidate modules for hot reload:
-[2018.04.21-15.54.44:906][899]  UnrealCPP
-[2018.04.21-15.54.44:906][899]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,4611 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
-[2018.04.21-15.54.44:908][899]Warning: Starting HotReload took  0.0s.
-[2018.04.21-15.55.09:098][707]CompilerResultsLog: New page: Compilation - Apr 21, 2018, 7:55:09 AM
-[2018.04.21-15.55.09:098][707]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.04.21-15.55.09:099][707]CompilerResultsLog: Compiling game modules for hot reload
-[2018.04.21-15.55.09:099][707]CompilerResultsLog: Parsing headers for UnrealCPPEditor
-[2018.04.21-15.55.09:099][707]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.04.21-15.55.09:099][707]CompilerResultsLog: Reflection code generated for UnrealCPPEditor in 9.8142289 seconds
-[2018.04.21-15.55.09:100][707]CompilerResultsLog: Performing 6 actions (4 in parallel)
-[2018.04.21-15.55.09:100][707]CompilerResultsLog: Module.UnrealCPP.cpp
-[2018.04.21-15.55.09:100][707]CompilerResultsLog: UnrealCPP.init.gen.cpp
-[2018.04.21-15.55.09:100][707]CompilerResultsLog: UnrealCPPCharacter.gen.cpp
-[2018.04.21-15.55.09:100][707]CompilerResultsLog: UnrealCPPCharacter.cpp
-[2018.04.21-15.55.09:100][707]CompilerResultsLog: [5/6] Link UE4Editor-UnrealCPP-4611.dll
-[2018.04.21-15.55.09:100][707]CompilerResultsLog: [6/6] Link UE4Editor-UnrealCPP-4611.lib
-[2018.04.21-15.55.09:100][707]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4611.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4611.exp
-[2018.04.21-15.55.09:101][707]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4611.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4611.suppressed.exp
-[2018.04.21-15.55.09:101][707]CompilerResultsLog: Total build time: 24.00 seconds (Local executor: 13.43 seconds)
-[2018.04.21-15.55.09:101][707]LogMainFrame: MainFrame: Module compiling took 24.198 seconds
-[2018.04.21-15.55.09:188][707]LogClass: Could not find existing class UnrealCPPCharacter in package /Script/UnrealCPP for HotReload, assuming new class
-[2018.04.21-15.55.09:189][707]LogClass: Function GetHealth is new.
-[2018.04.21-15.55.09:189][707]LogClass: Function GetHealthIntText is new.
-[2018.04.21-15.55.09:189][707]LogClass: Function GetHit is new.
-[2018.04.21-15.55.09:189][707]LogClass: Function GetPrevHealth is new.
-[2018.04.21-15.55.09:189][707]LogClass: Function SetHealth is new.
-[2018.04.21-15.55.09:189][707]LogClass: Function SetState is new.
-[2018.04.21-15.55.09:194][707]LogHotReload: Re-instancing MyCameraShake after hot-reload.
-[2018.04.21-15.55.09:302][707]LogHotReload: Re-instancing UnrealCPPCharacter after hot-reload.
-[2018.04.21-15.55.09:733][707]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0574 seconds. Added 44 classes and 41 folders.
-[2018.04.21-15.55.09:737][707]Display: HotReload successful (30 functions remapped  0 scriptstructs remapped)
-[2018.04.21-15.55.10:044][707]LogContentBrowser: Native class hierarchy populated in 0.0230 seconds. Added 2497 classes and 601 folders.
-[2018.04.21-15.55.10:045][707]Display: HotReload took 25.1s.
-[2018.04.21-16.00.34:201][755]Candidate modules for hot reload:
-[2018.04.21-16.00.34:201][755]  UnrealCPP
-[2018.04.21-16.00.34:201][755]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,9226 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
-[2018.04.21-16.00.34:203][755]Warning: Starting HotReload took  0.0s.
-[2018.04.21-16.00.34:998][848]CompilerResultsLog: New page: Compilation - Apr 21, 2018, 8:00:34 AM
-[2018.04.21-16.00.34:998][848]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.04.21-16.00.34:998][848]CompilerResultsLog: Compiling game modules for hot reload
-[2018.04.21-16.00.34:998][848]CompilerResultsLog: Target is up to date
-[2018.04.21-16.00.34:998][848]CompilerResultsLog: Total build time: 0.62 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2018.04.21-16.00.34:998][848]LogMainFrame: MainFrame: Module compiling took 0.800 seconds
-[2018.04.21-16.00.35:470][848]LogContentBrowser: Native class hierarchy populated in 0.0592 seconds. Added 2497 classes and 601 folders.
-[2018.04.21-16.00.35:470][848]Display: HotReload took  1.3s.
+[2018.04.24-09.47.35:709][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.24-09.47.35:709][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.24-09.47.35:723][  0]LogInit: Computer: HARRYPC
+[2018.04.24-09.47.35:723][  0]LogInit: User: Harrison
+[2018.04.24-09.47.35:723][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.24-09.47.35:723][  0]LogInit: High frequency timer resolution =3.514609 MHz
+[2018.04.24-09.47.35:723][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.04.24-09.47.35:723][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.24-09.47.35:723][  0]LogMemory: Process Physical Memory: 274.80 MB used, 274.80 MB peak
+[2018.04.24-09.47.35:723][  0]LogMemory: Process Virtual Memory: 264.63 MB used, 264.63 MB peak
+[2018.04.24-09.47.35:723][  0]LogMemory: Physical Memory: 5668.11 MB used,  10672.88 MB free, 16340.99 MB total
+[2018.04.24-09.47.35:723][  0]LogMemory: Virtual Memory: 697.76 MB used,  10672.88 MB free, 134217728.00 MB total
+[2018.04.24-09.47.35:741][  0]LogInit: Using OS detected language (en-US).
+[2018.04.24-09.47.35:741][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.24-09.47.35:745][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.24-09.47.36:135][  0]LogStreaming: Display: Took  0.394s to EndInitTextLocalization.
+[2018.04.24-09.47.36:135][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.24-09.47.36:161][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.04.24-09.47.36:161][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.04.24-09.47.36:414][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.24-09.47.36:459][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.04.24-09.47.36:459][  0]LogD3D11RHI:       4043/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.24-09.47.36:461][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.24-09.47.36:461][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.24-09.47.36:461][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.24-09.47.36:466][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.24-09.47.36:466][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.24-09.47.36:466][  0]LogWindows: EnumDisplayDevices:
+[2018.04.24-09.47.36:466][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.04.24-09.47.36:466][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.24-09.47.36:466][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.24-09.47.36:466][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.24-09.47.36:466][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.24-09.47.36:466][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.04.24-09.47.36:466][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.24-09.47.36:466][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.24-09.47.36:466][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.04.24-09.47.36:489][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.24-09.47.36:489][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.24-09.47.36:489][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.24-09.47.36:508][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.24-09.47.36:557][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../Unreal Projects/UnrealCPP/Intermediate/Shaders/WorkingDirectory/12548/).
+[2018.04.24-09.47.36:558][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harrison/AppData/Local/Temp/UnrealShaderWorkingDir/3F888F9E44837E3B5B3EF7BA0D86D745/'.
+[2018.04.24-09.47.36:822][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.24-09.47.36:833][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.24-09.47.36:845][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.24-09.47.36:856][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.24-09.47.36:868][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.24-09.47.36:880][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.24-09.47.36:892][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.24-09.47.36:904][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.24-09.47.36:909][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.24-09.47.36:920][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.24-09.47.36:931][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.24-09.47.36:942][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.24-09.47.36:953][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.04.24-09.47.36:963][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.24-09.47.36:974][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.24-09.47.36:996][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.24-09.47.36:996][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.24-09.47.37:007][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.24-09.47.37:008][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.24-09.47.37:042][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.24-09.47.37:052][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.24-09.47.37:064][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.24-09.47.37:075][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.24-09.47.37:087][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.24-09.47.37:098][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.24-09.47.37:099][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.24-09.47.37:195][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.04.24-09.47.37:195][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.04.24-09.47.37:195][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.24-09.47.37:822][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.24-09.47.37:886][  0]LogDerivedDataCache: Loaded boot cache 0.06s 79MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.24-09.47.37:886][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.04.24-09.47.37:886][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.24-09.47.37:886][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.24-09.47.37:886][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.24-09.47.37:886][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.24-09.47.37:901][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.24-09.47.37:912][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Harrison/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.24-09.47.37:922][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.24-09.47.37:923][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.24-09.47.37:923][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.24-09.47.37:923][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.24-09.47.38:049][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2018.04.24-09.47.38:317][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.24-09.47.38:441][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.24-09.47.38:443][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.24-09.47.38:443][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.24-09.47.38:443][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.24-09.47.38:443][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.24-09.47.38:443][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.24-09.47.38:474][  0]LogNetVersion: UnrealCPP , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2553546984)
+[2018.04.24-09.47.38:892][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.109353 seconds
+[2018.04.24-09.47.38:897][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.04.24-09.47.38:897][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.04.24-09.47.38:897][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.24-09.47.40:412][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.24-09.47.40:443][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.24-09.47.40:929][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.965399ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2018.04.24-09.47.40:942][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.591246ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
+[2018.04.24-09.47.41:145][  0]SourceControl: Source control is disabled
+[2018.04.24-09.47.41:145][  0]SourceControl: Source control is disabled
+[2018.04.24-09.47.41:164][  0]SourceControl: Source control is disabled
+[2018.04.24-09.47.41:183][  0]SourceControl: Source control is disabled
+[2018.04.24-09.47.41:714][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.24-09.47.41:899][  0]LogOcInput: OculusInput pre-init called
+[2018.04.24-09.47.42:005][  0]LogEngine: Initializing Engine...
+[2018.04.24-09.47.42:008][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.04.24-09.47.42:009][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.24-09.47.42:009][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.24-09.47.42:202][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.24-09.47.42:230][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.24-09.47.42:242][  0]LogInit: FAudioDevice initialized.
+[2018.04.24-09.47.42:378][  0]LogDerivedDataCache: Saved boot cache 0.14s 79MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.24-09.47.42:386][  0]LogInit: Texture streaming: Enabled
+[2018.04.24-09.47.42:398][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.24-09.47.42:411][  0]LogInit: Transaction tracking system initialized
+[2018.04.24-09.47.42:431][  0]BlueprintLog: New page: Editor Load
+[2018.04.24-09.47.42:534][  0]LocalizationService: Localization service is disabled
+[2018.04.24-09.47.42:637][  0]LogConsoleResponse: Display: 
+[2018.04.24-09.47.42:769][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.24-09.47.42:769][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.24-09.47.42:769][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.24-09.47.42:769][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.24-09.47.42:769][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.24-09.47.43:130][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/' took 0.01s
+[2018.04.24-09.47.43:130][  0]SourceControl: Source control is disabled
+[2018.04.24-09.47.43:131][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.24-09.47.43:131][  0]LightingResults: New page: Lighting Build
+[2018.04.24-09.47.43:133][  0]MapCheck: New page: Map Check
+[2018.04.24-09.47.43:133][  0]LightingResults: New page: Lighting Build
+[2018.04.24-09.47.43:293][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.24-09.47.43:301][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.24-09.47.43:315][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.24-09.47.43:384][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.087ms to complete.
+[2018.04.24-09.47.43:384][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.254
+[2018.04.24-09.47.43:510][  0]LogCollectionManager: Loaded 0 collections in 0.000986 seconds
+[2018.04.24-09.47.43:550][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Saved/Collections/' took 0.01s
+[2018.04.24-09.47.43:550][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Developers/Harrison/Collections/' took 0.01s
+[2018.04.24-09.47.43:550][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Collections/' took 0.01s
+[2018.04.24-09.47.43:550][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.24-09.47.43:577][  0]LogContentBrowser: Native class hierarchy populated in 0.0262 seconds. Added 2496 classes and 599 folders.
+[2018.04.24-09.47.43:597][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0161 seconds. Added 0 classes and 0 folders.
+[2018.04.24-09.47.43:672][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0171 seconds. Added 0 classes and 0 folders.
+[2018.04.24-09.47.43:691][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0147 seconds. Added 1 classes and 2 folders.
+[2018.04.24-09.47.43:763][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.24-09.47.43:764][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.24-09.47.43:769][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.24-09.47.43:769][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.04.24-09.47.43:915][  0]LogRenderer: Reallocating scene render targets to support 1148x612 Format 10 NumSamples 1 (Frame:1).
+[2018.04.24-09.47.44:037][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0157 seconds. Added 0 classes and 0 folders.
+[2018.04.24-09.47.44:037][  0]LogLoad: (Engine Initialization) Total time: 11.27 seconds
+[2018.04.24-09.47.44:037][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.24-09.47.44:048][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.24-09.47.44:068][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.24-09.47.44:103][  1]LogAssetRegistry: Asset discovery search completed in 6.0757 seconds
+[2018.04.24-09.47.44:105][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.24-09.47.44:105][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000224 seconds (updated 0 objects)
+[2018.04.24-09.47.45:063][106]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.24-09.47.47:859][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-09.47.48:800][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-09.47.48:862][561]Candidate modules for hot reload:
+[2018.04.24-09.47.48:862][561]  UnrealCPP
+[2018.04.24-09.47.48:862][561]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,2736 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.24-09.47.48:864][561]Warning: Starting HotReload took  0.0s.
+[2018.04.24-09.48.00:749][ 50]CompilerResultsLog: New page: Compilation - Apr 24, 2018, 1:48:00 AM
+[2018.04.24-09.48.00:749][ 50]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.24-09.48.00:750][ 50]CompilerResultsLog: Creating makefile for hot reloading UnrealCPP (working set of source files changed)
+[2018.04.24-09.48.00:750][ 50]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.24-09.48.00:750][ 50]CompilerResultsLog: [Adaptive unity build] Disabling PCH for excluded files. Set bAdaptiveUnityDisablesPCH to false in BuildConfiguration.xml to change this behavior.
+[2018.04.24-09.48.00:750][ 50]CompilerResultsLog: [Adaptive unity build] Excluded from UnrealCPP unity file: UnrealCPPCharacter.cpp
+[2018.04.24-09.48.00:751][ 50]CompilerResultsLog: [Adaptive unity build] Excluded from UnrealCPP.gen unity file: UnrealCPP.init.gen.cpp, UnrealCPPCharacter.gen.cpp
+[2018.04.24-09.48.00:751][ 50]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.04.24-09.48.00:751][ 50]CompilerResultsLog: Module.UnrealCPP.gen.cpp
+[2018.04.24-09.48.00:751][ 50]CompilerResultsLog: UnrealCPPCharacter.gen.cpp
+[2018.04.24-09.48.00:752][ 50]CompilerResultsLog: UnrealCPP.init.gen.cpp
+[2018.04.24-09.48.00:752][ 50]CompilerResultsLog: [4/5] Link UE4Editor-UnrealCPP-2736.dll
+[2018.04.24-09.48.00:752][ 50]CompilerResultsLog: [5/5] Link UE4Editor-UnrealCPP-2736.lib
+[2018.04.24-09.48.00:752][ 50]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-2736.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-2736.exp
+[2018.04.24-09.48.00:753][ 50]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-2736.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-2736.suppressed.exp
+[2018.04.24-09.48.00:753][ 50]CompilerResultsLog: Total build time: 11.43 seconds (Local executor: 5.93 seconds)
+[2018.04.24-09.48.00:753][ 50]LogMainFrame: MainFrame: Module compiling took 11.894 seconds
+[2018.04.24-09.48.00:829][ 50]LogHotReload: Re-instancing MyCameraShake after hot-reload.
+[2018.04.24-09.48.00:900][ 50]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0175 seconds. Added 44 classes and 41 folders.
+[2018.04.24-09.48.00:902][ 50]Display: HotReload successful (36 functions remapped  0 scriptstructs remapped)
+[2018.04.24-09.48.01:032][ 50]LogContentBrowser: Native class hierarchy populated in 0.0298 seconds. Added 2497 classes and 601 folders.
+[2018.04.24-09.48.01:033][ 50]Display: HotReload took 12.2s.
+[2018.04.24-09.48.05:836][305]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.24-09.48.05:852][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.24-09.48.05:853][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-09.48.05:853][305]PIE: New page: PIE session: FirstPersonExampleMap (Apr 24, 2018, 1:48:05 AM)
+[2018.04.24-09.48.05:853][305]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.24-09.48.05:874][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020797s)
+[2018.04.24-09.48.05:875][305]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.24-09.48.05:876][305]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2018.04.24-09.48.05:876][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022547s)
+[2018.04.24-09.48.05:896][305]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.24-09.48.05:905][305]LogInit: FAudioDevice initialized.
+[2018.04.24-09.48.05:949][305]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.24-09.48.05:956][305]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.24-05.48.05
+[2018.04.24-09.48.05:958][305]LogWorld: Bringing up level for play took: 0.005430
+[2018.04.24-09.48.06:039][305]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0201 seconds. Added 11 classes and 0 folders.
+[2018.04.24-09.48.06:041][305]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.615
+[2018.04.24-09.48.06:041][305]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.24-09.48.23:008][322]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.24-09.48.23:037][322]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.24-09.48.26:542][736]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-09.48.26:567][736]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.24-09.48.52:581][229]LogActor: Warning: ActorLineTrace /Engine/Transient.World_0:PersistentLevel.ActorLineTrace_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.04.24-09.49.00:756][200]LogActor: Warning: AddMeshFromFile /Engine/Transient.World_2:PersistentLevel.AddMeshFromFile_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.04.24-09.56.54:181][921]Candidate modules for hot reload:
+[2018.04.24-09.56.54:181][921]  UnrealCPP
+[2018.04.24-09.56.54:181][921]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,1679 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.24-09.56.54:183][921]Warning: Starting HotReload took  0.0s.
+[2018.04.24-09.57.04:686][177]CompilerResultsLog: New page: Compilation - Apr 24, 2018, 1:57:04 AM
+[2018.04.24-09.57.04:686][177]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.24-09.57.04:686][177]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.24-09.57.04:686][177]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.24-09.57.04:687][177]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.24-09.57.04:687][177]CompilerResultsLog: Error: D:/Unreal Projects/UnrealCPP/Source/UnrealCPP/UnrealCPPCharacter.h(134)  : Error: Function parameter: 'Damage' cannot be defined in 'ReceiveAnyDamage' as it is already defined in scope 'UnrealCPPCharacter' (shadowing is not allowed)
+[2018.04.24-09.57.04:687][177]CompilerResultsLog: UnrealHeaderTool failed for target 'UnrealCPPEditor' (platform: Win64, module info: D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest).
+[2018.04.24-09.57.04:688][177]LogMainFrame: MainFrame: Module compiling took 10.510 seconds
+[2018.04.24-09.57.04:688][177]Warning: HotReload failed, recompile failed
+[2018.04.24-09.58.27:609][604]LogSlate: Window 'Message Log' being destroyed
+[2018.04.24-09.58.27:612][604]LogSlate: Window 'Message Log' being destroyed
+[2018.04.24-09.58.28:280][684]Candidate modules for hot reload:
+[2018.04.24-09.58.28:280][684]  UnrealCPP
+[2018.04.24-09.58.28:280][684]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,6878 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.24-09.58.28:282][684]Warning: Starting HotReload took  0.0s.
+[2018.04.24-09.58.52:007][813]CompilerResultsLog: New page: Compilation - Apr 24, 2018, 1:58:52 AM
+[2018.04.24-09.58.52:007][813]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.24-09.58.52:007][813]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.24-09.58.52:007][813]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.24-09.58.52:007][813]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.24-09.58.52:008][813]CompilerResultsLog: Reflection code generated for UnrealCPPEditor in 9.7061812 seconds
+[2018.04.24-09.58.52:008][813]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2018.04.24-09.58.52:008][813]CompilerResultsLog: Module.UnrealCPP.cpp
+[2018.04.24-09.58.52:008][813]CompilerResultsLog: UnrealCPPCharacter.gen.cpp
+[2018.04.24-09.58.52:008][813]CompilerResultsLog: UnrealCPP.init.gen.cpp
+[2018.04.24-09.58.52:009][813]CompilerResultsLog: UnrealCPPCharacter.cpp
+[2018.04.24-09.58.52:009][813]CompilerResultsLog: [5/6] Link UE4Editor-UnrealCPP-6878.dll
+[2018.04.24-09.58.52:009][813]CompilerResultsLog: [6/6] Link UE4Editor-UnrealCPP-6878.lib
+[2018.04.24-09.58.52:009][813]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-6878.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-6878.exp
+[2018.04.24-09.58.52:009][813]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-6878.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-6878.suppressed.exp
+[2018.04.24-09.58.52:010][813]CompilerResultsLog: Total build time: 23.54 seconds (Local executor: 13.04 seconds)
+[2018.04.24-09.58.52:010][813]LogMainFrame: MainFrame: Module compiling took 23.732 seconds
+[2018.04.24-09.58.52:063][813]LogClass: Could not find existing class UnrealCPPCharacter in package /Script/UnrealCPP for HotReload, assuming new class
+[2018.04.24-09.58.52:063][813]LogClass: Function GetHealth is new.
+[2018.04.24-09.58.52:063][813]LogClass: Function GetHealthIntText is new.
+[2018.04.24-09.58.52:063][813]LogClass: Function GetHit is new.
+[2018.04.24-09.58.52:063][813]LogClass: Function GetPrevHealth is new.
+[2018.04.24-09.58.52:063][813]LogClass: Function ReceiveAnyDamage is new.
+[2018.04.24-09.58.52:063][813]LogClass: Function SetHealth is new.
+[2018.04.24-09.58.52:063][813]LogClass: Function SetState is new.
+[2018.04.24-09.58.52:068][813]LogHotReload: Re-instancing MyCameraShake after hot-reload.
+[2018.04.24-09.58.52:118][813]LogHotReload: Re-instancing UnrealCPPCharacter after hot-reload.
+[2018.04.24-09.58.52:292][813]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0221 seconds. Added 44 classes and 41 folders.
+[2018.04.24-09.58.52:295][813]Display: HotReload successful (30 functions remapped  0 scriptstructs remapped)
+[2018.04.24-09.58.52:350][813]LogContentBrowser: Native class hierarchy populated in 0.0231 seconds. Added 2497 classes and 601 folders.
+[2018.04.24-09.58.52:350][813]Display: HotReload took 24.1s.
+[2018.04.24-09.58.57:597][421]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.24-09.59.41:080][571]Running D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP Win64 Development -editorrecompile "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" -invalidatemakefilesonly
+[2018.04.24-09.59.41:282][571]Invalidating makefiles only in this run.
+[2018.04.24-09.59.41:408][571]Candidate modules for hot reload:
+[2018.04.24-09.59.41:409][571]  UnrealCPP
+[2018.04.24-09.59.41:409][571]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,442 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.24-10.00.01:578][571]CompilerResultsLog: New page: Compilation - Apr 24, 2018, 2:00:01 AM
+[2018.04.24-10.00.01:579][571]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.24-10.00.01:579][571]CompilerResultsLog: Creating makefile for hot reloading UnrealCPP (no existing makefile)
+[2018.04.24-10.00.01:580][571]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.24-10.00.01:580][571]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.24-10.00.01:580][571]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.24-10.00.01:581][571]CompilerResultsLog: Reflection code generated for UnrealCPPEditor in 10.1870751 seconds
+[2018.04.24-10.00.01:581][571]CompilerResultsLog: [Adaptive unity build] Disabling PCH for excluded files. Set bAdaptiveUnityDisablesPCH to false in BuildConfiguration.xml to change this behavior.
+[2018.04.24-10.00.01:582][571]CompilerResultsLog: [Adaptive unity build] Excluded from UnrealCPP unity file: CampFire.cpp, UnrealCPPCharacter.cpp
+[2018.04.24-10.00.01:582][571]CompilerResultsLog: [Adaptive unity build] Excluded from UnrealCPP.gen unity file: UnrealCPP.init.gen.cpp, UnrealCPPCharacter.gen.cpp
+[2018.04.24-10.00.01:582][571]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.04.24-10.00.01:582][571]CompilerResultsLog: Module.UnrealCPP.gen.cpp
+[2018.04.24-10.00.01:583][571]CompilerResultsLog: CampFire.cpp
+[2018.04.24-10.00.01:583][571]CompilerResultsLog: UnrealCPP.init.gen.cpp
+[2018.04.24-10.00.01:583][571]CompilerResultsLog: [4/5] Link UE4Editor-UnrealCPP-442.dll
+[2018.04.24-10.00.01:583][571]CompilerResultsLog: [5/5] Link UE4Editor-UnrealCPP-442.lib
+[2018.04.24-10.00.01:583][571]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-442.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-442.exp
+[2018.04.24-10.00.01:584][571]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-442.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-442.suppressed.exp
+[2018.04.24-10.00.01:585][571]CompilerResultsLog: Total build time: 19.88 seconds (Local executor: 3.92 seconds)
+[2018.04.24-10.00.01:586][571]LogMainFrame: MainFrame: Module compiling took 20.187 seconds
+[2018.04.24-10.00.01:635][571]LogClass: Could not find existing class CampFire in package /Script/UnrealCPP for HotReload, assuming new class
+[2018.04.24-10.00.01:657][571]LogHotReload: Re-instancing MyCameraShake after hot-reload.
+[2018.04.24-10.00.01:720][571]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0165 seconds. Added 45 classes and 42 folders.
+[2018.04.24-10.00.01:723][571]Display: HotReload successful (37 functions remapped  0 scriptstructs remapped)
+[2018.04.24-10.00.01:776][571]LogContentBrowser: Native class hierarchy populated in 0.0244 seconds. Added 2498 classes and 602 folders.
+[2018.04.24-10.00.01:776][571]Display: HotReload took 20.4s.
+[2018.04.24-10.00.01:777][571]Warning: HotReload operation took 20.4s.
+[2018.04.24-10.00.01:833][571]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.04.24-10.00.01:842][571]LogHotReload: New module detected: UE4Editor-UnrealCPP-442.dll
+[2018.04.24-10.00.01:863][572]LogHotReload: Starting Hot-Reload from IDE
+[2018.04.24-10.00.01:918][572]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0157 seconds. Added 45 classes and 42 folders.
+[2018.04.24-10.00.01:920][572]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.24-10.00.01:961][572]LogContentBrowser: Native class hierarchy populated in 0.0273 seconds. Added 2498 classes and 602 folders.
+[2018.04.24-10.00.01:964][572]Display: HotReload took  0.1s.
+[2018.04.24-10.01.43:896][ 12]Candidate modules for hot reload:
+[2018.04.24-10.01.43:896][ 12]  UnrealCPP
+[2018.04.24-10.01.43:896][ 12]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,9380 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.24-10.01.43:898][ 12]Warning: Starting HotReload took  0.0s.
+[2018.04.24-10.02.02:803][266]CompilerResultsLog: New page: Compilation - Apr 24, 2018, 2:02:02 AM
+[2018.04.24-10.02.02:804][266]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.24-10.02.02:804][266]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.24-10.02.02:804][266]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.24-10.02.02:804][266]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.24-10.02.02:805][266]CompilerResultsLog: Reflection code generated for UnrealCPPEditor in 9.4708751 seconds
+[2018.04.24-10.02.02:805][266]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2018.04.24-10.02.02:805][266]CompilerResultsLog: Module.UnrealCPP.cpp
+[2018.04.24-10.02.02:805][266]CompilerResultsLog: UnrealCPPCharacter.gen.cpp
+[2018.04.24-10.02.02:805][266]CompilerResultsLog: UnrealCPP.init.gen.cpp
+[2018.04.24-10.02.02:805][266]CompilerResultsLog: UnrealCPPCharacter.cpp
+[2018.04.24-10.02.02:805][266]CompilerResultsLog: Error: d:\unreal projects\unrealcpp\source\unrealcpp\UnrealCPPCharacter.h(134) : error C3668: 'AUnrealCPPCharacter::ReceiveAnyDamage': method with override specifier 'override' did not override any base class methods
+[2018.04.24-10.02.02:806][266]CompilerResultsLog: Error: d:\unreal projects\unrealcpp\source\unrealcpp\UnrealCPPCharacter.h(134) : error C3668: 'AUnrealCPPCharacter::ReceiveAnyDamage': method with override specifier 'override' did not override any base class methods
+[2018.04.24-10.02.02:806][266]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPCharacter.h(134) : error C3668: 'AUnrealCPPCharacter::ReceiveAnyDamage': method with override specifier 'override' did not override any base class methods
+[2018.04.24-10.02.02:806][266]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-9380.dll
+[2018.04.24-10.02.02:807][266]CompilerResultsLog: Total build time: 18.70 seconds (Local executor: 0.00 seconds)
+[2018.04.24-10.02.02:807][266]LogMainFrame: MainFrame: Module compiling took 18.913 seconds
+[2018.04.24-10.02.02:807][266]Warning: HotReload failed, recompile failed
+[2018.04.24-10.02.32:303][719]LogSlate: Window 'Message Log' being destroyed
+[2018.04.24-10.02.32:307][719]LogSlate: Window 'Message Log' being destroyed
+[2018.04.24-10.02.33:228][829]Candidate modules for hot reload:
+[2018.04.24-10.02.33:228][829]  UnrealCPP
+[2018.04.24-10.02.33:228][829]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,1481 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.24-10.02.33:230][829]Warning: Starting HotReload took  0.0s.
+[2018.04.24-10.02.55:874][547]CompilerResultsLog: New page: Compilation - Apr 24, 2018, 2:02:55 AM
+[2018.04.24-10.02.55:875][547]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.24-10.02.55:875][547]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.24-10.02.55:876][547]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.24-10.02.55:877][547]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.24-10.02.55:880][547]CompilerResultsLog: Reflection code generated for UnrealCPPEditor in 9.3076228 seconds
+[2018.04.24-10.02.55:881][547]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2018.04.24-10.02.55:881][547]CompilerResultsLog: Module.UnrealCPP.cpp
+[2018.04.24-10.02.55:882][547]CompilerResultsLog: UnrealCPP.init.gen.cpp
+[2018.04.24-10.02.55:882][547]CompilerResultsLog: UnrealCPPCharacter.gen.cpp
+[2018.04.24-10.02.55:883][547]CompilerResultsLog: UnrealCPPCharacter.cpp
+[2018.04.24-10.02.55:883][547]CompilerResultsLog: [5/6] Link UE4Editor-UnrealCPP-1481.dll
+[2018.04.24-10.02.55:884][547]CompilerResultsLog: [6/6] Link UE4Editor-UnrealCPP-1481.lib
+[2018.04.24-10.02.55:884][547]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-1481.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-1481.exp
+[2018.04.24-10.02.55:886][547]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-1481.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-1481.suppressed.exp
+[2018.04.24-10.02.55:888][547]CompilerResultsLog: Total build time: 22.15 seconds (Local executor: 12.04 seconds)
+[2018.04.24-10.02.55:889][547]LogMainFrame: MainFrame: Module compiling took 22.664 seconds
+[2018.04.24-10.02.55:968][547]LogHotReload: Re-instancing MyCameraShake after hot-reload.
+[2018.04.24-10.02.56:108][547]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0342 seconds. Added 45 classes and 42 folders.
+[2018.04.24-10.02.56:111][547]Display: HotReload successful (37 functions remapped  0 scriptstructs remapped)
+[2018.04.24-10.02.56:174][547]LogContentBrowser: Native class hierarchy populated in 0.0248 seconds. Added 2498 classes and 602 folders.
+[2018.04.24-10.02.56:174][547]Display: HotReload took 22.9s.
+[2018.04.24-10.07.24:807][509]Candidate modules for hot reload:
+[2018.04.24-10.07.24:808][509]  UnrealCPP
+[2018.04.24-10.07.24:808][509]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,2500 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.24-10.07.24:810][509]Warning: Starting HotReload took  0.0s.
+[2018.04.24-10.07.46:675][942]CompilerResultsLog: New page: Compilation - Apr 24, 2018, 2:07:46 AM
+[2018.04.24-10.07.46:676][942]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.24-10.07.46:677][942]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.24-10.07.46:678][942]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.24-10.07.46:678][942]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.24-10.07.46:681][942]CompilerResultsLog: Reflection code generated for UnrealCPPEditor in 8.3077309 seconds
+[2018.04.24-10.07.46:682][942]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2018.04.24-10.07.46:682][942]CompilerResultsLog: Module.UnrealCPP.cpp
+[2018.04.24-10.07.46:683][942]CompilerResultsLog: UnrealCPPCharacter.gen.cpp
+[2018.04.24-10.07.46:683][942]CompilerResultsLog: UnrealCPPCharacter.cpp
+[2018.04.24-10.07.46:684][942]CompilerResultsLog: UnrealCPP.init.gen.cpp
+[2018.04.24-10.07.46:684][942]CompilerResultsLog: [5/6] Link UE4Editor-UnrealCPP-2500.dll
+[2018.04.24-10.07.46:685][942]CompilerResultsLog: [6/6] Link UE4Editor-UnrealCPP-2500.lib
+[2018.04.24-10.07.46:685][942]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-2500.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-2500.exp
+[2018.04.24-10.07.46:687][942]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-2500.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-2500.suppressed.exp
+[2018.04.24-10.07.46:689][942]CompilerResultsLog: Error: UnrealCPPCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual float __cdecl AUnrealCPPCharacter::TakeDamage(float,struct FDamageEvent const &,class AController *,class AActor *)" (?TakeDamage@AUnrealCPPCharacter@@UEAAMMAEBUFDamageEvent@@PEAVAController@@PEAVAActor@@@Z)
+[2018.04.24-10.07.46:691][942]CompilerResultsLog: Error: UnrealCPPCharacter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual float __cdecl AUnrealCPPCharacter::TakeDamage(float,struct FDamageEvent const &,class AController *,class AActor *)" (?TakeDamage@AUnrealCPPCharacter@@UEAAMMAEBUFDamageEvent@@PEAVAController@@PEAVAActor@@@Z)
+[2018.04.24-10.07.46:694][942]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-2500.dll : fatal error LNK1120: 1 unresolved externals
+[2018.04.24-10.07.46:695][942]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-2500.dll
+[2018.04.24-10.07.46:696][942]CompilerResultsLog: Total build time: 21.43 seconds (Local executor: 0.00 seconds)
+[2018.04.24-10.07.46:697][942]LogMainFrame: MainFrame: Module compiling took 21.892 seconds
+[2018.04.24-10.07.46:697][942]Warning: HotReload failed, recompile failed
+[2018.04.24-10.08.26:867][702]Candidate modules for hot reload:
+[2018.04.24-10.08.26:867][702]  UnrealCPP
+[2018.04.24-10.08.26:868][702]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,4513 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.24-10.08.26:869][702]Warning: Starting HotReload took  0.0s.
+[2018.04.24-10.08.52:575][ 27]CompilerResultsLog: New page: Compilation - Apr 24, 2018, 2:08:52 AM
+[2018.04.24-10.08.52:575][ 27]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.24-10.08.52:576][ 27]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.24-10.08.52:576][ 27]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.24-10.08.52:576][ 27]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.24-10.08.52:577][ 27]CompilerResultsLog: Reflection code generated for UnrealCPPEditor in 10.0011867 seconds
+[2018.04.24-10.08.52:577][ 27]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2018.04.24-10.08.52:577][ 27]CompilerResultsLog: Module.UnrealCPP.cpp
+[2018.04.24-10.08.52:577][ 27]CompilerResultsLog: UnrealCPPCharacter.cpp
+[2018.04.24-10.08.52:577][ 27]CompilerResultsLog: UnrealCPP.init.gen.cpp
+[2018.04.24-10.08.52:577][ 27]CompilerResultsLog: UnrealCPPCharacter.gen.cpp
+[2018.04.24-10.08.52:577][ 27]CompilerResultsLog: [5/6] Link UE4Editor-UnrealCPP-4513.dll
+[2018.04.24-10.08.52:578][ 27]CompilerResultsLog: [6/6] Link UE4Editor-UnrealCPP-4513.lib
+[2018.04.24-10.08.52:578][ 27]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4513.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4513.exp
+[2018.04.24-10.08.52:578][ 27]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4513.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4513.suppressed.exp
+[2018.04.24-10.08.52:578][ 27]CompilerResultsLog: Error: UnrealCPPCharacter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual float __cdecl AUnrealCPPCharacter::TakeDamage(float,struct FDamageEvent const &,class AController *,class AActor *)" (?TakeDamage@AUnrealCPPCharacter@@MEAAMMAEBUFDamageEvent@@PEAVAController@@PEAVAActor@@@Z)
+[2018.04.24-10.08.52:579][ 27]CompilerResultsLog: Error: UnrealCPPCharacter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual float __cdecl AUnrealCPPCharacter::TakeDamage(float,struct FDamageEvent const &,class AController *,class AActor *)" (?TakeDamage@AUnrealCPPCharacter@@MEAAMMAEBUFDamageEvent@@PEAVAController@@PEAVAActor@@@Z)
+[2018.04.24-10.08.52:579][ 27]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-4513.dll : fatal error LNK1120: 1 unresolved externals
+[2018.04.24-10.08.52:580][ 27]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-4513.dll
+[2018.04.24-10.08.52:580][ 27]CompilerResultsLog: Total build time: 25.49 seconds (Local executor: 0.00 seconds)
+[2018.04.24-10.08.52:580][ 27]LogMainFrame: MainFrame: Module compiling took 25.716 seconds
+[2018.04.24-10.08.52:581][ 27]Warning: HotReload failed, recompile failed
+[2018.04.24-10.13.59:732][939]Candidate modules for hot reload:
+[2018.04.24-10.13.59:732][939]  UnrealCPP
+[2018.04.24-10.13.59:732][939]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,2081 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.24-10.13.59:734][939]Warning: Starting HotReload took  0.0s.
+[2018.04.24-10.14.24:653][623]CompilerResultsLog: New page: Compilation - Apr 24, 2018, 2:14:24 AM
+[2018.04.24-10.14.24:654][623]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.24-10.14.24:655][623]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.24-10.14.24:656][623]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.24-10.14.24:657][623]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.24-10.14.24:660][623]CompilerResultsLog: Reflection code generated for UnrealCPPEditor in 10.5226 seconds
+[2018.04.24-10.14.24:660][623]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.04.24-10.14.24:661][623]CompilerResultsLog: Module.UnrealCPP.cpp
+[2018.04.24-10.14.24:661][623]CompilerResultsLog: UnrealCPPCharacter.gen.cpp
+[2018.04.24-10.14.24:661][623]CompilerResultsLog: UnrealCPPCharacter.cpp
+[2018.04.24-10.14.24:661][623]CompilerResultsLog: [4/5] Link UE4Editor-UnrealCPP-2081.dll
+[2018.04.24-10.14.24:662][623]CompilerResultsLog: [5/5] Link UE4Editor-UnrealCPP-2081.lib
+[2018.04.24-10.14.24:662][623]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-2081.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-2081.exp
+[2018.04.24-10.14.24:663][623]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-2081.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-2081.suppressed.exp
+[2018.04.24-10.14.24:664][623]CompilerResultsLog: Error: UnrealCPPCharacter.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual float __cdecl AUnrealCPPCharacter::TakeDamage(float,struct FDamageEvent const &,class AController *,class AActor *)" (?TakeDamage@AUnrealCPPCharacter@@MEAAMMAEBUFDamageEvent@@PEAVAController@@PEAVAActor@@@Z)
+[2018.04.24-10.14.24:665][623]CompilerResultsLog: Error: UnrealCPPCharacter.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual float __cdecl AUnrealCPPCharacter::TakeDamage(float,struct FDamageEvent const &,class AController *,class AActor *)" (?TakeDamage@AUnrealCPPCharacter@@MEAAMMAEBUFDamageEvent@@PEAVAController@@PEAVAActor@@@Z)
+[2018.04.24-10.14.24:666][623]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-2081.dll : fatal error LNK1120: 1 unresolved externals
+[2018.04.24-10.14.24:667][623]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-2081.dll
+[2018.04.24-10.14.24:667][623]CompilerResultsLog: Total build time: 24.62 seconds (Local executor: 0.00 seconds)
+[2018.04.24-10.14.24:667][623]LogMainFrame: MainFrame: Module compiling took 24.938 seconds
+[2018.04.24-10.14.24:668][623]Warning: HotReload failed, recompile failed
+[2018.04.24-10.15.06:709][970]LogSlate: Window 'Message Log' being destroyed
+[2018.04.24-10.15.06:712][970]LogSlate: Window 'Message Log' being destroyed
+[2018.04.24-10.15.15:569][330]Candidate modules for hot reload:
+[2018.04.24-10.15.15:569][330]  UnrealCPP
+[2018.04.24-10.15.15:569][330]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,3256 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.24-10.15.15:571][330]Warning: Starting HotReload took  0.0s.
+[2018.04.24-10.15.41:038][329]CompilerResultsLog: New page: Compilation - Apr 24, 2018, 2:15:41 AM
+[2018.04.24-10.15.41:039][329]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.24-10.15.41:039][329]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.24-10.15.41:039][329]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.24-10.15.41:039][329]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.24-10.15.41:040][329]CompilerResultsLog: Reflection code generated for UnrealCPPEditor in 10.4459756 seconds
+[2018.04.24-10.15.41:040][329]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.04.24-10.15.41:040][329]CompilerResultsLog: Module.UnrealCPP.cpp
+[2018.04.24-10.15.41:040][329]CompilerResultsLog: UnrealCPPCharacter.gen.cpp
+[2018.04.24-10.15.41:040][329]CompilerResultsLog: UnrealCPPCharacter.cpp
+[2018.04.24-10.15.41:041][329]CompilerResultsLog: Error: d:\unreal projects\unrealcpp\source\unrealcpp\unrealcppcharacter.cpp(397)  : error C4716: 'AUnrealCPPCharacter::TakeDamage': must return a value
+[2018.04.24-10.15.41:041][329]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-3256.dll
+[2018.04.24-10.15.41:041][329]CompilerResultsLog: Total build time: 25.26 seconds (Local executor: 0.00 seconds)
+[2018.04.24-10.15.41:041][329]LogMainFrame: MainFrame: Module compiling took 25.475 seconds
+[2018.04.24-10.15.41:041][329]Warning: HotReload failed, recompile failed
+[2018.04.24-10.16.19:209][505]LogSlate: Window 'Message Log' being destroyed
+[2018.04.24-10.16.19:212][505]LogSlate: Window 'Message Log' being destroyed
+[2018.04.24-10.16.19:893][586]Candidate modules for hot reload:
+[2018.04.24-10.16.19:893][586]  UnrealCPP
+[2018.04.24-10.16.19:893][586]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,8491 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.24-10.16.19:895][586]Warning: Starting HotReload took  0.0s.
+[2018.04.24-10.16.34:386][767]CompilerResultsLog: New page: Compilation - Apr 24, 2018, 2:16:34 AM
+[2018.04.24-10.16.34:386][767]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.24-10.16.34:387][767]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.24-10.16.34:387][767]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.04.24-10.16.34:387][767]CompilerResultsLog: UnrealCPPCharacter.cpp
+[2018.04.24-10.16.34:387][767]CompilerResultsLog: [2/3] Link UE4Editor-UnrealCPP-8491.dll
+[2018.04.24-10.16.34:388][767]CompilerResultsLog: [3/3] Link UE4Editor-UnrealCPP-8491.lib
+[2018.04.24-10.16.34:388][767]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-8491.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-8491.exp
+[2018.04.24-10.16.34:389][767]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-8491.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-8491.suppressed.exp
+[2018.04.24-10.16.34:390][767]CompilerResultsLog: Total build time: 14.05 seconds (Local executor: 13.34 seconds)
+[2018.04.24-10.16.34:390][767]LogMainFrame: MainFrame: Module compiling took 14.501 seconds
+[2018.04.24-10.16.34:484][767]LogHotReload: Re-instancing MyCameraShake after hot-reload.
+[2018.04.24-10.16.34:552][767]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0169 seconds. Added 45 classes and 42 folders.
+[2018.04.24-10.16.34:554][767]Display: HotReload successful (37 functions remapped  0 scriptstructs remapped)
+[2018.04.24-10.16.34:605][767]LogContentBrowser: Native class hierarchy populated in 0.0246 seconds. Added 2498 classes and 602 folders.
+[2018.04.24-10.16.34:605][767]Display: HotReload took 14.7s.

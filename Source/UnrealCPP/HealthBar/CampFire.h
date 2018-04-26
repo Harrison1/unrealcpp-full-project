@@ -1,9 +1,15 @@
-// Harrison McGuire UE4 Version 4.19.1  https://github.com/Harrison1/unrealcpp https://severallevels.io https://harrisonmcguire.com
+// Harrison McGuire
+// UE4 Version 4.19.1
+// https://github.com/Harrison1/unrealcpp
+// https://severallevels.io
+// https://harrisonmcguire.com
 
 #pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/BoxComponent.h"
+#include "Particles/ParticleSystemComponent.h"
 #include "CampFire.generated.h"
 
 UCLASS()
@@ -23,6 +29,32 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(EditAnywhere)
+	UParticleSystemComponent* Fire;
+
+	UPROPERTY(EditAnywhere)
+	UBoxComponent* MyBoxComponent;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<UDamageType> MyDamageClass;
+
+	UPROPERTY(EditAnywhere)
+	AActor* MyCharacter;
+
+	bool bCanApplyDamage;
+
+	// declare overlap begin function
+	UFUNCTION()
+	void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	// declare overlap end function
+	UFUNCTION()
+	void OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+	// UFUNCTION()
+	// void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 	
+
+	// float ApplyPointDamage(AActor * DamagedActor, float BaseDamage, const FVector & HitFromDirection, const FHitResult & HitInfo, AController * EventInstigator, AActor * DamageCauser, TSubclassOf < class UDamageType > DamageTypeClass);
 	
 };

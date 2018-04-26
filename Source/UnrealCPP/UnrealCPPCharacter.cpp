@@ -381,6 +381,26 @@ bool AUnrealCPPCharacter::GetHit()
 
 void AUnrealCPPCharacter::ReceiveAnyDamage(float Damage, const class UDamageType * DamageType, class AController * InstigatedBy, AActor * DamageCauser)
 {
+	UE_LOG(LogClass,Error,TEXT("General"));
+	// if(bCanBeDamaged)
+	// {
+	// 	bCanBeDamaged = false;
+	// 	redFlash = true;
+	// 	PrevHealth = Health;
+	// 	DamageMain += 0.2;
+	// 	MyTimeline.PlayFromStart();
+	// }
+}
+
+float AUnrealCPPCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const & DamageEvent, class AController * EventInstigator, AActor * DamageCauser)
+{
+	UE_LOG(LogClass,Error,TEXT("Take Damage: %f"), DamageAmount);
+
+	if (DamageEvent.IsOfType(FPointDamageEvent::ClassID))
+	{
+		UE_LOG(LogClass,Error,TEXT("Receive Point World"));
+	}
+
 	if(bCanBeDamaged)
 	{
 		bCanBeDamaged = false;
@@ -389,9 +409,11 @@ void AUnrealCPPCharacter::ReceiveAnyDamage(float Damage, const class UDamageType
 		DamageMain += 0.2;
 		MyTimeline.PlayFromStart();
 	}
-}
 
-float AUnrealCPPCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const & DamageEvent, class AController * EventInstigator, AActor * DamageCauser)
-{
 	return DamageAmount;
 }
+
+// void ReceivePointDamage(float Damage, const UDamageType * DamageType, FVector HitLocation, FVector HitNormal, UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo)
+// {
+// 	UE_LOG(LogClass,Error,TEXT("Receive Point World"));
+// }

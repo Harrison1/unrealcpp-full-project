@@ -91,8 +91,7 @@ void AUnrealCPPCharacter::BeginPlay()
 	// Call the base class  
 	Super::BeginPlay();
 
-
-	Health = 1.f;
+	Health = 1.0f;
 	PrevHealth = Health;
 	bCanBeDamaged = true;
 
@@ -337,6 +336,7 @@ bool AUnrealCPPCharacter::EnableTouchscreenMovement(class UInputComponent* Playe
 
 float AUnrealCPPCharacter::GetHealth()
 {
+	UE_LOG(LogClass,Error,TEXT("Health: %f"), Health);
 	return Health;
 }
 

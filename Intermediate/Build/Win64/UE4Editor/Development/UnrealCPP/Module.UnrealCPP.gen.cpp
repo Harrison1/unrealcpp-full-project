@@ -40,6 +40,8 @@
 #include "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Inc\UnrealCPP\TimerActor.gen.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Inc\UnrealCPP\TriggerBoxSpecificActor.gen.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Inc\UnrealCPP\TriggerVolumeSpecificActor.gen.cpp"
+#include "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Inc\UnrealCPP\UnrealCPP.init.gen.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Inc\UnrealCPP\UnrealCPPCharacter.gen.cpp"
+#include "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Inc\UnrealCPP\UnrealCPPGameMode.gen.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Inc\UnrealCPP\UnrealCPPHUD.gen.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Inc\UnrealCPP\UnrealCPPProjectile.gen.cpp"

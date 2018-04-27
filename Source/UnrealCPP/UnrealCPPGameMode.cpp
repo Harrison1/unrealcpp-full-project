@@ -3,11 +3,14 @@
 #include "UnrealCPPGameMode.h"
 #include "UnrealCPPHUD.h"
 #include "Kismet/GameplayStatics.h"
+#include "Engine/World.h"
 #include "UObject/ConstructorHelpers.h"
 
 AUnrealCPPGameMode::AUnrealCPPGameMode()
 	: Super()
 {
+	PrimaryActorTick.bCanEverTick = true;
+
 	// set default pawn class to our Blueprinted character
 	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnClassFinder(TEXT("/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter"));
 	DefaultPawnClass = PlayerPawnClassFinder.Class;
@@ -23,16 +26,17 @@ void AUnrealCPPGameMode::BeginPlay()
 	SetCurrentState(EGamePlayState::EPlaying);
 
 	MyCharacter = Cast<AUnrealCPPCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
-
 }
 
 void AUnrealCPPGameMode::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	GetWorld()->GetMapName();
+
 	if (MyCharacter)
 	{
-		if (MyCharacter->GetHealth() <= 0)
+		if (MyCharacter->GetHealth() <= 0.0001f)
 		{
 			SetCurrentState(EGamePlayState::EGameOver);
 		}
@@ -62,7 +66,7 @@ void AUnrealCPPGameMode::HandleNewState(EGamePlayState NewState)
 		// Unknown/default state
 		case EGamePlayState::EGameOver:
 		{
-			UGameplayStatics::OpenLevel(this, FName("FirstPersonExampleMap"), false);
+			UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
 		}
 		break;
 		// Unknown/default state

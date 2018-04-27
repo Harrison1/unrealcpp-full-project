@@ -12,7 +12,10 @@
 		"files.associations": {
 			"*.rh": "cpp",
 			"chrono": "cpp",
-			"cmath": "cpp"
+			"cmath": "cpp",
+			"iosfwd": "cpp",
+			"functional": "cpp",
+			"xutility": "cpp"
 		}
 	}
 }

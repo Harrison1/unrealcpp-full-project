@@ -413,7 +413,7 @@ float AUnrealCPPCharacter::TakeDamage(float DamageAmount, struct FDamageEvent co
 	return DamageAmount;
 }
 
-// void ReceivePointDamage(float Damage, const UDamageType * DamageType, FVector HitLocation, FVector HitNormal, UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo)
+// void ReceivePointD(float Damage, const UDamageType * DamageType, FVector HitLocation, FVector HitNormal, UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo)
 // {
 // 	UE_LOG(LogClass,Error,TEXT("Receive Point World"));
 // }

@@ -1,0 +1,2409 @@
+﻿Log file open, 04/28/18 14:09:36
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UnrealCPP
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-2142794414) SRandInit(-2142794414).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.264015
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.112s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../Unreal Projects/UnrealCPP/Binaries/Win64/UE4Editor-UnrealCPP-6940.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am HarryPC (192.168.0.8:0)
+LogInit: Build: ++UE4+Release-4.19-CL-3989454
+LogInit: Engine Version: 4.19.1-3989454+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr  6 2018 12:26:04
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.28-18.09.38:544][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.28-18.09.38:544][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.28-18.09.38:571][  0]LogInit: Computer: HARRYPC
+[2018.04.28-18.09.38:571][  0]LogInit: User: Harrison
+[2018.04.28-18.09.38:571][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.28-18.09.38:571][  0]LogInit: High frequency timer resolution =3.514606 MHz
+[2018.04.28-18.09.38:572][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.04.28-18.09.38:572][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.28-18.09.38:572][  0]LogMemory: Process Physical Memory: 274.71 MB used, 274.71 MB peak
+[2018.04.28-18.09.38:572][  0]LogMemory: Process Virtual Memory: 264.69 MB used, 264.69 MB peak
+[2018.04.28-18.09.38:572][  0]LogMemory: Physical Memory: 6379.10 MB used,  9961.89 MB free, 16340.99 MB total
+[2018.04.28-18.09.38:572][  0]LogMemory: Virtual Memory: 698.76 MB used,  9961.89 MB free, 134217728.00 MB total
+[2018.04.28-18.09.38:606][  0]LogInit: Using OS detected language (en-US).
+[2018.04.28-18.09.38:606][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.28-18.09.38:619][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.28-18.09.39:053][  0]LogStreaming: Display: Took  0.447s to EndInitTextLocalization.
+[2018.04.28-18.09.39:053][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.28-18.09.39:078][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.04.28-18.09.39:078][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.04.28-18.09.39:321][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.28-18.09.39:371][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.04.28-18.09.39:371][  0]LogD3D11RHI:       4043/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.28-18.09.39:373][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.28-18.09.39:373][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.28-18.09.39:373][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.28-18.09.39:380][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.28-18.09.39:380][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.28-18.09.39:380][  0]LogWindows: EnumDisplayDevices:
+[2018.04.28-18.09.39:380][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.04.28-18.09.39:380][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.28-18.09.39:380][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.28-18.09.39:380][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.28-18.09.39:380][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.28-18.09.39:380][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.04.28-18.09.39:380][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.28-18.09.39:380][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.28-18.09.39:381][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.04.28-18.09.39:405][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.28-18.09.39:405][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.28-18.09.39:405][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.28-18.09.39:425][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.28-18.09.39:474][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../Unreal Projects/UnrealCPP/Intermediate/Shaders/WorkingDirectory/10016/).
+[2018.04.28-18.09.39:474][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harrison/AppData/Local/Temp/UnrealShaderWorkingDir/1C6467B84135A074CB1065B8AE615D71/'.
+[2018.04.28-18.09.39:735][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.28-18.09.39:746][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.28-18.09.39:758][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.28-18.09.39:770][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.28-18.09.39:781][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.28-18.09.39:793][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.28-18.09.39:804][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.28-18.09.39:817][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.28-18.09.39:822][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.28-18.09.39:833][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.28-18.09.39:843][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.28-18.09.39:854][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.28-18.09.39:865][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.04.28-18.09.39:875][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.28-18.09.39:886][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.28-18.09.39:908][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.28-18.09.39:908][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.28-18.09.39:918][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.28-18.09.39:920][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.28-18.09.39:955][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.28-18.09.39:973][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.28-18.09.39:994][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.28-18.09.40:005][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.28-18.09.40:016][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.28-18.09.40:027][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.28-18.09.40:027][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.28-18.09.40:124][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.04.28-18.09.40:124][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.04.28-18.09.40:124][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.28-18.09.40:756][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.28-18.09.40:820][  0]LogDerivedDataCache: Loaded boot cache 0.06s 79MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.28-18.09.40:820][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.04.28-18.09.40:820][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.28-18.09.40:820][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.28-18.09.40:820][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.28-18.09.40:820][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.28-18.09.40:842][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.28-18.09.40:854][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Harrison/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.28-18.09.40:877][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.28-18.09.40:878][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.28-18.09.40:879][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.28-18.09.40:880][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.28-18.09.41:015][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2018.04.28-18.09.41:281][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.28-18.09.41:410][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.28-18.09.41:411][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.28-18.09.41:411][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.28-18.09.41:411][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.28-18.09.41:411][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.28-18.09.41:411][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.28-18.09.41:444][  0]LogNetVersion: UnrealCPP , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2553546984)
+[2018.04.28-18.09.41:873][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.113299 seconds
+[2018.04.28-18.09.41:878][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.04.28-18.09.41:878][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.04.28-18.09.41:878][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.28-18.09.43:421][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.28-18.09.43:451][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.28-18.09.43:950][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.911624ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2018.04.28-18.09.43:964][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.563079ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
+[2018.04.28-18.09.44:149][  0]SourceControl: Source control is disabled
+[2018.04.28-18.09.44:149][  0]SourceControl: Source control is disabled
+[2018.04.28-18.09.44:180][  0]SourceControl: Source control is disabled
+[2018.04.28-18.09.44:203][  0]SourceControl: Source control is disabled
+[2018.04.28-18.09.44:748][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.28-18.09.44:945][  0]LogOcInput: OculusInput pre-init called
+[2018.04.28-18.09.45:067][  0]LogEngine: Initializing Engine...
+[2018.04.28-18.09.45:071][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.04.28-18.09.45:073][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.28-18.09.45:073][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.28-18.09.45:261][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.28-18.09.45:286][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.28-18.09.45:296][  0]LogInit: FAudioDevice initialized.
+[2018.04.28-18.09.45:453][  0]LogDerivedDataCache: Saved boot cache 0.16s 79MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.28-18.09.45:485][  0]LogInit: Texture streaming: Enabled
+[2018.04.28-18.09.45:509][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.28-18.09.45:522][  0]LogInit: Transaction tracking system initialized
+[2018.04.28-18.09.45:539][  0]BlueprintLog: New page: Editor Load
+[2018.04.28-18.09.45:629][  0]LocalizationService: Localization service is disabled
+[2018.04.28-18.09.45:758][  0]LogConsoleResponse: Display: 
+[2018.04.28-18.09.45:881][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.28-18.09.45:881][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.28-18.09.45:881][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.28-18.09.45:882][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.28-18.09.45:882][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.28-18.09.46:266][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/' took 0.01s
+[2018.04.28-18.09.46:266][  0]SourceControl: Source control is disabled
+[2018.04.28-18.09.46:267][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.28-18.09.46:267][  0]LightingResults: New page: Lighting Build
+[2018.04.28-18.09.46:269][  0]MapCheck: New page: Map Check
+[2018.04.28-18.09.46:269][  0]LightingResults: New page: Lighting Build
+[2018.04.28-18.09.46:425][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.28-18.09.46:432][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.28-18.09.46:444][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.28-18.09.46:504][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.143ms to complete.
+[2018.04.28-18.09.46:504][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.237
+[2018.04.28-18.09.46:621][  0]LogCollectionManager: Loaded 0 collections in 0.000969 seconds
+[2018.04.28-18.09.46:670][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Saved/Collections/' took 0.01s
+[2018.04.28-18.09.46:670][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Developers/Harrison/Collections/' took 0.01s
+[2018.04.28-18.09.46:671][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Collections/' took 0.01s
+[2018.04.28-18.09.46:671][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.28-18.09.46:744][  0]LogContentBrowser: Native class hierarchy populated in 0.0732 seconds. Added 2497 classes and 600 folders.
+[2018.04.28-18.09.46:779][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0261 seconds. Added 0 classes and 0 folders.
+[2018.04.28-18.09.46:848][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0186 seconds. Added 0 classes and 0 folders.
+[2018.04.28-18.09.46:870][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0167 seconds. Added 1 classes and 2 folders.
+[2018.04.28-18.09.46:943][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.28-18.09.46:945][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.28-18.09.46:950][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.28-18.09.46:950][  0]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.04.28-18.09.47:098][  0]LogRenderer: Reallocating scene render targets to support 1148x612 Format 10 NumSamples 1 (Frame:1).
+[2018.04.28-18.09.47:236][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0264 seconds. Added 0 classes and 0 folders.
+[2018.04.28-18.09.47:236][  0]LogLoad: (Engine Initialization) Total time: 11.79 seconds
+[2018.04.28-18.09.47:236][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.28-18.09.47:248][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.28-18.09.47:276][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.28-18.09.47:316][  1]LogAssetRegistry: Asset discovery search completed in 6.3218 seconds
+[2018.04.28-18.09.47:318][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.28-18.09.47:318][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000199 seconds (updated 0 objects)
+[2018.04.28-18.09.48:682][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.28-18.09.48:773][166]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.28-18.09.48:789][166]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.28-18.09.48:790][166]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.28-18.09.48:791][166]PIE: New page: PIE session: FirstPersonExampleMap (Apr 28, 2018, 10:09:48 AM)
+[2018.04.28-18.09.48:791][166]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.28-18.09.48:811][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020106s)
+[2018.04.28-18.09.48:812][166]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.28-18.09.48:812][166]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2018.04.28-18.09.48:812][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021523s)
+[2018.04.28-18.09.48:831][166]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.28-18.09.48:842][166]LogInit: FAudioDevice initialized.
+[2018.04.28-18.09.48:891][166]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.28-18.09.48:898][166]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.28-14.09.48
+[2018.04.28-18.09.48:900][166]LogWorld: Bringing up level for play took: 0.005974
+[2018.04.28-18.09.48:942][166]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0351 seconds. Added 11 classes and 0 folders.
+[2018.04.28-18.09.48:944][166]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.445
+[2018.04.28-18.09.48:945][166]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.28-18.09.49:414][218]LogClass: Error: TIMELINE VALUE: 1.000000
+[2018.04.28-18.09.52:987][646]LogClass: Error: TIMELINE VALUE: 1.000000
+[2018.04.28-18.09.53:529][711]LogClass: Error: TIMELINE VALUE: 1.000000
+[2018.04.28-18.09.53:962][763]LogClass: Error: TIMELINE VALUE: 1.000000
+[2018.04.28-18.09.54:353][810]LogClass: Error: TIMELINE VALUE: 1.000000
+[2018.04.28-18.09.54:812][865]LogClass: Error: TIMELINE VALUE: 1.000000
+[2018.04.28-18.09.55:203][912]LogClass: Error: TIMELINE VALUE: 1.000000
+[2018.04.28-18.09.55:628][963]LogClass: Error: TIMELINE VALUE: 1.000000
+[2018.04.28-18.09.57:761][219]LogClass: Error: Yo I'm fire
+[2018.04.28-18.09.57:761][219]LogClass: Error: Received Point Damage
+[2018.04.28-18.09.57:761][219]LogClass: Warning: Take Damage: 10.000000
+[2018.04.28-18.09.57:761][219]LogClass: Error: Received Any Damage
+[2018.04.28-18.10.04:012][969]LogClass: Error: TIMELINE VALUE: 1.000000
+[2018.04.28-18.10.05:637][164]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.28-18.10.05:671][164]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.28-18.10.21:821][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.28-18.10.21:924][456]Candidate modules for hot reload:
+[2018.04.28-18.10.21:924][456]  UnrealCPP
+[2018.04.28-18.10.21:924][456]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,4587 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.28-18.10.21:926][456]Warning: Starting HotReload took  0.0s.
+[2018.04.28-18.10.36:338][184]CompilerResultsLog: New page: Compilation - Apr 28, 2018, 10:10:36 AM
+[2018.04.28-18.10.36:339][184]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.28-18.10.36:339][184]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.28-18.10.36:339][184]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.04.28-18.10.36:339][184]CompilerResultsLog: UnrealCPPCharacter.cpp
+[2018.04.28-18.10.36:339][184]CompilerResultsLog: [2/3] Link UE4Editor-UnrealCPP-4587.dll
+[2018.04.28-18.10.36:339][184]CompilerResultsLog: [3/3] Link UE4Editor-UnrealCPP-4587.lib
+[2018.04.28-18.10.36:339][184]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4587.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4587.exp
+[2018.04.28-18.10.36:340][184]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4587.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-4587.suppressed.exp
+[2018.04.28-18.10.36:340][184]CompilerResultsLog: Total build time: 14.22 seconds (Local executor: 13.53 seconds)
+[2018.04.28-18.10.36:340][184]LogMainFrame: MainFrame: Module compiling took 14.419 seconds
+[2018.04.28-18.10.36:388][184]LogClass: EGamePlayState HotReload.
+[2018.04.28-18.10.36:393][184]LogHotReload: Re-instancing MyCameraShake after hot-reload.
+[2018.04.28-18.10.36:444][184]LogHotReload: Re-instancing CampFire after hot-reload.
+[2018.04.28-18.10.36:549][184]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0204 seconds. Added 45 classes and 42 folders.
+[2018.04.28-18.10.36:551][184]Display: HotReload successful (45 functions remapped  0 scriptstructs remapped)
+[2018.04.28-18.10.36:669][184]LogContentBrowser: Native class hierarchy populated in 0.0260 seconds. Added 2498 classes and 602 folders.
+[2018.04.28-18.10.36:669][184]Display: HotReload took 14.7s.
+[2018.04.28-18.10.37:636][300]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.28-18.10.37:653][300]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.28-18.10.37:654][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.28-18.10.37:654][300]PIE: New page: PIE session: FirstPersonExampleMap (Apr 28, 2018, 10:10:37 AM)
+[2018.04.28-18.10.37:654][300]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.28-18.10.37:668][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013346s)
+[2018.04.28-18.10.37:669][300]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.28-18.10.37:669][300]LogPlayLevel: PIE: World Init took: (0.001440s)
+[2018.04.28-18.10.37:670][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015444s)
+[2018.04.28-18.10.37:691][300]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.28-18.10.37:699][300]LogInit: FAudioDevice initialized.
+[2018.04.28-18.10.37:733][300]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.28-18.10.37:736][300]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.28-14.10.37
+[2018.04.28-18.10.37:736][300]LogWorld: Bringing up level for play took: 0.002059
+[2018.04.28-18.10.37:738][300]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.348
+[2018.04.28-18.10.37:738][300]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.28-18.10.38:385][374]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.10.39:860][551]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.10.40:394][615]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.10.40:785][662]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.10.41:068][696]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.10.41:335][728]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.10.42:610][881]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.28-18.10.42:642][881]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.28-18.10.58:482][218]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.28-18.10.58:553][226]Candidate modules for hot reload:
+[2018.04.28-18.10.58:553][226]  UnrealCPP
+[2018.04.28-18.10.58:553][226]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,7494 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.28-18.10.58:555][226]Warning: Starting HotReload took  0.0s.
+[2018.04.28-18.11.12:907][948]CompilerResultsLog: New page: Compilation - Apr 28, 2018, 10:11:12 AM
+[2018.04.28-18.11.12:907][948]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.28-18.11.12:907][948]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.28-18.11.12:907][948]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.04.28-18.11.12:907][948]CompilerResultsLog: UnrealCPPCharacter.cpp
+[2018.04.28-18.11.12:907][948]CompilerResultsLog: [2/3] Link UE4Editor-UnrealCPP-7494.dll
+[2018.04.28-18.11.12:908][948]CompilerResultsLog: [3/3] Link UE4Editor-UnrealCPP-7494.lib
+[2018.04.28-18.11.12:908][948]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-7494.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-7494.exp
+[2018.04.28-18.11.12:908][948]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-7494.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-7494.suppressed.exp
+[2018.04.28-18.11.12:908][948]CompilerResultsLog: Total build time: 14.15 seconds (Local executor: 13.43 seconds)
+[2018.04.28-18.11.12:909][948]LogMainFrame: MainFrame: Module compiling took 14.359 seconds
+[2018.04.28-18.11.12:954][948]LogClass: EGamePlayState HotReload.
+[2018.04.28-18.11.12:958][948]LogHotReload: Re-instancing MyCameraShake after hot-reload.
+[2018.04.28-18.11.13:004][948]LogHotReload: Re-instancing CampFire after hot-reload.
+[2018.04.28-18.11.13:114][948]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0195 seconds. Added 45 classes and 42 folders.
+[2018.04.28-18.11.13:116][948]Display: HotReload successful (45 functions remapped  0 scriptstructs remapped)
+[2018.04.28-18.11.13:176][948]LogContentBrowser: Native class hierarchy populated in 0.0287 seconds. Added 2498 classes and 602 folders.
+[2018.04.28-18.11.13:176][948]Display: HotReload took 14.6s.
+[2018.04.28-18.11.14:868][151]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.28-18.11.14:885][151]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.28-18.11.14:886][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.28-18.11.14:886][151]PIE: New page: PIE session: FirstPersonExampleMap (Apr 28, 2018, 10:11:14 AM)
+[2018.04.28-18.11.14:886][151]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.28-18.11.14:900][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013781s)
+[2018.04.28-18.11.14:901][151]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.28-18.11.14:902][151]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2018.04.28-18.11.14:902][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015835s)
+[2018.04.28-18.11.14:923][151]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.28-18.11.14:932][151]LogInit: FAudioDevice initialized.
+[2018.04.28-18.11.14:962][151]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.28-18.11.14:964][151]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.28-14.11.14
+[2018.04.28-18.11.14:965][151]LogWorld: Bringing up level for play took: 0.002122
+[2018.04.28-18.11.14:967][151]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.423
+[2018.04.28-18.11.14:967][151]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.28-18.11.14:968][151]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:002][152]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:010][153]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:019][154]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:027][155]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:035][156]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:044][157]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:052][158]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:061][159]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:069][160]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:077][161]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:086][162]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:094][163]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:102][164]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:111][165]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:119][166]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:127][167]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:136][168]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:144][169]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:152][170]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:160][171]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:169][172]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:177][173]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:185][174]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:194][175]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:202][176]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:210][177]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:219][178]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:227][179]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:235][180]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:243][181]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:252][182]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:260][183]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:269][184]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:277][185]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:286][186]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:294][187]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:302][188]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:311][189]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:319][190]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:327][191]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:336][192]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:344][193]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:352][194]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:361][195]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:369][196]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:377][197]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:386][198]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:394][199]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:402][200]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:411][201]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:419][202]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:427][203]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:435][204]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:444][205]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:452][206]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:460][207]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:469][208]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:477][209]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:485][210]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:494][211]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:502][212]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:510][213]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:519][214]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:527][215]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:535][216]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:544][217]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:552][218]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:560][219]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:569][220]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:577][221]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:585][222]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:594][223]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:602][224]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:610][225]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:619][226]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:627][227]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:635][228]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:644][229]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:652][230]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:660][231]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:669][232]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:677][233]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:685][234]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:694][235]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:702][236]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:711][237]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:719][238]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:727][239]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:736][240]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:744][241]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:752][242]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:760][243]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:769][244]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:777][245]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:785][246]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:794][247]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:802][248]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:810][249]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:819][250]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:827][251]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:836][252]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:844][253]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:852][254]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:861][255]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:869][256]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:877][257]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:886][258]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:894][259]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:902][260]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:911][261]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:919][262]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:927][263]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:936][264]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:944][265]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:952][266]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:961][267]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:969][268]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:977][269]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:986][270]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.15:994][271]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:002][272]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:010][273]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:019][274]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:027][275]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:035][276]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:044][277]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:052][278]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:060][279]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:069][280]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:077][281]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:086][282]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:094][283]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:102][284]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:111][285]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:119][286]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:127][287]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:136][288]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:144][289]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:152][290]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:161][291]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:169][292]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:177][293]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:186][294]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:194][295]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:202][296]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:211][297]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:219][298]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:227][299]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:236][300]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:244][301]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:252][302]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:261][303]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:269][304]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:277][305]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:286][306]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:294][307]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:302][308]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:310][309]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:319][310]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:327][311]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:335][312]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:344][313]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:352][314]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:360][315]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:369][316]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:377][317]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:385][318]LogClass: Error: TIMELINE VALUE: 0.000000
+[2018.04.28-18.11.16:396][319]LogClass: Error: TIMELINE VALUE: 0.008334
+[2018.04.28-18.11.16:403][320]LogClass: Error: TIMELINE VALUE: 0.017249
+[2018.04.28-18.11.16:411][321]LogClass: Error: TIMELINE VALUE: 0.025582
+[2018.04.28-18.11.16:419][322]LogClass: Error: TIMELINE VALUE: 0.033916
+[2018.04.28-18.11.16:428][323]LogClass: Error: TIMELINE VALUE: 0.042250
+[2018.04.28-18.11.16:436][324]LogClass: Error: TIMELINE VALUE: 0.050583
+[2018.04.28-18.11.16:444][325]LogClass: Error: TIMELINE VALUE: 0.058917
+[2018.04.28-18.11.16:453][326]LogClass: Error: TIMELINE VALUE: 0.067250
+[2018.04.28-18.11.16:461][327]LogClass: Error: TIMELINE VALUE: 0.075584
+[2018.04.28-18.11.16:470][328]LogClass: Error: TIMELINE VALUE: 0.083918
+[2018.04.28-18.11.16:478][329]LogClass: Error: TIMELINE VALUE: 0.092251
+[2018.04.28-18.11.16:486][330]LogClass: Error: TIMELINE VALUE: 0.100585
+[2018.04.28-18.11.16:495][331]LogClass: Error: TIMELINE VALUE: 0.108918
+[2018.04.28-18.11.16:503][332]LogClass: Error: TIMELINE VALUE: 0.117252
+[2018.04.28-18.11.16:511][333]LogClass: Error: TIMELINE VALUE: 0.125586
+[2018.04.28-18.11.16:520][334]LogClass: Error: TIMELINE VALUE: 0.133919
+[2018.04.28-18.11.16:528][335]LogClass: Error: TIMELINE VALUE: 0.142253
+[2018.04.28-18.11.16:536][336]LogClass: Error: TIMELINE VALUE: 0.150586
+[2018.04.28-18.11.16:545][337]LogClass: Error: TIMELINE VALUE: 0.158920
+[2018.04.28-18.11.16:553][338]LogClass: Error: TIMELINE VALUE: 0.167253
+[2018.04.28-18.11.16:561][339]LogClass: Error: TIMELINE VALUE: 0.175587
+[2018.04.28-18.11.16:570][340]LogClass: Error: TIMELINE VALUE: 0.183921
+[2018.04.28-18.11.16:578][341]LogClass: Error: TIMELINE VALUE: 0.192254
+[2018.04.28-18.11.16:586][342]LogClass: Error: TIMELINE VALUE: 0.200588
+[2018.04.28-18.11.16:594][343]LogClass: Error: TIMELINE VALUE: 0.208921
+[2018.04.28-18.11.16:603][344]LogClass: Error: TIMELINE VALUE: 0.217255
+[2018.04.28-18.11.16:611][345]LogClass: Error: TIMELINE VALUE: 0.225588
+[2018.04.28-18.11.16:620][346]LogClass: Error: TIMELINE VALUE: 0.233922
+[2018.04.28-18.11.16:628][347]LogClass: Error: TIMELINE VALUE: 0.242256
+[2018.04.28-18.11.16:636][348]LogClass: Error: TIMELINE VALUE: 0.250589
+[2018.04.28-18.11.16:644][349]LogClass: Error: TIMELINE VALUE: 0.258923
+[2018.04.28-18.11.16:653][350]LogClass: Error: TIMELINE VALUE: 0.267256
+[2018.04.28-18.11.16:661][351]LogClass: Error: TIMELINE VALUE: 0.275590
+[2018.04.28-18.11.16:669][352]LogClass: Error: TIMELINE VALUE: 0.283924
+[2018.04.28-18.11.16:678][353]LogClass: Error: TIMELINE VALUE: 0.292257
+[2018.04.28-18.11.16:686][354]LogClass: Error: TIMELINE VALUE: 0.300591
+[2018.04.28-18.11.16:694][355]LogClass: Error: TIMELINE VALUE: 0.308924
+[2018.04.28-18.11.16:703][356]LogClass: Error: TIMELINE VALUE: 0.317258
+[2018.04.28-18.11.16:711][357]LogClass: Error: TIMELINE VALUE: 0.325593
+[2018.04.28-18.11.16:719][358]LogClass: Error: TIMELINE VALUE: 0.333927
+[2018.04.28-18.11.16:728][359]LogClass: Error: TIMELINE VALUE: 0.342261
+[2018.04.28-18.11.16:736][360]LogClass: Error: TIMELINE VALUE: 0.350594
+[2018.04.28-18.11.16:744][361]LogClass: Error: TIMELINE VALUE: 0.358928
+[2018.04.28-18.11.16:753][362]LogClass: Error: TIMELINE VALUE: 0.367261
+[2018.04.28-18.11.16:761][363]LogClass: Error: TIMELINE VALUE: 0.375595
+[2018.04.28-18.11.16:770][364]LogClass: Error: TIMELINE VALUE: 0.383929
+[2018.04.28-18.11.16:778][365]LogClass: Error: TIMELINE VALUE: 0.392262
+[2018.04.28-18.11.16:786][366]LogClass: Error: TIMELINE VALUE: 0.400596
+[2018.04.28-18.11.16:794][367]LogClass: Error: TIMELINE VALUE: 0.408930
+[2018.04.28-18.11.16:803][368]LogClass: Error: TIMELINE VALUE: 0.417263
+[2018.04.28-18.11.16:811][369]LogClass: Error: TIMELINE VALUE: 0.425597
+[2018.04.28-18.11.16:819][370]LogClass: Error: TIMELINE VALUE: 0.433930
+[2018.04.28-18.11.16:828][371]LogClass: Error: TIMELINE VALUE: 0.442264
+[2018.04.28-18.11.16:836][372]LogClass: Error: TIMELINE VALUE: 0.450598
+[2018.04.28-18.11.16:844][373]LogClass: Error: TIMELINE VALUE: 0.458932
+[2018.04.28-18.11.16:853][374]LogClass: Error: TIMELINE VALUE: 0.467265
+[2018.04.28-18.11.16:861][375]LogClass: Error: TIMELINE VALUE: 0.475599
+[2018.04.28-18.11.16:869][376]LogClass: Error: TIMELINE VALUE: 0.483932
+[2018.04.28-18.11.16:878][377]LogClass: Error: TIMELINE VALUE: 0.492266
+[2018.04.28-18.11.16:886][378]LogClass: Error: TIMELINE VALUE: 0.500600
+[2018.04.28-18.11.16:894][379]LogClass: Error: TIMELINE VALUE: 0.508933
+[2018.04.28-18.11.16:903][380]LogClass: Error: TIMELINE VALUE: 0.517267
+[2018.04.28-18.11.16:911][381]LogClass: Error: TIMELINE VALUE: 0.525601
+[2018.04.28-18.11.16:919][382]LogClass: Error: TIMELINE VALUE: 0.533934
+[2018.04.28-18.11.16:928][383]LogClass: Error: TIMELINE VALUE: 0.542268
+[2018.04.28-18.11.16:936][384]LogClass: Error: TIMELINE VALUE: 0.550609
+[2018.04.28-18.11.16:944][385]LogClass: Error: TIMELINE VALUE: 0.558942
+[2018.04.28-18.11.16:953][386]LogClass: Error: TIMELINE VALUE: 0.567276
+[2018.04.28-18.11.16:961][387]LogClass: Error: TIMELINE VALUE: 0.575609
+[2018.04.28-18.11.16:969][388]LogClass: Error: TIMELINE VALUE: 0.583943
+[2018.04.28-18.11.16:978][389]LogClass: Error: TIMELINE VALUE: 0.592276
+[2018.04.28-18.11.16:986][390]LogClass: Error: TIMELINE VALUE: 0.600610
+[2018.04.28-18.11.16:994][391]LogClass: Error: TIMELINE VALUE: 0.608943
+[2018.04.28-18.11.17:003][392]LogClass: Error: TIMELINE VALUE: 0.617277
+[2018.04.28-18.11.17:011][393]LogClass: Error: TIMELINE VALUE: 0.625610
+[2018.04.28-18.11.17:019][394]LogClass: Error: TIMELINE VALUE: 0.633944
+[2018.04.28-18.11.17:028][395]LogClass: Error: TIMELINE VALUE: 0.642278
+[2018.04.28-18.11.17:036][396]LogClass: Error: TIMELINE VALUE: 0.650611
+[2018.04.28-18.11.17:045][397]LogClass: Error: TIMELINE VALUE: 0.658945
+[2018.04.28-18.11.17:053][398]LogClass: Error: TIMELINE VALUE: 0.667278
+[2018.04.28-18.11.17:061][399]LogClass: Error: TIMELINE VALUE: 0.675612
+[2018.04.28-18.11.17:070][400]LogClass: Error: TIMELINE VALUE: 0.683946
+[2018.04.28-18.11.17:078][401]LogClass: Error: TIMELINE VALUE: 0.692279
+[2018.04.28-18.11.17:086][402]LogClass: Error: TIMELINE VALUE: 0.700613
+[2018.04.28-18.11.17:095][403]LogClass: Error: TIMELINE VALUE: 0.708946
+[2018.04.28-18.11.17:103][404]LogClass: Error: TIMELINE VALUE: 0.717280
+[2018.04.28-18.11.17:111][405]LogClass: Error: TIMELINE VALUE: 0.725613
+[2018.04.28-18.11.17:120][406]LogClass: Error: TIMELINE VALUE: 0.733947
+[2018.04.28-18.11.17:128][407]LogClass: Error: TIMELINE VALUE: 0.742280
+[2018.04.28-18.11.17:136][408]LogClass: Error: TIMELINE VALUE: 0.750614
+[2018.04.28-18.11.17:145][409]LogClass: Error: TIMELINE VALUE: 0.758947
+[2018.04.28-18.11.17:153][410]LogClass: Error: TIMELINE VALUE: 0.767281
+[2018.04.28-18.11.17:161][411]LogClass: Error: TIMELINE VALUE: 0.775614
+[2018.04.28-18.11.17:169][412]LogClass: Error: TIMELINE VALUE: 0.783948
+[2018.04.28-18.11.17:178][413]LogClass: Error: TIMELINE VALUE: 0.792281
+[2018.04.28-18.11.17:186][414]LogClass: Error: TIMELINE VALUE: 0.800615
+[2018.04.28-18.11.17:194][415]LogClass: Error: TIMELINE VALUE: 0.808948
+[2018.04.28-18.11.17:203][416]LogClass: Error: TIMELINE VALUE: 0.817282
+[2018.04.28-18.11.17:211][417]LogClass: Error: TIMELINE VALUE: 0.825616
+[2018.04.28-18.11.17:219][418]LogClass: Error: TIMELINE VALUE: 0.833949
+[2018.04.28-18.11.17:228][419]LogClass: Error: TIMELINE VALUE: 0.842283
+[2018.04.28-18.11.17:236][420]LogClass: Error: TIMELINE VALUE: 0.850616
+[2018.04.28-18.11.17:245][421]LogClass: Error: TIMELINE VALUE: 0.858950
+[2018.04.28-18.11.17:253][422]LogClass: Error: TIMELINE VALUE: 0.867284
+[2018.04.28-18.11.17:261][423]LogClass: Error: TIMELINE VALUE: 0.875618
+[2018.04.28-18.11.17:270][424]LogClass: Error: TIMELINE VALUE: 0.883951
+[2018.04.28-18.11.17:278][425]LogClass: Error: TIMELINE VALUE: 0.892285
+[2018.04.28-18.11.17:286][426]LogClass: Error: TIMELINE VALUE: 0.900618
+[2018.04.28-18.11.17:294][427]LogClass: Error: TIMELINE VALUE: 0.908952
+[2018.04.28-18.11.17:303][428]LogClass: Error: TIMELINE VALUE: 0.917285
+[2018.04.28-18.11.17:311][429]LogClass: Error: TIMELINE VALUE: 0.925619
+[2018.04.28-18.11.17:319][430]LogClass: Error: TIMELINE VALUE: 0.933952
+[2018.04.28-18.11.17:328][431]LogClass: Error: TIMELINE VALUE: 0.942286
+[2018.04.28-18.11.17:336][432]LogClass: Error: TIMELINE VALUE: 0.950619
+[2018.04.28-18.11.17:344][433]LogClass: Error: TIMELINE VALUE: 0.958953
+[2018.04.28-18.11.17:353][434]LogClass: Error: TIMELINE VALUE: 0.967287
+[2018.04.28-18.11.17:361][435]LogClass: Error: TIMELINE VALUE: 0.975620
+[2018.04.28-18.11.17:369][436]LogClass: Error: TIMELINE VALUE: 0.983954
+[2018.04.28-18.11.17:378][437]LogClass: Error: TIMELINE VALUE: 0.992287
+[2018.04.28-18.11.17:386][438]LogClass: Error: TIMELINE VALUE: 1.000636
+[2018.04.28-18.11.17:394][439]LogClass: Error: TIMELINE VALUE: 1.008970
+[2018.04.28-18.11.17:403][440]LogClass: Error: TIMELINE VALUE: 1.017313
+[2018.04.28-18.11.17:411][441]LogClass: Error: TIMELINE VALUE: 1.025647
+[2018.04.28-18.11.17:419][442]LogClass: Error: TIMELINE VALUE: 1.033980
+[2018.04.28-18.11.17:428][443]LogClass: Error: TIMELINE VALUE: 1.042314
+[2018.04.28-18.11.17:436][444]LogClass: Error: TIMELINE VALUE: 1.050647
+[2018.04.28-18.11.17:444][445]LogClass: Error: TIMELINE VALUE: 1.058981
+[2018.04.28-18.11.17:453][446]LogClass: Error: TIMELINE VALUE: 1.067315
+[2018.04.28-18.11.17:461][447]LogClass: Error: TIMELINE VALUE: 1.075648
+[2018.04.28-18.11.17:470][448]LogClass: Error: TIMELINE VALUE: 1.083982
+[2018.04.28-18.11.17:478][449]LogClass: Error: TIMELINE VALUE: 1.092315
+[2018.04.28-18.11.17:486][450]LogClass: Error: TIMELINE VALUE: 1.100649
+[2018.04.28-18.11.17:495][451]LogClass: Error: TIMELINE VALUE: 1.108983
+[2018.04.28-18.11.17:503][452]LogClass: Error: TIMELINE VALUE: 1.117316
+[2018.04.28-18.11.17:511][453]LogClass: Error: TIMELINE VALUE: 1.125650
+[2018.04.28-18.11.17:520][454]LogClass: Error: TIMELINE VALUE: 1.133983
+[2018.04.28-18.11.17:528][455]LogClass: Error: TIMELINE VALUE: 1.142317
+[2018.04.28-18.11.17:536][456]LogClass: Error: TIMELINE VALUE: 1.150651
+[2018.04.28-18.11.17:545][457]LogClass: Error: TIMELINE VALUE: 1.158984
+[2018.04.28-18.11.17:553][458]LogClass: Error: TIMELINE VALUE: 1.167318
+[2018.04.28-18.11.17:561][459]LogClass: Error: TIMELINE VALUE: 1.175652
+[2018.04.28-18.11.17:570][460]LogClass: Error: TIMELINE VALUE: 1.183985
+[2018.04.28-18.11.17:578][461]LogClass: Error: TIMELINE VALUE: 1.192319
+[2018.04.28-18.11.17:586][462]LogClass: Error: TIMELINE VALUE: 1.200652
+[2018.04.28-18.11.17:594][463]LogClass: Error: TIMELINE VALUE: 1.208986
+[2018.04.28-18.11.17:603][464]LogClass: Error: TIMELINE VALUE: 1.217320
+[2018.04.28-18.11.17:611][465]LogClass: Error: TIMELINE VALUE: 1.225653
+[2018.04.28-18.11.17:619][466]LogClass: Error: TIMELINE VALUE: 1.233987
+[2018.04.28-18.11.17:628][467]LogClass: Error: TIMELINE VALUE: 1.242320
+[2018.04.28-18.11.17:636][468]LogClass: Error: TIMELINE VALUE: 1.250654
+[2018.04.28-18.11.17:644][469]LogClass: Error: TIMELINE VALUE: 1.258988
+[2018.04.28-18.11.17:653][470]LogClass: Error: TIMELINE VALUE: 1.267321
+[2018.04.28-18.11.17:661][471]LogClass: Error: TIMELINE VALUE: 1.275655
+[2018.04.28-18.11.17:669][472]LogClass: Error: TIMELINE VALUE: 1.283988
+[2018.04.28-18.11.17:678][473]LogClass: Error: TIMELINE VALUE: 1.292322
+[2018.04.28-18.11.17:686][474]LogClass: Error: TIMELINE VALUE: 1.300656
+[2018.04.28-18.11.17:695][475]LogClass: Error: TIMELINE VALUE: 1.308990
+[2018.04.28-18.11.17:703][476]LogClass: Error: TIMELINE VALUE: 1.317323
+[2018.04.28-18.11.17:711][477]LogClass: Error: TIMELINE VALUE: 1.325657
+[2018.04.28-18.11.17:720][478]LogClass: Error: TIMELINE VALUE: 1.333991
+[2018.04.28-18.11.17:728][479]LogClass: Error: TIMELINE VALUE: 1.342324
+[2018.04.28-18.11.17:736][480]LogClass: Error: TIMELINE VALUE: 1.350658
+[2018.04.28-18.11.17:745][481]LogClass: Error: TIMELINE VALUE: 1.358992
+[2018.04.28-18.11.17:753][482]LogClass: Error: TIMELINE VALUE: 1.367325
+[2018.04.28-18.11.17:761][483]LogClass: Error: TIMELINE VALUE: 1.375659
+[2018.04.28-18.11.17:770][484]LogClass: Error: TIMELINE VALUE: 1.383993
+[2018.04.28-18.11.17:778][485]LogClass: Error: TIMELINE VALUE: 1.392326
+[2018.04.28-18.11.17:786][486]LogClass: Error: TIMELINE VALUE: 1.400660
+[2018.04.28-18.11.17:795][487]LogClass: Error: TIMELINE VALUE: 1.408994
+[2018.04.28-18.11.17:803][488]LogClass: Error: TIMELINE VALUE: 1.417327
+[2018.04.28-18.11.17:811][489]LogClass: Error: TIMELINE VALUE: 1.425661
+[2018.04.28-18.11.17:819][490]LogClass: Error: TIMELINE VALUE: 1.433994
+[2018.04.28-18.11.17:828][491]LogClass: Error: TIMELINE VALUE: 1.442328
+[2018.04.28-18.11.17:836][492]LogClass: Error: TIMELINE VALUE: 1.450662
+[2018.04.28-18.11.17:845][493]LogClass: Error: TIMELINE VALUE: 1.459020
+[2018.04.28-18.11.17:853][494]LogClass: Error: TIMELINE VALUE: 1.467354
+[2018.04.28-18.11.17:861][495]LogClass: Error: TIMELINE VALUE: 1.475688
+[2018.04.28-18.11.17:870][496]LogClass: Error: TIMELINE VALUE: 1.484021
+[2018.04.28-18.11.17:878][497]LogClass: Error: TIMELINE VALUE: 1.492355
+[2018.04.28-18.11.17:886][498]LogClass: Error: TIMELINE VALUE: 1.500688
+[2018.04.28-18.11.17:894][499]LogClass: Error: TIMELINE VALUE: 1.509022
+[2018.04.28-18.11.17:903][500]LogClass: Error: TIMELINE VALUE: 1.517356
+[2018.04.28-18.11.17:911][501]LogClass: Error: TIMELINE VALUE: 1.525689
+[2018.04.28-18.11.17:919][502]LogClass: Error: TIMELINE VALUE: 1.534023
+[2018.04.28-18.11.17:928][503]LogClass: Error: TIMELINE VALUE: 1.542357
+[2018.04.28-18.11.17:936][504]LogClass: Error: TIMELINE VALUE: 1.550690
+[2018.04.28-18.11.17:944][505]LogClass: Error: TIMELINE VALUE: 1.559024
+[2018.04.28-18.11.17:953][506]LogClass: Error: TIMELINE VALUE: 1.567357
+[2018.04.28-18.11.17:961][507]LogClass: Error: TIMELINE VALUE: 1.575691
+[2018.04.28-18.11.17:969][508]LogClass: Error: TIMELINE VALUE: 1.584025
+[2018.04.28-18.11.17:978][509]LogClass: Error: TIMELINE VALUE: 1.592358
+[2018.04.28-18.11.17:986][510]LogClass: Error: TIMELINE VALUE: 1.600692
+[2018.04.28-18.11.17:994][511]LogClass: Error: TIMELINE VALUE: 1.609025
+[2018.04.28-18.11.18:003][512]LogClass: Error: TIMELINE VALUE: 1.617359
+[2018.04.28-18.11.18:011][513]LogClass: Error: TIMELINE VALUE: 1.625693
+[2018.04.28-18.11.18:019][514]LogClass: Error: TIMELINE VALUE: 1.634026
+[2018.04.28-18.11.18:028][515]LogClass: Error: TIMELINE VALUE: 1.642360
+[2018.04.28-18.11.18:036][516]LogClass: Error: TIMELINE VALUE: 1.650693
+[2018.04.28-18.11.18:045][517]LogClass: Error: TIMELINE VALUE: 1.659027
+[2018.04.28-18.11.18:053][518]LogClass: Error: TIMELINE VALUE: 1.667361
+[2018.04.28-18.11.18:061][519]LogClass: Error: TIMELINE VALUE: 1.675694
+[2018.04.28-18.11.18:070][520]LogClass: Error: TIMELINE VALUE: 1.684028
+[2018.04.28-18.11.18:078][521]LogClass: Error: TIMELINE VALUE: 1.692362
+[2018.04.28-18.11.18:086][522]LogClass: Error: TIMELINE VALUE: 1.700695
+[2018.04.28-18.11.18:095][523]LogClass: Error: TIMELINE VALUE: 1.709029
+[2018.04.28-18.11.18:103][524]LogClass: Error: TIMELINE VALUE: 1.717362
+[2018.04.28-18.11.18:111][525]LogClass: Error: TIMELINE VALUE: 1.725696
+[2018.04.28-18.11.18:120][526]LogClass: Error: TIMELINE VALUE: 1.734029
+[2018.04.28-18.11.18:128][527]LogClass: Error: TIMELINE VALUE: 1.742363
+[2018.04.28-18.11.18:136][528]LogClass: Error: TIMELINE VALUE: 1.750697
+[2018.04.28-18.11.18:145][529]LogClass: Error: TIMELINE VALUE: 1.759030
+[2018.04.28-18.11.18:153][530]LogClass: Error: TIMELINE VALUE: 1.767371
+[2018.04.28-18.11.18:161][531]LogClass: Error: TIMELINE VALUE: 1.775705
+[2018.04.28-18.11.18:170][532]LogClass: Error: TIMELINE VALUE: 1.784038
+[2018.04.28-18.11.18:178][533]LogClass: Error: TIMELINE VALUE: 1.792372
+[2018.04.28-18.11.18:186][534]LogClass: Error: TIMELINE VALUE: 1.800706
+[2018.04.28-18.11.18:195][535]LogClass: Error: TIMELINE VALUE: 1.809039
+[2018.04.28-18.11.18:203][536]LogClass: Error: TIMELINE VALUE: 1.817373
+[2018.04.28-18.11.18:211][537]LogClass: Error: TIMELINE VALUE: 1.825707
+[2018.04.28-18.11.18:220][538]LogClass: Error: TIMELINE VALUE: 1.834040
+[2018.04.28-18.11.18:228][539]LogClass: Error: TIMELINE VALUE: 1.842374
+[2018.04.28-18.11.18:236][540]LogClass: Error: TIMELINE VALUE: 1.850708
+[2018.04.28-18.11.18:245][541]LogClass: Error: TIMELINE VALUE: 1.859041
+[2018.04.28-18.11.18:253][542]LogClass: Error: TIMELINE VALUE: 1.867375
+[2018.04.28-18.11.18:261][543]LogClass: Error: TIMELINE VALUE: 1.875709
+[2018.04.28-18.11.18:270][544]LogClass: Error: TIMELINE VALUE: 1.884043
+[2018.04.28-18.11.18:278][545]LogClass: Error: TIMELINE VALUE: 1.892376
+[2018.04.28-18.11.18:286][546]LogClass: Error: TIMELINE VALUE: 1.900710
+[2018.04.28-18.11.18:294][547]LogClass: Error: TIMELINE VALUE: 1.909044
+[2018.04.28-18.11.18:303][548]LogClass: Error: TIMELINE VALUE: 1.917377
+[2018.04.28-18.11.18:311][549]LogClass: Error: TIMELINE VALUE: 1.925711
+[2018.04.28-18.11.18:319][550]LogClass: Error: TIMELINE VALUE: 1.934044
+[2018.04.28-18.11.18:328][551]LogClass: Error: TIMELINE VALUE: 1.942378
+[2018.04.28-18.11.18:336][552]LogClass: Error: TIMELINE VALUE: 1.950712
+[2018.04.28-18.11.18:344][553]LogClass: Error: TIMELINE VALUE: 1.959045
+[2018.04.28-18.11.18:353][554]LogClass: Error: TIMELINE VALUE: 1.967379
+[2018.04.28-18.11.18:361][555]LogClass: Error: TIMELINE VALUE: 1.975713
+[2018.04.28-18.11.18:369][556]LogClass: Error: TIMELINE VALUE: 1.984046
+[2018.04.28-18.11.18:378][557]LogClass: Error: TIMELINE VALUE: 1.992380
+[2018.04.28-18.11.18:386][558]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:394][559]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:403][560]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:411][561]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:419][562]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:428][563]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:436][564]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:445][565]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:453][566]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:461][567]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:470][568]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:478][569]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:487][570]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:495][571]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:503][572]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:511][573]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:520][574]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:528][575]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:536][576]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:545][577]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:553][578]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:561][579]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:570][580]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:578][581]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:586][582]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:595][583]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:603][584]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:611][585]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:620][586]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:628][587]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:636][588]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:645][589]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:653][590]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:661][591]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:670][592]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:678][593]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:686][594]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:694][595]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:703][596]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:711][597]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:719][598]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:728][599]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:736][600]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:744][601]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:753][602]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:761][603]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:769][604]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:778][605]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:786][606]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:794][607]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:803][608]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:811][609]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:819][610]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:828][611]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:836][612]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:844][613]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:853][614]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:861][615]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:870][616]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:878][617]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:886][618]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:895][619]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:903][620]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:911][621]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:920][622]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:928][623]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:936][624]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:945][625]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:953][626]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:961][627]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:970][628]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:978][629]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:986][630]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.18:995][631]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:003][632]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:011][633]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:020][634]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:028][635]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:036][636]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:045][637]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:053][638]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:061][639]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:070][640]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:078][641]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:086][642]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:095][643]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:103][644]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:111][645]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:120][646]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:128][647]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:136][648]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:145][649]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:153][650]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:161][651]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:169][652]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:178][653]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:186][654]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:195][655]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:203][656]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:211][657]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:219][658]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:228][659]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:236][660]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:244][661]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:253][662]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:261][663]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:270][664]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:278][665]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:287][666]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:295][667]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:303][668]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:311][669]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:320][670]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:328][671]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:336][672]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:345][673]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:353][674]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:361][675]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:370][676]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:378][677]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:386][678]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:395][679]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:403][680]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:411][681]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:420][682]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:428][683]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:436][684]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:445][685]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:453][686]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:461][687]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:469][688]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:478][689]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:486][690]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:494][691]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:503][692]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:511][693]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:519][694]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:528][695]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:536][696]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:544][697]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:553][698]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:561][699]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:570][700]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:578][701]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:586][702]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:595][703]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:603][704]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:612][705]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:620][706]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:628][707]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:636][708]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:645][709]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:653][710]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:661][711]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:670][712]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:678][713]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:686][714]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:695][715]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:703][716]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:711][717]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:720][718]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:728][719]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:736][720]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:745][721]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:753][722]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:761][723]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:770][724]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:778][725]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:786][726]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:795][727]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:803][728]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:811][729]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:820][730]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:828][731]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:836][732]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:844][733]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:853][734]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:861][735]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:870][736]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:878][737]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:886][738]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:894][739]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:903][740]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:911][741]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:919][742]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:928][743]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:936][744]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:945][745]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:953][746]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:962][747]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:970][748]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:978][749]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:987][750]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.19:995][751]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:003][752]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:012][753]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:020][754]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:028][755]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:037][756]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:045][757]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:053][758]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:061][759]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:070][760]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:078][761]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:087][762]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:095][763]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:103][764]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:111][765]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:120][766]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:128][767]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:136][768]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:145][769]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:153][770]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:161][771]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:170][772]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:178][773]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:186][774]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:195][775]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:203][776]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:211][777]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:220][778]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:228][779]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:236][780]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:245][781]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:253][782]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:261][783]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:270][784]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:278][785]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:286][786]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:295][787]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:303][788]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:311][789]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:320][790]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:328][791]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:336][792]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:345][793]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:353][794]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:361][795]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:370][796]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:378][797]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:386][798]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:395][799]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:403][800]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:411][801]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:420][802]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:428][803]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:436][804]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:444][805]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:453][806]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:461][807]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:469][808]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:478][809]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:486][810]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:494][811]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:503][812]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:512][813]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:520][814]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:528][815]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:537][816]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:545][817]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:553][818]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:561][819]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:570][820]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:578][821]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:586][822]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:595][823]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:603][824]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:611][825]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:620][826]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:628][827]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:637][828]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:645][829]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:653][830]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:661][831]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:670][832]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:678][833]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:686][834]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:695][835]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:703][836]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:711][837]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:720][838]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:728][839]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:736][840]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:745][841]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:753][842]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:761][843]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:770][844]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.20:779][845]LogClass: Error: TIMELINE VALUE: 0.008334
+[2018.04.28-18.11.20:786][846]LogClass: Error: TIMELINE VALUE: 0.016667
+[2018.04.28-18.11.20:795][847]LogClass: Error: TIMELINE VALUE: 0.025001
+[2018.04.28-18.11.20:803][848]LogClass: Error: TIMELINE VALUE: 0.033334
+[2018.04.28-18.11.20:811][849]LogClass: Error: TIMELINE VALUE: 0.041668
+[2018.04.28-18.11.20:820][850]LogClass: Error: TIMELINE VALUE: 0.050002
+[2018.04.28-18.11.20:828][851]LogClass: Error: TIMELINE VALUE: 0.058335
+[2018.04.28-18.11.20:836][852]LogClass: Error: TIMELINE VALUE: 0.066669
+[2018.04.28-18.11.20:845][853]LogClass: Error: TIMELINE VALUE: 0.075003
+[2018.04.28-18.11.20:853][854]LogClass: Error: TIMELINE VALUE: 0.083336
+[2018.04.28-18.11.20:861][855]LogClass: Error: TIMELINE VALUE: 0.091670
+[2018.04.28-18.11.20:870][856]LogClass: Error: TIMELINE VALUE: 0.100003
+[2018.04.28-18.11.20:878][857]LogClass: Error: TIMELINE VALUE: 0.108337
+[2018.04.28-18.11.20:886][858]LogClass: Error: TIMELINE VALUE: 0.116670
+[2018.04.28-18.11.20:895][859]LogClass: Error: TIMELINE VALUE: 0.125004
+[2018.04.28-18.11.20:903][860]LogClass: Error: TIMELINE VALUE: 0.133337
+[2018.04.28-18.11.20:911][861]LogClass: Error: TIMELINE VALUE: 0.141671
+[2018.04.28-18.11.20:920][862]LogClass: Error: TIMELINE VALUE: 0.150005
+[2018.04.28-18.11.20:928][863]LogClass: Error: TIMELINE VALUE: 0.158338
+[2018.04.28-18.11.20:936][864]LogClass: Error: TIMELINE VALUE: 0.166672
+[2018.04.28-18.11.20:944][865]LogClass: Error: TIMELINE VALUE: 0.175005
+[2018.04.28-18.11.20:953][866]LogClass: Error: TIMELINE VALUE: 0.183339
+[2018.04.28-18.11.20:961][867]LogClass: Error: TIMELINE VALUE: 0.191672
+[2018.04.28-18.11.20:970][868]LogClass: Error: TIMELINE VALUE: 0.200006
+[2018.04.28-18.11.20:978][869]LogClass: Error: TIMELINE VALUE: 0.208339
+[2018.04.28-18.11.20:987][870]LogClass: Error: TIMELINE VALUE: 0.216673
+[2018.04.28-18.11.20:995][871]LogClass: Error: TIMELINE VALUE: 0.225006
+[2018.04.28-18.11.21:003][872]LogClass: Error: TIMELINE VALUE: 0.233340
+[2018.04.28-18.11.21:012][873]LogClass: Error: TIMELINE VALUE: 0.241673
+[2018.04.28-18.11.21:020][874]LogClass: Error: TIMELINE VALUE: 0.250007
+[2018.04.28-18.11.21:028][875]LogClass: Error: TIMELINE VALUE: 0.258341
+[2018.04.28-18.11.21:037][876]LogClass: Error: TIMELINE VALUE: 0.266681
+[2018.04.28-18.11.21:045][877]LogClass: Error: TIMELINE VALUE: 0.275015
+[2018.04.28-18.11.21:053][878]LogClass: Error: TIMELINE VALUE: 0.283348
+[2018.04.28-18.11.21:062][879]LogClass: Error: TIMELINE VALUE: 0.291688
+[2018.04.28-18.11.21:070][880]LogClass: Error: TIMELINE VALUE: 0.300021
+[2018.04.28-18.11.21:078][881]LogClass: Error: TIMELINE VALUE: 0.308355
+[2018.04.28-18.11.21:087][882]LogClass: Error: TIMELINE VALUE: 0.316689
+[2018.04.28-18.11.21:095][883]LogClass: Error: TIMELINE VALUE: 0.325022
+[2018.04.28-18.11.21:103][884]LogClass: Error: TIMELINE VALUE: 0.333356
+[2018.04.28-18.11.21:112][885]LogClass: Error: TIMELINE VALUE: 0.341689
+[2018.04.28-18.11.21:120][886]LogClass: Error: TIMELINE VALUE: 0.350023
+[2018.04.28-18.11.21:128][887]LogClass: Error: TIMELINE VALUE: 0.358356
+[2018.04.28-18.11.21:137][888]LogClass: Error: TIMELINE VALUE: 0.366690
+[2018.04.28-18.11.21:145][889]LogClass: Error: TIMELINE VALUE: 0.375023
+[2018.04.28-18.11.21:153][890]LogClass: Error: TIMELINE VALUE: 0.383357
+[2018.04.28-18.11.21:162][891]LogClass: Error: TIMELINE VALUE: 0.391690
+[2018.04.28-18.11.21:170][892]LogClass: Error: TIMELINE VALUE: 0.400024
+[2018.04.28-18.11.21:178][893]LogClass: Error: TIMELINE VALUE: 0.408358
+[2018.04.28-18.11.21:187][894]LogClass: Error: TIMELINE VALUE: 0.416691
+[2018.04.28-18.11.21:195][895]LogClass: Error: TIMELINE VALUE: 0.425025
+[2018.04.28-18.11.21:203][896]LogClass: Error: TIMELINE VALUE: 0.433358
+[2018.04.28-18.11.21:211][897]LogClass: Error: TIMELINE VALUE: 0.441692
+[2018.04.28-18.11.21:220][898]LogClass: Error: TIMELINE VALUE: 0.450025
+[2018.04.28-18.11.21:228][899]LogClass: Error: TIMELINE VALUE: 0.458359
+[2018.04.28-18.11.21:236][900]LogClass: Error: TIMELINE VALUE: 0.466692
+[2018.04.28-18.11.21:245][901]LogClass: Error: TIMELINE VALUE: 0.475026
+[2018.04.28-18.11.21:253][902]LogClass: Error: TIMELINE VALUE: 0.483360
+[2018.04.28-18.11.21:261][903]LogClass: Error: TIMELINE VALUE: 0.491693
+[2018.04.28-18.11.21:270][904]LogClass: Error: TIMELINE VALUE: 0.500027
+[2018.04.28-18.11.21:278][905]LogClass: Error: TIMELINE VALUE: 0.508360
+[2018.04.28-18.11.21:286][906]LogClass: Error: TIMELINE VALUE: 0.516694
+[2018.04.28-18.11.21:295][907]LogClass: Error: TIMELINE VALUE: 0.525027
+[2018.04.28-18.11.21:303][908]LogClass: Error: TIMELINE VALUE: 0.533361
+[2018.04.28-18.11.21:311][909]LogClass: Error: TIMELINE VALUE: 0.541695
+[2018.04.28-18.11.21:320][910]LogClass: Error: TIMELINE VALUE: 0.550029
+[2018.04.28-18.11.21:328][911]LogClass: Error: TIMELINE VALUE: 0.558371
+[2018.04.28-18.11.21:336][912]LogClass: Error: TIMELINE VALUE: 0.566704
+[2018.04.28-18.11.21:345][913]LogClass: Error: TIMELINE VALUE: 0.575038
+[2018.04.28-18.11.21:353][914]LogClass: Error: TIMELINE VALUE: 0.583371
+[2018.04.28-18.11.21:361][915]LogClass: Error: TIMELINE VALUE: 0.591705
+[2018.04.28-18.11.21:370][916]LogClass: Error: TIMELINE VALUE: 0.600039
+[2018.04.28-18.11.21:378][917]LogClass: Error: TIMELINE VALUE: 0.608373
+[2018.04.28-18.11.21:386][918]LogClass: Error: TIMELINE VALUE: 0.616706
+[2018.04.28-18.11.21:395][919]LogClass: Error: TIMELINE VALUE: 0.625040
+[2018.04.28-18.11.21:403][920]LogClass: Error: TIMELINE VALUE: 0.633374
+[2018.04.28-18.11.21:411][921]LogClass: Error: TIMELINE VALUE: 0.641707
+[2018.04.28-18.11.21:420][922]LogClass: Error: TIMELINE VALUE: 0.650041
+[2018.04.28-18.11.21:428][923]LogClass: Error: TIMELINE VALUE: 0.658375
+[2018.04.28-18.11.21:436][924]LogClass: Error: TIMELINE VALUE: 0.666708
+[2018.04.28-18.11.21:444][925]LogClass: Error: TIMELINE VALUE: 0.675042
+[2018.04.28-18.11.21:453][926]LogClass: Error: TIMELINE VALUE: 0.683376
+[2018.04.28-18.11.21:461][927]LogClass: Error: TIMELINE VALUE: 0.691709
+[2018.04.28-18.11.21:470][928]LogClass: Error: TIMELINE VALUE: 0.700043
+[2018.04.28-18.11.21:478][929]LogClass: Error: TIMELINE VALUE: 0.708376
+[2018.04.28-18.11.21:486][930]LogClass: Error: TIMELINE VALUE: 0.716710
+[2018.04.28-18.11.21:495][931]LogClass: Error: TIMELINE VALUE: 0.725043
+[2018.04.28-18.11.21:503][932]LogClass: Error: TIMELINE VALUE: 0.733377
+[2018.04.28-18.11.21:511][933]LogClass: Error: TIMELINE VALUE: 0.741710
+[2018.04.28-18.11.21:520][934]LogClass: Error: TIMELINE VALUE: 0.750044
+[2018.04.28-18.11.21:528][935]LogClass: Error: TIMELINE VALUE: 0.758377
+[2018.04.28-18.11.21:536][936]LogClass: Error: TIMELINE VALUE: 0.766711
+[2018.04.28-18.11.21:545][937]LogClass: Error: TIMELINE VALUE: 0.775045
+[2018.04.28-18.11.21:553][938]LogClass: Error: TIMELINE VALUE: 0.783379
+[2018.04.28-18.11.21:561][939]LogClass: Error: TIMELINE VALUE: 0.791712
+[2018.04.28-18.11.21:570][940]LogClass: Error: TIMELINE VALUE: 0.800046
+[2018.04.28-18.11.21:578][941]LogClass: Error: TIMELINE VALUE: 0.808379
+[2018.04.28-18.11.21:586][942]LogClass: Error: TIMELINE VALUE: 0.816713
+[2018.04.28-18.11.21:595][943]LogClass: Error: TIMELINE VALUE: 0.825046
+[2018.04.28-18.11.21:603][944]LogClass: Error: TIMELINE VALUE: 0.833380
+[2018.04.28-18.11.21:611][945]LogClass: Error: TIMELINE VALUE: 0.841714
+[2018.04.28-18.11.21:620][946]LogClass: Error: TIMELINE VALUE: 0.850047
+[2018.04.28-18.11.21:628][947]LogClass: Error: TIMELINE VALUE: 0.858381
+[2018.04.28-18.11.21:636][948]LogClass: Error: TIMELINE VALUE: 0.866714
+[2018.04.28-18.11.21:645][949]LogClass: Error: TIMELINE VALUE: 0.875048
+[2018.04.28-18.11.21:653][950]LogClass: Error: TIMELINE VALUE: 0.883381
+[2018.04.28-18.11.21:661][951]LogClass: Error: TIMELINE VALUE: 0.891715
+[2018.04.28-18.11.21:670][952]LogClass: Error: TIMELINE VALUE: 0.900049
+[2018.04.28-18.11.21:678][953]LogClass: Error: TIMELINE VALUE: 0.908383
+[2018.04.28-18.11.21:686][954]LogClass: Error: TIMELINE VALUE: 0.916716
+[2018.04.28-18.11.21:695][955]LogClass: Error: TIMELINE VALUE: 0.925050
+[2018.04.28-18.11.21:703][956]LogClass: Error: TIMELINE VALUE: 0.933383
+[2018.04.28-18.11.21:711][957]LogClass: Error: TIMELINE VALUE: 0.941724
+[2018.04.28-18.11.21:720][958]LogClass: Error: TIMELINE VALUE: 0.950057
+[2018.04.28-18.11.21:728][959]LogClass: Error: TIMELINE VALUE: 0.958391
+[2018.04.28-18.11.21:736][960]LogClass: Error: TIMELINE VALUE: 0.966725
+[2018.04.28-18.11.21:745][961]LogClass: Error: TIMELINE VALUE: 0.975058
+[2018.04.28-18.11.21:753][962]LogClass: Error: TIMELINE VALUE: 0.983392
+[2018.04.28-18.11.21:761][963]LogClass: Error: TIMELINE VALUE: 0.991725
+[2018.04.28-18.11.21:770][964]LogClass: Error: TIMELINE VALUE: 1.000059
+[2018.04.28-18.11.21:778][965]LogClass: Error: TIMELINE VALUE: 1.008392
+[2018.04.28-18.11.21:786][966]LogClass: Error: TIMELINE VALUE: 1.016726
+[2018.04.28-18.11.21:795][967]LogClass: Error: TIMELINE VALUE: 1.025059
+[2018.04.28-18.11.21:803][968]LogClass: Error: TIMELINE VALUE: 1.033393
+[2018.04.28-18.11.21:811][969]LogClass: Error: TIMELINE VALUE: 1.041726
+[2018.04.28-18.11.21:820][970]LogClass: Error: TIMELINE VALUE: 1.050060
+[2018.04.28-18.11.21:828][971]LogClass: Error: TIMELINE VALUE: 1.058394
+[2018.04.28-18.11.21:836][972]LogClass: Error: TIMELINE VALUE: 1.066728
+[2018.04.28-18.11.21:845][973]LogClass: Error: TIMELINE VALUE: 1.075061
+[2018.04.28-18.11.21:853][974]LogClass: Error: TIMELINE VALUE: 1.083395
+[2018.04.28-18.11.21:861][975]LogClass: Error: TIMELINE VALUE: 1.091728
+[2018.04.28-18.11.21:870][976]LogClass: Error: TIMELINE VALUE: 1.100062
+[2018.04.28-18.11.21:878][977]LogClass: Error: TIMELINE VALUE: 1.108395
+[2018.04.28-18.11.21:886][978]LogClass: Error: TIMELINE VALUE: 1.116729
+[2018.04.28-18.11.21:895][979]LogClass: Error: TIMELINE VALUE: 1.125063
+[2018.04.28-18.11.21:903][980]LogClass: Error: TIMELINE VALUE: 1.133397
+[2018.04.28-18.11.21:911][981]LogClass: Error: TIMELINE VALUE: 1.141730
+[2018.04.28-18.11.21:920][982]LogClass: Error: TIMELINE VALUE: 1.150064
+[2018.04.28-18.11.21:928][983]LogClass: Error: TIMELINE VALUE: 1.158398
+[2018.04.28-18.11.21:936][984]LogClass: Error: TIMELINE VALUE: 1.166731
+[2018.04.28-18.11.21:945][985]LogClass: Error: TIMELINE VALUE: 1.175065
+[2018.04.28-18.11.21:953][986]LogClass: Error: TIMELINE VALUE: 1.183398
+[2018.04.28-18.11.21:961][987]LogClass: Error: TIMELINE VALUE: 1.191732
+[2018.04.28-18.11.21:970][988]LogClass: Error: TIMELINE VALUE: 1.200066
+[2018.04.28-18.11.21:978][989]LogClass: Error: TIMELINE VALUE: 1.208399
+[2018.04.28-18.11.21:987][990]LogClass: Error: TIMELINE VALUE: 1.216733
+[2018.04.28-18.11.21:995][991]LogClass: Error: TIMELINE VALUE: 1.225067
+[2018.04.28-18.11.22:004][992]LogClass: Error: TIMELINE VALUE: 1.233431
+[2018.04.28-18.11.22:012][993]LogClass: Error: TIMELINE VALUE: 1.241764
+[2018.04.28-18.11.22:020][994]LogClass: Error: TIMELINE VALUE: 1.250099
+[2018.04.28-18.11.22:028][995]LogClass: Error: TIMELINE VALUE: 1.258433
+[2018.04.28-18.11.22:037][996]LogClass: Error: TIMELINE VALUE: 1.266766
+[2018.04.28-18.11.22:045][997]LogClass: Error: TIMELINE VALUE: 1.275100
+[2018.04.28-18.11.22:053][998]LogClass: Error: TIMELINE VALUE: 1.283434
+[2018.04.28-18.11.22:062][999]LogClass: Error: TIMELINE VALUE: 1.291771
+[2018.04.28-18.11.22:070][  0]LogClass: Error: TIMELINE VALUE: 1.300105
+[2018.04.28-18.11.22:078][  1]LogClass: Error: TIMELINE VALUE: 1.308438
+[2018.04.28-18.11.22:087][  2]LogClass: Error: TIMELINE VALUE: 1.316772
+[2018.04.28-18.11.22:095][  3]LogClass: Error: TIMELINE VALUE: 1.325106
+[2018.04.28-18.11.22:103][  4]LogClass: Error: TIMELINE VALUE: 1.333439
+[2018.04.28-18.11.22:111][  5]LogClass: Error: TIMELINE VALUE: 1.341773
+[2018.04.28-18.11.22:120][  6]LogClass: Error: TIMELINE VALUE: 1.350107
+[2018.04.28-18.11.22:128][  7]LogClass: Error: TIMELINE VALUE: 1.358440
+[2018.04.28-18.11.22:137][  8]LogClass: Error: TIMELINE VALUE: 1.366774
+[2018.04.28-18.11.22:145][  9]LogClass: Error: TIMELINE VALUE: 1.375107
+[2018.04.28-18.11.22:153][ 10]LogClass: Error: TIMELINE VALUE: 1.383441
+[2018.04.28-18.11.22:161][ 11]LogClass: Error: TIMELINE VALUE: 1.391774
+[2018.04.28-18.11.22:170][ 12]LogClass: Error: TIMELINE VALUE: 1.400108
+[2018.04.28-18.11.22:178][ 13]LogClass: Error: TIMELINE VALUE: 1.408442
+[2018.04.28-18.11.22:186][ 14]LogClass: Error: TIMELINE VALUE: 1.416776
+[2018.04.28-18.11.22:195][ 15]LogClass: Error: TIMELINE VALUE: 1.425109
+[2018.04.28-18.11.22:203][ 16]LogClass: Error: TIMELINE VALUE: 1.433443
+[2018.04.28-18.11.22:211][ 17]LogClass: Error: TIMELINE VALUE: 1.441777
+[2018.04.28-18.11.22:220][ 18]LogClass: Error: TIMELINE VALUE: 1.450110
+[2018.04.28-18.11.22:228][ 19]LogClass: Error: TIMELINE VALUE: 1.458444
+[2018.04.28-18.11.22:236][ 20]LogClass: Error: TIMELINE VALUE: 1.466777
+[2018.04.28-18.11.22:245][ 21]LogClass: Error: TIMELINE VALUE: 1.475111
+[2018.04.28-18.11.22:253][ 22]LogClass: Error: TIMELINE VALUE: 1.483445
+[2018.04.28-18.11.22:261][ 23]LogClass: Error: TIMELINE VALUE: 1.491778
+[2018.04.28-18.11.22:270][ 24]LogClass: Error: TIMELINE VALUE: 1.500112
+[2018.04.28-18.11.22:278][ 25]LogClass: Error: TIMELINE VALUE: 1.508449
+[2018.04.28-18.11.22:286][ 26]LogClass: Error: TIMELINE VALUE: 1.516782
+[2018.04.28-18.11.22:295][ 27]LogClass: Error: TIMELINE VALUE: 1.525126
+[2018.04.28-18.11.22:303][ 28]LogClass: Error: TIMELINE VALUE: 1.533459
+[2018.04.28-18.11.22:311][ 29]LogClass: Error: TIMELINE VALUE: 1.541793
+[2018.04.28-18.11.22:320][ 30]LogClass: Error: TIMELINE VALUE: 1.550126
+[2018.04.28-18.11.22:328][ 31]LogClass: Error: TIMELINE VALUE: 1.558460
+[2018.04.28-18.11.22:337][ 32]LogClass: Error: TIMELINE VALUE: 1.566793
+[2018.04.28-18.11.22:345][ 33]LogClass: Error: TIMELINE VALUE: 1.575127
+[2018.04.28-18.11.22:353][ 34]LogClass: Error: TIMELINE VALUE: 1.583461
+[2018.04.28-18.11.22:361][ 35]LogClass: Error: TIMELINE VALUE: 1.591794
+[2018.04.28-18.11.22:370][ 36]LogClass: Error: TIMELINE VALUE: 1.600128
+[2018.04.28-18.11.22:378][ 37]LogClass: Error: TIMELINE VALUE: 1.608461
+[2018.04.28-18.11.22:386][ 38]LogClass: Error: TIMELINE VALUE: 1.616795
+[2018.04.28-18.11.22:395][ 39]LogClass: Error: TIMELINE VALUE: 1.625129
+[2018.04.28-18.11.22:403][ 40]LogClass: Error: TIMELINE VALUE: 1.633463
+[2018.04.28-18.11.22:411][ 41]LogClass: Error: TIMELINE VALUE: 1.641796
+[2018.04.28-18.11.22:420][ 42]LogClass: Error: TIMELINE VALUE: 1.650130
+[2018.04.28-18.11.22:428][ 43]LogClass: Error: TIMELINE VALUE: 1.658464
+[2018.04.28-18.11.22:436][ 44]LogClass: Error: TIMELINE VALUE: 1.666797
+[2018.04.28-18.11.22:445][ 45]LogClass: Error: TIMELINE VALUE: 1.675131
+[2018.04.28-18.11.22:453][ 46]LogClass: Error: TIMELINE VALUE: 1.683465
+[2018.04.28-18.11.22:461][ 47]LogClass: Error: TIMELINE VALUE: 1.691798
+[2018.04.28-18.11.22:470][ 48]LogClass: Error: TIMELINE VALUE: 1.700132
+[2018.04.28-18.11.22:478][ 49]LogClass: Error: TIMELINE VALUE: 1.708465
+[2018.04.28-18.11.22:486][ 50]LogClass: Error: TIMELINE VALUE: 1.716799
+[2018.04.28-18.11.22:495][ 51]LogClass: Error: TIMELINE VALUE: 1.725132
+[2018.04.28-18.11.22:503][ 52]LogClass: Error: TIMELINE VALUE: 1.733471
+[2018.04.28-18.11.22:511][ 53]LogClass: Error: TIMELINE VALUE: 1.741805
+[2018.04.28-18.11.22:520][ 54]LogClass: Error: TIMELINE VALUE: 1.750139
+[2018.04.28-18.11.22:528][ 55]LogClass: Error: TIMELINE VALUE: 1.758472
+[2018.04.28-18.11.22:537][ 56]LogClass: Error: TIMELINE VALUE: 0.008334
+[2018.04.28-18.11.22:545][ 57]LogClass: Error: TIMELINE VALUE: 0.016667
+[2018.04.28-18.11.22:553][ 58]LogClass: Error: TIMELINE VALUE: 0.025001
+[2018.04.28-18.11.22:561][ 59]LogClass: Error: TIMELINE VALUE: 0.033334
+[2018.04.28-18.11.22:570][ 60]LogClass: Error: TIMELINE VALUE: 0.041668
+[2018.04.28-18.11.22:578][ 61]LogClass: Error: TIMELINE VALUE: 0.050002
+[2018.04.28-18.11.22:586][ 62]LogClass: Error: TIMELINE VALUE: 0.058335
+[2018.04.28-18.11.22:595][ 63]LogClass: Error: TIMELINE VALUE: 0.066669
+[2018.04.28-18.11.22:603][ 64]LogClass: Error: TIMELINE VALUE: 0.075002
+[2018.04.28-18.11.22:611][ 65]LogClass: Error: TIMELINE VALUE: 0.083336
+[2018.04.28-18.11.22:620][ 66]LogClass: Error: TIMELINE VALUE: 0.091669
+[2018.04.28-18.11.22:628][ 67]LogClass: Error: TIMELINE VALUE: 0.100003
+[2018.04.28-18.11.22:636][ 68]LogClass: Error: TIMELINE VALUE: 0.108336
+[2018.04.28-18.11.22:645][ 69]LogClass: Error: TIMELINE VALUE: 0.116670
+[2018.04.28-18.11.22:653][ 70]LogClass: Error: TIMELINE VALUE: 0.125004
+[2018.04.28-18.11.22:661][ 71]LogClass: Error: TIMELINE VALUE: 0.133337
+[2018.04.28-18.11.22:670][ 72]LogClass: Error: TIMELINE VALUE: 0.141671
+[2018.04.28-18.11.22:678][ 73]LogClass: Error: TIMELINE VALUE: 0.150005
+[2018.04.28-18.11.22:687][ 74]LogClass: Error: TIMELINE VALUE: 0.158338
+[2018.04.28-18.11.22:695][ 75]LogClass: Error: TIMELINE VALUE: 0.166672
+[2018.04.28-18.11.22:703][ 76]LogClass: Error: TIMELINE VALUE: 0.175005
+[2018.04.28-18.11.22:712][ 77]LogClass: Error: TIMELINE VALUE: 0.183339
+[2018.04.28-18.11.22:720][ 78]LogClass: Error: TIMELINE VALUE: 0.191672
+[2018.04.28-18.11.22:728][ 79]LogClass: Error: TIMELINE VALUE: 0.200006
+[2018.04.28-18.11.22:737][ 80]LogClass: Error: TIMELINE VALUE: 0.208339
+[2018.04.28-18.11.22:745][ 81]LogClass: Error: TIMELINE VALUE: 0.216673
+[2018.04.28-18.11.22:753][ 82]LogClass: Error: TIMELINE VALUE: 0.225007
+[2018.04.28-18.11.22:762][ 83]LogClass: Error: TIMELINE VALUE: 0.233340
+[2018.04.28-18.11.22:770][ 84]LogClass: Error: TIMELINE VALUE: 0.241674
+[2018.04.28-18.11.22:778][ 85]LogClass: Error: TIMELINE VALUE: 0.250007
+[2018.04.28-18.11.22:787][ 86]LogClass: Error: TIMELINE VALUE: 0.258341
+[2018.04.28-18.11.22:795][ 87]LogClass: Error: TIMELINE VALUE: 0.266674
+[2018.04.28-18.11.22:803][ 88]LogClass: Error: TIMELINE VALUE: 0.275008
+[2018.04.28-18.11.22:812][ 89]LogClass: Error: TIMELINE VALUE: 0.283341
+[2018.04.28-18.11.22:820][ 90]LogClass: Error: TIMELINE VALUE: 0.291675
+[2018.04.28-18.11.22:828][ 91]LogClass: Error: TIMELINE VALUE: 0.300008
+[2018.04.28-18.11.22:837][ 92]LogClass: Error: TIMELINE VALUE: 0.308342
+[2018.04.28-18.11.22:845][ 93]LogClass: Error: TIMELINE VALUE: 0.316675
+[2018.04.28-18.11.22:853][ 94]LogClass: Error: TIMELINE VALUE: 0.325009
+[2018.04.28-18.11.22:862][ 95]LogClass: Error: TIMELINE VALUE: 0.333343
+[2018.04.28-18.11.22:870][ 96]LogClass: Error: TIMELINE VALUE: 0.341676
+[2018.04.28-18.11.22:878][ 97]LogClass: Error: TIMELINE VALUE: 0.350010
+[2018.04.28-18.11.22:886][ 98]LogClass: Error: TIMELINE VALUE: 0.358343
+[2018.04.28-18.11.22:895][ 99]LogClass: Error: TIMELINE VALUE: 0.366677
+[2018.04.28-18.11.22:903][100]LogClass: Error: TIMELINE VALUE: 0.375011
+[2018.04.28-18.11.22:912][101]LogClass: Error: TIMELINE VALUE: 0.383344
+[2018.04.28-18.11.22:920][102]LogClass: Error: TIMELINE VALUE: 0.391688
+[2018.04.28-18.11.22:928][103]LogClass: Error: TIMELINE VALUE: 0.400021
+[2018.04.28-18.11.22:937][104]LogClass: Error: TIMELINE VALUE: 0.408355
+[2018.04.28-18.11.22:945][105]LogClass: Error: TIMELINE VALUE: 0.416689
+[2018.04.28-18.11.22:953][106]LogClass: Error: TIMELINE VALUE: 0.425023
+[2018.04.28-18.11.22:961][107]LogClass: Error: TIMELINE VALUE: 0.433356
+[2018.04.28-18.11.22:970][108]LogClass: Error: TIMELINE VALUE: 0.441690
+[2018.04.28-18.11.22:978][109]LogClass: Error: TIMELINE VALUE: 0.450023
+[2018.04.28-18.11.22:987][110]LogClass: Error: TIMELINE VALUE: 0.458357
+[2018.04.28-18.11.22:995][111]LogClass: Error: TIMELINE VALUE: 0.466690
+[2018.04.28-18.11.23:003][112]LogClass: Error: TIMELINE VALUE: 0.475024
+[2018.04.28-18.11.23:011][113]LogClass: Error: TIMELINE VALUE: 0.483358
+[2018.04.28-18.11.23:020][114]LogClass: Error: TIMELINE VALUE: 0.491691
+[2018.04.28-18.11.23:028][115]LogClass: Error: TIMELINE VALUE: 0.500025
+[2018.04.28-18.11.23:036][116]LogClass: Error: TIMELINE VALUE: 0.508359
+[2018.04.28-18.11.23:045][117]LogClass: Error: TIMELINE VALUE: 0.516693
+[2018.04.28-18.11.23:053][118]LogClass: Error: TIMELINE VALUE: 0.525026
+[2018.04.28-18.11.23:061][119]LogClass: Error: TIMELINE VALUE: 0.533360
+[2018.04.28-18.11.23:070][120]LogClass: Error: TIMELINE VALUE: 0.541693
+[2018.04.28-18.11.23:078][121]LogClass: Error: TIMELINE VALUE: 0.550027
+[2018.04.28-18.11.23:086][122]LogClass: Error: TIMELINE VALUE: 0.558360
+[2018.04.28-18.11.23:095][123]LogClass: Error: TIMELINE VALUE: 0.566694
+[2018.04.28-18.11.23:103][124]LogClass: Error: TIMELINE VALUE: 0.575028
+[2018.04.28-18.11.23:111][125]LogClass: Error: TIMELINE VALUE: 0.583361
+[2018.04.28-18.11.23:120][126]LogClass: Error: TIMELINE VALUE: 0.591704
+[2018.04.28-18.11.23:128][127]LogClass: Error: TIMELINE VALUE: 0.600037
+[2018.04.28-18.11.23:136][128]LogClass: Error: TIMELINE VALUE: 0.608378
+[2018.04.28-18.11.23:145][129]LogClass: Error: TIMELINE VALUE: 0.616712
+[2018.04.28-18.11.23:153][130]LogClass: Error: TIMELINE VALUE: 0.625045
+[2018.04.28-18.11.23:161][131]LogClass: Error: TIMELINE VALUE: 0.633379
+[2018.04.28-18.11.23:170][132]LogClass: Error: TIMELINE VALUE: 0.641712
+[2018.04.28-18.11.23:178][133]LogClass: Error: TIMELINE VALUE: 0.650046
+[2018.04.28-18.11.23:187][134]LogClass: Error: TIMELINE VALUE: 0.658379
+[2018.04.28-18.11.23:195][135]LogClass: Error: TIMELINE VALUE: 0.666713
+[2018.04.28-18.11.23:203][136]LogClass: Error: TIMELINE VALUE: 0.675047
+[2018.04.28-18.11.23:212][137]LogClass: Error: TIMELINE VALUE: 0.683380
+[2018.04.28-18.11.23:220][138]LogClass: Error: TIMELINE VALUE: 0.691714
+[2018.04.28-18.11.23:228][139]LogClass: Error: TIMELINE VALUE: 0.700047
+[2018.04.28-18.11.23:237][140]LogClass: Error: TIMELINE VALUE: 0.708381
+[2018.04.28-18.11.23:245][141]LogClass: Error: TIMELINE VALUE: 0.716714
+[2018.04.28-18.11.23:253][142]LogClass: Error: TIMELINE VALUE: 0.725048
+[2018.04.28-18.11.23:262][143]LogClass: Error: TIMELINE VALUE: 0.733381
+[2018.04.28-18.11.23:270][144]LogClass: Error: TIMELINE VALUE: 0.741715
+[2018.04.28-18.11.23:278][145]LogClass: Error: TIMELINE VALUE: 0.750049
+[2018.04.28-18.11.23:286][146]LogClass: Error: TIMELINE VALUE: 0.758382
+[2018.04.28-18.11.23:295][147]LogClass: Error: TIMELINE VALUE: 0.766716
+[2018.04.28-18.11.23:303][148]LogClass: Error: TIMELINE VALUE: 0.775050
+[2018.04.28-18.11.23:311][149]LogClass: Error: TIMELINE VALUE: 0.783383
+[2018.04.28-18.11.23:320][150]LogClass: Error: TIMELINE VALUE: 0.791717
+[2018.04.28-18.11.23:328][151]LogClass: Error: TIMELINE VALUE: 0.800050
+[2018.04.28-18.11.23:336][152]LogClass: Error: TIMELINE VALUE: 0.808384
+[2018.04.28-18.11.23:345][153]LogClass: Error: TIMELINE VALUE: 0.816717
+[2018.04.28-18.11.23:353][154]LogClass: Error: TIMELINE VALUE: 0.825051
+[2018.04.28-18.11.23:361][155]LogClass: Error: TIMELINE VALUE: 0.833384
+[2018.04.28-18.11.23:370][156]LogClass: Error: TIMELINE VALUE: 0.841718
+[2018.04.28-18.11.23:378][157]LogClass: Error: TIMELINE VALUE: 0.850051
+[2018.04.28-18.11.23:386][158]LogClass: Error: TIMELINE VALUE: 0.858396
+[2018.04.28-18.11.23:395][159]LogClass: Error: TIMELINE VALUE: 0.866729
+[2018.04.28-18.11.23:403][160]LogClass: Error: TIMELINE VALUE: 0.875063
+[2018.04.28-18.11.23:411][161]LogClass: Error: TIMELINE VALUE: 0.883397
+[2018.04.28-18.11.23:420][162]LogClass: Error: TIMELINE VALUE: 0.891730
+[2018.04.28-18.11.23:428][163]LogClass: Error: TIMELINE VALUE: 0.900064
+[2018.04.28-18.11.23:436][164]LogClass: Error: TIMELINE VALUE: 0.908397
+[2018.04.28-18.11.23:445][165]LogClass: Error: TIMELINE VALUE: 0.916731
+[2018.04.28-18.11.23:453][166]LogClass: Error: TIMELINE VALUE: 0.925064
+[2018.04.28-18.11.23:462][167]LogClass: Error: TIMELINE VALUE: 0.933398
+[2018.04.28-18.11.23:470][168]LogClass: Error: TIMELINE VALUE: 0.941731
+[2018.04.28-18.11.23:478][169]LogClass: Error: TIMELINE VALUE: 0.950065
+[2018.04.28-18.11.23:487][170]LogClass: Error: TIMELINE VALUE: 0.958398
+[2018.04.28-18.11.23:495][171]LogClass: Error: TIMELINE VALUE: 0.966732
+[2018.04.28-18.11.23:503][172]LogClass: Error: TIMELINE VALUE: 0.975066
+[2018.04.28-18.11.23:512][173]LogClass: Error: TIMELINE VALUE: 0.983399
+[2018.04.28-18.11.23:520][174]LogClass: Error: TIMELINE VALUE: 0.991733
+[2018.04.28-18.11.23:528][175]LogClass: Error: TIMELINE VALUE: 1.000067
+[2018.04.28-18.11.23:537][176]LogClass: Error: TIMELINE VALUE: 1.008400
+[2018.04.28-18.11.23:545][177]LogClass: Error: TIMELINE VALUE: 1.016734
+[2018.04.28-18.11.23:553][178]LogClass: Error: TIMELINE VALUE: 1.025067
+[2018.04.28-18.11.23:561][179]LogClass: Error: TIMELINE VALUE: 1.033401
+[2018.04.28-18.11.23:570][180]LogClass: Error: TIMELINE VALUE: 1.041735
+[2018.04.28-18.11.23:578][181]LogClass: Error: TIMELINE VALUE: 1.050068
+[2018.04.28-18.11.23:586][182]LogClass: Error: TIMELINE VALUE: 1.058402
+[2018.04.28-18.11.23:595][183]LogClass: Error: TIMELINE VALUE: 1.066736
+[2018.04.28-18.11.23:603][184]LogClass: Error: TIMELINE VALUE: 1.075069
+[2018.04.28-18.11.23:611][185]LogClass: Error: TIMELINE VALUE: 1.083403
+[2018.04.28-18.11.23:620][186]LogClass: Error: TIMELINE VALUE: 1.091737
+[2018.04.28-18.11.23:628][187]LogClass: Error: TIMELINE VALUE: 1.100070
+[2018.04.28-18.11.23:636][188]LogClass: Error: TIMELINE VALUE: 1.108404
+[2018.04.28-18.11.23:645][189]LogClass: Error: TIMELINE VALUE: 1.116738
+[2018.04.28-18.11.23:653][190]LogClass: Error: TIMELINE VALUE: 1.125072
+[2018.04.28-18.11.23:661][191]LogClass: Error: TIMELINE VALUE: 1.133405
+[2018.04.28-18.11.23:670][192]LogClass: Error: TIMELINE VALUE: 1.141748
+[2018.04.28-18.11.23:678][193]LogClass: Error: TIMELINE VALUE: 1.150082
+[2018.04.28-18.11.23:686][194]LogClass: Error: TIMELINE VALUE: 1.158415
+[2018.04.28-18.11.23:695][195]LogClass: Error: TIMELINE VALUE: 1.166749
+[2018.04.28-18.11.23:703][196]LogClass: Error: TIMELINE VALUE: 1.175082
+[2018.04.28-18.11.23:711][197]LogClass: Error: TIMELINE VALUE: 1.183416
+[2018.04.28-18.11.23:720][198]LogClass: Error: TIMELINE VALUE: 1.191749
+[2018.04.28-18.11.23:728][199]LogClass: Error: TIMELINE VALUE: 1.200083
+[2018.04.28-18.11.23:737][200]LogClass: Error: TIMELINE VALUE: 1.208417
+[2018.04.28-18.11.23:745][201]LogClass: Error: TIMELINE VALUE: 1.216751
+[2018.04.28-18.11.23:753][202]LogClass: Error: TIMELINE VALUE: 1.225084
+[2018.04.28-18.11.23:762][203]LogClass: Error: TIMELINE VALUE: 1.233439
+[2018.04.28-18.11.23:770][204]LogClass: Error: TIMELINE VALUE: 1.241773
+[2018.04.28-18.11.23:778][205]LogClass: Error: TIMELINE VALUE: 1.250106
+[2018.04.28-18.11.23:786][206]LogClass: Error: TIMELINE VALUE: 1.258440
+[2018.04.28-18.11.23:795][207]LogClass: Error: TIMELINE VALUE: 1.266774
+[2018.04.28-18.11.23:803][208]LogClass: Error: TIMELINE VALUE: 1.275107
+[2018.04.28-18.11.23:811][209]LogClass: Error: TIMELINE VALUE: 1.283441
+[2018.04.28-18.11.23:820][210]LogClass: Error: TIMELINE VALUE: 1.291775
+[2018.04.28-18.11.23:828][211]LogClass: Error: TIMELINE VALUE: 1.300108
+[2018.04.28-18.11.23:836][212]LogClass: Error: TIMELINE VALUE: 1.308442
+[2018.04.28-18.11.23:845][213]LogClass: Error: TIMELINE VALUE: 1.316775
+[2018.04.28-18.11.23:853][214]LogClass: Error: TIMELINE VALUE: 1.325109
+[2018.04.28-18.11.23:861][215]LogClass: Error: TIMELINE VALUE: 1.333443
+[2018.04.28-18.11.23:870][216]LogClass: Error: TIMELINE VALUE: 1.341776
+[2018.04.28-18.11.23:878][217]LogClass: Error: TIMELINE VALUE: 1.350110
+[2018.04.28-18.11.23:886][218]LogClass: Error: TIMELINE VALUE: 1.358443
+[2018.04.28-18.11.23:895][219]LogClass: Error: TIMELINE VALUE: 1.366777
+[2018.04.28-18.11.23:904][220]LogClass: Error: TIMELINE VALUE: 1.375111
+[2018.04.28-18.11.23:912][221]LogClass: Error: TIMELINE VALUE: 1.383444
+[2018.04.28-18.11.23:920][222]LogClass: Error: TIMELINE VALUE: 1.391778
+[2018.04.28-18.11.23:928][223]LogClass: Error: TIMELINE VALUE: 1.400112
+[2018.04.28-18.11.23:937][224]LogClass: Error: TIMELINE VALUE: 1.408445
+[2018.04.28-18.11.23:945][225]LogClass: Error: TIMELINE VALUE: 1.416779
+[2018.04.28-18.11.23:953][226]LogClass: Error: TIMELINE VALUE: 1.425113
+[2018.04.28-18.11.23:962][227]LogClass: Error: TIMELINE VALUE: 1.433447
+[2018.04.28-18.11.23:970][228]LogClass: Error: TIMELINE VALUE: 1.441780
+[2018.04.28-18.11.23:978][229]LogClass: Error: TIMELINE VALUE: 1.450114
+[2018.04.28-18.11.23:987][230]LogClass: Error: TIMELINE VALUE: 1.458447
+[2018.04.28-18.11.23:995][231]LogClass: Error: TIMELINE VALUE: 1.466781
+[2018.04.28-18.11.24:003][232]LogClass: Error: TIMELINE VALUE: 1.475115
+[2018.04.28-18.11.24:012][233]LogClass: Error: TIMELINE VALUE: 1.483448
+[2018.04.28-18.11.24:020][234]LogClass: Error: TIMELINE VALUE: 1.491782
+[2018.04.28-18.11.24:028][235]LogClass: Error: TIMELINE VALUE: 1.500115
+[2018.04.28-18.11.24:037][236]LogClass: Error: TIMELINE VALUE: 1.508449
+[2018.04.28-18.11.24:045][237]LogClass: Error: TIMELINE VALUE: 1.516782
+[2018.04.28-18.11.24:053][238]LogClass: Error: TIMELINE VALUE: 1.525116
+[2018.04.28-18.11.24:062][239]LogClass: Error: TIMELINE VALUE: 1.533458
+[2018.04.28-18.11.24:070][240]LogClass: Error: TIMELINE VALUE: 1.541791
+[2018.04.28-18.11.24:078][241]LogClass: Error: TIMELINE VALUE: 1.550125
+[2018.04.28-18.11.24:087][242]LogClass: Error: TIMELINE VALUE: 1.558459
+[2018.04.28-18.11.24:095][243]LogClass: Error: TIMELINE VALUE: 1.566792
+[2018.04.28-18.11.24:103][244]LogClass: Error: TIMELINE VALUE: 1.575126
+[2018.04.28-18.11.24:112][245]LogClass: Error: TIMELINE VALUE: 1.583460
+[2018.04.28-18.11.24:120][246]LogClass: Error: TIMELINE VALUE: 1.591793
+[2018.04.28-18.11.24:128][247]LogClass: Error: TIMELINE VALUE: 1.600127
+[2018.04.28-18.11.24:137][248]LogClass: Error: TIMELINE VALUE: 1.608460
+[2018.04.28-18.11.24:145][249]LogClass: Error: TIMELINE VALUE: 1.616794
+[2018.04.28-18.11.24:153][250]LogClass: Error: TIMELINE VALUE: 1.625138
+[2018.04.28-18.11.24:162][251]LogClass: Error: TIMELINE VALUE: 1.633471
+[2018.04.28-18.11.24:170][252]LogClass: Error: TIMELINE VALUE: 1.641805
+[2018.04.28-18.11.24:178][253]LogClass: Error: TIMELINE VALUE: 1.650138
+[2018.04.28-18.11.24:187][254]LogClass: Error: TIMELINE VALUE: 1.658472
+[2018.04.28-18.11.24:195][255]LogClass: Error: TIMELINE VALUE: 1.666806
+[2018.04.28-18.11.24:203][256]LogClass: Error: TIMELINE VALUE: 1.675139
+[2018.04.28-18.11.24:212][257]LogClass: Error: TIMELINE VALUE: 1.683473
+[2018.04.28-18.11.24:220][258]LogClass: Error: TIMELINE VALUE: 1.691806
+[2018.04.28-18.11.24:228][259]LogClass: Error: TIMELINE VALUE: 1.700140
+[2018.04.28-18.11.24:237][260]LogClass: Error: TIMELINE VALUE: 1.708473
+[2018.04.28-18.11.24:245][261]LogClass: Error: TIMELINE VALUE: 1.716807
+[2018.04.28-18.11.24:253][262]LogClass: Error: TIMELINE VALUE: 1.725141
+[2018.04.28-18.11.24:261][263]LogClass: Error: TIMELINE VALUE: 1.733474
+[2018.04.28-18.11.24:270][264]LogClass: Error: TIMELINE VALUE: 1.741808
+[2018.04.28-18.11.24:278][265]LogClass: Error: TIMELINE VALUE: 1.750142
+[2018.04.28-18.11.24:286][266]LogClass: Error: TIMELINE VALUE: 1.758475
+[2018.04.28-18.11.24:295][267]LogClass: Error: TIMELINE VALUE: 1.766809
+[2018.04.28-18.11.24:303][268]LogClass: Error: TIMELINE VALUE: 1.775143
+[2018.04.28-18.11.24:311][269]LogClass: Error: TIMELINE VALUE: 1.783476
+[2018.04.28-18.11.24:320][270]LogClass: Error: TIMELINE VALUE: 1.791810
+[2018.04.28-18.11.24:328][271]LogClass: Error: TIMELINE VALUE: 1.800144
+[2018.04.28-18.11.24:337][272]LogClass: Error: TIMELINE VALUE: 1.808477
+[2018.04.28-18.11.24:345][273]LogClass: Error: TIMELINE VALUE: 1.816811
+[2018.04.28-18.11.24:353][274]LogClass: Error: TIMELINE VALUE: 1.825145
+[2018.04.28-18.11.24:362][275]LogClass: Error: TIMELINE VALUE: 1.833478
+[2018.04.28-18.11.24:370][276]LogClass: Error: TIMELINE VALUE: 1.841812
+[2018.04.28-18.11.24:378][277]LogClass: Error: TIMELINE VALUE: 1.850145
+[2018.04.28-18.11.24:386][278]LogClass: Error: TIMELINE VALUE: 1.858479
+[2018.04.28-18.11.24:395][279]LogClass: Error: TIMELINE VALUE: 1.866812
+[2018.04.28-18.11.24:403][280]LogClass: Error: TIMELINE VALUE: 1.875146
+[2018.04.28-18.11.24:411][281]LogClass: Error: TIMELINE VALUE: 1.883479
+[2018.04.28-18.11.24:420][282]LogClass: Error: TIMELINE VALUE: 1.891813
+[2018.04.28-18.11.24:428][283]LogClass: Error: TIMELINE VALUE: 1.900147
+[2018.04.28-18.11.24:436][284]LogClass: Error: TIMELINE VALUE: 1.908480
+[2018.04.28-18.11.24:445][285]LogClass: Error: TIMELINE VALUE: 1.916814
+[2018.04.28-18.11.24:453][286]LogClass: Error: TIMELINE VALUE: 1.925148
+[2018.04.28-18.11.24:462][287]LogClass: Error: TIMELINE VALUE: 1.933481
+[2018.04.28-18.11.24:470][288]LogClass: Error: TIMELINE VALUE: 1.941815
+[2018.04.28-18.11.24:478][289]LogClass: Error: TIMELINE VALUE: 1.950148
+[2018.04.28-18.11.24:487][290]LogClass: Error: TIMELINE VALUE: 1.958482
+[2018.04.28-18.11.24:495][291]LogClass: Error: TIMELINE VALUE: 1.966815
+[2018.04.28-18.11.24:503][292]LogClass: Error: TIMELINE VALUE: 1.975149
+[2018.04.28-18.11.24:512][293]LogClass: Error: TIMELINE VALUE: 1.983482
+[2018.04.28-18.11.24:520][294]LogClass: Error: TIMELINE VALUE: 1.991816
+[2018.04.28-18.11.24:528][295]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:537][296]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:545][297]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:553][298]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:561][299]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:570][300]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:578][301]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:586][302]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:595][303]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:603][304]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:611][305]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:620][306]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:628][307]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:637][308]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:645][309]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:653][310]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:662][311]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:670][312]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:678][313]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:687][314]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:695][315]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:704][316]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:712][317]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:720][318]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:729][319]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:737][320]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:745][321]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:753][322]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:761][323]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:770][324]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:778][325]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:786][326]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:795][327]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:803][328]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:811][329]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:820][330]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:828][331]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:837][332]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:845][333]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:853][334]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:862][335]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:870][336]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:878][337]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:887][338]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:895][339]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:903][340]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:912][341]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:920][342]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:928][343]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:937][344]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:945][345]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:953][346]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:962][347]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:970][348]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:978][349]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:987][350]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.24:995][351]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:003][352]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:012][353]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:020][354]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:028][355]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:036][356]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:045][357]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:054][358]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:062][359]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:070][360]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:079][361]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:087][362]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:095][363]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:103][364]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:112][365]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:120][366]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:129][367]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:137][368]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:145][369]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:153][370]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:162][371]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:170][372]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:178][373]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:187][374]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:195][375]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:203][376]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:212][377]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:220][378]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:228][379]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:237][380]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:245][381]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:253][382]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:262][383]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:269][384]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:278][385]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:287][386]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:295][387]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:303][388]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:311][389]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:320][390]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:329][391]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:337][392]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:345][393]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:353][394]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:362][395]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:370][396]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:378][397]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:386][398]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:395][399]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:403][400]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:411][401]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:420][402]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:428][403]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:436][404]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:445][405]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:453][406]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:462][407]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:470][408]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:479][409]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:487][410]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:495][411]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:504][412]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:512][413]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:520][414]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:528][415]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:536][416]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:545][417]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:553][418]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:562][419]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:570][420]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:578][421]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:586][422]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:595][423]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:604][424]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:612][425]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:620][426]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:629][427]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:637][428]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:645][429]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:654][430]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:662][431]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:670][432]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:678][433]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:687][434]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:695][435]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:703][436]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:712][437]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:720][438]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:728][439]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:736][440]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:745][441]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:753][442]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:761][443]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:770][444]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:779][445]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:787][446]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:795][447]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:804][448]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:812][449]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:820][450]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:829][451]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:837][452]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:845][453]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:854][454]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:862][455]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:870][456]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:879][457]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:887][458]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:895][459]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:904][460]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:912][461]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:920][462]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:928][463]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:937][464]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:945][465]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:953][466]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:962][467]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:970][468]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:978][469]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:987][470]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.25:995][471]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:003][472]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:012][473]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:020][474]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:028][475]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:037][476]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:045][477]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:053][478]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:062][479]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:070][480]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:078][481]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:087][482]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:095][483]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:103][484]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:112][485]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:120][486]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:128][487]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:137][488]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:145][489]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:153][490]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:161][491]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:170][492]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:178][493]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:187][494]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:195][495]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:203][496]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:212][497]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:220][498]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:228][499]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:237][500]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:245][501]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:253][502]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:261][503]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:270][504]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:278][505]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:287][506]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:295][507]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:304][508]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:312][509]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:320][510]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:329][511]LogClass: Error: TIMELINE VALUE: 2.000000
+[2018.04.28-18.11.26:338][512]LogClass: Error: TIMELINE VALUE: 0.008334
+[2018.04.28-18.11.26:345][513]LogClass: Error: TIMELINE VALUE: 0.016667
+[2018.04.28-18.11.26:354][514]LogClass: Error: TIMELINE VALUE: 0.025001
+[2018.04.28-18.11.26:362][515]LogClass: Error: TIMELINE VALUE: 0.033335
+[2018.04.28-18.11.26:370][516]LogClass: Error: TIMELINE VALUE: 0.041668
+[2018.04.28-18.11.26:379][517]LogClass: Error: TIMELINE VALUE: 0.050002
+[2018.04.28-18.11.26:387][518]LogClass: Error: TIMELINE VALUE: 0.058335
+[2018.04.28-18.11.26:395][519]LogClass: Error: TIMELINE VALUE: 0.066669
+[2018.04.28-18.11.26:404][520]LogClass: Error: TIMELINE VALUE: 0.075003
+[2018.04.28-18.11.26:412][521]LogClass: Error: TIMELINE VALUE: 0.083337
+[2018.04.28-18.11.26:420][522]LogClass: Error: TIMELINE VALUE: 0.091670
+[2018.04.28-18.11.26:429][523]LogClass: Error: TIMELINE VALUE: 0.100004
+[2018.04.28-18.11.26:437][524]LogClass: Error: TIMELINE VALUE: 0.108337
+[2018.04.28-18.11.26:445][525]LogClass: Error: TIMELINE VALUE: 0.116671
+[2018.04.28-18.11.26:453][526]LogClass: Error: TIMELINE VALUE: 0.125004
+[2018.04.28-18.11.26:462][527]LogClass: Error: TIMELINE VALUE: 0.133338
+[2018.04.28-18.11.26:470][528]LogClass: Error: TIMELINE VALUE: 0.141671
+[2018.04.28-18.11.26:478][529]LogClass: Error: TIMELINE VALUE: 0.150005
+[2018.04.28-18.11.26:487][530]LogClass: Error: TIMELINE VALUE: 0.158338
+[2018.04.28-18.11.26:495][531]LogClass: Error: TIMELINE VALUE: 0.166672
+[2018.04.28-18.11.26:503][532]LogClass: Error: TIMELINE VALUE: 0.175006
+[2018.04.28-18.11.26:512][533]LogClass: Error: TIMELINE VALUE: 0.183339
+[2018.04.28-18.11.26:520][534]LogClass: Error: TIMELINE VALUE: 0.191673
+[2018.04.28-18.11.26:528][535]LogClass: Error: TIMELINE VALUE: 0.200006
+[2018.04.28-18.11.26:537][536]LogClass: Error: TIMELINE VALUE: 0.208340
+[2018.04.28-18.11.26:545][537]LogClass: Error: TIMELINE VALUE: 0.216674
+[2018.04.28-18.11.26:553][538]LogClass: Error: TIMELINE VALUE: 0.225008
+[2018.04.28-18.11.26:562][539]LogClass: Error: TIMELINE VALUE: 0.233342
+[2018.04.28-18.11.26:570][540]LogClass: Error: TIMELINE VALUE: 0.241675
+[2018.04.28-18.11.26:578][541]LogClass: Error: TIMELINE VALUE: 0.250009
+[2018.04.28-18.11.26:587][542]LogClass: Error: TIMELINE VALUE: 0.258343
+[2018.04.28-18.11.26:595][543]LogClass: Error: TIMELINE VALUE: 0.266676
+[2018.04.28-18.11.26:603][544]LogClass: Error: TIMELINE VALUE: 0.275010
+[2018.04.28-18.11.26:612][545]LogClass: Error: TIMELINE VALUE: 0.283343
+[2018.04.28-18.11.26:620][546]LogClass: Error: TIMELINE VALUE: 0.291677
+[2018.04.28-18.11.26:628][547]LogClass: Error: TIMELINE VALUE: 0.300011
+[2018.04.28-18.11.26:637][548]LogClass: Error: TIMELINE VALUE: 0.308344
+[2018.04.28-18.11.26:645][549]LogClass: Error: TIMELINE VALUE: 0.316678
+[2018.04.28-18.11.26:653][550]LogClass: Error: TIMELINE VALUE: 0.325012
+[2018.04.28-18.11.26:662][551]LogClass: Error: TIMELINE VALUE: 0.333345
+[2018.04.28-18.11.26:670][552]LogClass: Error: TIMELINE VALUE: 0.341679
+[2018.04.28-18.11.26:678][553]LogClass: Error: TIMELINE VALUE: 0.350012
+[2018.04.28-18.11.26:687][554]LogClass: Error: TIMELINE VALUE: 0.358346
+[2018.04.28-18.11.26:695][555]LogClass: Error: TIMELINE VALUE: 0.366679
+[2018.04.28-18.11.26:703][556]LogClass: Error: TIMELINE VALUE: 0.375013
+[2018.04.28-18.11.26:712][557]LogClass: Error: TIMELINE VALUE: 0.383346
+[2018.04.28-18.11.26:720][558]LogClass: Error: TIMELINE VALUE: 0.391680
+[2018.04.28-18.11.26:728][559]LogClass: Error: TIMELINE VALUE: 0.400013
+[2018.04.28-18.11.26:737][560]LogClass: Error: TIMELINE VALUE: 0.408347
+[2018.04.28-18.11.26:745][561]LogClass: Error: TIMELINE VALUE: 0.416680
+[2018.04.28-18.11.26:754][562]LogClass: Error: TIMELINE VALUE: 0.425014
+[2018.04.28-18.11.26:762][563]LogClass: Error: TIMELINE VALUE: 0.433348
+[2018.04.28-18.11.26:770][564]LogClass: Error: TIMELINE VALUE: 0.441681
+[2018.04.28-18.11.26:779][565]LogClass: Error: TIMELINE VALUE: 0.450015
+[2018.04.28-18.11.26:787][566]LogClass: Error: TIMELINE VALUE: 0.458348
+[2018.04.28-18.11.26:795][567]LogClass: Error: TIMELINE VALUE: 0.466682
+[2018.04.28-18.11.26:804][568]LogClass: Error: TIMELINE VALUE: 0.475015
+[2018.04.28-18.11.26:812][569]LogClass: Error: TIMELINE VALUE: 0.483349
+[2018.04.28-18.11.26:820][570]LogClass: Error: TIMELINE VALUE: 0.491683
+[2018.04.28-18.11.26:828][571]LogClass: Error: TIMELINE VALUE: 0.500016
+[2018.04.28-18.11.26:837][572]LogClass: Error: TIMELINE VALUE: 0.508350
+[2018.04.28-18.11.26:845][573]LogClass: Error: TIMELINE VALUE: 0.516683
+[2018.04.28-18.11.26:853][574]LogClass: Error: TIMELINE VALUE: 0.525017
+[2018.04.28-18.11.26:862][575]LogClass: Error: TIMELINE VALUE: 0.533350
+[2018.04.28-18.11.26:870][576]LogClass: Error: TIMELINE VALUE: 0.541684
+[2018.04.28-18.11.26:878][577]LogClass: Error: TIMELINE VALUE: 0.550018
+[2018.04.28-18.11.26:887][578]LogClass: Error: TIMELINE VALUE: 0.558352
+[2018.04.28-18.11.26:895][579]LogClass: Error: TIMELINE VALUE: 0.566685
+[2018.04.28-18.11.26:903][580]LogClass: Error: TIMELINE VALUE: 0.575019
+[2018.04.28-18.11.26:912][581]LogClass: Error: TIMELINE VALUE: 0.583352
+[2018.04.28-18.11.26:920][582]LogClass: Error: TIMELINE VALUE: 0.591686
+[2018.04.28-18.11.26:928][583]LogClass: Error: TIMELINE VALUE: 0.600019
+[2018.04.28-18.11.26:937][584]LogClass: Error: TIMELINE VALUE: 0.608353
+[2018.04.28-18.11.26:945][585]LogClass: Error: TIMELINE VALUE: 0.616686
+[2018.04.28-18.11.26:953][586]LogClass: Error: TIMELINE VALUE: 0.625020
+[2018.04.28-18.11.26:962][587]LogClass: Error: TIMELINE VALUE: 0.633354
+[2018.04.28-18.11.26:970][588]LogClass: Error: TIMELINE VALUE: 0.641688
+[2018.04.28-18.11.26:978][589]LogClass: Error: TIMELINE VALUE: 0.650021
+[2018.04.28-18.11.26:987][590]LogClass: Error: TIMELINE VALUE: 0.658355
+[2018.04.28-18.11.26:995][591]LogClass: Error: TIMELINE VALUE: 0.666688
+[2018.04.28-18.11.27:003][592]LogClass: Error: TIMELINE VALUE: 0.675022
+[2018.04.28-18.11.27:012][593]LogClass: Error: TIMELINE VALUE: 0.683355
+[2018.04.28-18.11.27:020][594]LogClass: Error: TIMELINE VALUE: 0.691689
+[2018.04.28-18.11.27:028][595]LogClass: Error: TIMELINE VALUE: 0.700022
+[2018.04.28-18.11.27:037][596]LogClass: Error: TIMELINE VALUE: 0.708363
+[2018.04.28-18.11.27:045][597]LogClass: Error: TIMELINE VALUE: 0.716697
+[2018.04.28-18.11.27:054][598]LogClass: Error: TIMELINE VALUE: 0.725030
+[2018.04.28-18.11.27:062][599]LogClass: Error: TIMELINE VALUE: 0.733364
+[2018.04.28-18.11.27:070][600]LogClass: Error: TIMELINE VALUE: 0.741697
+[2018.04.28-18.11.27:079][601]LogClass: Error: TIMELINE VALUE: 0.750031
+[2018.04.28-18.11.27:087][602]LogClass: Error: TIMELINE VALUE: 0.758365
+[2018.04.28-18.11.27:095][603]LogClass: Error: TIMELINE VALUE: 0.766698
+[2018.04.28-18.11.27:104][604]LogClass: Error: TIMELINE VALUE: 0.775032
+[2018.04.28-18.11.27:112][605]LogClass: Error: TIMELINE VALUE: 0.783366
+[2018.04.28-18.11.27:120][606]LogClass: Error: TIMELINE VALUE: 0.791699
+[2018.04.28-18.11.27:129][607]LogClass: Error: TIMELINE VALUE: 0.800033
+[2018.04.28-18.11.27:137][608]LogClass: Error: TIMELINE VALUE: 0.808366
+[2018.04.28-18.11.27:145][609]LogClass: Error: TIMELINE VALUE: 0.816700
+[2018.04.28-18.11.27:153][610]LogClass: Error: TIMELINE VALUE: 0.825033
+[2018.04.28-18.11.27:162][611]LogClass: Error: TIMELINE VALUE: 0.833367
+[2018.04.28-18.11.27:170][612]LogClass: Error: TIMELINE VALUE: 0.841701
+[2018.04.28-18.11.27:178][613]LogClass: Error: TIMELINE VALUE: 0.850041
+[2018.04.28-18.11.27:187][614]LogClass: Error: TIMELINE VALUE: 0.858375
+[2018.04.28-18.11.27:195][615]LogClass: Error: TIMELINE VALUE: 0.866708
+[2018.04.28-18.11.27:204][616]LogClass: Error: TIMELINE VALUE: 0.875042
+[2018.04.28-18.11.27:212][617]LogClass: Error: TIMELINE VALUE: 0.883375
+[2018.04.28-18.11.27:220][618]LogClass: Error: TIMELINE VALUE: 0.891709
+[2018.04.28-18.11.27:228][619]LogClass: Error: TIMELINE VALUE: 0.900043
+[2018.04.28-18.11.27:237][620]LogClass: Error: TIMELINE VALUE: 0.908376
+[2018.04.28-18.11.27:245][621]LogClass: Error: TIMELINE VALUE: 0.916710
+[2018.04.28-18.11.27:253][622]LogClass: Error: TIMELINE VALUE: 0.925043
+[2018.04.28-18.11.27:262][623]LogClass: Error: TIMELINE VALUE: 0.933377
+[2018.04.28-18.11.27:270][624]LogClass: Error: TIMELINE VALUE: 0.941711
+[2018.04.28-18.11.27:278][625]LogClass: Error: TIMELINE VALUE: 0.950044
+[2018.04.28-18.11.27:287][626]LogClass: Error: TIMELINE VALUE: 0.958378
+[2018.04.28-18.11.27:295][627]LogClass: Error: TIMELINE VALUE: 0.966711
+[2018.04.28-18.11.27:303][628]LogClass: Error: TIMELINE VALUE: 0.975045
+[2018.04.28-18.11.27:312][629]LogClass: Error: TIMELINE VALUE: 0.983379
+[2018.04.28-18.11.27:320][630]LogClass: Error: TIMELINE VALUE: 0.991712
+[2018.04.28-18.11.27:328][631]LogClass: Error: TIMELINE VALUE: 1.000046
+[2018.04.28-18.11.27:337][632]LogClass: Error: TIMELINE VALUE: 1.008379
+[2018.04.28-18.11.27:345][633]LogClass: Error: TIMELINE VALUE: 1.016713
+[2018.04.28-18.11.27:354][634]LogClass: Error: TIMELINE VALUE: 1.025046
+[2018.04.28-18.11.27:362][635]LogClass: Error: TIMELINE VALUE: 1.033380
+[2018.04.28-18.11.27:370][636]LogClass: Error: TIMELINE VALUE: 1.041714
+[2018.04.28-18.11.27:379][637]LogClass: Error: TIMELINE VALUE: 1.050047
+[2018.04.28-18.11.27:387][638]LogClass: Error: TIMELINE VALUE: 1.058381
+[2018.04.28-18.11.27:395][639]LogClass: Error: TIMELINE VALUE: 1.066715
+[2018.04.28-18.11.27:404][640]LogClass: Error: TIMELINE VALUE: 1.075048
+[2018.04.28-18.11.27:412][641]LogClass: Error: TIMELINE VALUE: 1.083382
+[2018.04.28-18.11.27:420][642]LogClass: Error: TIMELINE VALUE: 1.091715
+[2018.04.28-18.11.27:429][643]LogClass: Error: TIMELINE VALUE: 1.100049
+[2018.04.28-18.11.27:437][644]LogClass: Error: TIMELINE VALUE: 1.108382
+[2018.04.28-18.11.27:445][645]LogClass: Error: TIMELINE VALUE: 1.116716
+[2018.04.28-18.11.27:454][646]LogClass: Error: TIMELINE VALUE: 1.125049
+[2018.04.28-18.11.27:462][647]LogClass: Error: TIMELINE VALUE: 1.133383
+[2018.04.28-18.11.27:472][648]LogClass: Error: TIMELINE VALUE: 0.008334
+[2018.04.28-18.11.27:479][649]LogClass: Error: TIMELINE VALUE: 0.016667
+[2018.04.28-18.11.27:487][650]LogClass: Error: TIMELINE VALUE: 0.025001
+[2018.04.28-18.11.27:495][651]LogClass: Error: TIMELINE VALUE: 0.033334
+[2018.04.28-18.11.27:504][652]LogClass: Error: TIMELINE VALUE: 0.041671
+[2018.04.28-18.11.27:512][653]LogClass: Error: TIMELINE VALUE: 0.050004
+[2018.04.28-18.11.27:520][654]LogClass: Error: TIMELINE VALUE: 0.058338
+[2018.04.28-18.11.27:529][655]LogClass: Error: TIMELINE VALUE: 0.066671
+[2018.04.28-18.11.27:537][656]LogClass: Error: TIMELINE VALUE: 0.075005
+[2018.04.28-18.11.27:545][657]LogClass: Error: TIMELINE VALUE: 0.083338
+[2018.04.28-18.11.27:553][658]LogClass: Error: TIMELINE VALUE: 0.091672
+[2018.04.28-18.11.27:562][659]LogClass: Error: TIMELINE VALUE: 0.100006
+[2018.04.28-18.11.27:570][660]LogClass: Error: TIMELINE VALUE: 0.108340
+[2018.04.28-18.11.27:578][661]LogClass: Error: TIMELINE VALUE: 0.116673
+[2018.04.28-18.11.27:587][662]LogClass: Error: TIMELINE VALUE: 0.125007
+[2018.04.28-18.11.27:595][663]LogClass: Error: TIMELINE VALUE: 0.133340
+[2018.04.28-18.11.27:603][664]LogClass: Error: TIMELINE VALUE: 0.141674
+[2018.04.28-18.11.27:612][665]LogClass: Error: TIMELINE VALUE: 0.150007
+[2018.04.28-18.11.27:620][666]LogClass: Error: TIMELINE VALUE: 0.158341
+[2018.04.28-18.11.27:628][667]LogClass: Error: TIMELINE VALUE: 0.166674
+[2018.04.28-18.11.27:637][668]LogClass: Error: TIMELINE VALUE: 0.175008
+[2018.04.28-18.11.27:645][669]LogClass: Error: TIMELINE VALUE: 0.183341
+[2018.04.28-18.11.27:653][670]LogClass: Error: TIMELINE VALUE: 0.191675
+[2018.04.28-18.11.27:662][671]LogClass: Error: TIMELINE VALUE: 0.200008
+[2018.04.28-18.11.27:670][672]LogClass: Error: TIMELINE VALUE: 0.208343
+[2018.04.28-18.11.27:678][673]LogClass: Error: TIMELINE VALUE: 0.216677
+[2018.04.28-18.11.27:687][674]LogClass: Error: TIMELINE VALUE: 0.225010
+[2018.04.28-18.11.27:695][675]LogClass: Error: TIMELINE VALUE: 0.233344
+[2018.04.28-18.11.27:703][676]LogClass: Error: TIMELINE VALUE: 0.241677
+[2018.04.28-18.11.27:712][677]LogClass: Error: TIMELINE VALUE: 0.250011
+[2018.04.28-18.11.27:720][678]LogClass: Error: TIMELINE VALUE: 0.258345
+[2018.04.28-18.11.27:728][679]LogClass: Error: TIMELINE VALUE: 0.266678
+[2018.04.28-18.11.27:737][680]LogClass: Error: TIMELINE VALUE: 0.275012
+[2018.04.28-18.11.27:745][681]LogClass: Error: TIMELINE VALUE: 0.283346
+[2018.04.28-18.11.27:754][682]LogClass: Error: TIMELINE VALUE: 0.291679
+[2018.04.28-18.11.27:762][683]LogClass: Error: TIMELINE VALUE: 0.300013
+[2018.04.28-18.11.27:770][684]LogClass: Error: TIMELINE VALUE: 0.308346
+[2018.04.28-18.11.27:779][685]LogClass: Error: TIMELINE VALUE: 0.316680
+[2018.04.28-18.11.27:787][686]LogClass: Error: TIMELINE VALUE: 0.325013
+[2018.04.28-18.11.27:795][687]LogClass: Error: TIMELINE VALUE: 0.333347
+[2018.04.28-18.11.27:804][688]LogClass: Error: TIMELINE VALUE: 0.341681
+[2018.04.28-18.11.27:812][689]LogClass: Error: TIMELINE VALUE: 0.350014
+[2018.04.28-18.11.27:820][690]LogClass: Error: TIMELINE VALUE: 0.358348
+[2018.04.28-18.11.27:829][691]LogClass: Error: TIMELINE VALUE: 0.366681
+[2018.04.28-18.11.27:837][692]LogClass: Error: TIMELINE VALUE: 0.375015
+[2018.04.28-18.11.27:845][693]LogClass: Error: TIMELINE VALUE: 0.383348
+[2018.04.28-18.11.27:854][694]LogClass: Error: TIMELINE VALUE: 0.391682
+[2018.04.28-18.11.27:862][695]LogClass: Error: TIMELINE VALUE: 0.400016
+[2018.04.28-18.11.27:870][696]LogClass: Error: TIMELINE VALUE: 0.408349
+[2018.04.28-18.11.27:879][697]LogClass: Error: TIMELINE VALUE: 0.416683
+[2018.04.28-18.11.27:887][698]LogClass: Error: TIMELINE VALUE: 0.425016
+[2018.04.28-18.11.27:895][699]LogClass: Error: TIMELINE VALUE: 0.433350
+[2018.04.28-18.11.27:903][700]LogClass: Error: TIMELINE VALUE: 0.441683
+[2018.04.28-18.11.27:912][701]LogClass: Error: TIMELINE VALUE: 0.450017
+[2018.04.28-18.11.27:920][702]LogClass: Error: TIMELINE VALUE: 0.458350
+[2018.04.28-18.11.27:928][703]LogClass: Error: TIMELINE VALUE: 0.466684
+[2018.04.28-18.11.27:937][704]LogClass: Error: TIMELINE VALUE: 0.475017
+[2018.04.28-18.11.27:945][705]LogClass: Error: TIMELINE VALUE: 0.483355
+[2018.04.28-18.11.27:953][706]LogClass: Error: TIMELINE VALUE: 0.491689
+[2018.04.28-18.11.27:962][707]LogClass: Error: TIMELINE VALUE: 0.500022
+[2018.04.28-18.11.27:970][708]LogClass: Error: TIMELINE VALUE: 0.508356
+[2018.04.28-18.11.27:978][709]LogClass: Error: TIMELINE VALUE: 0.516689
+[2018.04.28-18.11.27:987][710]LogClass: Error: TIMELINE VALUE: 0.525023
+[2018.04.28-18.11.27:995][711]LogClass: Error: TIMELINE VALUE: 0.533356
+[2018.04.28-18.11.28:004][712]LogClass: Error: TIMELINE VALUE: 0.541692
+[2018.04.28-18.11.28:012][713]LogClass: Error: TIMELINE VALUE: 0.550025
+[2018.04.28-18.11.28:020][714]LogClass: Error: TIMELINE VALUE: 0.558359
+[2018.04.28-18.11.28:028][715]LogClass: Error: TIMELINE VALUE: 0.566692
+[2018.04.28-18.11.28:037][716]LogClass: Error: TIMELINE VALUE: 0.575026
+[2018.04.28-18.11.28:045][717]LogClass: Error: TIMELINE VALUE: 0.583359
+[2018.04.28-18.11.28:053][718]LogClass: Error: TIMELINE VALUE: 0.591693
+[2018.04.28-18.11.28:062][719]LogClass: Error: TIMELINE VALUE: 0.600027
+[2018.04.28-18.11.28:070][720]LogClass: Error: TIMELINE VALUE: 0.608360
+[2018.04.28-18.11.28:078][721]LogClass: Error: TIMELINE VALUE: 0.616694
+[2018.04.28-18.11.28:087][722]LogClass: Error: TIMELINE VALUE: 0.625028
+[2018.04.28-18.11.28:095][723]LogClass: Error: TIMELINE VALUE: 0.633361
+[2018.04.28-18.11.28:104][724]LogClass: Error: TIMELINE VALUE: 0.641695
+[2018.04.28-18.11.28:112][725]LogClass: Error: TIMELINE VALUE: 0.650028
+[2018.04.28-18.11.28:120][726]LogClass: Error: TIMELINE VALUE: 0.658362
+[2018.04.28-18.11.28:129][727]LogClass: Error: TIMELINE VALUE: 0.666695
+[2018.04.28-18.11.28:137][728]LogClass: Error: TIMELINE VALUE: 0.675029
+[2018.04.28-18.11.28:145][729]LogClass: Error: TIMELINE VALUE: 0.683362
+[2018.04.28-18.11.28:154][730]LogClass: Error: TIMELINE VALUE: 0.691696
+[2018.04.28-18.11.28:162][731]LogClass: Error: TIMELINE VALUE: 0.700029
+[2018.04.28-18.11.28:170][732]LogClass: Error: TIMELINE VALUE: 0.708363
+[2018.04.28-18.11.28:178][733]LogClass: Error: TIMELINE VALUE: 0.716696
+[2018.04.28-18.11.28:187][734]LogClass: Error: TIMELINE VALUE: 0.725030
+[2018.04.28-18.11.28:195][735]LogClass: Error: TIMELINE VALUE: 0.733363
+[2018.04.28-18.11.28:203][736]LogClass: Error: TIMELINE VALUE: 0.741697
+[2018.04.28-18.11.28:212][737]LogClass: Error: TIMELINE VALUE: 0.750031
+[2018.04.28-18.11.28:220][738]LogClass: Error: TIMELINE VALUE: 0.758364
+[2018.04.28-18.11.28:228][739]LogClass: Error: TIMELINE VALUE: 0.766698
+[2018.04.28-18.11.28:237][740]LogClass: Error: TIMELINE VALUE: 0.775031
+[2018.04.28-18.11.28:245][741]LogClass: Error: TIMELINE VALUE: 0.783365
+[2018.04.28-18.11.28:253][742]LogClass: Error: TIMELINE VALUE: 0.791699
+[2018.04.28-18.11.28:262][743]LogClass: Error: TIMELINE VALUE: 0.800033
+[2018.04.28-18.11.28:270][744]LogClass: Error: TIMELINE VALUE: 0.808366
+[2018.04.28-18.11.28:278][745]LogClass: Error: TIMELINE VALUE: 0.816700
+[2018.04.28-18.11.28:287][746]LogClass: Error: TIMELINE VALUE: 0.825034
+[2018.04.28-18.11.28:295][747]LogClass: Error: TIMELINE VALUE: 0.833367
+[2018.04.28-18.11.28:303][748]LogClass: Error: TIMELINE VALUE: 0.841701
+[2018.04.28-18.11.28:312][749]LogClass: Error: TIMELINE VALUE: 0.850034
+[2018.04.28-18.11.28:320][750]LogClass: Error: TIMELINE VALUE: 0.858368
+[2018.04.28-18.11.28:328][751]LogClass: Error: TIMELINE VALUE: 0.866701
+[2018.04.28-18.11.28:337][752]LogClass: Error: TIMELINE VALUE: 0.875035
+[2018.04.28-18.11.28:345][753]LogClass: Error: TIMELINE VALUE: 0.883369
+[2018.04.28-18.11.28:353][754]LogClass: Error: TIMELINE VALUE: 0.891702
+[2018.04.28-18.11.28:362][755]LogClass: Error: TIMELINE VALUE: 0.900036
+[2018.04.28-18.11.28:370][756]LogClass: Error: TIMELINE VALUE: 0.908369
+[2018.04.28-18.11.28:379][757]LogClass: Error: TIMELINE VALUE: 0.916703
+[2018.04.28-18.11.28:387][758]LogClass: Error: TIMELINE VALUE: 0.925036
+[2018.04.28-18.11.28:395][759]LogClass: Error: TIMELINE VALUE: 0.933370
+[2018.04.28-18.11.28:404][760]LogClass: Error: TIMELINE VALUE: 0.941704
+[2018.04.28-18.11.28:412][761]LogClass: Error: TIMELINE VALUE: 0.950052
+[2018.04.28-18.11.28:420][762]LogClass: Error: TIMELINE VALUE: 0.958385
+[2018.04.28-18.11.28:429][763]LogClass: Error: TIMELINE VALUE: 0.966719
+[2018.04.28-18.11.28:437][764]LogClass: Error: TIMELINE VALUE: 0.975052
+[2018.04.28-18.11.28:445][765]LogClass: Error: TIMELINE VALUE: 0.983386
+[2018.04.28-18.11.28:454][766]LogClass: Error: TIMELINE VALUE: 0.991720
+[2018.04.28-18.11.28:462][767]LogClass: Error: TIMELINE VALUE: 1.000054
+[2018.04.28-18.11.28:470][768]LogClass: Error: TIMELINE VALUE: 1.008387
+[2018.04.28-18.11.28:479][769]LogClass: Error: TIMELINE VALUE: 1.016721
+[2018.04.28-18.11.28:487][770]LogClass: Error: TIMELINE VALUE: 1.025054
+[2018.04.28-18.11.28:495][771]LogClass: Error: TIMELINE VALUE: 1.033388
+[2018.04.28-18.11.28:504][772]LogClass: Error: TIMELINE VALUE: 1.041722
+[2018.04.28-18.11.28:512][773]LogClass: Error: TIMELINE VALUE: 1.050056
+[2018.04.28-18.11.28:520][774]LogClass: Error: TIMELINE VALUE: 1.058389
+[2018.04.28-18.11.28:528][775]LogClass: Error: TIMELINE VALUE: 1.066723
+[2018.04.28-18.11.28:537][776]LogClass: Error: TIMELINE VALUE: 1.075057
+[2018.04.28-18.11.28:545][777]LogClass: Error: TIMELINE VALUE: 1.083390
+[2018.04.28-18.11.28:553][778]LogClass: Error: TIMELINE VALUE: 1.091724
+[2018.04.28-18.11.28:562][779]LogClass: Error: TIMELINE VALUE: 1.100057
+[2018.04.28-18.11.28:570][780]LogClass: Error: TIMELINE VALUE: 1.108391
+[2018.04.28-18.11.28:579][781]LogClass: Error: TIMELINE VALUE: 1.116725
+[2018.04.28-18.11.28:587][782]LogClass: Error: TIMELINE VALUE: 1.125058
+[2018.04.28-18.11.28:595][783]LogClass: Error: TIMELINE VALUE: 1.133392
+[2018.04.28-18.11.28:603][784]LogClass: Error: TIMELINE VALUE: 1.141725
+[2018.04.28-18.11.28:612][785]LogClass: Error: TIMELINE VALUE: 1.150059
+[2018.04.28-18.11.28:620][786]LogClass: Error: TIMELINE VALUE: 1.158392
+[2018.04.28-18.11.28:628][787]LogClass: Error: TIMELINE VALUE: 1.166726
+[2018.04.28-18.11.28:637][788]LogClass: Error: TIMELINE VALUE: 1.175060
+[2018.04.28-18.11.28:645][789]LogClass: Error: TIMELINE VALUE: 1.183393
+[2018.04.28-18.11.28:653][790]LogClass: Error: TIMELINE VALUE: 1.191727
+[2018.04.28-18.11.28:662][791]LogClass: Error: TIMELINE VALUE: 1.200061
+[2018.04.28-18.11.28:670][792]LogClass: Error: TIMELINE VALUE: 1.208395
+[2018.04.28-18.11.28:679][793]LogClass: Error: TIMELINE VALUE: 1.216728
+[2018.04.28-18.11.28:687][794]LogClass: Error: TIMELINE VALUE: 1.225062
+[2018.04.28-18.11.28:695][795]LogClass: Error: TIMELINE VALUE: 1.233399
+[2018.04.28-18.11.28:703][796]LogClass: Error: TIMELINE VALUE: 1.241732
+[2018.04.28-18.11.28:712][797]LogClass: Error: TIMELINE VALUE: 1.250066
+[2018.04.28-18.11.28:720][798]LogClass: Error: TIMELINE VALUE: 1.258399
+[2018.04.28-18.11.28:729][799]LogClass: Error: TIMELINE VALUE: 1.266733
+[2018.04.28-18.11.28:737][800]LogClass: Error: TIMELINE VALUE: 1.275067
+[2018.04.28-18.11.28:745][801]LogClass: Error: TIMELINE VALUE: 1.283400
+[2018.04.28-18.11.28:753][802]LogClass: Error: TIMELINE VALUE: 1.291734
+[2018.04.28-18.11.28:762][803]LogClass: Error: TIMELINE VALUE: 1.300068
+[2018.04.28-18.11.28:770][804]LogClass: Error: TIMELINE VALUE: 1.308401
+[2018.04.28-18.11.28:778][805]LogClass: Error: TIMELINE VALUE: 1.316735
+[2018.04.28-18.11.28:787][806]LogClass: Error: TIMELINE VALUE: 1.325069
+[2018.04.28-18.11.28:795][807]LogClass: Error: TIMELINE VALUE: 1.333403
+[2018.04.28-18.11.28:803][808]LogClass: Error: TIMELINE VALUE: 1.341736
+[2018.04.28-18.11.28:812][809]LogClass: Error: TIMELINE VALUE: 1.350070
+[2018.04.28-18.11.28:820][810]LogClass: Error: TIMELINE VALUE: 1.358403
+[2018.04.28-18.11.28:828][811]LogClass: Error: TIMELINE VALUE: 1.366737
+[2018.04.28-18.11.28:837][812]LogClass: Error: TIMELINE VALUE: 1.375071
+[2018.04.28-18.11.28:845][813]LogClass: Error: TIMELINE VALUE: 1.383404
+[2018.04.28-18.11.28:853][814]LogClass: Error: TIMELINE VALUE: 1.391738
+[2018.04.28-18.11.28:862][815]LogClass: Error: TIMELINE VALUE: 1.400072
+[2018.04.28-18.11.28:870][816]LogClass: Error: TIMELINE VALUE: 1.408405
+[2018.04.28-18.11.28:879][817]LogClass: Error: TIMELINE VALUE: 1.416739
+[2018.04.28-18.11.28:887][818]LogClass: Error: TIMELINE VALUE: 1.425072
+[2018.04.28-18.11.28:896][819]LogClass: Error: TIMELINE VALUE: 1.433406
+[2018.04.28-18.11.28:904][820]LogClass: Error: TIMELINE VALUE: 1.441740
+[2018.04.28-18.11.28:912][821]LogClass: Error: TIMELINE VALUE: 1.450073
+[2018.04.28-18.11.28:920][822]LogClass: Error: TIMELINE VALUE: 1.458407
+[2018.04.28-18.11.28:929][823]LogClass: Error: TIMELINE VALUE: 1.466740
+[2018.04.28-18.11.28:937][824]LogClass: Error: TIMELINE VALUE: 1.475074
+[2018.04.28-18.11.28:945][825]LogClass: Error: TIMELINE VALUE: 1.483408
+[2018.04.28-18.11.28:954][826]LogClass: Error: TIMELINE VALUE: 1.491741
+[2018.04.28-18.11.28:964][827]LogClass: Error: TIMELINE VALUE: 0.008334
+[2018.04.28-18.11.28:970][828]LogClass: Error: TIMELINE VALUE: 0.016667
+[2018.04.28-18.11.28:979][829]LogClass: Error: TIMELINE VALUE: 0.025001
+[2018.04.28-18.11.28:987][830]LogClass: Error: TIMELINE VALUE: 0.033335
+[2018.04.28-18.11.28:995][831]LogClass: Error: TIMELINE VALUE: 0.041668
+[2018.04.28-18.11.29:004][832]LogClass: Error: TIMELINE VALUE: 0.050002
+[2018.04.28-18.11.29:012][833]LogClass: Error: TIMELINE VALUE: 0.058336
+[2018.04.28-18.11.29:020][834]LogClass: Error: TIMELINE VALUE: 0.066669
+[2018.04.28-18.11.29:029][835]LogClass: Error: TIMELINE VALUE: 0.075003
+[2018.04.28-18.11.29:037][836]LogClass: Error: TIMELINE VALUE: 0.083337
+[2018.04.28-18.11.29:045][837]LogClass: Error: TIMELINE VALUE: 0.091670
+[2018.04.28-18.11.29:054][838]LogClass: Error: TIMELINE VALUE: 0.100004
+[2018.04.28-18.11.29:062][839]LogClass: Error: TIMELINE VALUE: 0.108337
+[2018.04.28-18.11.29:070][840]LogClass: Error: TIMELINE VALUE: 0.116671
+[2018.04.28-18.11.29:079][841]LogClass: Error: TIMELINE VALUE: 0.125005
+[2018.04.28-18.11.29:087][842]LogClass: Error: TIMELINE VALUE: 0.133338
+[2018.04.28-18.11.29:095][843]LogClass: Error: TIMELINE VALUE: 0.141672
+[2018.04.28-18.11.29:103][844]LogClass: Error: TIMELINE VALUE: 0.150005
+[2018.04.28-18.11.29:112][845]LogClass: Error: TIMELINE VALUE: 0.158339
+[2018.04.28-18.11.29:120][846]LogClass: Error: TIMELINE VALUE: 0.166672
+[2018.04.28-18.11.29:128][847]LogClass: Error: TIMELINE VALUE: 0.175006
+[2018.04.28-18.11.29:137][848]LogClass: Error: TIMELINE VALUE: 0.183339
+[2018.04.28-18.11.29:145][849]LogClass: Error: TIMELINE VALUE: 0.191673
+[2018.04.28-18.11.29:153][850]LogClass: Error: TIMELINE VALUE: 0.200006
+[2018.04.28-18.11.29:162][851]LogClass: Error: TIMELINE VALUE: 0.208340
+[2018.04.28-18.11.29:170][852]LogClass: Error: TIMELINE VALUE: 0.216679
+[2018.04.28-18.11.29:178][853]LogClass: Error: TIMELINE VALUE: 0.225012
+[2018.04.28-18.11.29:187][854]LogClass: Error: TIMELINE VALUE: 0.233346
+[2018.04.28-18.11.29:195][855]LogClass: Error: TIMELINE VALUE: 0.241680
+[2018.04.28-18.11.29:203][856]LogClass: Error: TIMELINE VALUE: 0.250013
+[2018.04.28-18.11.29:212][857]LogClass: Error: TIMELINE VALUE: 0.258347
+[2018.04.28-18.11.29:220][858]LogClass: Error: TIMELINE VALUE: 0.266681
+[2018.04.28-18.11.29:229][859]LogClass: Error: TIMELINE VALUE: 0.275014
+[2018.04.28-18.11.29:237][860]LogClass: Error: TIMELINE VALUE: 0.283348
+[2018.04.28-18.11.29:245][861]LogClass: Error: TIMELINE VALUE: 0.291682
+[2018.04.28-18.11.29:253][862]LogClass: Error: TIMELINE VALUE: 0.300015
+[2018.04.28-18.11.29:262][863]LogClass: Error: TIMELINE VALUE: 0.308349
+[2018.04.28-18.11.29:270][864]LogClass: Error: TIMELINE VALUE: 0.316683
+[2018.04.28-18.11.29:278][865]LogClass: Error: TIMELINE VALUE: 0.325016
+[2018.04.28-18.11.29:287][866]LogClass: Error: TIMELINE VALUE: 0.333350
+[2018.04.28-18.11.29:295][867]LogClass: Error: TIMELINE VALUE: 0.341683
+[2018.04.28-18.11.29:303][868]LogClass: Error: TIMELINE VALUE: 0.350017
+[2018.04.28-18.11.29:312][869]LogClass: Error: TIMELINE VALUE: 0.358350
+[2018.04.28-18.11.29:320][870]LogClass: Error: TIMELINE VALUE: 0.366684
+[2018.04.28-18.11.29:328][871]LogClass: Error: TIMELINE VALUE: 0.375017
+[2018.04.28-18.11.29:337][872]LogClass: Error: TIMELINE VALUE: 0.383351
+[2018.04.28-18.11.29:345][873]LogClass: Error: TIMELINE VALUE: 0.391684
+[2018.04.28-18.11.29:354][874]LogClass: Error: TIMELINE VALUE: 0.400018
+[2018.04.28-18.11.29:362][875]LogClass: Error: TIMELINE VALUE: 0.408351
+[2018.04.28-18.11.29:370][876]LogClass: Error: TIMELINE VALUE: 0.416685
+[2018.04.28-18.11.29:379][877]LogClass: Error: TIMELINE VALUE: 0.425018
+[2018.04.28-18.11.29:387][878]LogClass: Error: TIMELINE VALUE: 0.433352
+[2018.04.28-18.11.29:396][879]LogClass: Error: TIMELINE VALUE: 0.441685
+[2018.04.28-18.11.29:404][880]LogClass: Error: TIMELINE VALUE: 0.450019
+[2018.04.28-18.11.29:412][881]LogClass: Error: TIMELINE VALUE: 0.458352
+[2018.04.28-18.11.29:420][882]LogClass: Error: TIMELINE VALUE: 0.466686
+[2018.04.28-18.11.29:429][883]LogClass: Error: TIMELINE VALUE: 0.475020
+[2018.04.28-18.11.29:437][884]LogClass: Error: TIMELINE VALUE: 0.483354
+[2018.04.28-18.11.29:445][885]LogClass: Error: TIMELINE VALUE: 0.491687
+[2018.04.28-18.11.29:454][886]LogClass: Error: TIMELINE VALUE: 0.500021
+[2018.04.28-18.11.29:462][887]LogClass: Error: TIMELINE VALUE: 0.508354
+[2018.04.28-18.11.29:470][888]LogClass: Error: TIMELINE VALUE: 0.516688
+[2018.04.28-18.11.29:479][889]LogClass: Error: TIMELINE VALUE: 0.525021
+[2018.04.28-18.11.29:487][890]LogClass: Error: TIMELINE VALUE: 0.533355
+[2018.04.28-18.11.29:495][891]LogClass: Error: TIMELINE VALUE: 0.541689
+[2018.04.28-18.11.29:503][892]LogClass: Error: TIMELINE VALUE: 0.550022
+[2018.04.28-18.11.29:512][893]LogClass: Error: TIMELINE VALUE: 0.558356
+[2018.04.28-18.11.29:520][894]LogClass: Error: TIMELINE VALUE: 0.566689
+[2018.04.28-18.11.29:529][895]LogClass: Error: TIMELINE VALUE: 0.575023
+[2018.04.28-18.11.29:537][896]LogClass: Error: TIMELINE VALUE: 0.583356
+[2018.04.28-18.11.29:545][897]LogClass: Error: TIMELINE VALUE: 0.591690
+[2018.04.28-18.11.29:553][898]LogClass: Error: TIMELINE VALUE: 0.600023
+[2018.04.28-18.11.29:562][899]LogClass: Error: TIMELINE VALUE: 0.608357
+[2018.04.28-18.11.29:570][900]LogClass: Error: TIMELINE VALUE: 0.616690
+[2018.04.28-18.11.29:578][901]LogClass: Error: TIMELINE VALUE: 0.625024
+[2018.04.28-18.11.29:587][902]LogClass: Error: TIMELINE VALUE: 0.633358
+[2018.04.28-18.11.29:595][903]LogClass: Error: TIMELINE VALUE: 0.641691
+[2018.04.28-18.11.29:603][904]LogClass: Error: TIMELINE VALUE: 0.650025
+[2018.04.28-18.11.29:612][905]LogClass: Error: TIMELINE VALUE: 0.658359
+[2018.04.28-18.11.29:620][906]LogClass: Error: TIMELINE VALUE: 0.666692
+[2018.04.28-18.11.29:628][907]LogClass: Error: TIMELINE VALUE: 0.675026
+[2018.04.28-18.11.29:637][908]LogClass: Error: TIMELINE VALUE: 0.683359
+[2018.04.28-18.11.29:645][909]LogClass: Error: TIMELINE VALUE: 0.691693
+[2018.04.28-18.11.29:653][910]LogClass: Error: TIMELINE VALUE: 0.700027
+[2018.04.28-18.11.29:662][911]LogClass: Error: TIMELINE VALUE: 0.708360
+[2018.04.28-18.11.29:670][912]LogClass: Error: TIMELINE VALUE: 0.716694
+[2018.04.28-18.11.29:678][913]LogClass: Error: TIMELINE VALUE: 0.725027
+[2018.04.28-18.11.29:687][914]LogClass: Error: TIMELINE VALUE: 0.733361
+[2018.04.28-18.11.29:695][915]LogClass: Error: TIMELINE VALUE: 0.741694
+[2018.04.28-18.11.29:703][916]LogClass: Error: TIMELINE VALUE: 0.750028
+[2018.04.28-18.11.29:712][917]LogClass: Error: TIMELINE VALUE: 0.758361
+[2018.04.28-18.11.29:720][918]LogClass: Error: TIMELINE VALUE: 0.766695
+[2018.04.28-18.11.29:729][919]LogClass: Error: TIMELINE VALUE: 0.775028
+[2018.04.28-18.11.29:737][920]LogClass: Error: TIMELINE VALUE: 0.783362
+[2018.04.28-18.11.29:745][921]LogClass: Error: TIMELINE VALUE: 0.791696
+[2018.04.28-18.11.29:753][922]LogClass: Error: TIMELINE VALUE: 0.800030
+[2018.04.28-18.11.29:762][923]LogClass: Error: TIMELINE VALUE: 0.808363
+[2018.04.28-18.11.29:770][924]LogClass: Error: TIMELINE VALUE: 0.816697
+[2018.04.28-18.11.29:779][925]LogClass: Error: TIMELINE VALUE: 0.825039
+[2018.04.28-18.11.29:787][926]LogClass: Error: TIMELINE VALUE: 0.833373
+[2018.04.28-18.11.29:795][927]LogClass: Error: TIMELINE VALUE: 0.841706
+[2018.04.28-18.11.29:803][928]LogClass: Error: TIMELINE VALUE: 0.850040
+[2018.04.28-18.11.29:812][929]LogClass: Error: TIMELINE VALUE: 0.858374
+[2018.04.28-18.11.29:820][930]LogClass: Error: TIMELINE VALUE: 0.866707
+[2018.04.28-18.11.29:828][931]LogClass: Error: TIMELINE VALUE: 0.875041
+[2018.04.28-18.11.29:837][932]LogClass: Error: TIMELINE VALUE: 0.883374
+[2018.04.28-18.11.29:845][933]LogClass: Error: TIMELINE VALUE: 0.891708
+[2018.04.28-18.11.29:853][934]LogClass: Error: TIMELINE VALUE: 0.900041
+[2018.04.28-18.11.29:862][935]LogClass: Error: TIMELINE VALUE: 0.908375
+[2018.04.28-18.11.29:870][936]LogClass: Error: TIMELINE VALUE: 0.916709
+[2018.04.28-18.11.29:878][937]LogClass: Error: TIMELINE VALUE: 0.925042
+[2018.04.28-18.11.29:887][938]LogClass: Error: TIMELINE VALUE: 0.933376
+[2018.04.28-18.11.29:895][939]LogClass: Error: TIMELINE VALUE: 0.941710
+[2018.04.28-18.11.29:903][940]LogClass: Error: TIMELINE VALUE: 0.950043
+[2018.04.28-18.11.29:912][941]LogClass: Error: TIMELINE VALUE: 0.958377
+[2018.04.28-18.11.29:920][942]LogClass: Error: TIMELINE VALUE: 0.966711
+[2018.04.28-18.11.29:929][943]LogClass: Error: TIMELINE VALUE: 0.975045
+[2018.04.28-18.11.29:937][944]LogClass: Error: TIMELINE VALUE: 0.983378
+[2018.04.28-18.11.29:945][945]LogClass: Error: TIMELINE VALUE: 0.991712
+[2018.04.28-18.11.29:953][946]LogClass: Error: TIMELINE VALUE: 1.000049
+[2018.04.28-18.11.29:962][947]LogClass: Error: TIMELINE VALUE: 1.008382
+[2018.04.28-18.11.29:970][948]LogClass: Error: TIMELINE VALUE: 1.016716
+[2018.04.28-18.11.29:979][949]LogClass: Error: TIMELINE VALUE: 1.025049
+[2018.04.28-18.11.29:987][950]LogClass: Error: TIMELINE VALUE: 1.033383
+[2018.04.28-18.11.29:995][951]LogClass: Error: TIMELINE VALUE: 1.041716
+[2018.04.28-18.11.30:003][952]LogClass: Error: TIMELINE VALUE: 1.050050
+[2018.04.28-18.11.30:012][953]LogClass: Error: TIMELINE VALUE: 1.058384
+[2018.04.28-18.11.30:020][954]LogClass: Error: TIMELINE VALUE: 1.066717
+[2018.04.28-18.11.30:029][955]LogClass: Error: TIMELINE VALUE: 1.075051
+[2018.04.28-18.11.30:037][956]LogClass: Error: TIMELINE VALUE: 1.083384
+[2018.04.28-18.11.30:045][957]LogClass: Error: TIMELINE VALUE: 1.091718
+[2018.04.28-18.11.30:053][958]LogClass: Error: TIMELINE VALUE: 1.100052
+[2018.04.28-18.11.30:062][959]LogClass: Error: TIMELINE VALUE: 1.108385
+[2018.04.28-18.11.30:070][960]LogClass: Error: TIMELINE VALUE: 1.116719
+[2018.04.28-18.11.30:079][961]LogClass: Error: TIMELINE VALUE: 1.125052
+[2018.04.28-18.11.30:087][962]LogClass: Error: TIMELINE VALUE: 1.133386
+[2018.04.28-18.11.30:095][963]LogClass: Error: TIMELINE VALUE: 1.141720
+[2018.04.28-18.11.30:103][964]LogClass: Error: TIMELINE VALUE: 1.150053
+[2018.04.28-18.11.30:112][965]LogClass: Error: TIMELINE VALUE: 1.158387
+[2018.04.28-18.11.30:120][966]LogClass: Error: TIMELINE VALUE: 1.166721
+[2018.04.28-18.11.30:129][967]LogClass: Error: TIMELINE VALUE: 1.175055
+[2018.04.28-18.11.30:137][968]LogClass: Error: TIMELINE VALUE: 1.183388
+[2018.04.28-18.11.30:145][969]LogClass: Error: TIMELINE VALUE: 1.191722
+[2018.04.28-18.11.30:153][970]LogClass: Error: TIMELINE VALUE: 1.200055
+[2018.04.28-18.11.30:162][971]LogClass: Error: TIMELINE VALUE: 1.208389
+[2018.04.28-18.11.30:170][972]LogClass: Error: TIMELINE VALUE: 1.216723
+[2018.04.28-18.11.30:178][973]LogClass: Error: TIMELINE VALUE: 1.225056
+[2018.04.28-18.11.30:187][974]LogClass: Error: TIMELINE VALUE: 1.233390
+[2018.04.28-18.11.30:195][975]LogClass: Error: TIMELINE VALUE: 1.241724
+[2018.04.28-18.11.30:204][976]LogClass: Error: TIMELINE VALUE: 1.250057
+[2018.04.28-18.11.30:212][977]LogClass: Error: TIMELINE VALUE: 1.258391
+[2018.04.28-18.11.30:220][978]LogClass: Error: TIMELINE VALUE: 1.266724
+[2018.04.28-18.11.30:229][979]LogClass: Error: TIMELINE VALUE: 1.275058
+[2018.04.28-18.11.30:237][980]LogClass: Error: TIMELINE VALUE: 1.283391
+[2018.04.28-18.11.30:245][981]LogClass: Error: TIMELINE VALUE: 1.291725
+[2018.04.28-18.11.30:253][982]LogClass: Error: TIMELINE VALUE: 1.300059
+[2018.04.28-18.11.30:262][983]LogClass: Error: TIMELINE VALUE: 1.308393
+[2018.04.28-18.11.30:270][984]LogClass: Error: TIMELINE VALUE: 1.316726
+[2018.04.28-18.11.30:279][985]LogClass: Error: TIMELINE VALUE: 1.325060
+[2018.04.28-18.11.30:287][986]LogClass: Error: TIMELINE VALUE: 1.333394
+[2018.04.28-18.11.30:295][987]LogClass: Error: TIMELINE VALUE: 1.341727
+[2018.04.28-18.11.30:303][988]LogClass: Error: TIMELINE VALUE: 1.350061
+[2018.04.28-18.11.30:312][989]LogClass: Error: TIMELINE VALUE: 1.358395
+[2018.04.28-18.11.30:320][990]LogClass: Error: TIMELINE VALUE: 1.366728
+[2018.04.28-18.11.30:329][991]LogClass: Error: TIMELINE VALUE: 1.375062
+[2018.04.28-18.11.30:337][992]LogClass: Error: TIMELINE VALUE: 1.383396
+[2018.04.28-18.11.30:345][993]LogClass: Error: TIMELINE VALUE: 1.391729
+[2018.04.28-18.11.30:353][994]LogClass: Error: TIMELINE VALUE: 1.400063
+[2018.04.28-18.11.30:362][995]LogClass: Error: TIMELINE VALUE: 1.408396
+[2018.04.28-18.11.30:370][996]LogClass: Error: TIMELINE VALUE: 1.416730
+[2018.04.28-18.11.30:378][997]LogClass: Error: TIMELINE VALUE: 1.425064
+[2018.04.28-18.11.30:387][998]LogClass: Error: TIMELINE VALUE: 1.433397
+[2018.04.28-18.11.30:395][999]LogClass: Error: TIMELINE VALUE: 1.441731
+[2018.04.28-18.11.30:403][  0]LogClass: Error: TIMELINE VALUE: 1.450065
+[2018.04.28-18.11.30:412][  1]LogClass: Error: TIMELINE VALUE: 1.458398
+[2018.04.28-18.11.30:420][  2]LogClass: Error: TIMELINE VALUE: 1.466732
+[2018.04.28-18.11.30:429][  3]LogClass: Error: TIMELINE VALUE: 1.475066
+[2018.04.28-18.11.30:437][  4]LogClass: Error: TIMELINE VALUE: 1.483399
+[2018.04.28-18.11.30:445][  5]LogClass: Error: TIMELINE VALUE: 1.491733
+[2018.04.28-18.11.30:453][  6]LogClass: Error: TIMELINE VALUE: 1.500067
+[2018.04.28-18.11.30:462][  7]LogClass: Error: TIMELINE VALUE: 1.508400
+[2018.04.28-18.11.30:470][  8]LogClass: Error: TIMELINE VALUE: 1.516734
+[2018.04.28-18.11.30:478][  9]LogClass: Error: TIMELINE VALUE: 1.525068
+[2018.04.28-18.11.30:487][ 10]LogClass: Error: TIMELINE VALUE: 1.533401
+[2018.04.28-18.11.30:495][ 11]LogClass: Error: TIMELINE VALUE: 1.541735
+[2018.04.28-18.11.30:503][ 12]LogClass: Error: TIMELINE VALUE: 1.550068
+[2018.04.28-18.11.30:512][ 13]LogClass: Error: TIMELINE VALUE: 1.558402
+[2018.04.28-18.11.30:520][ 14]LogClass: Error: TIMELINE VALUE: 1.566736
+[2018.04.28-18.11.30:528][ 15]LogClass: Error: TIMELINE VALUE: 1.575069
+[2018.04.28-18.11.30:537][ 16]LogClass: Error: TIMELINE VALUE: 1.583403
+[2018.04.28-18.11.30:545][ 17]LogClass: Error: TIMELINE VALUE: 1.591737
+[2018.04.28-18.11.30:554][ 18]LogClass: Error: TIMELINE VALUE: 1.600070
+[2018.04.28-18.11.30:562][ 19]LogClass: Error: TIMELINE VALUE: 1.608404
+[2018.04.28-18.11.30:570][ 20]LogClass: Error: TIMELINE VALUE: 1.616737
+[2018.04.28-18.11.30:579][ 21]LogClass: Error: TIMELINE VALUE: 1.625071
+[2018.04.28-18.11.30:587][ 22]LogClass: Error: TIMELINE VALUE: 1.633404
+[2018.04.28-18.11.30:595][ 23]LogClass: Error: TIMELINE VALUE: 1.641738
+[2018.04.28-18.11.30:604][ 24]LogClass: Error: TIMELINE VALUE: 1.650072
+[2018.04.28-18.11.30:612][ 25]LogClass: Error: TIMELINE VALUE: 1.658405
+[2018.04.28-18.11.30:620][ 26]LogClass: Error: TIMELINE VALUE: 1.666739
+[2018.04.28-18.11.30:629][ 27]LogClass: Error: TIMELINE VALUE: 1.675072
+[2018.04.28-18.11.30:637][ 28]LogClass: Error: TIMELINE VALUE: 1.683406
+[2018.04.28-18.11.30:645][ 29]LogClass: Error: TIMELINE VALUE: 1.691740
+[2018.04.28-18.11.30:654][ 30]LogClass: Error: TIMELINE VALUE: 1.700073
+[2018.04.28-18.11.30:662][ 31]LogClass: Error: TIMELINE VALUE: 1.708407
+[2018.04.28-18.11.30:670][ 32]LogClass: Error: TIMELINE VALUE: 1.716740
+[2018.04.28-18.11.30:679][ 33]LogClass: Error: TIMELINE VALUE: 1.725074
+[2018.04.28-18.11.30:687][ 34]LogClass: Error: TIMELINE VALUE: 1.733408
+[2018.04.28-18.11.30:695][ 35]LogClass: Error: TIMELINE VALUE: 1.741742
+[2018.04.28-18.11.30:704][ 36]LogClass: Error: TIMELINE VALUE: 1.750075
+[2018.04.28-18.11.30:712][ 37]LogClass: Error: TIMELINE VALUE: 1.758409
+[2018.04.28-18.11.30:720][ 38]LogClass: Error: TIMELINE VALUE: 1.766742
+[2018.04.28-18.11.30:729][ 39]LogClass: Error: TIMELINE VALUE: 1.775076
+[2018.04.28-18.11.30:737][ 40]LogClass: Error: TIMELINE VALUE: 1.783410
+[2018.04.28-18.11.30:745][ 41]LogClass: Error: TIMELINE VALUE: 1.791744
+[2018.04.28-18.11.30:754][ 42]LogClass: Error: TIMELINE VALUE: 1.800077
+[2018.04.28-18.11.30:762][ 43]LogClass: Error: TIMELINE VALUE: 1.808411
+[2018.04.28-18.11.30:770][ 44]LogClass: Error: TIMELINE VALUE: 1.816744
+[2018.04.28-18.11.30:779][ 45]LogClass: Error: TIMELINE VALUE: 1.825078
+[2018.04.28-18.11.30:787][ 46]LogClass: Error: TIMELINE VALUE: 1.833412
+[2018.04.28-18.11.30:795][ 47]LogClass: Error: TIMELINE VALUE: 1.841745
+[2018.04.28-18.11.30:803][ 48]LogClass: Error: TIMELINE VALUE: 1.850089
+[2018.04.28-18.11.30:812][ 49]LogClass: Error: TIMELINE VALUE: 1.858422
+[2018.04.28-18.11.30:820][ 50]LogClass: Error: TIMELINE VALUE: 1.866756
+[2018.04.28-18.11.30:829][ 51]LogClass: Error: TIMELINE VALUE: 1.875090
+[2018.04.28-18.11.30:837][ 52]LogClass: Error: TIMELINE VALUE: 1.883423
+[2018.04.28-18.11.30:845][ 53]LogClass: Error: TIMELINE VALUE: 1.891757
+[2018.04.28-18.11.30:846][ 53]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.28-18.11.30:876][ 53]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'

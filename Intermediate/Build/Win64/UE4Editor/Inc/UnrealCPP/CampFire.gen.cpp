@@ -158,6 +158,13 @@ void EmptyLinkFunctionForGeneratedCodeCampFire() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MyHit_MetaData[] = {
+				{ "Category", "CampFire" },
+				{ "ModuleRelativePath", "HealthBar/CampFire.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_MyHit = { UE4CodeGen_Private::EPropertyClass::Struct, "MyHit", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010008000000001, 1, nullptr, STRUCT_OFFSET(ACampFire, MyHit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(NewProp_MyHit_MetaData, ARRAY_COUNT(NewProp_MyHit_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MyCharacter_MetaData[] = {
 				{ "Category", "CampFire" },
 				{ "ModuleRelativePath", "HealthBar/CampFire.h" },
@@ -188,6 +195,7 @@ void EmptyLinkFunctionForGeneratedCodeCampFire() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Fire = { UE4CodeGen_Private::EPropertyClass::Object, "Fire", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000080009, 1, nullptr, STRUCT_OFFSET(ACampFire, Fire), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(NewProp_Fire_MetaData, ARRAY_COUNT(NewProp_Fire_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyHit,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyCharacter,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyDamageClass,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyBoxComponent,
@@ -211,7 +219,7 @@ void EmptyLinkFunctionForGeneratedCodeCampFire() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACampFire, 3801625682);
+	IMPLEMENT_CLASS(ACampFire, 1547407302);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACampFire(Z_Construct_UClass_ACampFire, &ACampFire::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("ACampFire"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACampFire);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

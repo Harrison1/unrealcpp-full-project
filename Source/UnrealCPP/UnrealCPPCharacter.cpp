@@ -84,6 +84,9 @@ AUnrealCPPCharacter::AUnrealCPPCharacter()
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
 
+	OnActorBeginOverlap.AddDynamic(this, &AUnrealCPPCharacter::OnOverlap);
+	OnActorEndOverlap.AddDynamic(this, &AUnrealCPPCharacter::EndOverlap);
+
 }
 
 void AUnrealCPPCharacter::BeginPlay()
@@ -91,6 +94,10 @@ void AUnrealCPPCharacter::BeginPlay()
 	// Call the base class  
 	Super::BeginPlay();
 
+	// OnTakePointDamage.AddDynamic(this, &AUnrealCPPCharacter::HitMe);
+	// OnTakeAnyDamage.AddDynamic(this, &AUnrealCPPCharacter::HitMeAny);
+
+	FullHealth = 1000;
 	Health = 1.0f;
 	PrevHealth = Health;
 	bCanBeDamaged = true;
@@ -100,7 +107,7 @@ void AUnrealCPPCharacter::BeginPlay()
         FOnTimelineFloat TimelineCallback;
         FOnTimelineEventStatic TimelineFinishedCallback;
 
-        TimelineCallback.BindUFunction(this, FName("SetHealth"));
+        // TimelineCallback.BindUFunction(this, FName("SetHealth"));
         TimelineFinishedCallback.BindUFunction(this, FName{ TEXT("SetState") });
         MyTimeline.AddInterpFloat(HealthCurve, TimelineCallback);
         MyTimeline.SetTimelineFinishedFunc(TimelineFinishedCallback);
@@ -189,6 +196,9 @@ void AUnrealCPPCharacter::OnFire()
 
 				// spawn the projectile at the muzzle
 				World->SpawnActor<AUnrealCPPProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+
+						MyTimeline.PlayFromStart();
+
 
 				// if(bCanBeDamaged)
 				// {
@@ -336,7 +346,7 @@ bool AUnrealCPPCharacter::EnableTouchscreenMovement(class UInputComponent* Playe
 
 float AUnrealCPPCharacter::GetHealth()
 {
-	UE_LOG(LogClass,Error,TEXT("Health: %f"), Health);
+	// UE_LOG(LogClass,Error,TEXT("Health: %f"), Health);
 	return Health;
 }
 
@@ -361,10 +371,10 @@ void AUnrealCPPCharacter::SetState()
 	bCanBeDamaged = true;
 }
 
-void AUnrealCPPCharacter::SetHealth()
+void AUnrealCPPCharacter::SetHealth(float Dam)
 {
 	TimelineValue = MyTimeline.GetPlaybackPosition();
-    CurveFloatValue = PrevHealth - DamageMain*HealthCurve->GetFloatValue(TimelineValue);
+    CurveFloatValue = PrevHealth - Dam*HealthCurve->GetFloatValue(TimelineValue);
     Health = CurveFloatValue;
 }
 
@@ -381,7 +391,8 @@ bool AUnrealCPPCharacter::GetHit()
 
 void AUnrealCPPCharacter::ReceiveAnyDamage(float Damage, const class UDamageType * DamageType, class AController * InstigatedBy, AActor * DamageCauser)
 {
-	UE_LOG(LogClass,Error,TEXT("General"));
+	UE_LOG(LogClass,Error,TEXT("Received Any Damage"));
+
 	// if(bCanBeDamaged)
 	// {
 	// 	bCanBeDamaged = false;
@@ -392,28 +403,70 @@ void AUnrealCPPCharacter::ReceiveAnyDamage(float Damage, const class UDamageType
 	// }
 }
 
-float AUnrealCPPCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const & DamageEvent, class AController * EventInstigator, AActor * DamageCauser)
-{
-	UE_LOG(LogClass,Error,TEXT("Take Damage: %f"), DamageAmount);
+// float AUnrealCPPCharacter::TakeDamage(float DamageAmount, struct FDamageEvent const & DamageEvent, class AController * EventInstigator, AActor * DamageCauser)
+// {
+// 	UE_LOG(LogClass,Error,TEXT("Take Damage: %f"), DamageAmount);
 
-	if (DamageEvent.IsOfType(FPointDamageEvent::ClassID))
-	{
-		UE_LOG(LogClass,Error,TEXT("Receive Point World"));
-	}
+// 	if (DamageEvent.IsOfType(FPointDamageEvent::ClassID))
+// 	{
+// 		// UE_LOG(LogClass,Error,TEXT("this is point damage"));
+// 	}
+
+// 	if(bCanBeDamaged)
+// 	{
+// 		bCanBeDamaged = false;
+// 		redFlash = true;
+// 		PrevHealth = Health;
+// 		DamageMain += 0.2;
+// 		MyTimeline.PlayFromStart();
+// 	}
+
+// 	return DamageAmount;
+// }
+
+void AUnrealCPPCharacter::ReceivePointDamage(float Damage, const UDamageType * DamageType, FVector HitLocation, FVector HitNormal, UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo)
+{
+	UE_LOG(LogClass,Error,TEXT("Received Point Damage"));
+	UE_LOG(LogClass,Warning,TEXT("Take Damage: %f"), Damage);
 
 	if(bCanBeDamaged)
 	{
 		bCanBeDamaged = false;
 		redFlash = true;
 		PrevHealth = Health;
-		DamageMain += 0.2;
+		DamageMain = Damage/100.0f;
 		MyTimeline.PlayFromStart();
 	}
-
-	return DamageAmount;
 }
 
-// void ReceivePointD(float Damage, const UDamageType * DamageType, FVector HitLocation, FVector HitNormal, UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo)
+// void ReceiveDamage(float TDamage)
 // {
-// 	UE_LOG(LogClass,Error,TEXT("Receive Point World"));
+// 	if(bCanBeDamage)
+// 	{
+// 		bCanBeDamaged = false;
+// 		redFlash = true;
+// 		PrevHealth = Health;
+// 		DamageMain = TDamage;
+// 		MyTimeline.PlayFromStart();
+// 	}
 // }
+
+void AUnrealCPPCharacter::OnOverlap(AActor* MyOverlappedActor, AActor* OtherActor)
+{
+	// UE_LOG(LogClass,Warning,TEXT("Overlap this dick"));
+}
+
+void AUnrealCPPCharacter::EndOverlap(AActor* MyOverlappedActor, AActor* OtherActor)
+{
+	// UE_LOG(LogClass,Warning,TEXT("Overlap End"));
+}
+
+void AUnrealCPPCharacter::HitMe(AActor* MyActor, float MyFloat, AController* MyCont, FVector MyVect, UPrimitiveComponent* MyComp, FName MyName, FVector SweetVect, const UDamageType* MyDType, AActor* SecondActor)
+{
+	UE_LOG(LogClass,Warning,TEXT("Point Hit Delegate"));
+}
+
+void AUnrealCPPCharacter::HitMeAny(AActor* MyActor, float MyFloat, const UDamageType* MyDamageType, AController* MyCon, AActor* SecondAct)
+{
+	UE_LOG(LogClass,Warning,TEXT("Any Hit Delegate"));
+}

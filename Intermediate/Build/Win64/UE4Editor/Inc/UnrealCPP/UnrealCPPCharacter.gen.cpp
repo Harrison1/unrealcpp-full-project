@@ -17,14 +17,22 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 	UNREALCPP_API UClass* Z_Construct_UClass_AUnrealCPPCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_UnrealCPP();
+	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_EndOverlap();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHealth();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHealthIntText();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHit();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetPrevHealth();
-	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_ReceiveAnyDamage();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_AController_NoRegister();
+	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_HitMe();
 	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AController_NoRegister();
+	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_HitMeAny();
+	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_OnOverlap();
+	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_ReceiveAnyDamage();
+	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_ReceivePointDamage();
+	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetHealth();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetState();
 	ENGINE_API UClass* Z_Construct_UClass_UCurveFloat_NoRegister();
@@ -32,7 +40,6 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	UNREALCPP_API UClass* Z_Construct_UClass_AUnrealCPPProjectile_NoRegister();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
@@ -42,15 +49,46 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 	{
 		UClass* Class = AUnrealCPPCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "EndOverlap", &AUnrealCPPCharacter::execEndOverlap },
 			{ "GetHealth", &AUnrealCPPCharacter::execGetHealth },
 			{ "GetHealthIntText", &AUnrealCPPCharacter::execGetHealthIntText },
 			{ "GetHit", &AUnrealCPPCharacter::execGetHit },
 			{ "GetPrevHealth", &AUnrealCPPCharacter::execGetPrevHealth },
+			{ "HitMe", &AUnrealCPPCharacter::execHitMe },
+			{ "HitMeAny", &AUnrealCPPCharacter::execHitMeAny },
+			{ "OnOverlap", &AUnrealCPPCharacter::execOnOverlap },
 			{ "ReceiveAnyDamage", &AUnrealCPPCharacter::execReceiveAnyDamage },
+			{ "ReceivePointDamage", &AUnrealCPPCharacter::execReceivePointDamage },
 			{ "SetHealth", &AUnrealCPPCharacter::execSetHealth },
 			{ "SetState", &AUnrealCPPCharacter::execSetState },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_EndOverlap()
+	{
+		struct UnrealCPPCharacter_eventEndOverlap_Parms
+		{
+			AActor* MyOverlappedActor;
+			AActor* OtherActor;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor = { UE4CodeGen_Private::EPropertyClass::Object, "OtherActor", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventEndOverlap_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyOverlappedActor = { UE4CodeGen_Private::EPropertyClass::Object, "MyOverlappedActor", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventEndOverlap_Parms, MyOverlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_OtherActor,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyOverlappedActor,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "EndOverlap", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, sizeof(UnrealCPPCharacter_eventEndOverlap_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHealth()
 	{
@@ -153,6 +191,129 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_HitMe()
+	{
+		struct UnrealCPPCharacter_eventHitMe_Parms
+		{
+			AActor* MyActor;
+			float MyFloat;
+			AController* MyCont;
+			FVector MyVect;
+			UPrimitiveComponent* MyComp;
+			FName MyName;
+			FVector SweetVect;
+			const UDamageType* MyDType;
+			AActor* SecondActor;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SecondActor = { UE4CodeGen_Private::EPropertyClass::Object, "SecondActor", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, SecondActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MyDType_MetaData[] = {
+				{ "NativeConst", "" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyDType = { UE4CodeGen_Private::EPropertyClass::Object, "MyDType", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000082, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, MyDType), Z_Construct_UClass_UDamageType_NoRegister, METADATA_PARAMS(NewProp_MyDType_MetaData, ARRAY_COUNT(NewProp_MyDType_MetaData)) };
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_SweetVect = { UE4CodeGen_Private::EPropertyClass::Struct, "SweetVect", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, SweetVect), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FNamePropertyParams NewProp_MyName = { UE4CodeGen_Private::EPropertyClass::Name, "MyName", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, MyName), METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MyComp_MetaData[] = {
+				{ "EditInline", "true" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyComp = { UE4CodeGen_Private::EPropertyClass::Object, "MyComp", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000080080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, MyComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(NewProp_MyComp_MetaData, ARRAY_COUNT(NewProp_MyComp_MetaData)) };
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_MyVect = { UE4CodeGen_Private::EPropertyClass::Struct, "MyVect", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, MyVect), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyCont = { UE4CodeGen_Private::EPropertyClass::Object, "MyCont", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, MyCont), Z_Construct_UClass_AController_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MyFloat = { UE4CodeGen_Private::EPropertyClass::Float, "MyFloat", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, MyFloat), METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyActor = { UE4CodeGen_Private::EPropertyClass::Object, "MyActor", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, MyActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SecondActor,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyDType,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SweetVect,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyName,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyComp,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyVect,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyCont,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyFloat,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyActor,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "HitMe", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00820401, sizeof(UnrealCPPCharacter_eventHitMe_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_HitMeAny()
+	{
+		struct UnrealCPPCharacter_eventHitMeAny_Parms
+		{
+			AActor* MyActor;
+			float MyFloat;
+			const UDamageType* MySuperType;
+			AController* MyCon;
+			AActor* SecondAct;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SecondAct = { UE4CodeGen_Private::EPropertyClass::Object, "SecondAct", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMeAny_Parms, SecondAct), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyCon = { UE4CodeGen_Private::EPropertyClass::Object, "MyCon", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMeAny_Parms, MyCon), Z_Construct_UClass_AController_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MySuperType_MetaData[] = {
+				{ "NativeConst", "" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MySuperType = { UE4CodeGen_Private::EPropertyClass::Object, "MySuperType", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000082, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMeAny_Parms, MySuperType), Z_Construct_UClass_UDamageType_NoRegister, METADATA_PARAMS(NewProp_MySuperType_MetaData, ARRAY_COUNT(NewProp_MySuperType_MetaData)) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MyFloat = { UE4CodeGen_Private::EPropertyClass::Float, "MyFloat", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMeAny_Parms, MyFloat), METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyActor = { UE4CodeGen_Private::EPropertyClass::Object, "MyActor", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMeAny_Parms, MyActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SecondAct,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyCon,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MySuperType,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyFloat,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyActor,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "HitMeAny", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, sizeof(UnrealCPPCharacter_eventHitMeAny_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_OnOverlap()
+	{
+		struct UnrealCPPCharacter_eventOnOverlap_Parms
+		{
+			AActor* MyOverlappedActor;
+			AActor* OtherActor;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor = { UE4CodeGen_Private::EPropertyClass::Object, "OtherActor", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventOnOverlap_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyOverlappedActor = { UE4CodeGen_Private::EPropertyClass::Object, "MyOverlappedActor", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventOnOverlap_Parms, MyOverlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_OtherActor,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyOverlappedActor,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "OnOverlap", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, sizeof(UnrealCPPCharacter_eventOnOverlap_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_ReceiveAnyDamage()
 	{
 		struct UnrealCPPCharacter_eventReceiveAnyDamage_Parms
@@ -190,18 +351,91 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return ReturnFunction;
 	}
-	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetHealth()
+	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_ReceivePointDamage()
 	{
+		struct UnrealCPPCharacter_eventReceivePointDamage_Parms
+		{
+			float Damage;
+			const UDamageType* DamageType;
+			FVector HitLocation;
+			FVector HitNormal;
+			UPrimitiveComponent* HitComponent;
+			FName BoneName;
+			FVector ShotFromDirection;
+			AController* InstigatedBy;
+			AActor* DamageCauser;
+			FHitResult HitInfo;
+		};
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitInfo_MetaData[] = {
+				{ "NativeConst", "" },
+			};
+#endif
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_HitInfo = { UE4CodeGen_Private::EPropertyClass::Struct, "HitInfo", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010008008000182, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventReceivePointDamage_Parms, HitInfo), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(NewProp_HitInfo_MetaData, ARRAY_COUNT(NewProp_HitInfo_MetaData)) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DamageCauser = { UE4CodeGen_Private::EPropertyClass::Object, "DamageCauser", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventReceivePointDamage_Parms, DamageCauser), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InstigatedBy = { UE4CodeGen_Private::EPropertyClass::Object, "InstigatedBy", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventReceivePointDamage_Parms, InstigatedBy), Z_Construct_UClass_AController_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_ShotFromDirection = { UE4CodeGen_Private::EPropertyClass::Struct, "ShotFromDirection", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventReceivePointDamage_Parms, ShotFromDirection), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FNamePropertyParams NewProp_BoneName = { UE4CodeGen_Private::EPropertyClass::Name, "BoneName", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventReceivePointDamage_Parms, BoneName), METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitComponent_MetaData[] = {
+				{ "EditInline", "true" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitComponent = { UE4CodeGen_Private::EPropertyClass::Object, "HitComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000080080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventReceivePointDamage_Parms, HitComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(NewProp_HitComponent_MetaData, ARRAY_COUNT(NewProp_HitComponent_MetaData)) };
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_HitNormal = { UE4CodeGen_Private::EPropertyClass::Struct, "HitNormal", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventReceivePointDamage_Parms, HitNormal), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_HitLocation = { UE4CodeGen_Private::EPropertyClass::Struct, "HitLocation", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventReceivePointDamage_Parms, HitLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageType_MetaData[] = {
+				{ "NativeConst", "" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DamageType = { UE4CodeGen_Private::EPropertyClass::Object, "DamageType", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000082, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventReceivePointDamage_Parms, DamageType), Z_Construct_UClass_UDamageType_NoRegister, METADATA_PARAMS(NewProp_DamageType_MetaData, ARRAY_COUNT(NewProp_DamageType_MetaData)) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Damage = { UE4CodeGen_Private::EPropertyClass::Float, "Damage", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventReceivePointDamage_Parms, Damage), METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HitInfo,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_DamageCauser,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_InstigatedBy,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ShotFromDirection,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_BoneName,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HitComponent,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HitNormal,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HitLocation,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_DamageType,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Damage,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "ReceivePointDamage", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00C20401, sizeof(UnrealCPPCharacter_eventReceivePointDamage_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetHealth()
+	{
+		struct UnrealCPPCharacter_eventSetHealth_Parms
+		{
+			float Dam;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Dam = { UE4CodeGen_Private::EPropertyClass::Float, "Dam", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventSetHealth_Parms, Dam), METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Dam,
+			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
 				{ "ToolTip", "Set Health" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "SetHealth", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "SetHealth", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, sizeof(UnrealCPPCharacter_eventSetHealth_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
 		}
 		return ReturnFunction;
@@ -236,12 +470,17 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 				(UObject* (*)())Z_Construct_UPackage__Script_UnrealCPP,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
+				{ &Z_Construct_UFunction_AUnrealCPPCharacter_EndOverlap, "EndOverlap" }, // 948949677
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHealth, "GetHealth" }, // 2617765578
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHealthIntText, "GetHealthIntText" }, // 4195127740
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHit, "GetHit" }, // 1798476240
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetPrevHealth, "GetPrevHealth" }, // 1668926966
+				{ &Z_Construct_UFunction_AUnrealCPPCharacter_HitMe, "HitMe" }, // 1376143975
+				{ &Z_Construct_UFunction_AUnrealCPPCharacter_HitMeAny, "HitMeAny" }, // 2806983998
+				{ &Z_Construct_UFunction_AUnrealCPPCharacter_OnOverlap, "OnOverlap" }, // 784593881
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_ReceiveAnyDamage, "ReceiveAnyDamage" }, // 3458630618
-				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetHealth, "SetHealth" }, // 2045408288
+				{ &Z_Construct_UFunction_AUnrealCPPCharacter_ReceivePointDamage, "ReceivePointDamage" }, // 1062761891
+				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetHealth, "SetHealth" }, // 1397938175
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetState, "SetState" }, // 3605931778
 			};
 #if WITH_METADATA
@@ -286,6 +525,13 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			};
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PrevHealth = { UE4CodeGen_Private::EPropertyClass::Float, "PrevHealth", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, PrevHealth), METADATA_PARAMS(NewProp_PrevHealth_MetaData, ARRAY_COUNT(NewProp_PrevHealth_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FullHealth_MetaData[] = {
+				{ "Category", "Health" },
+				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_FullHealth = { UE4CodeGen_Private::EPropertyClass::Float, "FullHealth", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, FullHealth), METADATA_PARAMS(NewProp_FullHealth_MetaData, ARRAY_COUNT(NewProp_FullHealth_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Health_MetaData[] = {
 				{ "Category", "Health" },
@@ -431,6 +677,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_diff,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_redFlash,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_PrevHealth,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_FullHealth,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Health,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_bUsingMotionControllers,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_FireAnimation,
@@ -466,7 +713,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUnrealCPPCharacter, 1222080122);
+	IMPLEMENT_CLASS(AUnrealCPPCharacter, 3698612917);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AUnrealCPPCharacter(Z_Construct_UClass_AUnrealCPPCharacter, &AUnrealCPPCharacter::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("AUnrealCPPCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AUnrealCPPCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -46,6 +46,7 @@ void ACampFire::Tick(float DeltaTime)
 
     if(bCanApplyDamage)
     {
+        UGameplayStatics::ApplyPointDamage(MyCharacter, 10.0f, GetActorLocation(), MyHit, nullptr, this, MyDamageClass);
         UGameplayStatics::ApplyDamage(MyCharacter, 10.0f, nullptr, this, MyDamageClass);
     }
 
@@ -61,6 +62,7 @@ void ACampFire::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class 
 
         bCanApplyDamage = true;
         MyCharacter = Cast<AActor>(OtherActor);
+        MyHit = SweepResult;
         // UGameplayStatics::ApplyDamage(OtherActor, 10.0f, nullptr, this, MyDamageClass);
 
     }
@@ -70,13 +72,3 @@ void ACampFire::OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AA
 {
     bCanApplyDamage = false;
 }
-
-// void ACampFire::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
-// {
-// 	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL))
-// 	{
-//         UE_LOG(LogClass, Warning, TEXT("Fire is Hitting You"));
-//         TSubclassOf<UDamageType> MyDamageClass;
-// 		UGameplayStatics::ApplyPointDamage(OtherActor, 10.0f, GetActorLocation(), Hit, nullptr, this, MyDamageClass);
-// 	}
-// }

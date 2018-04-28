@@ -41,6 +41,9 @@ public:
 	UPROPERTY(EditAnywhere)
 	AActor* MyCharacter;
 
+	UPROPERTY(EditAnywhere)
+	FHitResult MyHit;
+
 	bool bCanApplyDamage;
 
 	// declare overlap begin function
@@ -50,11 +53,5 @@ public:
 	// declare overlap end function
 	UFUNCTION()
 	void OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
-
-	// UFUNCTION()
-	// void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
-	
-
-	// float ApplyPointDamage(AActor * DamagedActor, float BaseDamage, const FVector & HitFromDirection, const FHitResult & HitInfo, AController * EventInstigator, AActor * DamageCauser, TSubclassOf < class UDamageType > DamageTypeClass);
 	
 };

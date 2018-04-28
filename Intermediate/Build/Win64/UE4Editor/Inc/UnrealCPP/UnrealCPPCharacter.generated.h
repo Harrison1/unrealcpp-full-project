@@ -9,8 +9,11 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UDamageType;
+struct FVector;
+class UPrimitiveComponent;
 class AController;
 class AActor;
+struct FHitResult;
 #ifdef UNREALCPP_UnrealCPPCharacter_generated_h
 #error "UnrealCPPCharacter.generated.h already included, missing '#pragma once' in UnrealCPPCharacter.h"
 #endif
@@ -18,6 +21,24 @@ class AActor;
 
 #define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execReceivePointDamage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Damage); \
+		P_GET_OBJECT(UDamageType,Z_Param_DamageType); \
+		P_GET_STRUCT(FVector,Z_Param_HitLocation); \
+		P_GET_STRUCT(FVector,Z_Param_HitNormal); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComponent); \
+		P_GET_PROPERTY(UNameProperty,Z_Param_BoneName); \
+		P_GET_STRUCT(FVector,Z_Param_ShotFromDirection); \
+		P_GET_OBJECT(AController,Z_Param_InstigatedBy); \
+		P_GET_OBJECT(AActor,Z_Param_DamageCauser); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_HitInfo); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ReceivePointDamage(Z_Param_Damage,Z_Param_DamageType,Z_Param_HitLocation,Z_Param_HitNormal,Z_Param_HitComponent,Z_Param_BoneName,Z_Param_ShotFromDirection,Z_Param_InstigatedBy,Z_Param_DamageCauser,Z_Param_Out_HitInfo); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execReceiveAnyDamage) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_Damage); \
@@ -48,9 +69,10 @@ class AActor;
  \
 	DECLARE_FUNCTION(execSetHealth) \
 	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Dam); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SetHealth(); \
+		P_THIS->SetHealth(Z_Param_Dam); \
 		P_NATIVE_END; \
 	} \
  \
@@ -75,12 +97,80 @@ class AActor;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->GetHealth(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execHitMeAny) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_MyActor); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_MyFloat); \
+		P_GET_OBJECT(UDamageType,Z_Param_MySuperType); \
+		P_GET_OBJECT(AController,Z_Param_MyCon); \
+		P_GET_OBJECT(AActor,Z_Param_SecondAct); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HitMeAny(Z_Param_MyActor,Z_Param_MyFloat,Z_Param_MySuperType,Z_Param_MyCon,Z_Param_SecondAct); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execHitMe) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_MyActor); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_MyFloat); \
+		P_GET_OBJECT(AController,Z_Param_MyCont); \
+		P_GET_STRUCT(FVector,Z_Param_MyVect); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_MyComp); \
+		P_GET_PROPERTY(UNameProperty,Z_Param_MyName); \
+		P_GET_STRUCT(FVector,Z_Param_SweetVect); \
+		P_GET_OBJECT(UDamageType,Z_Param_MyDType); \
+		P_GET_OBJECT(AActor,Z_Param_SecondActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HitMe(Z_Param_MyActor,Z_Param_MyFloat,Z_Param_MyCont,Z_Param_MyVect,Z_Param_MyComp,Z_Param_MyName,Z_Param_SweetVect,Z_Param_MyDType,Z_Param_SecondActor); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEndOverlap) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_MyOverlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EndOverlap(Z_Param_MyOverlappedActor,Z_Param_OtherActor); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnOverlap) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_MyOverlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnOverlap(Z_Param_MyOverlappedActor,Z_Param_OtherActor); \
 		P_NATIVE_END; \
 	}
 
 
 #define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execReceivePointDamage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Damage); \
+		P_GET_OBJECT(UDamageType,Z_Param_DamageType); \
+		P_GET_STRUCT(FVector,Z_Param_HitLocation); \
+		P_GET_STRUCT(FVector,Z_Param_HitNormal); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComponent); \
+		P_GET_PROPERTY(UNameProperty,Z_Param_BoneName); \
+		P_GET_STRUCT(FVector,Z_Param_ShotFromDirection); \
+		P_GET_OBJECT(AController,Z_Param_InstigatedBy); \
+		P_GET_OBJECT(AActor,Z_Param_DamageCauser); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_HitInfo); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ReceivePointDamage(Z_Param_Damage,Z_Param_DamageType,Z_Param_HitLocation,Z_Param_HitNormal,Z_Param_HitComponent,Z_Param_BoneName,Z_Param_ShotFromDirection,Z_Param_InstigatedBy,Z_Param_DamageCauser,Z_Param_Out_HitInfo); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execReceiveAnyDamage) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_Damage); \
@@ -111,9 +201,10 @@ class AActor;
  \
 	DECLARE_FUNCTION(execSetHealth) \
 	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Dam); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SetHealth(); \
+		P_THIS->SetHealth(Z_Param_Dam); \
 		P_NATIVE_END; \
 	} \
  \
@@ -138,6 +229,56 @@ class AActor;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->GetHealth(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execHitMeAny) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_MyActor); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_MyFloat); \
+		P_GET_OBJECT(UDamageType,Z_Param_MySuperType); \
+		P_GET_OBJECT(AController,Z_Param_MyCon); \
+		P_GET_OBJECT(AActor,Z_Param_SecondAct); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HitMeAny(Z_Param_MyActor,Z_Param_MyFloat,Z_Param_MySuperType,Z_Param_MyCon,Z_Param_SecondAct); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execHitMe) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_MyActor); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_MyFloat); \
+		P_GET_OBJECT(AController,Z_Param_MyCont); \
+		P_GET_STRUCT(FVector,Z_Param_MyVect); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_MyComp); \
+		P_GET_PROPERTY(UNameProperty,Z_Param_MyName); \
+		P_GET_STRUCT(FVector,Z_Param_SweetVect); \
+		P_GET_OBJECT(UDamageType,Z_Param_MyDType); \
+		P_GET_OBJECT(AActor,Z_Param_SecondActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HitMe(Z_Param_MyActor,Z_Param_MyFloat,Z_Param_MyCont,Z_Param_MyVect,Z_Param_MyComp,Z_Param_MyName,Z_Param_SweetVect,Z_Param_MyDType,Z_Param_SecondActor); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEndOverlap) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_MyOverlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EndOverlap(Z_Param_MyOverlappedActor,Z_Param_OtherActor); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnOverlap) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_MyOverlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnOverlap(Z_Param_MyOverlappedActor,Z_Param_OtherActor); \
 		P_NATIVE_END; \
 	}
 

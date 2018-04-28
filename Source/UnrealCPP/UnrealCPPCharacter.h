@@ -55,9 +55,7 @@ protected:
 
 	virtual void Tick(float DeltaTime) override;
 
-	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const & DamageEvent, class AController * EventInstigator, AActor * DamageCauser);
-
-	// void ReceivePointD(float Damage, const UDamageType * DamageType, FVector HitLocation, FVector HitNormal, UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo);
+	// virtual float TakeDamage(float DamageAmount, struct FDamageEvent const & DamageEvent, class AController * EventInstigator, AActor * DamageCauser);
 
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
@@ -92,6 +90,9 @@ public:
 	float Health;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float FullHealth;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	float PrevHealth;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
@@ -105,6 +106,18 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	UCurveFloat *HealthCurve;
+
+	UFUNCTION()
+	void OnOverlap(AActor* MyOverlappedActor, AActor* OtherActor);
+
+	UFUNCTION()
+	void EndOverlap(AActor* MyOverlappedActor, AActor* OtherActor);
+
+	UFUNCTION()
+	void HitMe(AActor* MyActor, float MyFloat, AController* MyCont, FVector MyVect, UPrimitiveComponent* MyComp, FName MyName, FVector SweetVect, const UDamageType* MyDType, AActor* SecondActor);
+
+	UFUNCTION()
+	void HitMeAny(AActor* MyActor, float MyFloat, const UDamageType* MySuperType, AController* MyCon, AActor* SecondAct);
 
 	float CurveFloatValue;
 	float TimelineValue;
@@ -124,7 +137,7 @@ public:
 
 	/** Set Health */
 	UFUNCTION()
-	void SetHealth();
+	void SetHealth(float Dam);
 
 	/** Set Hit State */
 	UFUNCTION()
@@ -136,6 +149,9 @@ public:
 
 	UFUNCTION()
 	void ReceiveAnyDamage(float Damage, const class UDamageType * DamageType, class AController * InstigatedBy, AActor * DamageCauser);
+
+	UFUNCTION()
+	void ReceivePointDamage(float Damage, const UDamageType * DamageType, FVector HitLocation, FVector HitNormal, UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo);
 
 protected:
 	

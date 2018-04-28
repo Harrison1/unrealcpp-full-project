@@ -1,0 +1,1723 @@
+﻿Log file open, 04/28/18 05:31:48
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UnrealCPP
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(282194130) SRandInit(282194131).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.673291
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  1.663s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../Unreal Projects/UnrealCPP/Binaries/Win64/UE4Editor-UnrealCPP-3294.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am HarryPC (192.168.0.8:0)
+LogInit: Build: ++UE4+Release-4.19-CL-3989454
+LogInit: Engine Version: 4.19.1-3989454+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr  6 2018 12:26:04
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.042s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.28-09.31.58:230][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.28-09.31.58:230][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.28-09.31.58:455][  0]LogInit: Computer: HARRYPC
+[2018.04.28-09.31.58:455][  0]LogInit: User: Harrison
+[2018.04.28-09.31.58:455][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.28-09.31.58:455][  0]LogInit: High frequency timer resolution =3.514606 MHz
+[2018.04.28-09.31.58:459][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.04.28-09.31.58:459][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.28-09.31.58:459][  0]LogMemory: Process Physical Memory: 275.07 MB used, 275.07 MB peak
+[2018.04.28-09.31.58:460][  0]LogMemory: Process Virtual Memory: 271.81 MB used, 271.81 MB peak
+[2018.04.28-09.31.58:460][  0]LogMemory: Physical Memory: 3455.50 MB used,  12885.48 MB free, 16340.99 MB total
+[2018.04.28-09.31.58:460][  0]LogMemory: Virtual Memory: 705.76 MB used,  12885.48 MB free, 134217728.00 MB total
+[2018.04.28-09.31.59:343][  0]LogInit: Using OS detected language (en-US).
+[2018.04.28-09.31.59:343][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.28-09.31.59:730][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.28-09.32.00:692][  0]LogStreaming: Display: Took  1.335s to EndInitTextLocalization.
+[2018.04.28-09.32.00:720][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.28-09.32.01:321][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.04.28-09.32.01:321][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.04.28-09.32.05:507][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.28-09.32.05:576][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.04.28-09.32.05:576][  0]LogD3D11RHI:       4043/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.28-09.32.05:578][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.28-09.32.05:578][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.28-09.32.05:578][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.28-09.32.05:584][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.28-09.32.05:584][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.28-09.32.05:584][  0]LogWindows: EnumDisplayDevices:
+[2018.04.28-09.32.05:584][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.04.28-09.32.05:584][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.28-09.32.05:584][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.28-09.32.05:584][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.04.28-09.32.05:584][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.28-09.32.05:584][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.04.28-09.32.05:584][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.28-09.32.05:584][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.28-09.32.05:584][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.04.28-09.32.05:625][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.28-09.32.05:625][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.28-09.32.05:625][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.28-09.32.05:906][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.28-09.32.06:091][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../../Unreal Projects/UnrealCPP/Intermediate/Shaders/WorkingDirectory/3408/).
+[2018.04.28-09.32.06:101][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harrison/AppData/Local/Temp/UnrealShaderWorkingDir/F328CC7046C003D65FE6A885C86EADA5/'.
+[2018.04.28-09.32.08:369][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.28-09.32.08:409][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.28-09.32.08:430][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.28-09.32.08:442][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.28-09.32.08:489][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.28-09.32.08:500][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.28-09.32.08:513][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.28-09.32.08:524][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.28-09.32.08:529][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.28-09.32.08:540][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.28-09.32.08:551][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.28-09.32.08:561][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.28-09.32.08:571][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.04.28-09.32.08:589][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.28-09.32.08:602][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.28-09.32.08:623][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.28-09.32.08:623][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.28-09.32.08:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.28-09.32.08:761][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.28-09.32.08:995][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.28-09.32.09:043][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.28-09.32.09:064][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.28-09.32.09:076][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.28-09.32.09:087][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.28-09.32.09:112][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.28-09.32.09:112][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.28-09.32.10:310][  0]LogXGEController: Cleaning working directory: C:/Users/Harrison/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.04.28-09.32.10:311][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.04.28-09.32.10:325][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.04.28-09.32.10:325][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.28-09.32.16:202][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.28-09.32.16:644][  0]LogDerivedDataCache: Loaded boot cache 0.44s 79MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.28-09.32.16:644][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.04.28-09.32.16:645][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.28-09.32.16:645][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.28-09.32.16:645][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.28-09.32.16:645][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.28-09.32.16:767][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.28-09.32.16:781][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Harrison/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.28-09.32.16:867][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.28-09.32.16:912][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.28-09.32.17:016][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.28-09.32.17:016][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.28-09.32.24:083][  0]LogAssetRegistry: FAssetRegistry took 0.0527 seconds to start up
+[2018.04.28-09.32.27:465][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.28-09.32.29:106][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.28-09.32.29:130][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.28-09.32.29:144][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.28-09.32.29:153][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.28-09.32.29:153][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.28-09.32.29:153][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.28-09.32.29:652][  0]LogNetVersion: UnrealCPP , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2553546984)
+[2018.04.28-09.32.35:557][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.193433 seconds
+[2018.04.28-09.32.35:588][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.04.28-09.32.35:588][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.04.28-09.32.35:588][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.28-09.33.03:665][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.28-09.33.03:760][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.28-09.33.08:166][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [9.811911ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2018.04.28-09.33.08:225][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.851020ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
+[2018.04.28-09.33.09:547][  0]SourceControl: Source control is disabled
+[2018.04.28-09.33.09:547][  0]SourceControl: Source control is disabled
+[2018.04.28-09.33.09:565][  0]SourceControl: Source control is disabled
+[2018.04.28-09.33.09:583][  0]SourceControl: Source control is disabled
+[2018.04.28-09.33.10:759][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.28-09.33.10:976][  0]LogOcInput: OculusInput pre-init called
+[2018.04.28-09.33.11:700][  0]LogEngine: Initializing Engine...
+[2018.04.28-09.33.11:863][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.04.28-09.33.11:900][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.28-09.33.11:900][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.28-09.33.13:891][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.28-09.33.14:114][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.28-09.33.14:161][  0]LogInit: FAudioDevice initialized.
+[2018.04.28-09.33.14:324][  0]LogDerivedDataCache: Saved boot cache 0.15s 79MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.28-09.33.14:363][  0]LogInit: Texture streaming: Enabled
+[2018.04.28-09.33.14:434][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.28-09.33.14:577][  0]LogInit: Transaction tracking system initialized
+[2018.04.28-09.33.14:902][  0]BlueprintLog: New page: Editor Load
+[2018.04.28-09.33.16:043][  0]LocalizationService: Localization service is disabled
+[2018.04.28-09.33.16:957][  0]LogConsoleResponse: Display: 
+[2018.04.28-09.33.19:143][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/' took 0.03s
+[2018.04.28-09.33.19:143][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.28-09.33.19:143][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.28-09.33.19:143][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.28-09.33.19:143][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.28-09.33.19:143][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.28-09.33.21:218][  0]SourceControl: Source control is disabled
+[2018.04.28-09.33.21:258][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.28-09.33.21:408][  0]LightingResults: New page: Lighting Build
+[2018.04.28-09.33.21:501][  0]MapCheck: New page: Map Check
+[2018.04.28-09.33.21:501][  0]LightingResults: New page: Lighting Build
+[2018.04.28-09.33.22:943][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.28-09.33.23:469][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.28-09.33.23:574][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.28-09.33.23:638][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.589ms to complete.
+[2018.04.28-09.33.23:638][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.389
+[2018.04.28-09.33.24:920][  0]LogCollectionManager: Loaded 0 collections in 0.004802 seconds
+[2018.04.28-09.33.25:110][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Saved/Collections/' took 0.01s
+[2018.04.28-09.33.25:110][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Developers/Harrison/Collections/' took 0.01s
+[2018.04.28-09.33.25:110][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Collections/' took 0.01s
+[2018.04.28-09.33.25:110][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.28-09.33.25:452][  0]LogContentBrowser: Native class hierarchy populated in 0.3395 seconds. Added 2497 classes and 600 folders.
+[2018.04.28-09.33.25:562][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0466 seconds. Added 0 classes and 0 folders.
+[2018.04.28-09.33.27:291][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0452 seconds. Added 0 classes and 0 folders.
+[2018.04.28-09.33.27:361][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0177 seconds. Added 1 classes and 2 folders.
+[2018.04.28-09.33.28:432][  0]LogSlate: Took 0.031042 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.28-09.33.28:480][  0]LogSlate: Took 0.041733 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.28-09.33.28:563][  0]LogSlate: Took 0.030472 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.28-09.33.28:589][  0]LogSlate: Took 0.024320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.04.28-09.33.29:345][  0]LogRenderer: Reallocating scene render targets to support 1148x612 Format 10 NumSamples 1 (Frame:1).
+[2018.04.28-09.33.29:913][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0429 seconds. Added 0 classes and 0 folders.
+[2018.04.28-09.33.29:913][  0]LogLoad: (Engine Initialization) Total time: 113.39 seconds
+[2018.04.28-09.33.29:913][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.28-09.33.30:381][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.28-09.33.31:259][  3]LogAssetRegistry: Asset discovery search completed in 67.2092 seconds
+[2018.04.28-09.33.31:262][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.28-09.33.31:262][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000431 seconds (updated 0 objects)
+[2018.04.28-09.33.58:896][374]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.28-09.37.45:801][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.28-09.37.45:861][ 44]LogSlate: Took 0.019965 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.28-09.38.11:164][ 44]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.28-09.38.11:865][ 44]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0207 seconds. Added 116 classes and 0 folders.
+[2018.04.28-09.38.13:232][ 44]LogSlate: Took 0.039067 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.28-09.38.25:485][428]BlueprintLog: New page: Compile Health_UI
+[2018.04.28-09.38.29:109][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
+[2018.04.28-09.38.29:493][803]LogSavePackage: Save=136.46ms
+[2018.04.28-09.38.29:494][803]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI69704D5043F9421D07CF75B26165A0AA.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
+[2018.04.28-09.38.29:573][803]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
+[2018.04.28-09.38.42:039][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.28-09.38.42:468][242]Candidate modules for hot reload:
+[2018.04.28-09.38.42:468][242]  UnrealCPP
+[2018.04.28-09.38.42:468][242]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,7216 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.28-09.38.42:470][242]Warning: Starting HotReload took  0.0s.
+[2018.04.28-09.41.55:510][831]CompilerResultsLog: New page: Compilation - Apr 28, 2018, 1:41:55 AM
+[2018.04.28-09.41.55:511][831]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.28-09.41.55:512][831]CompilerResultsLog: Creating makefile for hot reloading UnrealCPP (working set of source files changed)
+[2018.04.28-09.41.55:512][831]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.28-09.41.55:513][831]CompilerResultsLog: [Adaptive unity build] Disabling PCH for excluded files. Set bAdaptiveUnityDisablesPCH to false in BuildConfiguration.xml to change this behavior.
+[2018.04.28-09.41.55:514][831]CompilerResultsLog: [Adaptive unity build] Excluded from UnrealCPP unity file: UnrealCPPHUD.cpp
+[2018.04.28-09.41.55:515][831]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.04.28-09.41.55:515][831]CompilerResultsLog: Module.UnrealCPP.cpp
+[2018.04.28-09.41.55:516][831]CompilerResultsLog: UnrealCPPHUD.cpp
+[2018.04.28-09.41.55:516][831]CompilerResultsLog: [3/4] Link UE4Editor-UnrealCPP-7216.dll
+[2018.04.28-09.41.55:517][831]CompilerResultsLog: [4/4] Link UE4Editor-UnrealCPP-7216.lib
+[2018.04.28-09.41.55:517][831]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-7216.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-7216.exp
+[2018.04.28-09.41.55:519][831]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-7216.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-7216.suppressed.exp
+[2018.04.28-09.41.55:521][831]CompilerResultsLog: Total build time: 192.55 seconds (Local executor: 128.49 seconds)
+[2018.04.28-09.41.55:522][831]LogMainFrame: MainFrame: Module compiling took 193.091 seconds
+[2018.04.28-09.41.55:637][831]LogClass: EGamePlayState HotReload.
+[2018.04.28-09.41.55:639][831]LogHotReload: Re-instancing CampFire after hot-reload.
+[2018.04.28-09.41.56:016][831]LogHotReload: Re-instancing MyCameraShake after hot-reload.
+[2018.04.28-09.41.56:166][831]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0285 seconds. Added 45 classes and 42 folders.
+[2018.04.28-09.41.56:169][831]Display: HotReload successful (40 functions remapped  0 scriptstructs remapped)
+[2018.04.28-09.41.56:606][831]LogContentBrowser: Native class hierarchy populated in 0.0272 seconds. Added 2498 classes and 602 folders.
+[2018.04.28-09.41.56:614][831]Display: HotReload took 194.2s.
+[2018.04.28-09.43.04:813][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.28-09.43.06:511][397]Candidate modules for hot reload:
+[2018.04.28-09.43.06:511][397]  UnrealCPP
+[2018.04.28-09.43.06:511][397]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,8705 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.28-09.43.06:513][397]Warning: Starting HotReload took  0.0s.
+[2018.04.28-09.43.07:329][492]CompilerResultsLog: New page: Compilation - Apr 28, 2018, 1:43:07 AM
+[2018.04.28-09.43.07:329][492]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.28-09.43.07:330][492]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.28-09.43.07:330][492]CompilerResultsLog: Target is up to date
+[2018.04.28-09.43.07:330][492]CompilerResultsLog: Total build time: 0.63 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.04.28-09.43.07:330][492]LogMainFrame: MainFrame: Module compiling took 0.822 seconds
+[2018.04.28-09.43.07:605][492]LogContentBrowser: Native class hierarchy populated in 0.0275 seconds. Added 2498 classes and 602 folders.
+[2018.04.28-09.43.07:605][492]Display: HotReload took  1.1s.
+[2018.04.28-09.43.08:468][595]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.28-09.43.08:486][595]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.28-09.43.08:487][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.28-09.43.08:487][595]PIE: New page: PIE session: FirstPersonExampleMap (Apr 28, 2018, 1:43:08 AM)
+[2018.04.28-09.43.08:487][595]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.04.28-09.43.08:509][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020968s)
+[2018.04.28-09.43.08:510][595]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.28-09.43.08:510][595]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2018.04.28-09.43.08:510][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022988s)
+[2018.04.28-09.43.08:596][595]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.28-09.43.08:605][595]LogInit: FAudioDevice initialized.
+[2018.04.28-09.43.08:692][595]LogLoad: Game class is 'UnrealCPPGameMode'
+[2018.04.28-09.43.08:711][595]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.28-05.43.08
+[2018.04.28-09.43.08:722][595]LogWorld: Bringing up level for play took: 0.028334
+[2018.04.28-09.43.08:900][595]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0184 seconds. Added 11 classes and 0 folders.
+[2018.04.28-09.43.08:902][595]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.137
+[2018.04.28-09.43.08:902][595]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.28-09.43.08:903][595]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:062][595]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:062][595]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:098][596]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:128][596]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:131][597]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:135][597]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:139][598]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:143][598]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:147][599]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:152][599]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:155][600]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:161][600]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:164][601]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:168][601]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:172][602]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:178][602]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:181][603]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:188][603]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:191][604]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:197][604]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:200][605]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:208][605]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:211][606]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:217][606]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:222][607]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:228][607]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:231][608]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:235][608]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:239][609]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:243][609]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:247][610]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:251][610]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:256][611]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:259][611]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:264][612]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:268][612]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:272][613]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:276][613]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:281][614]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:286][614]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:289][615]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:293][615]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:298][616]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:301][616]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:306][617]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:310][617]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:314][618]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:318][618]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:323][619]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:327][619]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:331][620]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:335][620]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:339][621]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:343][621]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:348][622]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:369][622]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:371][623]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:375][623]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:380][624]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:383][624]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:388][625]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:392][625]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:397][626]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:401][626]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:405][627]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:409][627]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:413][628]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:417][628]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:421][629]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:425][629]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:430][630]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:434][630]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:438][631]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:442][631]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:446][632]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:450][632]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:455][633]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:459][633]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:463][634]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:478][634]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:480][635]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:484][635]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:489][636]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:492][636]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:497][637]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:500][637]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:505][638]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:509][638]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:513][639]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:517][639]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:522][640]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:525][640]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:530][641]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:534][641]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:539][642]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:542][642]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:547][643]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:550][643]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:555][644]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:559][644]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:563][645]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:567][645]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:572][646]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:576][646]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:581][647]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:585][647]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:589][648]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:593][648]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:597][649]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:601][649]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:606][650]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:609][650]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:614][651]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:618][651]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:622][652]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:626][652]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:631][653]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:634][653]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:639][654]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:642][654]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:647][655]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:651][655]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:655][656]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:659][656]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:664][657]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:667][657]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:672][658]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:676][658]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:680][659]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:684][659]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:689][660]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:692][660]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:697][661]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:700][661]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:705][662]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:709][662]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:714][663]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:718][663]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:722][664]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:725][664]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:730][665]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:734][665]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:739][666]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:742][666]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:747][667]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:751][667]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:755][668]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:759][668]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:764][669]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:767][669]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:772][670]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:775][670]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:780][671]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:784][671]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:789][672]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:792][672]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:797][673]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:800][673]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:805][674]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:809][674]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:814][675]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:817][675]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:822][676]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:825][676]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:830][677]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:833][677]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:838][678]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:842][678]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:847][679]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:851][679]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:855][680]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:859][680]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:863][681]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:867][681]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:871][682]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:875][682]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:880][683]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:883][683]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:888][684]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:892][684]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:897][685]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:900][685]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:906][686]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:909][686]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:914][687]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:918][687]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:922][688]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:926][688]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:931][689]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:934][689]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:939][690]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:942][690]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:947][691]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:951][691]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:955][692]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:959][692]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:964][693]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:967][693]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:972][694]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:976][694]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:980][695]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:985][695]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:989][696]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:992][696]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.09:997][697]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:001][697]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:005][698]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:009][698]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:013][699]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:017][699]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:022][700]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:025][700]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:030][701]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:034][701]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:039][702]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:042][702]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:047][703]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:051][703]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:055][704]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:059][704]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:064][705]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:067][705]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:072][706]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:076][706]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:080][707]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:084][707]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:089][708]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:092][708]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:097][709]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:100][709]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:105][710]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:109][710]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:113][711]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:117][711]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:122][712]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:125][712]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:130][713]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:134][713]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:139][714]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:143][714]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:147][715]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:151][715]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:155][716]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:159][716]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:163][717]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:167][717]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:172][718]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:175][718]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:180][719]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:185][719]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:189][720]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:192][720]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:197][721]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:200][721]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:205][722]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:209][722]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:213][723]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:217][723]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:222][724]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:226][724]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:230][725]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:233][725]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:238][726]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:242][726]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:247][727]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:250][727]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:255][728]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:259][728]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:263][729]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:267][729]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:283][730]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:310][730]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:315][731]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:319][731]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:323][732]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:327][732]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:332][733]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:335][733]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:340][734]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:344][734]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:349][735]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:353][735]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:357][736]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:361][736]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:366][737]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:369][737]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:374][738]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:377][738]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:382][739]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:387][739]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:390][740]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:394][740]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:399][741]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:403][741]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:407][742]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:412][742]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:416][743]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:421][743]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:424][744]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:429][744]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:432][745]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:437][745]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:441][746]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:444][746]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:449][747]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:453][747]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:457][748]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:461][748]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:465][749]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:469][749]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:474][750]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:477][750]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:482][751]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:486][751]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:490][752]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:494][752]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:499][753]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:502][753]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:507][754]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:511][754]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:516][755]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:519][755]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:524][756]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:528][756]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:532][757]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:536][757]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:540][758]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:544][758]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:549][759]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:553][759]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:557][760]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:561][760]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:566][761]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:571][761]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:574][762]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:580][762]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:583][763]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:588][763]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:592][764]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:612][764]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:615][765]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:619][765]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:623][766]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:627][766]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:631][767]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:635][767]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:639][768]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:643][768]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:648][769]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:651][769]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:656][770]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:659][770]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:664][771]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:667][771]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:672][772]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:676][772]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:681][773]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:684][773]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:689][774]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:692][774]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:697][775]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:701][775]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:706][776]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:709][776]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:714][777]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:718][777]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:722][778]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:726][778]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:730][779]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:734][779]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:739][780]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:742][780]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:747][781]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:751][781]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:756][782]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:759][782]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:764][783]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:768][783]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:772][784]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:776][784]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:781][785]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:784][785]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:789][786]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:793][786]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:797][787]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:801][787]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:806][788]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:809][788]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:814][789]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:818][789]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:822][790]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:826][790]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:830][791]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:834][791]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:839][792]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:843][792]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:848][793]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:852][793]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:856][794]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:860][794]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:864][795]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:868][795]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:873][796]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:876][796]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:881][797]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:885][797]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:889][798]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:893][798]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:898][799]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:901][799]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:906][800]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:910][800]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:914][801]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:919][801]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:923][802]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:926][802]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:931][803]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:934][803]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:939][804]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:943][804]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:947][805]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:951][805]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:956][806]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:960][806]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:964][807]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:968][807]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:972][808]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:976][808]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:981][809]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:985][809]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:989][810]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:993][810]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.10:998][811]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:001][811]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:005][812]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:009][812]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:014][813]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:018][813]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:022][814]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:026][814]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:031][815]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:035][815]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:035][815]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:039][816]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:043][816]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:048][817]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:052][817]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:056][818]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:060][818]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:064][819]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:068][819]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:072][820]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:076][820]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:081][821]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:084][821]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:089][822]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:093][822]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:097][823]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:101][823]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:106][824]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:109][824]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:114][825]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:119][825]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:122][826]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:126][826]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:131][827]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:134][827]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:139][828]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:142][828]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:148][829]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:151][829]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:156][830]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:159][830]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:164][831]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:168][831]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:172][832]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:176][832]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:181][833]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:184][833]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:189][834]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:193][834]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:198][835]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:201][835]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:206][836]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:209][836]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:214][837]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:218][837]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:223][838]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:227][838]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:231][839]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:234][839]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:239][840]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:243][840]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:247][841]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:251][841]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:256][842]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:259][842]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:264][843]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:268][843]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:272][844]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:277][844]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:281][845]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:285][845]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:289][846]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:294][846]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:297][847]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:301][847]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:306][848]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:309][848]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:314][849]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:318][849]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:322][850]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:326][850]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:331][851]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:334][851]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:339][852]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:342][852]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:347][853]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:351][853]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:356][854]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:359][854]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:364][855]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:368][855]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:372][856]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:377][856]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:381][857]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:385][857]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:390][858]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:393][858]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:398][859]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:402][859]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:406][860]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:409][860]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:414][861]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:418][861]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:423][862]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:426][862]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:431][863]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:435][863]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:439][864]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:443][864]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:447][865]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:451][865]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:456][866]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:460][866]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:464][867]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:468][867]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:473][868]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:476][868]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:481][869]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:484][869]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:489][870]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:493][870]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:497][871]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:501][871]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:506][872]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:509][872]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:514][873]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:518][873]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:523][874]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:526][874]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:531][875]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:534][875]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:539][876]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:543][876]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:547][877]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:551][877]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:556][878]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:560][878]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:564][879]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:568][879]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:573][880]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:576][880]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:581][881]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:585][881]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:589][882]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:593][882]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:598][883]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:601][883]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:606][884]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:609][884]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:614][885]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:618][885]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:623][886]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:626][886]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:631][887]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:634][887]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:639][888]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:643][888]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:647][889]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:651][889]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:656][890]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:659][890]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:664][891]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:668][891]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:672][892]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:676][892]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:681][893]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:685][893]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:689][894]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:692][894]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:697][895]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:701][895]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:706][896]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:709][896]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:714][897]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:717][897]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:722][898]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:726][898]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:731][899]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:734][899]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:739][900]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:743][900]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:747][901]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:751][901]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:756][902]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:759][902]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:764][903]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:768][903]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:773][904]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:777][904]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:781][905]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:784][905]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:789][906]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:793][906]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:798][907]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:801][907]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:806][908]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:810][908]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:815][909]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:818][909]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:823][910]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:826][910]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:831][911]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:835][911]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:839][912]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:843][912]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:848][913]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:851][913]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:856][914]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:860][914]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:864][915]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:868][915]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:872][916]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:876][916]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:881][917]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:884][917]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:889][918]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:893][918]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:898][919]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:901][919]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:906][920]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:909][920]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:914][921]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:918][921]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:922][922]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:927][922]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:931][923]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:935][923]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:939][924]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:943][924]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:948][925]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:951][925]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:956][926]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:960][926]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:964][927]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:968][927]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:973][928]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:976][928]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:981][929]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:986][929]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:989][930]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:993][930]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.11:997][931]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:001][931]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:006][932]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:009][932]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:014][933]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:018][933]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:022][934]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:026][934]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:031][935]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:034][935]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:039][936]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:042][936]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:047][937]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:051][937]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:056][938]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:059][938]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:064][939]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:068][939]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:072][940]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:076][940]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:081][941]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:084][941]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:089][942]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:093][942]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:097][943]LogClass: Error: Health: 1.000000
+[2018.04.28-09.43.12:098][943]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.28-09.43.12:143][943]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.04.28-09.56.31:506][749]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.28-09.59.48:263][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.28-09.59.48:341][138]Candidate modules for hot reload:
+[2018.04.28-09.59.48:341][138]  UnrealCPP
+[2018.04.28-09.59.48:341][138]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,1252 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.28-09.59.48:343][138]Warning: Starting HotReload took  0.0s.
+[2018.04.28-09.59.58:675][377]CompilerResultsLog: New page: Compilation - Apr 28, 2018, 1:59:58 AM
+[2018.04.28-09.59.58:676][377]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.28-09.59.58:676][377]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.28-09.59.58:676][377]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.04.28-09.59.58:676][377]CompilerResultsLog: UnrealCPPHUD.cpp
+[2018.04.28-09.59.58:676][377]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(53) : error C2065: 'UnrealCPPCharacter': undeclared identifier
+[2018.04.28-09.59.58:677][377]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(53) : error C2146: syntax error: missing ';' before identifier 'MyCharacter'
+[2018.04.28-09.59.58:677][377]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(53) : error C2065: 'MyCharacter': undeclared identifier
+[2018.04.28-09.59.58:677][377]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(53) : error C2653: 'UGameplayStatics': is not a class or namespace name
+[2018.04.28-09.59.58:678][377]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(53) : error C3861: 'GetPlayerPawn': identifier not found
+[2018.04.28-09.59.58:678][377]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(54) : error C2065: 'MyCharacter': undeclared identifier
+[2018.04.28-09.59.58:678][377]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(56) : error C2228: left of '.BindUFunction' must have class/struct/union
+[2018.04.28-09.59.58:679][377]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(56) : note: type is 'UWidget *'
+[2018.04.28-09.59.58:679][377]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(56) : note: did you intend to use '->' instead?
+[2018.04.28-09.59.58:680][377]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(56) : error C2065: 'MyCharacter': undeclared identifier
+[2018.04.28-09.59.58:680][377]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-1252.dll
+[2018.04.28-09.59.58:680][377]CompilerResultsLog: Total build time: 10.13 seconds (Local executor: 0.00 seconds)
+[2018.04.28-09.59.58:680][377]LogMainFrame: MainFrame: Module compiling took 10.342 seconds
+[2018.04.28-09.59.58:681][377]Warning: HotReload failed, recompile failed
+[2018.04.28-10.11.36:837][704]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.28-10.11.36:925][714]Candidate modules for hot reload:
+[2018.04.28-10.11.36:925][714]  UnrealCPP
+[2018.04.28-10.11.36:925][714]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,9430 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.28-10.11.36:927][714]Warning: Starting HotReload took  0.0s.
+[2018.04.28-10.11.47:114][936]CompilerResultsLog: New page: Compilation - Apr 28, 2018, 2:11:47 AM
+[2018.04.28-10.11.47:115][936]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.28-10.11.47:115][936]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.28-10.11.47:115][936]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.04.28-10.11.47:115][936]CompilerResultsLog: UnrealCPPHUD.cpp
+[2018.04.28-10.11.47:116][936]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(53) : error C2065: 'UnrealCPPCharacter': undeclared identifier
+[2018.04.28-10.11.47:116][936]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(53) : error C2065: 'MyCharacter': undeclared identifier
+[2018.04.28-10.11.47:116][936]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(53) : error C2653: 'UGameplayStatics': is not a class or namespace name
+[2018.04.28-10.11.47:116][936]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(53) : error C3861: 'GetPlayerPawn': identifier not found
+[2018.04.28-10.11.47:117][936]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(54) : error C2065: 'MyCharacter': undeclared identifier
+[2018.04.28-10.11.47:117][936]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(56) : error C2228: left of '.BindUFunction' must have class/struct/union
+[2018.04.28-10.11.47:117][936]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(56) : note: type is 'UWidget *'
+[2018.04.28-10.11.47:117][936]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(56) : note: did you intend to use '->' instead?
+[2018.04.28-10.11.47:117][936]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(56) : error C2065: 'MyCharacter': undeclared identifier
+[2018.04.28-10.11.47:118][936]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-9430.dll
+[2018.04.28-10.11.47:118][936]CompilerResultsLog: Total build time: 9.99 seconds (Local executor: 0.00 seconds)
+[2018.04.28-10.11.47:118][936]LogMainFrame: MainFrame: Module compiling took 10.197 seconds
+[2018.04.28-10.11.47:118][936]Warning: HotReload failed, recompile failed
+[2018.04.28-10.13.44:545][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.28-10.13.44:599][ 20]Candidate modules for hot reload:
+[2018.04.28-10.13.44:599][ 20]  UnrealCPP
+[2018.04.28-10.13.44:600][ 20]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,7899 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.28-10.13.44:601][ 20]Warning: Starting HotReload took  0.0s.
+[2018.04.28-10.13.55:714][353]CompilerResultsLog: New page: Compilation - Apr 28, 2018, 2:13:55 AM
+[2018.04.28-10.13.55:714][353]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.28-10.13.55:715][353]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.28-10.13.55:715][353]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.28-10.13.55:715][353]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.28-10.13.55:716][353]CompilerResultsLog: Error: D:/Unreal Projects/UnrealCPP/Source/UnrealCPP/UnrealCPPHUD.h(33)  : Error: Unknown function specifier 'EditAnywhere'
+[2018.04.28-10.13.55:716][353]CompilerResultsLog: UnrealHeaderTool failed for target 'UnrealCPPEditor' (platform: Win64, module info: D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest).
+[2018.04.28-10.13.55:717][353]LogMainFrame: MainFrame: Module compiling took 11.120 seconds
+[2018.04.28-10.13.55:717][353]Warning: HotReload failed, recompile failed
+[2018.04.28-10.14.10:047][ 47]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.28-10.14.10:466][ 97]Candidate modules for hot reload:
+[2018.04.28-10.14.10:466][ 97]  UnrealCPP
+[2018.04.28-10.14.10:467][ 97]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,383 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.28-10.14.10:469][ 97]Warning: Starting HotReload took  0.0s.
+[2018.04.28-10.14.20:302][535]CompilerResultsLog: New page: Compilation - Apr 28, 2018, 2:14:20 AM
+[2018.04.28-10.14.20:303][535]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.28-10.14.20:303][535]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.28-10.14.20:303][535]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.28-10.14.20:303][535]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.28-10.14.20:304][535]CompilerResultsLog: Error: D:/Unreal Projects/UnrealCPP/Source/UnrealCPP/UnrealCPPHUD.h(33)  : Error: Unknown function specifier 'EditAnywhere'
+[2018.04.28-10.14.20:304][535]CompilerResultsLog: UnrealHeaderTool failed for target 'UnrealCPPEditor' (platform: Win64, module info: D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest).
+[2018.04.28-10.14.20:305][535]LogMainFrame: MainFrame: Module compiling took 9.841 seconds
+[2018.04.28-10.14.20:305][535]Warning: HotReload failed, recompile failed
+[2018.04.28-10.14.49:022][414]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.28-10.14.49:116][425]Candidate modules for hot reload:
+[2018.04.28-10.14.49:116][425]  UnrealCPP
+[2018.04.28-10.14.49:117][425]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,6652 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.28-10.14.49:118][425]Warning: Starting HotReload took  0.0s.
+[2018.04.28-10.14.59:751][505]CompilerResultsLog: New page: Compilation - Apr 28, 2018, 2:14:59 AM
+[2018.04.28-10.14.59:751][505]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.28-10.14.59:752][505]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.28-10.14.59:752][505]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.28-10.14.59:752][505]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.28-10.14.59:752][505]CompilerResultsLog: Error: D:/Unreal Projects/UnrealCPP/Source/UnrealCPP/UnrealCPPHUD.h(33)  : Error: Unknown function specifier 'EditAnywhere'
+[2018.04.28-10.14.59:753][505]CompilerResultsLog: UnrealHeaderTool failed for target 'UnrealCPPEditor' (platform: Win64, module info: D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest).
+[2018.04.28-10.14.59:753][505]LogMainFrame: MainFrame: Module compiling took 10.639 seconds
+[2018.04.28-10.14.59:753][505]Warning: HotReload failed, recompile failed
+[2018.04.28-10.15.01:681][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.28-10.15.29:068][108]Candidate modules for hot reload:
+[2018.04.28-10.15.29:068][108]  UnrealCPP
+[2018.04.28-10.15.29:069][108]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,441 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.28-10.15.29:070][108]Warning: Starting HotReload took  0.0s.
+[2018.04.28-10.15.55:312][463]CompilerResultsLog: New page: Compilation - Apr 28, 2018, 2:15:55 AM
+[2018.04.28-10.15.55:312][463]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.28-10.15.55:312][463]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.28-10.15.55:312][463]CompilerResultsLog: Parsing headers for UnrealCPPEditor
+[2018.04.28-10.15.55:313][463]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal Projects\UnrealCPP\UnrealCPP.uproject" "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UnrealCPPEditor\Development\UnrealCPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.28-10.15.55:313][463]CompilerResultsLog: Reflection code generated for UnrealCPPEditor in 15.0695802 seconds
+[2018.04.28-10.15.55:313][463]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.04.28-10.15.55:313][463]CompilerResultsLog: Module.UnrealCPP.gen.cpp
+[2018.04.28-10.15.55:314][463]CompilerResultsLog: Module.UnrealCPP.cpp
+[2018.04.28-10.15.55:314][463]CompilerResultsLog: UnrealCPPHUD.cpp
+[2018.04.28-10.15.55:314][463]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(52) : error C2228: left of '.BindUFunction' must have class/struct/union
+[2018.04.28-10.15.55:314][463]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(52) : note: type is 'UWidget *'
+[2018.04.28-10.15.55:314][463]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(52) : note: did you intend to use '->' instead?
+[2018.04.28-10.15.55:314][463]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(59) : error C2556: 'void AUnrealCPPHUD::GetH(void)': overloaded function differs only by return type from 'float AUnrealCPPHUD::GetH(void)'
+[2018.04.28-10.15.55:315][463]CompilerResultsLog: Error: d:\unreal projects\unrealcpp\source\unrealcpp\UnrealCPPHUD.h(33) : note: see declaration of 'AUnrealCPPHUD::GetH'
+[2018.04.28-10.15.55:315][463]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(58) : error C2371: 'AUnrealCPPHUD::GetH': redefinition; different basic types
+[2018.04.28-10.15.55:315][463]CompilerResultsLog: Error: d:\unreal projects\unrealcpp\source\unrealcpp\UnrealCPPHUD.h(33) : note: see declaration of 'AUnrealCPPHUD::GetH'
+[2018.04.28-10.15.55:316][463]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-441.dll
+[2018.04.28-10.15.55:316][463]CompilerResultsLog: Total build time: 25.83 seconds (Local executor: 0.00 seconds)
+[2018.04.28-10.15.55:316][463]LogMainFrame: MainFrame: Module compiling took 26.252 seconds
+[2018.04.28-10.15.55:316][463]Warning: HotReload failed, recompile failed
+[2018.04.28-10.20.26:751][113]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.28-10.21.04:192][388]Candidate modules for hot reload:
+[2018.04.28-10.21.04:193][388]  UnrealCPP
+[2018.04.28-10.21.04:193][388]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,5322 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.28-10.21.04:194][388]Warning: Starting HotReload took  0.0s.
+[2018.04.28-10.21.19:960][932]CompilerResultsLog: New page: Compilation - Apr 28, 2018, 2:21:19 AM
+[2018.04.28-10.21.19:960][932]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.28-10.21.19:960][932]CompilerResultsLog: Creating makefile for hot reloading UnrealCPP (working set of source files changed)
+[2018.04.28-10.21.19:960][932]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.28-10.21.19:960][932]CompilerResultsLog: [Adaptive unity build] Disabling PCH for excluded files. Set bAdaptiveUnityDisablesPCH to false in BuildConfiguration.xml to change this behavior.
+[2018.04.28-10.21.19:961][932]CompilerResultsLog: [Adaptive unity build] Excluded from UnrealCPP unity file: UnrealCPPHUD.cpp
+[2018.04.28-10.21.19:961][932]CompilerResultsLog: [Adaptive unity build] Excluded from UnrealCPP.gen unity file: UnrealCPP.init.gen.cpp, UnrealCPPHUD.gen.cpp
+[2018.04.28-10.21.19:961][932]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2018.04.28-10.21.19:961][932]CompilerResultsLog: Module.UnrealCPP.gen.cpp
+[2018.04.28-10.21.19:961][932]CompilerResultsLog: UnrealCPPHUD.gen.cpp
+[2018.04.28-10.21.19:961][932]CompilerResultsLog: UnrealCPP.init.gen.cpp
+[2018.04.28-10.21.19:961][932]CompilerResultsLog: UnrealCPPHUD.cpp
+[2018.04.28-10.21.19:961][932]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(52) : error C2228: left of '.BindUFunction' must have class/struct/union
+[2018.04.28-10.21.19:962][932]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(52) : note: type is 'UWidget *'
+[2018.04.28-10.21.19:962][932]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(52) : note: did you intend to use '->' instead?
+[2018.04.28-10.21.19:962][932]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(59) : error C2556: 'void AUnrealCPPHUD::GetH(void)': overloaded function differs only by return type from 'float AUnrealCPPHUD::GetH(void)'
+[2018.04.28-10.21.19:962][932]CompilerResultsLog: Error: d:\unreal projects\unrealcpp\source\unrealcpp\UnrealCPPHUD.h(33) : note: see declaration of 'AUnrealCPPHUD::GetH'
+[2018.04.28-10.21.19:963][932]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(58) : error C2371: 'AUnrealCPPHUD::GetH': redefinition; different basic types
+[2018.04.28-10.21.19:963][932]CompilerResultsLog: Error: d:\unreal projects\unrealcpp\source\unrealcpp\UnrealCPPHUD.h(33) : note: see declaration of 'AUnrealCPPHUD::GetH'
+[2018.04.28-10.21.19:963][932]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-5322.dll
+[2018.04.28-10.21.19:964][932]CompilerResultsLog: Total build time: 15.57 seconds (Local executor: 0.00 seconds)
+[2018.04.28-10.21.19:964][932]LogMainFrame: MainFrame: Module compiling took 15.774 seconds
+[2018.04.28-10.21.19:964][932]Warning: HotReload failed, recompile failed
+[2018.04.28-10.28.21:868][332]LogSlate: Window 'Message Log' being destroyed
+[2018.04.28-10.28.21:871][332]LogSlate: Window 'Message Log' being destroyed
+[2018.04.28-10.28.22:769][440]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.28-10.30.22:297][321]Candidate modules for hot reload:
+[2018.04.28-10.30.22:297][321]  UnrealCPP
+[2018.04.28-10.30.22:298][321]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,8989 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.28-10.30.22:299][321]Warning: Starting HotReload took  0.0s.
+[2018.04.28-10.30.31:888][471]CompilerResultsLog: New page: Compilation - Apr 28, 2018, 2:30:31 AM
+[2018.04.28-10.30.31:888][471]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.28-10.30.31:888][471]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.28-10.30.31:888][471]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.04.28-10.30.31:889][471]CompilerResultsLog: UnrealCPPHUD.cpp
+[2018.04.28-10.30.31:889][471]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(52) : error C2039: 'PercentDelegate': is not a member of 'UWidget'
+[2018.04.28-10.30.31:889][471]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\UMG\Public\Components/NamedSlotInterface.h(10) : note: see declaration of 'UWidget'
+[2018.04.28-10.30.31:889][471]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(59) : error C2556: 'void AUnrealCPPHUD::GetH(void)': overloaded function differs only by return type from 'float AUnrealCPPHUD::GetH(void)'
+[2018.04.28-10.30.31:890][471]CompilerResultsLog: Error: d:\unreal projects\unrealcpp\source\unrealcpp\UnrealCPPHUD.h(33) : note: see declaration of 'AUnrealCPPHUD::GetH'
+[2018.04.28-10.30.31:890][471]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(58) : error C2371: 'AUnrealCPPHUD::GetH': redefinition; different basic types
+[2018.04.28-10.30.31:890][471]CompilerResultsLog: Error: d:\unreal projects\unrealcpp\source\unrealcpp\UnrealCPPHUD.h(33) : note: see declaration of 'AUnrealCPPHUD::GetH'
+[2018.04.28-10.30.31:890][471]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-8989.dll
+[2018.04.28-10.30.31:890][471]CompilerResultsLog: Total build time: 9.39 seconds (Local executor: 0.00 seconds)
+[2018.04.28-10.30.31:891][471]LogMainFrame: MainFrame: Module compiling took 9.596 seconds
+[2018.04.28-10.30.31:891][471]Warning: HotReload failed, recompile failed
+[2018.04.28-10.30.53:762][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.28-10.30.53:799][265]Candidate modules for hot reload:
+[2018.04.28-10.30.53:799][265]  UnrealCPP
+[2018.04.28-10.30.53:799][265]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,8275 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.28-10.30.53:801][265]Warning: Starting HotReload took  0.0s.
+[2018.04.28-10.31.02:493][917]CompilerResultsLog: New page: Compilation - Apr 28, 2018, 2:31:02 AM
+[2018.04.28-10.31.02:493][917]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.28-10.31.02:494][917]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.28-10.31.02:494][917]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.04.28-10.31.02:494][917]CompilerResultsLog: UnrealCPPHUD.cpp
+[2018.04.28-10.31.02:494][917]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(52) : error C2228: left of '.PercentDelegate' must have class/struct/union
+[2018.04.28-10.31.02:494][917]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(52) : note: type is 'UWidget *'
+[2018.04.28-10.31.02:495][917]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(52) : note: did you intend to use '->' instead?
+[2018.04.28-10.31.02:495][917]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(59) : error C2556: 'void AUnrealCPPHUD::GetH(void)': overloaded function differs only by return type from 'float AUnrealCPPHUD::GetH(void)'
+[2018.04.28-10.31.02:495][917]CompilerResultsLog: Error: d:\unreal projects\unrealcpp\source\unrealcpp\UnrealCPPHUD.h(33) : note: see declaration of 'AUnrealCPPHUD::GetH'
+[2018.04.28-10.31.02:495][917]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(58) : error C2371: 'AUnrealCPPHUD::GetH': redefinition; different basic types
+[2018.04.28-10.31.02:496][917]CompilerResultsLog: Error: d:\unreal projects\unrealcpp\source\unrealcpp\UnrealCPPHUD.h(33) : note: see declaration of 'AUnrealCPPHUD::GetH'
+[2018.04.28-10.31.02:496][917]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-8275.dll
+[2018.04.28-10.31.02:496][917]CompilerResultsLog: Total build time: 8.49 seconds (Local executor: 0.00 seconds)
+[2018.04.28-10.31.02:496][917]LogMainFrame: MainFrame: Module compiling took 8.700 seconds
+[2018.04.28-10.31.02:496][917]Warning: HotReload failed, recompile failed
+[2018.04.28-10.31.20:230][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.28-10.31.24:305][198]LogSlate: Took 0.040754 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.28-10.31.43:026][411]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UGameplayStatics::GetPlayerCharacter' [Element not found.]
+[2018.04.28-10.32.15:094][250]BlueprintLog: New page: Compile Health_UI
+[2018.04.28-10.32.16:555][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/UI/Health_UI" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset" SILENT=true
+[2018.04.28-10.32.16:587][418]LogSavePackage: Save=20.56ms
+[2018.04.28-10.32.16:588][418]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/Health_UI9DA1C12B47494D82A3F5B18C94C6DB9C.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset'
+[2018.04.28-10.32.16:595][418]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/UI/Health_UI.uasset
+[2018.04.28-10.33.01:020][ 68]Candidate modules for hot reload:
+[2018.04.28-10.33.01:021][ 68]  UnrealCPP
+[2018.04.28-10.33.01:021][ 68]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,4308 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.28-10.33.01:022][ 68]Warning: Starting HotReload took  0.0s.
+[2018.04.28-10.33.10:534][207]CompilerResultsLog: New page: Compilation - Apr 28, 2018, 2:33:10 AM
+[2018.04.28-10.33.10:534][207]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.28-10.33.10:534][207]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.28-10.33.10:534][207]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.04.28-10.33.10:534][207]CompilerResultsLog: UnrealCPPHUD.cpp
+[2018.04.28-10.33.10:534][207]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(52) : error C2039: 'PercentDelegate': is not a member of 'UWidget'
+[2018.04.28-10.33.10:534][207]CompilerResultsLog: Error: D:\Epic Games\UE_4.19\Engine\Source\Runtime\UMG\Public\Components/NamedSlotInterface.h(10) : note: see declaration of 'UWidget'
+[2018.04.28-10.33.10:534][207]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-4308.dll
+[2018.04.28-10.33.10:534][207]CompilerResultsLog: Total build time: 9.31 seconds (Local executor: 0.00 seconds)
+[2018.04.28-10.33.10:534][207]LogMainFrame: MainFrame: Module compiling took 9.516 seconds
+[2018.04.28-10.33.10:534][207]Warning: HotReload failed, recompile failed
+[2018.04.28-10.46.43:810][129]Candidate modules for hot reload:
+[2018.04.28-10.46.43:810][129]  UnrealCPP
+[2018.04.28-10.46.43:811][129]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,3718 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.28-10.46.43:812][129]Warning: Starting HotReload took  0.0s.
+[2018.04.28-10.46.53:094][242]CompilerResultsLog: New page: Compilation - Apr 28, 2018, 2:46:53 AM
+[2018.04.28-10.46.53:094][242]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.28-10.46.53:094][242]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.28-10.46.53:095][242]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.04.28-10.46.53:095][242]CompilerResultsLog: UnrealCPPHUD.cpp
+[2018.04.28-10.46.53:095][242]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(53) : error C2440: 'initializing': cannot convert from 'UWidget *' to 'UProgressBar *'
+[2018.04.28-10.46.53:095][242]CompilerResultsLog: Error: D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.cpp(53) : note: Cast from base to derived requires dynamic_cast or static_cast
+[2018.04.28-10.46.53:095][242]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal Projects\UnrealCPP\Binaries\Win64\UE4Editor-UnrealCPP-3718.dll
+[2018.04.28-10.46.53:096][242]CompilerResultsLog: Total build time: 9.09 seconds (Local executor: 0.00 seconds)
+[2018.04.28-10.46.53:096][242]LogMainFrame: MainFrame: Module compiling took 9.288 seconds
+[2018.04.28-10.46.53:096][242]Warning: HotReload failed, recompile failed
+[2018.04.28-10.51.26:886][ 25]Candidate modules for hot reload:
+[2018.04.28-10.51.26:887][ 25]  UnrealCPP
+[2018.04.28-10.51.26:887][ 25]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,6708 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
+[2018.04.28-10.51.26:889][ 25]Warning: Starting HotReload took  0.0s.
+[2018.04.28-10.51.41:601][790]CompilerResultsLog: New page: Compilation - Apr 28, 2018, 2:51:41 AM
+[2018.04.28-10.51.41:601][790]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.04.28-10.51.41:601][790]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.28-10.51.41:601][790]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.04.28-10.51.41:601][790]CompilerResultsLog: UnrealCPPHUD.cpp
+[2018.04.28-10.51.41:601][790]CompilerResultsLog: [2/3] Link UE4Editor-UnrealCPP-6708.dll
+[2018.04.28-10.51.41:601][790]CompilerResultsLog: [3/3] Link UE4Editor-UnrealCPP-6708.lib
+[2018.04.28-10.51.41:602][790]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-6708.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-6708.exp
+[2018.04.28-10.51.41:602][790]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-6708.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-6708.suppressed.exp
+[2018.04.28-10.51.41:603][790]CompilerResultsLog: Total build time: 14.51 seconds (Local executor: 13.84 seconds)
+[2018.04.28-10.51.41:603][790]LogMainFrame: MainFrame: Module compiling took 14.719 seconds
+[2018.04.28-10.51.41:701][790]LogClass: Could not find existing class UnrealCPPHUD in package /Script/UnrealCPP for HotReload, assuming new class
+[2018.04.28-10.51.41:701][790]LogClass: Function GetH is new.
+[2018.04.28-10.51.41:701][790]LogClass: EGamePlayState HotReload.
+[2018.04.28-10.51.41:704][790]LogHotReload: Re-instancing CampFire after hot-reload.
+[2018.04.28-10.51.42:034][790]LogHotReload: Re-instancing MyCameraShake after hot-reload.
+[2018.04.28-10.51.42:206][790]LogHotReload: Re-instancing UnrealCPPGameMode after hot-reload.
+[2018.04.28-10.51.42:352][790]LogHotReload: Re-instancing UnrealCPPHUD after hot-reload.
+[2018.04.28-10.51.42:485][790]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0210 seconds. Added 45 classes and 42 folders.
+[2018.04.28-10.51.42:489][790]Display: HotReload successful (40 functions remapped  0 scriptstructs remapped)
+[2018.04.28-10.51.42:762][790]LogContentBrowser: Native class hierarchy populated in 0.0252 seconds. Added 2498 classes and 602 folders.
+[2018.04.28-10.51.42:762][790]Display: HotReload took 15.9s.
+[2018.04.28-10.51.48:052][357]LogSlate: Window 'UnrealCPP - Unreal Editor' being destroyed
+[2018.04.28-10.51.48:320][358]Cmd: QUIT_EDITOR
+[2018.04.28-10.51.49:009][358]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.28-10.51.49:062][358]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.04.28-10.51.49:075][358]LogExit: Preparing to exit.
+[2018.04.28-10.51.50:283][358]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/UnrealCPP/Content/' was aborted.
+[2018.04.28-10.51.50:404][358]LogExit: Editor shut down
+[2018.04.28-10.51.50:427][358]LogExit: Transaction tracking system shut down
+[2018.04.28-10.51.50:668][358]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.28-10.51.50:669][358]LogDirectoryWatcher: A directory notification for '../../../../../Unreal Projects/UnrealCPP/Content/' was aborted.
+[2018.04.28-10.51.50:669][358]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.28-10.51.50:669][358]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.04.28-10.51.50:669][358]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.04.28-10.51.50:669][358]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.04.28-10.51.50:670][358]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.28-10.51.50:670][358]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.28-10.51.51:043][358]LogExit: Object subsystem successfully closed.
+[2018.04.28-10.51.51:094][358]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.04.28-10.51.51:097][358]LogD3D11RHI: Shutdown
+[2018.04.28-10.51.51:097][358]LogD3D11RHI: CleanupD3DDevice
+[2018.04.28-10.51.51:100][358]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.28-10.51.51:293][358]LogModuleManager: Shutting down and abandoning module UnrealCPP (584)
+[2018.04.28-10.51.51:293][358]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (583)
+[2018.04.28-10.51.51:293][358]LogModuleManager: Shutting down and abandoning module SequencerWidgets (580)
+[2018.04.28-10.51.51:293][358]LogModuleManager: Shutting down and abandoning module BlueprintGraph (578)
+[2018.04.28-10.51.51:293][358]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
+[2018.04.28-10.51.51:293][358]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
+[2018.04.28-10.51.51:293][358]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2018.04.28-10.51.51:293][358]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2018.04.28-10.51.51:294][358]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.04.28-10.51.51:295][358]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2018.04.28-10.51.51:295][358]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2018.04.28-10.51.51:295][358]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2018.04.28-10.51.51:295][358]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/UnrealCPP/Content/Collections/' was aborted.
+[2018.04.28-10.51.51:295][358]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/UnrealCPP/Content/Developers/Harrison/Collections/' was aborted.
+[2018.04.28-10.51.51:295][358]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/UnrealCPP/Saved/Collections/' was aborted.
+[2018.04.28-10.51.51:295][358]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2018.04.28-10.51.51:295][358]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2018.04.28-10.51.51:295][358]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2018.04.28-10.51.51:303][358]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2018.04.28-10.51.51:303][358]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2018.04.28-10.51.51:303][358]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2018.04.28-10.51.51:303][358]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2018.04.28-10.51.51:303][358]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2018.04.28-10.51.51:303][358]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2018.04.28-10.51.51:303][358]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2018.04.28-10.51.51:313][358]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2018.04.28-10.51.51:313][358]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.04.28-10.51.51:313][358]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.04.28-10.51.51:313][358]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.04.28-10.51.51:313][358]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.04.28-10.51.51:313][358]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.04.28-10.51.51:313][358]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.04.28-10.51.51:313][358]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.04.28-10.51.51:313][358]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.04.28-10.51.51:335][358]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.04.28-10.51.51:335][358]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.04.28-10.51.51:335][358]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.04.28-10.51.51:336][358]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.04.28-10.51.51:336][358]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.04.28-10.51.51:336][358]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.04.28-10.51.51:336][358]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.04.28-10.51.51:336][358]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.04.28-10.51.51:336][358]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.04.28-10.51.51:336][358]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.04.28-10.51.51:336][358]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.04.28-10.51.51:336][358]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.04.28-10.51.51:336][358]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.04.28-10.51.51:336][358]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.04.28-10.51.51:336][358]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.04.28-10.51.51:336][358]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.04.28-10.51.51:336][358]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.04.28-10.51.51:337][358]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.04.28-10.51.51:337][358]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.04.28-10.51.51:337][358]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.04.28-10.51.51:367][358]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2018.04.28-10.51.51:367][358]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2018.04.28-10.51.51:367][358]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2018.04.28-10.51.51:367][358]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2018.04.28-10.51.51:781][358]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2018.04.28-10.51.51:781][358]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2018.04.28-10.51.51:781][358]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2018.04.28-10.51.51:781][358]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2018.04.28-10.51.51:781][358]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2018.04.28-10.51.51:844][358]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2018.04.28-10.51.51:861][358]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2018.04.28-10.51.51:861][358]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2018.04.28-10.51.51:861][358]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2018.04.28-10.51.51:861][358]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2018.04.28-10.51.51:861][358]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2018.04.28-10.51.51:861][358]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2018.04.28-10.51.51:861][358]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2018.04.28-10.51.51:861][358]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2018.04.28-10.51.51:861][358]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2018.04.28-10.51.51:861][358]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2018.04.28-10.51.51:874][358]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2018.04.28-10.51.51:886][358]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2018.04.28-10.51.51:886][358]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2018.04.28-10.51.51:897][358]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2018.04.28-10.51.51:897][358]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2018.04.28-10.51.51:962][358]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2018.04.28-10.51.51:962][358]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2018.04.28-10.51.51:978][358]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2018.04.28-10.51.51:978][358]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2018.04.28-10.51.51:978][358]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2018.04.28-10.51.51:978][358]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2018.04.28-10.51.51:978][358]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2018.04.28-10.51.51:991][358]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2018.04.28-10.51.51:991][358]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2018.04.28-10.51.51:991][358]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2018.04.28-10.51.52:004][358]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2018.04.28-10.51.52:004][358]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2018.04.28-10.51.52:004][358]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2018.04.28-10.51.52:004][358]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2018.04.28-10.51.52:025][358]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2018.04.28-10.51.52:025][358]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2018.04.28-10.51.52:025][358]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2018.04.28-10.51.52:025][358]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2018.04.28-10.51.52:025][358]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2018.04.28-10.51.52:026][358]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2018.04.28-10.51.52:026][358]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2018.04.28-10.51.52:026][358]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2018.04.28-10.51.52:026][358]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2018.04.28-10.51.52:026][358]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2018.04.28-10.51.52:026][358]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2018.04.28-10.51.52:026][358]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2018.04.28-10.51.52:026][358]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2018.04.28-10.51.52:038][358]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2018.04.28-10.51.52:038][358]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2018.04.28-10.51.52:038][358]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
+[2018.04.28-10.51.52:111][358]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
+[2018.04.28-10.51.52:111][358]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2018.04.28-10.51.52:111][358]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2018.04.28-10.51.52:111][358]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2018.04.28-10.51.52:111][358]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2018.04.28-10.51.52:111][358]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2018.04.28-10.51.52:111][358]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2018.04.28-10.51.52:111][358]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2018.04.28-10.51.52:111][358]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2018.04.28-10.51.52:111][358]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2018.04.28-10.51.52:111][358]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2018.04.28-10.51.52:112][358]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2018.04.28-10.51.52:112][358]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2018.04.28-10.51.52:112][358]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2018.04.28-10.51.52:112][358]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2018.04.28-10.51.52:112][358]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2018.04.28-10.51.52:112][358]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2018.04.28-10.51.52:114][358]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.04.28-10.51.52:115][358]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.04.28-10.51.52:116][358]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.04.28-10.51.52:116][358]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.04.28-10.51.52:116][358]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.04.28-10.51.52:216][358]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.04.28-10.51.52:317][358]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.04.28-10.51.52:317][358]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.04.28-10.51.52:317][358]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.04.28-10.51.52:317][358]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.04.28-10.51.52:317][358]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.04.28-10.51.52:317][358]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.04.28-10.51.52:318][358]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.04.28-10.51.52:318][358]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.04.28-10.51.52:318][358]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.04.28-10.51.52:318][358]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.04.28-10.51.52:318][358]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/UnrealCPP/Binaries/Win64' was aborted.
+[2018.04.28-10.51.52:319][358]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.04.28-10.51.52:321][358]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.04.28-10.51.52:321][358]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.04.28-10.51.52:321][358]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.04.28-10.51.52:321][358]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.04.28-10.51.52:437][358]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.04.28-10.51.52:437][358]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.04.28-10.51.52:437][358]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.04.28-10.51.52:438][358]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.04.28-10.51.52:444][358]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.04.28-10.51.52:444][358]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.04.28-10.51.52:444][358]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.04.28-10.51.52:457][358]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.04.28-10.51.52:457][358]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.04.28-10.51.52:457][358]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.04.28-10.51.52:457][358]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.04.28-10.51.52:461][358]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.04.28-10.51.52:461][358]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.04.28-10.51.52:461][358]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.04.28-10.51.52:472][358]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.04.28-10.51.52:472][358]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.04.28-10.51.52:472][358]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.04.28-10.51.52:472][358]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.04.28-10.51.52:472][358]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.04.28-10.51.52:472][358]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.04.28-10.51.52:472][358]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.04.28-10.51.52:472][358]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.04.28-10.51.52:496][358]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.04.28-10.51.52:496][358]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.04.28-10.51.52:497][358]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.04.28-10.51.52:497][358]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.04.28-10.51.52:497][358]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.04.28-10.51.52:497][358]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.04.28-10.51.52:497][358]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.04.28-10.51.52:497][358]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.04.28-10.51.52:497][358]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.04.28-10.51.52:497][358]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.04.28-10.51.52:497][358]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.04.28-10.51.52:511][358]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.04.28-10.51.52:520][358]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.04.28-10.51.52:520][358]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.04.28-10.51.52:520][358]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.04.28-10.51.52:520][358]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.04.28-10.51.52:520][358]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.04.28-10.51.52:520][358]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.04.28-10.51.52:521][358]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.04.28-10.51.52:621][358]LogDerivedDataCache: Shutdown
+[2018.04.28-10.51.52:621][358]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.04.28-10.51.52:621][358]LogXGEController: Cleaning working directory: C:/Users/Harrison/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.04.28-10.51.52:621][358]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.04.28-10.51.52:621][358]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.04.28-10.51.52:621][358]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.04.28-10.51.52:632][358]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.04.28-10.51.52:645][358]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.28-10.51.52:646][358]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.28-10.51.52:661][358]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.28-10.51.52:661][358]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.28-10.51.52:661][358]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B49736C02-4DB3-91A0-3C84-06B09FD9C905%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.1-3989454%2B%2B%2BUE4%2BRelease-4.19&UserID=07a50e9e4784e1d9f8c14c83201a7933%7Ceb337136c818478297c24695534e6726%7C508d3d38-1a1d-4cf8-96d3-4a73429fbbd3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.28-10.51.52:681][358]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.28-10.51.52:682][358]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.28-10.51.52:682][358]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.28-10.51.52:694][358]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.28-10.51.52:708][358]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.28-10.51.52:712][358]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.28-10.51.52:712][358]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.28-10.51.52:712][358]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.28-10.51.52:727][358]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.28-10.51.52:742][358]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.28-10.51.52:742][358]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.28-10.51.52:742][358]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.28-10.51.52:742][358]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.28-10.51.52:742][358]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.28-10.51.52:742][358]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.28-10.51.52:742][358]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.28-10.51.52:742][358]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.28-10.51.52:742][358]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.28-10.51.52:742][358]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.28-10.51.52:759][358]LogExit: Exiting.
+[2018.04.28-10.51.52:773][358]Log file closed, 04/28/18 06:51:52

@@ -87,13 +87,16 @@ public:
 	uint32 bUsingMotionControllers : 1;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	float Health;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	float FullHealth;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	float PrevHealth;
+	float Health;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float HealthPercentage;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float PreviousHealth;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	float redFlash;
@@ -131,13 +134,9 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Health")
 	FText GetHealthIntText();
 
-	/** Get Previous Health for Lerp */
-	UFUNCTION(BlueprintPure, Category = "Health")
-	float GetPrevHealth();
-
 	/** Set Health */
 	UFUNCTION()
-	void SetHealth(float Dam);
+	void SetHealth();
 
 	/** Set Hit State */
 	UFUNCTION()

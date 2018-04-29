@@ -69,18 +69,9 @@ struct FHitResult;
  \
 	DECLARE_FUNCTION(execSetHealth) \
 	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_Dam); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SetHealth(Z_Param_Dam); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetPrevHealth) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(float*)Z_Param__Result=P_THIS->GetPrevHealth(); \
+		P_THIS->SetHealth(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -201,18 +192,9 @@ struct FHitResult;
  \
 	DECLARE_FUNCTION(execSetHealth) \
 	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_Dam); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SetHealth(Z_Param_Dam); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetPrevHealth) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(float*)Z_Param__Result=P_THIS->GetPrevHealth(); \
+		P_THIS->SetHealth(); \
 		P_NATIVE_END; \
 	} \
  \

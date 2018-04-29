@@ -21,6 +21,24 @@ struct FHitResult;
 
 #define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execUpdateHealthPercentage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_DamageChange); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->UpdateHealthPercentage(Z_Param_DamageChange); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execUpdateHealth) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_HealthChange); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->UpdateHealth(Z_Param_HealthChange); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execReceivePointDamage) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_Damage); \
@@ -118,32 +136,30 @@ struct FHitResult;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->HitMe(Z_Param_MyActor,Z_Param_MyFloat,Z_Param_MyCont,Z_Param_MyVect,Z_Param_MyComp,Z_Param_MyName,Z_Param_SweetVect,Z_Param_MyDType,Z_Param_SecondActor); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execEndOverlap) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_MyOverlappedActor); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->EndOverlap(Z_Param_MyOverlappedActor,Z_Param_OtherActor); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execOnOverlap) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_MyOverlappedActor); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnOverlap(Z_Param_MyOverlappedActor,Z_Param_OtherActor); \
 		P_NATIVE_END; \
 	}
 
 
 #define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execUpdateHealthPercentage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_DamageChange); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->UpdateHealthPercentage(Z_Param_DamageChange); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execUpdateHealth) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_HealthChange); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->UpdateHealth(Z_Param_HealthChange); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execReceivePointDamage) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_Damage); \
@@ -241,26 +257,6 @@ struct FHitResult;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->HitMe(Z_Param_MyActor,Z_Param_MyFloat,Z_Param_MyCont,Z_Param_MyVect,Z_Param_MyComp,Z_Param_MyName,Z_Param_SweetVect,Z_Param_MyDType,Z_Param_SecondActor); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execEndOverlap) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_MyOverlappedActor); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->EndOverlap(Z_Param_MyOverlappedActor,Z_Param_OtherActor); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execOnOverlap) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_MyOverlappedActor); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnOverlap(Z_Param_MyOverlappedActor,Z_Param_OtherActor); \
 		P_NATIVE_END; \
 	}
 

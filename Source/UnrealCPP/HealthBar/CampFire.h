@@ -36,7 +36,7 @@ public:
 	UBoxComponent* MyBoxComponent;
 
 	UPROPERTY(EditAnywhere)
-	TSubclassOf<UDamageType> MyDamageClass;
+	TSubclassOf<UDamageType> FireDamageType;
 
 	UPROPERTY(EditAnywhere)
 	AActor* MyCharacter;

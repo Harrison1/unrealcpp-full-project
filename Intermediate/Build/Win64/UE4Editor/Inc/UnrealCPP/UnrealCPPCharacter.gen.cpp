@@ -17,23 +17,23 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 	UNREALCPP_API UClass* Z_Construct_UClass_AUnrealCPPCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_UnrealCPP();
-	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_EndOverlap();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHealth();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHealthIntText();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHit();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_HitMe();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AController_NoRegister();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_HitMeAny();
-	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_OnOverlap();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_ReceiveAnyDamage();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_ReceivePointDamage();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetHealth();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetState();
+	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_UpdateHealth();
+	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_UpdateHealthPercentage();
 	ENGINE_API UClass* Z_Construct_UClass_UCurveFloat_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
@@ -48,45 +48,19 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 	{
 		UClass* Class = AUnrealCPPCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "EndOverlap", &AUnrealCPPCharacter::execEndOverlap },
 			{ "GetHealth", &AUnrealCPPCharacter::execGetHealth },
 			{ "GetHealthIntText", &AUnrealCPPCharacter::execGetHealthIntText },
 			{ "GetHit", &AUnrealCPPCharacter::execGetHit },
 			{ "HitMe", &AUnrealCPPCharacter::execHitMe },
 			{ "HitMeAny", &AUnrealCPPCharacter::execHitMeAny },
-			{ "OnOverlap", &AUnrealCPPCharacter::execOnOverlap },
 			{ "ReceiveAnyDamage", &AUnrealCPPCharacter::execReceiveAnyDamage },
 			{ "ReceivePointDamage", &AUnrealCPPCharacter::execReceivePointDamage },
 			{ "SetHealth", &AUnrealCPPCharacter::execSetHealth },
 			{ "SetState", &AUnrealCPPCharacter::execSetState },
+			{ "UpdateHealth", &AUnrealCPPCharacter::execUpdateHealth },
+			{ "UpdateHealthPercentage", &AUnrealCPPCharacter::execUpdateHealthPercentage },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
-	}
-	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_EndOverlap()
-	{
-		struct UnrealCPPCharacter_eventEndOverlap_Parms
-		{
-			AActor* MyOverlappedActor;
-			AActor* OtherActor;
-		};
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor = { UE4CodeGen_Private::EPropertyClass::Object, "OtherActor", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventEndOverlap_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyOverlappedActor = { UE4CodeGen_Private::EPropertyClass::Object, "MyOverlappedActor", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventEndOverlap_Parms, MyOverlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_OtherActor,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyOverlappedActor,
-			};
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "EndOverlap", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, sizeof(UnrealCPPCharacter_eventEndOverlap_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
-		}
-		return ReturnFunction;
 	}
 	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHealth()
 	{
@@ -261,32 +235,6 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return ReturnFunction;
 	}
-	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_OnOverlap()
-	{
-		struct UnrealCPPCharacter_eventOnOverlap_Parms
-		{
-			AActor* MyOverlappedActor;
-			AActor* OtherActor;
-		};
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor = { UE4CodeGen_Private::EPropertyClass::Object, "OtherActor", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventOnOverlap_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyOverlappedActor = { UE4CodeGen_Private::EPropertyClass::Object, "MyOverlappedActor", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventOnOverlap_Parms, MyOverlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_OtherActor,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyOverlappedActor,
-			};
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "OnOverlap", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, sizeof(UnrealCPPCharacter_eventOnOverlap_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
-		}
-		return ReturnFunction;
-	}
 	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_ReceiveAnyDamage()
 	{
 		struct UnrealCPPCharacter_eventReceiveAnyDamage_Parms
@@ -421,6 +369,54 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_UpdateHealth()
+	{
+		struct UnrealCPPCharacter_eventUpdateHealth_Parms
+		{
+			float HealthChange;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HealthChange = { UE4CodeGen_Private::EPropertyClass::Float, "HealthChange", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventUpdateHealth_Parms, HealthChange), METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HealthChange,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "Category", "Power" },
+				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "UpdateHealth", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(UnrealCPPCharacter_eventUpdateHealth_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_UpdateHealthPercentage()
+	{
+		struct UnrealCPPCharacter_eventUpdateHealthPercentage_Parms
+		{
+			float DamageChange;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DamageChange = { UE4CodeGen_Private::EPropertyClass::Float, "DamageChange", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventUpdateHealthPercentage_Parms, DamageChange), METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_DamageChange,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "Category", "Power" },
+				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "UpdateHealthPercentage", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(UnrealCPPCharacter_eventUpdateHealthPercentage_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AUnrealCPPCharacter_NoRegister()
 	{
 		return AUnrealCPPCharacter::StaticClass();
@@ -435,17 +431,17 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 				(UObject* (*)())Z_Construct_UPackage__Script_UnrealCPP,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
-				{ &Z_Construct_UFunction_AUnrealCPPCharacter_EndOverlap, "EndOverlap" }, // 948949677
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHealth, "GetHealth" }, // 2617765578
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHealthIntText, "GetHealthIntText" }, // 4195127740
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHit, "GetHit" }, // 1798476240
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_HitMe, "HitMe" }, // 1376143975
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_HitMeAny, "HitMeAny" }, // 2806983998
-				{ &Z_Construct_UFunction_AUnrealCPPCharacter_OnOverlap, "OnOverlap" }, // 784593881
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_ReceiveAnyDamage, "ReceiveAnyDamage" }, // 3458630618
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_ReceivePointDamage, "ReceivePointDamage" }, // 1062761891
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetHealth, "SetHealth" }, // 2045408288
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetState, "SetState" }, // 3605931778
+				{ &Z_Construct_UFunction_AUnrealCPPCharacter_UpdateHealth, "UpdateHealth" }, // 916929438
+				{ &Z_Construct_UFunction_AUnrealCPPCharacter_UpdateHealthPercentage, "UpdateHealthPercentage" }, // 2746603325
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -462,12 +458,12 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HealthCurve = { UE4CodeGen_Private::EPropertyClass::Object, "HealthCurve", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, HealthCurve), Z_Construct_UClass_UCurveFloat_NoRegister, METADATA_PARAMS(NewProp_HealthCurve_MetaData, ARRAY_COUNT(NewProp_HealthCurve_MetaData)) };
 #if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageMain_MetaData[] = {
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageValue_MetaData[] = {
 				{ "Category", "Health" },
 				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DamageMain = { UE4CodeGen_Private::EPropertyClass::Float, "DamageMain", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, DamageMain), METADATA_PARAMS(NewProp_DamageMain_MetaData, ARRAY_COUNT(NewProp_DamageMain_MetaData)) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DamageValue = { UE4CodeGen_Private::EPropertyClass::Float, "DamageValue", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, DamageValue), METADATA_PARAMS(NewProp_DamageValue_MetaData, ARRAY_COUNT(NewProp_DamageValue_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_diff_MetaData[] = {
 				{ "Category", "Health" },
@@ -644,7 +640,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Mesh1P = { UE4CodeGen_Private::EPropertyClass::Object, "Mesh1P", RF_Public|RF_Transient|RF_MarkAsNative, 0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, Mesh1P), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(NewProp_Mesh1P_MetaData, ARRAY_COUNT(NewProp_Mesh1P_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HealthCurve,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_DamageMain,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_DamageValue,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_diff,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_redFlash,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_PreviousHealth,
@@ -685,7 +681,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUnrealCPPCharacter, 987465649);
+	IMPLEMENT_CLASS(AUnrealCPPCharacter, 208775092);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AUnrealCPPCharacter(Z_Construct_UClass_AUnrealCPPCharacter, &AUnrealCPPCharacter::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("AUnrealCPPCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AUnrealCPPCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

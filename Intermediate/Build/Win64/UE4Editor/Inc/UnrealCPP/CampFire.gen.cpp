@@ -172,12 +172,12 @@ void EmptyLinkFunctionForGeneratedCodeCampFire() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyCharacter = { UE4CodeGen_Private::EPropertyClass::Object, "MyCharacter", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000001, 1, nullptr, STRUCT_OFFSET(ACampFire, MyCharacter), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(NewProp_MyCharacter_MetaData, ARRAY_COUNT(NewProp_MyCharacter_MetaData)) };
 #if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MyDamageClass_MetaData[] = {
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireDamageType_MetaData[] = {
 				{ "Category", "CampFire" },
 				{ "ModuleRelativePath", "HealthBar/CampFire.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FClassPropertyParams NewProp_MyDamageClass = { UE4CodeGen_Private::EPropertyClass::Class, "MyDamageClass", RF_Public|RF_Transient|RF_MarkAsNative, 0x0014000000000001, 1, nullptr, STRUCT_OFFSET(ACampFire, MyDamageClass), Z_Construct_UClass_UDamageType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_MyDamageClass_MetaData, ARRAY_COUNT(NewProp_MyDamageClass_MetaData)) };
+			static const UE4CodeGen_Private::FClassPropertyParams NewProp_FireDamageType = { UE4CodeGen_Private::EPropertyClass::Class, "FireDamageType", RF_Public|RF_Transient|RF_MarkAsNative, 0x0014000000000001, 1, nullptr, STRUCT_OFFSET(ACampFire, FireDamageType), Z_Construct_UClass_UDamageType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_FireDamageType_MetaData, ARRAY_COUNT(NewProp_FireDamageType_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MyBoxComponent_MetaData[] = {
 				{ "Category", "CampFire" },
@@ -197,7 +197,7 @@ void EmptyLinkFunctionForGeneratedCodeCampFire() {}
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyHit,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyCharacter,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyDamageClass,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_FireDamageType,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyBoxComponent,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Fire,
 			};
@@ -219,7 +219,7 @@ void EmptyLinkFunctionForGeneratedCodeCampFire() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACampFire, 1547407302);
+	IMPLEMENT_CLASS(ACampFire, 794360937);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACampFire(Z_Construct_UClass_ACampFire, &ACampFire::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("ACampFire"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACampFire);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

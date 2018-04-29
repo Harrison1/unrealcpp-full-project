@@ -105,16 +105,10 @@ public:
 	float diff;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	float DamageMain;
+	float DamageValue;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	UCurveFloat *HealthCurve;
-
-	UFUNCTION()
-	void OnOverlap(AActor* MyOverlappedActor, AActor* OtherActor);
-
-	UFUNCTION()
-	void EndOverlap(AActor* MyOverlappedActor, AActor* OtherActor);
 
 	UFUNCTION()
 	void HitMe(AActor* MyActor, float MyFloat, AController* MyCont, FVector MyVect, UPrimitiveComponent* MyComp, FName MyName, FVector SweetVect, const UDamageType* MyDType, AActor* SecondActor);
@@ -151,6 +145,12 @@ public:
 
 	UFUNCTION()
 	void ReceivePointDamage(float Damage, const UDamageType * DamageType, FVector HitLocation, FVector HitNormal, UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo);
+
+	UFUNCTION(BlueprintCallable, Category = "Power")
+	void UpdateHealth(float HealthChange);
+
+	UFUNCTION(BlueprintCallable, Category = "Power")
+	void UpdateHealthPercentage(float DamageChange);
 
 protected:
 	

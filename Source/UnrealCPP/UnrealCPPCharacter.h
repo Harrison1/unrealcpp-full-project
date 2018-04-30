@@ -138,10 +138,7 @@ public:
 
 	/** Get Hit State */
 	UFUNCTION(BlueprintPure, Category = "Health")
-	bool GetHit();
-
-	UFUNCTION()
-	void ReceiveAnyDamage(float Damage, const class UDamageType * DamageType, class AController * InstigatedBy, AActor * DamageCauser);
+	bool PlayFlash();
 
 	UFUNCTION()
 	void ReceivePointDamage(float Damage, const UDamageType * DamageType, FVector HitLocation, FVector HitNormal, UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo);

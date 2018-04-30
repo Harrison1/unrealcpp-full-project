@@ -57,23 +57,11 @@ struct FHitResult;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execReceiveAnyDamage) \
-	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_Damage); \
-		P_GET_OBJECT(UDamageType,Z_Param_DamageType); \
-		P_GET_OBJECT(AController,Z_Param_InstigatedBy); \
-		P_GET_OBJECT(AActor,Z_Param_DamageCauser); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->ReceiveAnyDamage(Z_Param_Damage,Z_Param_DamageType,Z_Param_InstigatedBy,Z_Param_DamageCauser); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetHit) \
+	DECLARE_FUNCTION(execPlayFlash) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->GetHit(); \
+		*(bool*)Z_Param__Result=P_THIS->PlayFlash(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -178,23 +166,11 @@ struct FHitResult;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execReceiveAnyDamage) \
-	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_Damage); \
-		P_GET_OBJECT(UDamageType,Z_Param_DamageType); \
-		P_GET_OBJECT(AController,Z_Param_InstigatedBy); \
-		P_GET_OBJECT(AActor,Z_Param_DamageCauser); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->ReceiveAnyDamage(Z_Param_Damage,Z_Param_DamageType,Z_Param_InstigatedBy,Z_Param_DamageCauser); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetHit) \
+	DECLARE_FUNCTION(execPlayFlash) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->GetHit(); \
+		*(bool*)Z_Param__Result=P_THIS->PlayFlash(); \
 		P_NATIVE_END; \
 	} \
  \

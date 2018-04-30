@@ -94,7 +94,7 @@ void AUnrealCPPCharacter::BeginPlay()
 	// OnTakePointDamage.AddDynamic(this, &AUnrealCPPCharacter::HitMe);
 	// OnTakeAnyDamage.AddDynamic(this, &AUnrealCPPCharacter::HitMeAny);
 
-	FullHealth = 1000.0f;
+	FullHealth = 2000.0f;
 	Health = FullHealth;
 	HealthPercentage = 1.0f;
 	PreviousHealth = HealthPercentage;
@@ -194,25 +194,6 @@ void AUnrealCPPCharacter::OnFire()
 
 				// spawn the projectile at the muzzle
 				World->SpawnActor<AUnrealCPPProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
-
-
-				// SetHealth(10.0f);
-
-				// while(MyTimeline.IsPlaying())
-				// {
-				// 	TimelineValue = MyTimeline.GetPlaybackPosition();
-				// 	UE_LOG(LogClass,Warning,TEXT("Timeline Value: %f"), TimelineValue);
-				// }
-
-
-				// if(bCanBeDamaged)
-				// {
-				// 	bCanBeDamaged = false;
-				// 	redFlash = true;
-				// 	PreviousHealth = Health;
-				// 	Damage += 0.2;
-				// 	MyTimeline.PlayFromStart();
-				// }
 
 			}
 		}
@@ -356,12 +337,11 @@ float AUnrealCPPCharacter::GetHealth()
 
 FText AUnrealCPPCharacter::GetHealthIntText()
 {
-	int32 H = FMath::RoundHalfFromZero(HealthPercentage * 100);
-	FString M = FString::FromInt(H);
-	FString HealthHUD = M + FString(TEXT("%"));
-	// UE_LOG(LogClass,Error,TEXT("HealthHUD: %d"), H);
-	FText Go = FText::FromString(HealthHUD);
-	return Go;
+	int32 HP = FMath::RoundHalfFromZero(HealthPercentage * 100);
+	FString HPS = FString::FromInt(HP);
+	FString HealthHUD = HPS + FString(TEXT("%"));
+	FText HPText = FText::FromString(HealthHUD);
+	return HPText;
 }
 
 void AUnrealCPPCharacter::SetHealth()
@@ -374,12 +354,10 @@ void AUnrealCPPCharacter::SetHealth()
 
 void AUnrealCPPCharacter::SetState()
 {
-	DamageValue = 0.0f;
 	bCanBeDamaged = true;
-	// UE_LOG(LogClass,Error,TEXT("Set State Triggered"));
 }
 
-bool AUnrealCPPCharacter::GetHit()
+bool AUnrealCPPCharacter::PlayFlash()
 {
 	if(redFlash)
 	{
@@ -390,31 +368,17 @@ bool AUnrealCPPCharacter::GetHit()
 	return false;
 }
 
-void AUnrealCPPCharacter::ReceiveAnyDamage(float Damage, const class UDamageType * DamageType, class AController * InstigatedBy, AActor * DamageCauser)
-{
-	UE_LOG(LogClass,Error,TEXT("Received Any Damage"));
-
-	// if(bCanBeDamaged)
-	// {
-	// 	bCanBeDamaged = false;
-	// 	redFlash = true;
-	// 	PreviousHealth = HealthPercentage;
-	// 	DamageValue += 0.2;
-	// 	MyTimeline.PlayFromStart();
-	// }
-}
-
 void AUnrealCPPCharacter::ReceivePointDamage(float Damage, const UDamageType * DamageType, FVector HitLocation, FVector HitNormal, UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo)
 {
 	UE_LOG(LogClass,Warning,TEXT("Take Damage: %f"), Damage);
+	UE_LOG(LogClass,Error,TEXT("Damage Type = %s"), *DamageCauser->GetClass()->GetName());
+
 
 	bCanBeDamaged = false;
 	redFlash = true;
-
-	UE_LOG(LogClass,Error,TEXT("Damage Type = %s"), *DamageCauser->GetClass()->GetName());
-
 	UpdateHealth(-Damage);
 	UpdateHealthPercentage(Damage);
+
 
 	UE_LOG(LogClass,Error,TEXT("Health = %f"), Health);
 	UE_LOG(LogClass,Error,TEXT("Health Percent = %f"), HealthPercentage);
@@ -441,5 +405,6 @@ void AUnrealCPPCharacter::UpdateHealth(float HealthChange)
 void AUnrealCPPCharacter::UpdateHealthPercentage(float HealthChange)
 {
 	PreviousHealth = HealthPercentage;
+	// HealthPercentage = Health/FullHealth; 
 	DamageValue = HealthChange/FullHealth;
 }

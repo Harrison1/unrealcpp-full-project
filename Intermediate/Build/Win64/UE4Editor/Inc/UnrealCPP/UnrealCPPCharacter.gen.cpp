@@ -19,7 +19,6 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_UnrealCPP();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHealth();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHealthIntText();
-	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHit();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_HitMe();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
@@ -27,7 +26,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AController_NoRegister();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_HitMeAny();
-	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_ReceiveAnyDamage();
+	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_PlayFlash();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_ReceivePointDamage();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetHealth();
@@ -50,10 +49,9 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "GetHealth", &AUnrealCPPCharacter::execGetHealth },
 			{ "GetHealthIntText", &AUnrealCPPCharacter::execGetHealthIntText },
-			{ "GetHit", &AUnrealCPPCharacter::execGetHit },
 			{ "HitMe", &AUnrealCPPCharacter::execHitMe },
 			{ "HitMeAny", &AUnrealCPPCharacter::execHitMeAny },
-			{ "ReceiveAnyDamage", &AUnrealCPPCharacter::execReceiveAnyDamage },
+			{ "PlayFlash", &AUnrealCPPCharacter::execPlayFlash },
 			{ "ReceivePointDamage", &AUnrealCPPCharacter::execReceivePointDamage },
 			{ "SetHealth", &AUnrealCPPCharacter::execSetHealth },
 			{ "SetState", &AUnrealCPPCharacter::execSetState },
@@ -108,32 +106,6 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "GetHealthIntText", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14020401, sizeof(UnrealCPPCharacter_eventGetHealthIntText_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
-		}
-		return ReturnFunction;
-	}
-	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHit()
-	{
-		struct UnrealCPPCharacter_eventGetHit_Parms
-		{
-			bool ReturnValue;
-		};
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			auto NewProp_ReturnValue_SetBit = [](void* Obj){ ((UnrealCPPCharacter_eventGetHit_Parms*)Obj)->ReturnValue = 1; };
-			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UnrealCPPCharacter_eventGetHit_Parms), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_ReturnValue_SetBit)>::SetBit, METADATA_PARAMS(nullptr, 0) };
-			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ReturnValue,
-			};
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "Category", "Health" },
-				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
-				{ "ToolTip", "Get Hit State" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "GetHit", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14020401, sizeof(UnrealCPPCharacter_eventGetHit_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
 		}
 		return ReturnFunction;
@@ -235,39 +207,28 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return ReturnFunction;
 	}
-	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_ReceiveAnyDamage()
+	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_PlayFlash()
 	{
-		struct UnrealCPPCharacter_eventReceiveAnyDamage_Parms
+		struct UnrealCPPCharacter_eventPlayFlash_Parms
 		{
-			float Damage;
-			const UDamageType* DamageType;
-			AController* InstigatedBy;
-			AActor* DamageCauser;
+			bool ReturnValue;
 		};
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DamageCauser = { UE4CodeGen_Private::EPropertyClass::Object, "DamageCauser", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventReceiveAnyDamage_Parms, DamageCauser), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InstigatedBy = { UE4CodeGen_Private::EPropertyClass::Object, "InstigatedBy", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventReceiveAnyDamage_Parms, InstigatedBy), Z_Construct_UClass_AController_NoRegister, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageType_MetaData[] = {
-				{ "NativeConst", "" },
-			};
-#endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DamageType = { UE4CodeGen_Private::EPropertyClass::Object, "DamageType", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000082, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventReceiveAnyDamage_Parms, DamageType), Z_Construct_UClass_UDamageType_NoRegister, METADATA_PARAMS(NewProp_DamageType_MetaData, ARRAY_COUNT(NewProp_DamageType_MetaData)) };
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Damage = { UE4CodeGen_Private::EPropertyClass::Float, "Damage", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventReceiveAnyDamage_Parms, Damage), METADATA_PARAMS(nullptr, 0) };
+			auto NewProp_ReturnValue_SetBit = [](void* Obj){ ((UnrealCPPCharacter_eventPlayFlash_Parms*)Obj)->ReturnValue = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UnrealCPPCharacter_eventPlayFlash_Parms), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_ReturnValue_SetBit)>::SetBit, METADATA_PARAMS(nullptr, 0) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_DamageCauser,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_InstigatedBy,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_DamageType,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Damage,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ReturnValue,
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "Category", "Health" },
 				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+				{ "ToolTip", "Get Hit State" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "ReceiveAnyDamage", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, sizeof(UnrealCPPCharacter_eventReceiveAnyDamage_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "PlayFlash", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14020401, sizeof(UnrealCPPCharacter_eventPlayFlash_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
 		}
 		return ReturnFunction;
@@ -433,10 +394,9 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHealth, "GetHealth" }, // 2617765578
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHealthIntText, "GetHealthIntText" }, // 4195127740
-				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHit, "GetHit" }, // 1798476240
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_HitMe, "HitMe" }, // 1376143975
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_HitMeAny, "HitMeAny" }, // 2806983998
-				{ &Z_Construct_UFunction_AUnrealCPPCharacter_ReceiveAnyDamage, "ReceiveAnyDamage" }, // 3458630618
+				{ &Z_Construct_UFunction_AUnrealCPPCharacter_PlayFlash, "PlayFlash" }, // 3205667576
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_ReceivePointDamage, "ReceivePointDamage" }, // 1062761891
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetHealth, "SetHealth" }, // 2045408288
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetState, "SetState" }, // 3605931778
@@ -681,7 +641,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUnrealCPPCharacter, 208775092);
+	IMPLEMENT_CLASS(AUnrealCPPCharacter, 2251816990);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AUnrealCPPCharacter(Z_Construct_UClass_AUnrealCPPCharacter, &AUnrealCPPCharacter::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("AUnrealCPPCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AUnrealCPPCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

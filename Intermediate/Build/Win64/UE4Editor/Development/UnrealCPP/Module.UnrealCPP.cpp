@@ -14,6 +14,7 @@
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\FindPlayerPosition\FindPlayerPosition.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\FloatingActor\FloatingActor.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\GetNumberOfPawns\GetNumberOfPawns.cpp"
+#include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\HealthBar\CampFire.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\HideActor\HideActor.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\LightSwitchPushButton\LightSwitchPushButton.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\LightSwitchTrigger\LightSwitchTrigger.cpp"

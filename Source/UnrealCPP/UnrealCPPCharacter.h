@@ -110,12 +110,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	UCurveFloat *HealthCurve;
 
-	UFUNCTION()
-	void HitMe(AActor* MyActor, float MyFloat, AController* MyCont, FVector MyVect, UPrimitiveComponent* MyComp, FName MyName, FVector SweetVect, const UDamageType* MyDType, AActor* SecondActor);
-
-	UFUNCTION()
-	void HitMeAny(AActor* MyActor, float MyFloat, const UDamageType* MySuperType, AController* MyCon, AActor* SecondAct);
-
 	float CurveFloatValue;
 	float TimelineValue;
 	FTimeline MyTimeline;
@@ -145,9 +139,6 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Power")
 	void UpdateHealth(float HealthChange);
-
-	UFUNCTION(BlueprintCallable, Category = "Power")
-	void UpdateHealthPercentage(float DamageChange);
 
 protected:
 	

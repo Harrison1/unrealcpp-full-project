@@ -36,7 +36,7 @@ void AUnrealCPPGameMode::Tick(float DeltaTime)
 
 	if (MyCharacter)
 	{
-		if (MyCharacter->GetHealth() <= 0.0001f)
+		if (FMath::IsNearlyZero(MyCharacter->GetHealth(), 0.001f))
 		{
 			SetCurrentState(EGamePlayState::EGameOver);
 		}

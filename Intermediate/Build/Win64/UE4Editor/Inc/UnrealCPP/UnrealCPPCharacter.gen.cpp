@@ -19,20 +19,17 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_UnrealCPP();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHealth();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHealthIntText();
-	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_HitMe();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
-	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_AController_NoRegister();
-	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_HitMeAny();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_PlayFlash();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_ReceivePointDamage();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AController_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetHealth();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetState();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_UpdateHealth();
-	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_UpdateHealthPercentage();
 	ENGINE_API UClass* Z_Construct_UClass_UCurveFloat_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
@@ -49,14 +46,11 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "GetHealth", &AUnrealCPPCharacter::execGetHealth },
 			{ "GetHealthIntText", &AUnrealCPPCharacter::execGetHealthIntText },
-			{ "HitMe", &AUnrealCPPCharacter::execHitMe },
-			{ "HitMeAny", &AUnrealCPPCharacter::execHitMeAny },
 			{ "PlayFlash", &AUnrealCPPCharacter::execPlayFlash },
 			{ "ReceivePointDamage", &AUnrealCPPCharacter::execReceivePointDamage },
 			{ "SetHealth", &AUnrealCPPCharacter::execSetHealth },
 			{ "SetState", &AUnrealCPPCharacter::execSetState },
 			{ "UpdateHealth", &AUnrealCPPCharacter::execUpdateHealth },
-			{ "UpdateHealthPercentage", &AUnrealCPPCharacter::execUpdateHealthPercentage },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -106,103 +100,6 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "GetHealthIntText", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14020401, sizeof(UnrealCPPCharacter_eventGetHealthIntText_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
-		}
-		return ReturnFunction;
-	}
-	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_HitMe()
-	{
-		struct UnrealCPPCharacter_eventHitMe_Parms
-		{
-			AActor* MyActor;
-			float MyFloat;
-			AController* MyCont;
-			FVector MyVect;
-			UPrimitiveComponent* MyComp;
-			FName MyName;
-			FVector SweetVect;
-			const UDamageType* MyDType;
-			AActor* SecondActor;
-		};
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SecondActor = { UE4CodeGen_Private::EPropertyClass::Object, "SecondActor", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, SecondActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MyDType_MetaData[] = {
-				{ "NativeConst", "" },
-			};
-#endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyDType = { UE4CodeGen_Private::EPropertyClass::Object, "MyDType", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000082, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, MyDType), Z_Construct_UClass_UDamageType_NoRegister, METADATA_PARAMS(NewProp_MyDType_MetaData, ARRAY_COUNT(NewProp_MyDType_MetaData)) };
-			static const UE4CodeGen_Private::FStructPropertyParams NewProp_SweetVect = { UE4CodeGen_Private::EPropertyClass::Struct, "SweetVect", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, SweetVect), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-			static const UE4CodeGen_Private::FNamePropertyParams NewProp_MyName = { UE4CodeGen_Private::EPropertyClass::Name, "MyName", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, MyName), METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MyComp_MetaData[] = {
-				{ "EditInline", "true" },
-			};
-#endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyComp = { UE4CodeGen_Private::EPropertyClass::Object, "MyComp", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000080080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, MyComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(NewProp_MyComp_MetaData, ARRAY_COUNT(NewProp_MyComp_MetaData)) };
-			static const UE4CodeGen_Private::FStructPropertyParams NewProp_MyVect = { UE4CodeGen_Private::EPropertyClass::Struct, "MyVect", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, MyVect), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyCont = { UE4CodeGen_Private::EPropertyClass::Object, "MyCont", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, MyCont), Z_Construct_UClass_AController_NoRegister, METADATA_PARAMS(nullptr, 0) };
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MyFloat = { UE4CodeGen_Private::EPropertyClass::Float, "MyFloat", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, MyFloat), METADATA_PARAMS(nullptr, 0) };
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyActor = { UE4CodeGen_Private::EPropertyClass::Object, "MyActor", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMe_Parms, MyActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SecondActor,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyDType,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SweetVect,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyName,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyComp,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyVect,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyCont,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyFloat,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyActor,
-			};
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "HitMe", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00820401, sizeof(UnrealCPPCharacter_eventHitMe_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
-		}
-		return ReturnFunction;
-	}
-	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_HitMeAny()
-	{
-		struct UnrealCPPCharacter_eventHitMeAny_Parms
-		{
-			AActor* MyActor;
-			float MyFloat;
-			const UDamageType* MySuperType;
-			AController* MyCon;
-			AActor* SecondAct;
-		};
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SecondAct = { UE4CodeGen_Private::EPropertyClass::Object, "SecondAct", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMeAny_Parms, SecondAct), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyCon = { UE4CodeGen_Private::EPropertyClass::Object, "MyCon", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMeAny_Parms, MyCon), Z_Construct_UClass_AController_NoRegister, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MySuperType_MetaData[] = {
-				{ "NativeConst", "" },
-			};
-#endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MySuperType = { UE4CodeGen_Private::EPropertyClass::Object, "MySuperType", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000082, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMeAny_Parms, MySuperType), Z_Construct_UClass_UDamageType_NoRegister, METADATA_PARAMS(NewProp_MySuperType_MetaData, ARRAY_COUNT(NewProp_MySuperType_MetaData)) };
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MyFloat = { UE4CodeGen_Private::EPropertyClass::Float, "MyFloat", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMeAny_Parms, MyFloat), METADATA_PARAMS(nullptr, 0) };
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyActor = { UE4CodeGen_Private::EPropertyClass::Object, "MyActor", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventHitMeAny_Parms, MyActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SecondAct,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyCon,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MySuperType,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyFloat,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyActor,
-			};
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "HitMeAny", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, sizeof(UnrealCPPCharacter_eventHitMeAny_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
 		}
 		return ReturnFunction;
@@ -354,30 +251,6 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return ReturnFunction;
 	}
-	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_UpdateHealthPercentage()
-	{
-		struct UnrealCPPCharacter_eventUpdateHealthPercentage_Parms
-		{
-			float DamageChange;
-		};
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DamageChange = { UE4CodeGen_Private::EPropertyClass::Float, "DamageChange", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventUpdateHealthPercentage_Parms, DamageChange), METADATA_PARAMS(nullptr, 0) };
-			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_DamageChange,
-			};
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "Category", "Power" },
-				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "UpdateHealthPercentage", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(UnrealCPPCharacter_eventUpdateHealthPercentage_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
-		}
-		return ReturnFunction;
-	}
 	UClass* Z_Construct_UClass_AUnrealCPPCharacter_NoRegister()
 	{
 		return AUnrealCPPCharacter::StaticClass();
@@ -394,14 +267,11 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHealth, "GetHealth" }, // 2617765578
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHealthIntText, "GetHealthIntText" }, // 4195127740
-				{ &Z_Construct_UFunction_AUnrealCPPCharacter_HitMe, "HitMe" }, // 1376143975
-				{ &Z_Construct_UFunction_AUnrealCPPCharacter_HitMeAny, "HitMeAny" }, // 2806983998
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_PlayFlash, "PlayFlash" }, // 3205667576
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_ReceivePointDamage, "ReceivePointDamage" }, // 1062761891
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetHealth, "SetHealth" }, // 2045408288
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetState, "SetState" }, // 3605931778
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_UpdateHealth, "UpdateHealth" }, // 916929438
-				{ &Z_Construct_UFunction_AUnrealCPPCharacter_UpdateHealthPercentage, "UpdateHealthPercentage" }, // 2746603325
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -641,7 +511,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUnrealCPPCharacter, 2251816990);
+	IMPLEMENT_CLASS(AUnrealCPPCharacter, 3659918447);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AUnrealCPPCharacter(Z_Construct_UClass_AUnrealCPPCharacter, &AUnrealCPPCharacter::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("AUnrealCPPCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AUnrealCPPCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

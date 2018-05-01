@@ -21,15 +21,6 @@ struct FHitResult;
 
 #define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execUpdateHealthPercentage) \
-	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_DamageChange); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->UpdateHealthPercentage(Z_Param_DamageChange); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execUpdateHealth) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_HealthChange); \
@@ -94,51 +85,12 @@ struct FHitResult;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->GetHealth(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execHitMeAny) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_MyActor); \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_MyFloat); \
-		P_GET_OBJECT(UDamageType,Z_Param_MySuperType); \
-		P_GET_OBJECT(AController,Z_Param_MyCon); \
-		P_GET_OBJECT(AActor,Z_Param_SecondAct); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->HitMeAny(Z_Param_MyActor,Z_Param_MyFloat,Z_Param_MySuperType,Z_Param_MyCon,Z_Param_SecondAct); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execHitMe) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_MyActor); \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_MyFloat); \
-		P_GET_OBJECT(AController,Z_Param_MyCont); \
-		P_GET_STRUCT(FVector,Z_Param_MyVect); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_MyComp); \
-		P_GET_PROPERTY(UNameProperty,Z_Param_MyName); \
-		P_GET_STRUCT(FVector,Z_Param_SweetVect); \
-		P_GET_OBJECT(UDamageType,Z_Param_MyDType); \
-		P_GET_OBJECT(AActor,Z_Param_SecondActor); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->HitMe(Z_Param_MyActor,Z_Param_MyFloat,Z_Param_MyCont,Z_Param_MyVect,Z_Param_MyComp,Z_Param_MyName,Z_Param_SweetVect,Z_Param_MyDType,Z_Param_SecondActor); \
 		P_NATIVE_END; \
 	}
 
 
 #define UnrealCPP_Source_UnrealCPP_UnrealCPPCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execUpdateHealthPercentage) \
-	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_DamageChange); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->UpdateHealthPercentage(Z_Param_DamageChange); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execUpdateHealth) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_HealthChange); \
@@ -203,36 +155,6 @@ struct FHitResult;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->GetHealth(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execHitMeAny) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_MyActor); \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_MyFloat); \
-		P_GET_OBJECT(UDamageType,Z_Param_MySuperType); \
-		P_GET_OBJECT(AController,Z_Param_MyCon); \
-		P_GET_OBJECT(AActor,Z_Param_SecondAct); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->HitMeAny(Z_Param_MyActor,Z_Param_MyFloat,Z_Param_MySuperType,Z_Param_MyCon,Z_Param_SecondAct); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execHitMe) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_MyActor); \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_MyFloat); \
-		P_GET_OBJECT(AController,Z_Param_MyCont); \
-		P_GET_STRUCT(FVector,Z_Param_MyVect); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_MyComp); \
-		P_GET_PROPERTY(UNameProperty,Z_Param_MyName); \
-		P_GET_STRUCT(FVector,Z_Param_SweetVect); \
-		P_GET_OBJECT(UDamageType,Z_Param_MyDType); \
-		P_GET_OBJECT(AActor,Z_Param_SecondActor); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->HitMe(Z_Param_MyActor,Z_Param_MyFloat,Z_Param_MyCont,Z_Param_MyVect,Z_Param_MyComp,Z_Param_MyName,Z_Param_SweetVect,Z_Param_MyDType,Z_Param_SecondActor); \
 		P_NATIVE_END; \
 	}
 

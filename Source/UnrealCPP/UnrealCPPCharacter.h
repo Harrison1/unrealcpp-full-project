@@ -99,20 +99,32 @@ public:
 	float PreviousHealth;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float FullMagic;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float Magic;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float MagicPercentage;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float PreviousMagic;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float MagicValue;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	float redFlash;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	float diff;
+	UCurveFloat *MagicCurve;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	float DamageValue;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	UCurveFloat *HealthCurve;
-
+	FTimeline MyTimeline;
 	float CurveFloatValue;
 	float TimelineValue;
-	FTimeline MyTimeline;
+	FTimerHandle MemberTimerHandle;
+
+	bool bCanUseMagic;
 
 	/** Get Health */
 	UFUNCTION(BlueprintPure, Category = "Health")
@@ -120,17 +132,30 @@ public:
 
 	/** Get Health */
 	UFUNCTION(BlueprintPure, Category = "Health")
+	float GetMagic();
+
+	/** Get Health */
+	UFUNCTION(BlueprintPure, Category = "Health")
 	FText GetHealthIntText();
 
-	/** Set Health */
+	/** Damage Timer */
 	UFUNCTION()
-	void SetHealth();
+	void DamageTimer();
 
-	/** Set Hit State */
+	/** Set Damage State */
 	UFUNCTION()
-	void SetState();
+	void SetDamageState();
 
-	/** Get Hit State */
+	/** Set Magic Value */
+	UFUNCTION()
+	void SetMagicValue();
+
+	/** Set Damage State */
+	UFUNCTION()
+	void SetMagicState();
+
+
+	/** Play Flash */
 	UFUNCTION(BlueprintPure, Category = "Health")
 	bool PlayFlash();
 

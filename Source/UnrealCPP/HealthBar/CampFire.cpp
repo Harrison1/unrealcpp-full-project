@@ -1,5 +1,5 @@
 // Harrison McGuire 
-// UE4 Version 4.19.1
+// UE4 Version 4.19.2
 // https://github.com/Harrison1/unrealcpp
 // https://severallevels.io
 // https://harrisonmcguire.com
@@ -15,7 +15,7 @@ ACampFire::ACampFire()
 	PrimaryActorTick.bCanEverTick = true;
 
 	MyBoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("My Box Component"));
-    MyBoxComponent->InitBoxExtent(FVector(50,50,50));
+    MyBoxComponent->InitBoxExtent(FVector(25,25,25));
     RootComponent = MyBoxComponent;
 
     Fire = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("My Fire"));
@@ -25,10 +25,7 @@ ACampFire::ACampFire()
     MyBoxComponent->OnComponentBeginOverlap.AddDynamic(this, &ACampFire::OnOverlapBegin);
     MyBoxComponent->OnComponentEndOverlap.AddDynamic(this, &ACampFire::OnOverlapEnd);
 
-    // MyBoxComponent->OnComponentHit.AddDynamic(this, &ACampFire::OnCompHit);
-
     bCanApplyDamage = false;
-
 
 }
 
@@ -36,7 +33,6 @@ ACampFire::ACampFire()
 void ACampFire::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -48,7 +44,6 @@ void ACampFire::Tick(float DeltaTime)
     {
         UGameplayStatics::ApplyPointDamage(MyCharacter, 200.0f, GetActorLocation(), MyHit, nullptr, this, FireDamageType);
     }
-
 }
 
 void ACampFire::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)

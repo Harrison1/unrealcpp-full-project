@@ -56,19 +56,35 @@ struct FHitResult;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execSetState) \
+	DECLARE_FUNCTION(execSetMagicState) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SetState(); \
+		P_THIS->SetMagicState(); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execSetHealth) \
+	DECLARE_FUNCTION(execSetMagicValue) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SetHealth(); \
+		P_THIS->SetMagicValue(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetDamageState) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetDamageState(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDamageTimer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DamageTimer(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -77,6 +93,14 @@ struct FHitResult;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(FText*)Z_Param__Result=P_THIS->GetHealthIntText(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetMagic) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetMagic(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -126,19 +150,35 @@ struct FHitResult;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execSetState) \
+	DECLARE_FUNCTION(execSetMagicState) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SetState(); \
+		P_THIS->SetMagicState(); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execSetHealth) \
+	DECLARE_FUNCTION(execSetMagicValue) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SetHealth(); \
+		P_THIS->SetMagicValue(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetDamageState) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetDamageState(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDamageTimer) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DamageTimer(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -147,6 +187,14 @@ struct FHitResult;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(FText*)Z_Param__Result=P_THIS->GetHealthIntText(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetMagic) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetMagic(); \
 		P_NATIVE_END; \
 	} \
  \

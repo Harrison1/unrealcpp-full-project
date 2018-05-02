@@ -12,6 +12,7 @@
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 #include "Kismet/KismetMathLibrary.h"
+#include "TimerManager.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -97,16 +98,21 @@ void AUnrealCPPCharacter::BeginPlay()
 	PreviousHealth = HealthPercentage;
 	bCanBeDamaged = true;
 
-	if (HealthCurve)
+	FullMagic = 100.0f;
+	Magic = FullMagic;
+	MagicPercentage = 1.0f;
+	PreviousMagic = MagicPercentage;
+	bCanUseMagic = true;
+
+	if (MagicCurve)
     {
         FOnTimelineFloat TimelineCallback;
         FOnTimelineEventStatic TimelineFinishedCallback;
 
-        TimelineCallback.BindUFunction(this, FName("SetHealth"));
-        TimelineFinishedCallback.BindUFunction(this, FName{ TEXT("SetState") });
-        MyTimeline.AddInterpFloat(HealthCurve, TimelineCallback);
+        TimelineCallback.BindUFunction(this, FName("SetMagicValue"));
+        TimelineFinishedCallback.BindUFunction(this, FName{ TEXT("SetMagicState") });
+        MyTimeline.AddInterpFloat(MagicCurve, TimelineCallback);
         MyTimeline.SetTimelineFinishedFunc(TimelineFinishedCallback);
-
     }
 
 	//Attach gun mesh component to Skeleton, doing it here because the skeleton is not yet created in the constructor
@@ -332,6 +338,11 @@ float AUnrealCPPCharacter::GetHealth()
 	return HealthPercentage;
 }
 
+float AUnrealCPPCharacter::GetMagic()
+{
+	return MagicPercentage;
+}
+
 FText AUnrealCPPCharacter::GetHealthIntText()
 {
 	int32 HP = FMath::RoundHalfFromZero(HealthPercentage * 100);
@@ -341,17 +352,26 @@ FText AUnrealCPPCharacter::GetHealthIntText()
 	return HPText;
 }
 
-void AUnrealCPPCharacter::SetHealth()
-{
-	// TimelineValue = MyTimeline.GetPlaybackPosition();
-    // CurveFloatValue = PreviousHealth - DamageValue*HealthCurve->GetFloatValue(TimelineValue);
-	// UE_LOG(LogClass,Warning,TEXT("Timeline Percentage: %f"), CurveFloatValue);
-    // HealthPercentage = CurveFloatValue;
-}
-
-void AUnrealCPPCharacter::SetState()
+void AUnrealCPPCharacter::SetDamageState()
 {
 	bCanBeDamaged = true;
+}
+
+void AUnrealCPPCharacter::DamageTimer()
+{
+	GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &AUnrealCPPCharacter::SetDamageState, 1.0f, false);
+}
+
+void AUnrealCPPCharacter::SetMagicValue()
+{
+	TimelineValue = MyTimeline.GetPlaybackPosition();
+    CurveFloatValue = PreviousMagic - MagicValue*MagicCurve->GetFloatValue(TimelineValue);
+    MagicPercentage = CurveFloatValue;
+}
+
+void AUnrealCPPCharacter::SetMagicState()
+{
+	bCanUseMagic = true;
 }
 
 bool AUnrealCPPCharacter::PlayFlash()
@@ -367,20 +387,10 @@ bool AUnrealCPPCharacter::PlayFlash()
 
 void AUnrealCPPCharacter::ReceivePointDamage(float Damage, const UDamageType * DamageType, FVector HitLocation, FVector HitNormal, UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo)
 {
-	// UE_LOG(LogClass,Warning,TEXT("Take Damage: %f"), Damage);
-	// UE_LOG(LogClass,Error,TEXT("Damage Type = %s"), *DamageCauser->GetClass()->GetName());
-
-
 	bCanBeDamaged = false;
 	redFlash = true;
 	UpdateHealth(-Damage);
-	MyTimeline.PlayFromStart();
-
-
-	// UE_LOG(LogClass,Error,TEXT("Health = %f"), Health);
-	// UE_LOG(LogClass,Error,TEXT("Health Percent = %f"), HealthPercentage);
-	// UE_LOG(LogClass,Error,TEXT("Point Damage = %f"), Damage);
-
+	DamageTimer();
 }
 
 void AUnrealCPPCharacter::UpdateHealth(float HealthChange)

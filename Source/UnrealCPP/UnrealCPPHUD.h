@@ -29,4 +29,3 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Health")
 	class UUserWidget* CurrentWidget;
 };
-

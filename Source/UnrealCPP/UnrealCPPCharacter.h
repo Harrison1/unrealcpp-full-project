@@ -134,9 +134,13 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Health")
 	float GetMagic();
 
-	/** Get Health */
+	/** Get Health Text */
 	UFUNCTION(BlueprintPure, Category = "Health")
 	FText GetHealthIntText();
+
+	/** Get Magic Text */
+	UFUNCTION(BlueprintPure, Category = "Magic")
+	FText GetMagicIntText();
 
 	/** Damage Timer */
 	UFUNCTION()

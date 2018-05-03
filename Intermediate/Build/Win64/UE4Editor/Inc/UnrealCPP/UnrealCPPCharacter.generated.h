@@ -88,6 +88,14 @@ struct FHitResult;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execGetMagicIntText) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FText*)Z_Param__Result=P_THIS->GetMagicIntText(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGetHealthIntText) \
 	{ \
 		P_FINISH; \
@@ -179,6 +187,14 @@ struct FHitResult;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->DamageTimer(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetMagicIntText) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FText*)Z_Param__Result=P_THIS->GetMagicIntText(); \
 		P_NATIVE_END; \
 	} \
  \

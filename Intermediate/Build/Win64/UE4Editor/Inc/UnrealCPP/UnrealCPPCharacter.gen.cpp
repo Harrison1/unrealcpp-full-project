@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHealth();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetHealthIntText();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetMagic();
+	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetMagicIntText();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_PlayFlash();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_ReceivePointDamage();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
@@ -51,6 +52,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			{ "GetHealth", &AUnrealCPPCharacter::execGetHealth },
 			{ "GetHealthIntText", &AUnrealCPPCharacter::execGetHealthIntText },
 			{ "GetMagic", &AUnrealCPPCharacter::execGetMagic },
+			{ "GetMagicIntText", &AUnrealCPPCharacter::execGetMagicIntText },
 			{ "PlayFlash", &AUnrealCPPCharacter::execPlayFlash },
 			{ "ReceivePointDamage", &AUnrealCPPCharacter::execReceivePointDamage },
 			{ "SetDamageState", &AUnrealCPPCharacter::execSetDamageState },
@@ -118,7 +120,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 				{ "Category", "Health" },
 				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
-				{ "ToolTip", "Get Health" },
+				{ "ToolTip", "Get Health Text" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "GetHealthIntText", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14020401, sizeof(UnrealCPPCharacter_eventGetHealthIntText_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
@@ -147,6 +149,31 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "GetMagic", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14020401, sizeof(UnrealCPPCharacter_eventGetMagic_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_GetMagicIntText()
+	{
+		struct UnrealCPPCharacter_eventGetMagicIntText_Parms
+		{
+			FText ReturnValue;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FTextPropertyParams NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Text, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000580, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventGetMagicIntText_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ReturnValue,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "Category", "Magic" },
+				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+				{ "ToolTip", "Get Magic Text" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "GetMagicIntText", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14020401, sizeof(UnrealCPPCharacter_eventGetMagicIntText_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
 		}
 		return ReturnFunction;
@@ -330,8 +357,9 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_DamageTimer, "DamageTimer" }, // 2917780145
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHealth, "GetHealth" }, // 2617765578
-				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHealthIntText, "GetHealthIntText" }, // 4195127740
+				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHealthIntText, "GetHealthIntText" }, // 662683509
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetMagic, "GetMagic" }, // 4049737757
+				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetMagicIntText, "GetMagicIntText" }, // 2539877593
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_PlayFlash, "PlayFlash" }, // 517973654
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_ReceivePointDamage, "ReceivePointDamage" }, // 1062761891
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetDamageState, "SetDamageState" }, // 1464698168
@@ -601,7 +629,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUnrealCPPCharacter, 1888912559);
+	IMPLEMENT_CLASS(AUnrealCPPCharacter, 1832139813);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AUnrealCPPCharacter(Z_Construct_UClass_AUnrealCPPCharacter, &AUnrealCPPCharacter::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("AUnrealCPPCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AUnrealCPPCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -352,6 +352,15 @@ FText AUnrealCPPCharacter::GetHealthIntText()
 	return HPText;
 }
 
+FText AUnrealCPPCharacter::GetMagicIntText()
+{
+	int32 HP = FMath::RoundHalfFromZero(HealthPercentage * 100);
+	FString HPS = FString::FromInt(HP);
+	FString HealthHUD = HPS + FString(TEXT("%"));
+	FText HPText = FText::FromString(HealthHUD);
+	return HPText;
+}
+
 void AUnrealCPPCharacter::SetDamageState()
 {
 	bCanBeDamaged = true;

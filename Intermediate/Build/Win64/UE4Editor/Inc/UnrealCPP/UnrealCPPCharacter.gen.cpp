@@ -143,7 +143,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "Category", "Health" },
+				{ "Category", "Magic" },
 				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
 				{ "ToolTip", "Get Health" },
 			};
@@ -358,7 +358,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_DamageTimer, "DamageTimer" }, // 2917780145
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHealth, "GetHealth" }, // 2617765578
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHealthIntText, "GetHealthIntText" }, // 662683509
-				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetMagic, "GetMagic" }, // 4049737757
+				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetMagic, "GetMagic" }, // 1334226551
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetMagicIntText, "GetMagicIntText" }, // 2539877593
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_PlayFlash, "PlayFlash" }, // 517973654
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_ReceivePointDamage, "ReceivePointDamage" }, // 1062761891
@@ -376,7 +376,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 #endif
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MagicCurve_MetaData[] = {
-				{ "Category", "Health" },
+				{ "Category", "Magic" },
 				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
 			};
 #endif
@@ -390,28 +390,28 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_redFlash = { UE4CodeGen_Private::EPropertyClass::Float, "redFlash", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, redFlash), METADATA_PARAMS(NewProp_redFlash_MetaData, ARRAY_COUNT(NewProp_redFlash_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MagicValue_MetaData[] = {
-				{ "Category", "Health" },
+				{ "Category", "Magic" },
 				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MagicValue = { UE4CodeGen_Private::EPropertyClass::Float, "MagicValue", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, MagicValue), METADATA_PARAMS(NewProp_MagicValue_MetaData, ARRAY_COUNT(NewProp_MagicValue_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PreviousMagic_MetaData[] = {
-				{ "Category", "Health" },
+				{ "Category", "Magic" },
 				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PreviousMagic = { UE4CodeGen_Private::EPropertyClass::Float, "PreviousMagic", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, PreviousMagic), METADATA_PARAMS(NewProp_PreviousMagic_MetaData, ARRAY_COUNT(NewProp_PreviousMagic_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MagicPercentage_MetaData[] = {
-				{ "Category", "Health" },
+				{ "Category", "Magic" },
 				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MagicPercentage = { UE4CodeGen_Private::EPropertyClass::Float, "MagicPercentage", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, MagicPercentage), METADATA_PARAMS(NewProp_MagicPercentage_MetaData, ARRAY_COUNT(NewProp_MagicPercentage_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Magic_MetaData[] = {
-				{ "Category", "Health" },
+				{ "Category", "Magic" },
 				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
 			};
 #endif
@@ -629,7 +629,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUnrealCPPCharacter, 1832139813);
+	IMPLEMENT_CLASS(AUnrealCPPCharacter, 3674106495);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AUnrealCPPCharacter(Z_Construct_UClass_AUnrealCPPCharacter, &AUnrealCPPCharacter::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("AUnrealCPPCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AUnrealCPPCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

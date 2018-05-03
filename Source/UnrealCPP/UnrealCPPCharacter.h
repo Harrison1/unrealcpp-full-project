@@ -101,22 +101,22 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	float FullMagic;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Magic")
 	float Magic;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Magic")
 	float MagicPercentage;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Magic")
 	float PreviousMagic;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Magic")
 	float MagicValue;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	float redFlash;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Magic")
 	UCurveFloat *MagicCurve;
 
 	FTimeline MyTimeline;
@@ -131,7 +131,7 @@ public:
 	float GetHealth();
 
 	/** Get Health */
-	UFUNCTION(BlueprintPure, Category = "Health")
+	UFUNCTION(BlueprintPure, Category = "Magic")
 	float GetMagic();
 
 	/** Get Health Text */

@@ -158,10 +158,19 @@ public:
 	UFUNCTION()
 	void SetMagicState();
 
+	/** Set Damage State */
+	UFUNCTION()
+	void SetMagicChange(float MagicChange);
 
 	/** Play Flash */
 	UFUNCTION(BlueprintPure, Category = "Health")
 	bool PlayFlash();
+
+	UPROPERTY(EditAnywhere, Category = "Magic")
+	class UMaterialInterface* GunDefaultMaterial;
+
+	UPROPERTY(EditAnywhere, Category = "Magic")
+	class UMaterialInterface* GunOverheatMaterial;
 
 	UFUNCTION()
 	void ReceivePointDamage(float Damage, const UDamageType * DamageType, FVector HitLocation, FVector HitNormal, UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo);

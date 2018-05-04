@@ -174,7 +174,7 @@ void AUnrealCPPCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 void AUnrealCPPCharacter::OnFire()
 {
 	// try and fire a projectile
-	if (ProjectileClass != NULL)
+	if (ProjectileClass != NULL && !FMath::IsNearlyZero(Magic, 0.001f) && bCanUseMagic)
 	{
 		UWorld* const World = GetWorld();
 		if (World != NULL)
@@ -198,24 +198,26 @@ void AUnrealCPPCharacter::OnFire()
 				// spawn the projectile at the muzzle
 				World->SpawnActor<AUnrealCPPProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
 
+				// try and play the sound if specified
+				if (FireSound != NULL)
+				{
+					UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+				}
+
+				// try and play a firing animation if specified
+				if (FireAnimation != NULL)
+				{
+					// Get the animation object for the arms mesh
+					UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+					if (AnimInstance != NULL)
+					{
+						AnimInstance->Montage_Play(FireAnimation, 1.f);
+					}
+				}
+
+				SetMagicChange(20.0f);
+
 			}
-		}
-	}
-
-	// try and play the sound if specified
-	if (FireSound != NULL)
-	{
-		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
-	}
-
-	// try and play a firing animation if specified
-	if (FireAnimation != NULL)
-	{
-		// Get the animation object for the arms mesh
-		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
-		if (AnimInstance != NULL)
-		{
-			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
 }
@@ -370,18 +372,23 @@ void AUnrealCPPCharacter::SetDamageState()
 
 void AUnrealCPPCharacter::DamageTimer()
 {
-	GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &AUnrealCPPCharacter::SetDamageState, 1.0f, false);
+	GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &AUnrealCPPCharacter::SetDamageState, 2.0f, false);
 }
 
 void AUnrealCPPCharacter::SetMagicValue()
 {
 	TimelineValue = MyTimeline.GetPlaybackPosition();
     CurveFloatValue = PreviousMagic - MagicValue*MagicCurve->GetFloatValue(TimelineValue);
+	Magic = CurveFloatValue*FullMagic;
     MagicPercentage = CurveFloatValue;
 }
 
 void AUnrealCPPCharacter::SetMagicState()
 {
+	if(GunDefaultMaterial)
+	{
+		FP_Gun->SetMaterial(0, GunDefaultMaterial);
+	}
 	bCanUseMagic = true;
 }
 
@@ -409,4 +416,16 @@ void AUnrealCPPCharacter::UpdateHealth(float HealthChange)
 	Health += HealthChange;
 	PreviousHealth = HealthPercentage;
 	HealthPercentage = Health/FullHealth;
+}
+
+void AUnrealCPPCharacter::SetMagicChange(float MagicChange)
+{
+	bCanUseMagic = false;
+	PreviousMagic = MagicPercentage;
+	MagicValue = (MagicChange/FullMagic);
+	if(GunOverheatMaterial)
+	{
+		FP_Gun->SetMaterial(0, GunOverheatMaterial);
+	}
+	MyTimeline.PlayFromStart();
 }

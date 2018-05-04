@@ -31,9 +31,11 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetDamageState();
+	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetMagicChange();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetMagicState();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetMagicValue();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_UpdateHealth();
+	ENGINE_API UClass* Z_Construct_UClass_UMaterialInterface_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCurveFloat_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
@@ -56,6 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			{ "PlayFlash", &AUnrealCPPCharacter::execPlayFlash },
 			{ "ReceivePointDamage", &AUnrealCPPCharacter::execReceivePointDamage },
 			{ "SetDamageState", &AUnrealCPPCharacter::execSetDamageState },
+			{ "SetMagicChange", &AUnrealCPPCharacter::execSetMagicChange },
 			{ "SetMagicState", &AUnrealCPPCharacter::execSetMagicState },
 			{ "SetMagicValue", &AUnrealCPPCharacter::execSetMagicValue },
 			{ "UpdateHealth", &AUnrealCPPCharacter::execUpdateHealth },
@@ -285,6 +288,30 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetMagicChange()
+	{
+		struct UnrealCPPCharacter_eventSetMagicChange_Parms
+		{
+			float MagicChange;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MagicChange = { UE4CodeGen_Private::EPropertyClass::Float, "MagicChange", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventSetMagicChange_Parms, MagicChange), METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MagicChange,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+				{ "ToolTip", "Set Damage State" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "SetMagicChange", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, sizeof(UnrealCPPCharacter_eventSetMagicChange_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_SetMagicState()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -363,6 +390,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_PlayFlash, "PlayFlash" }, // 517973654
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_ReceivePointDamage, "ReceivePointDamage" }, // 1062761891
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetDamageState, "SetDamageState" }, // 1464698168
+				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetMagicChange, "SetMagicChange" }, // 3212950784
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetMagicState, "SetMagicState" }, // 2939536851
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetMagicValue, "SetMagicValue" }, // 2277391685
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_UpdateHealth, "UpdateHealth" }, // 916929438
@@ -374,6 +402,20 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GunOverheatMaterial_MetaData[] = {
+				{ "Category", "Magic" },
+				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GunOverheatMaterial = { UE4CodeGen_Private::EPropertyClass::Object, "GunOverheatMaterial", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, GunOverheatMaterial), Z_Construct_UClass_UMaterialInterface_NoRegister, METADATA_PARAMS(NewProp_GunOverheatMaterial_MetaData, ARRAY_COUNT(NewProp_GunOverheatMaterial_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GunDefaultMaterial_MetaData[] = {
+				{ "Category", "Magic" },
+				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GunDefaultMaterial = { UE4CodeGen_Private::EPropertyClass::Object, "GunDefaultMaterial", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, GunDefaultMaterial), Z_Construct_UClass_UMaterialInterface_NoRegister, METADATA_PARAMS(NewProp_GunDefaultMaterial_MetaData, ARRAY_COUNT(NewProp_GunDefaultMaterial_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MagicCurve_MetaData[] = {
 				{ "Category", "Magic" },
@@ -584,6 +626,8 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Mesh1P = { UE4CodeGen_Private::EPropertyClass::Object, "Mesh1P", RF_Public|RF_Transient|RF_MarkAsNative, 0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, Mesh1P), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(NewProp_Mesh1P_MetaData, ARRAY_COUNT(NewProp_Mesh1P_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_GunOverheatMaterial,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_GunDefaultMaterial,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MagicCurve,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_redFlash,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MagicValue,
@@ -629,7 +673,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUnrealCPPCharacter, 3674106495);
+	IMPLEMENT_CLASS(AUnrealCPPCharacter, 3016101909);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AUnrealCPPCharacter(Z_Construct_UClass_AUnrealCPPCharacter, &AUnrealCPPCharacter::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("AUnrealCPPCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AUnrealCPPCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

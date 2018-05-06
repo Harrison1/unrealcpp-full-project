@@ -5,7 +5,6 @@
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\AddRadialForce\AddRadialForce.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\CameraDirector\CameraDirector.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\CameraShake\MyCameraShake.cpp"
-#include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\ChangeMaterialMesh\ChangeMaterialMesh.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\CollidingPawn\CollidingPawn.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\CollidingPawn\CollidingPawnMovementComponent.cpp"
 #include "D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\ConsoleLog\ConsoleLog.cpp"

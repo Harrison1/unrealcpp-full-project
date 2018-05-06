@@ -56,6 +56,15 @@ struct FHitResult;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execUpdateMagic) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_MagicChange); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->UpdateMagic(Z_Param_MagicChange); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSetMagicChange) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_MagicChange); \
@@ -164,6 +173,15 @@ struct FHitResult;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(bool*)Z_Param__Result=P_THIS->PlayFlash(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execUpdateMagic) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_MagicChange); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->UpdateMagic(Z_Param_MagicChange); \
 		P_NATIVE_END; \
 	} \
  \

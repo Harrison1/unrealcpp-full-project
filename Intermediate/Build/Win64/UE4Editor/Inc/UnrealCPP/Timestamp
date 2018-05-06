@@ -4,7 +4,6 @@ D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\AddMeshFromFile\AddMeshFromFile.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\AddRadialForce\AddRadialForce.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\CameraDirector\CameraDirector.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\CameraShake\MyCameraShake.h
-D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\ChangeMaterialMesh\ChangeMaterialMesh.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\CollidingPawn\CollidingPawn.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\CollidingPawn\CollidingPawnMovementComponent.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\ConsoleLog\ConsoleLog.h
@@ -14,6 +13,8 @@ D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\FindPlayerPosition\FindPlayerPosit
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\FloatingActor\FloatingActor.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\GetNumberOfPawns\GetNumberOfPawns.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\HealthBar\CampFire.h
+D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\HealthBar\MedKit.h
+D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\HealthBar\PowerUp.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\HideActor\HideActor.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\LightSwitchPushButton\LightSwitchPushButton.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\LightSwitchTrigger\LightSwitchTrigger.h

@@ -6,7 +6,6 @@
 
 #include "PowerUp.h"
 
-
 // Sets default values
 APowerUp::APowerUp()
 {
@@ -15,11 +14,12 @@ APowerUp::APowerUp()
 
 void APowerUp::OnOverlap(AActor* MyOverlappedActor, AActor* OtherActor)
 {
-	MyCharacter = Cast<AUnrealCPPCharacter>(OtherActor);
 
-	if ( (OtherActor != nullptr ) && (OtherActor != this) && MyCharacter ) 
+	if ( (OtherActor != nullptr ) && (OtherActor != this) ) 
 	{
-		if (MyCharacter->GetMagic() < 1.0f)
+		MyCharacter = Cast<AUnrealCPPCharacter>(OtherActor);
+
+		if (MyCharacter && MyCharacter->GetMagic() < 1.0f)
 		{
 			MyCharacter->SetMagicChange(20.0f);
 			Destroy();

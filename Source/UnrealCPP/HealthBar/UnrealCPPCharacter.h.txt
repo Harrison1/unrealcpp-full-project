@@ -130,7 +130,7 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Health")
 	float GetHealth();
 
-	/** Get Health */
+	/** Get Magic */
 	UFUNCTION(BlueprintPure, Category = "Magic")
 	float GetMagic();
 

@@ -343,7 +343,7 @@ float AUnrealCPPCharacter::GetHealth()
 
 float AUnrealCPPCharacter::GetMagic()
 {
-	return FMath::Clamp(MagicPercentage, 0.0f, 1.0f);
+	return MagicPercentage;
 }
 
 FText AUnrealCPPCharacter::GetHealthIntText()
@@ -357,10 +357,9 @@ FText AUnrealCPPCharacter::GetHealthIntText()
 
 FText AUnrealCPPCharacter::GetMagicIntText()
 {
-	int32 MP = FMath::RoundHalfFromZero(Magic);
-	int32 FullMP = FMath::RoundHalfFromZero(FullMagic);
+	int32 MP = FMath::RoundHalfFromZero(MagicPercentage*FullMagic);
 	FString MPS = FString::FromInt(MP);
-	FString FullMPS = FString::FromInt(FullMP);
+	FString FullMPS = FString::FromInt(FullMagic);
 	FString MagicHUD = MPS + FString(TEXT("/")) + FullMPS;
 	FText MPText = FText::FromString(MagicHUD);
 	return MPText;
@@ -380,8 +379,6 @@ void AUnrealCPPCharacter::SetMagicValue()
 {
 	TimelineValue = MyTimeline.GetPlaybackPosition();
     CurveFloatValue = PreviousMagic + MagicValue*MagicCurve->GetFloatValue(TimelineValue);
-	Magic = CurveFloatValue*FullMagic;
-	Magic = FMath::Clamp(Magic, 0.0f, FullMagic);
     MagicPercentage = CurveFloatValue;
 	MagicPercentage = FMath::Clamp(MagicPercentage, 0.0f, 1.0f);
 }
@@ -434,11 +431,14 @@ void AUnrealCPPCharacter::UpdateMagic(float MagicChange)
 void AUnrealCPPCharacter::SetMagicChange(float MagicChange)
 {
 	bCanUseMagic = false;
+	Magic += MagicChange ;
+	Magic = FMath::Clamp(Magic, 0.0f, FullMagic);
 	PreviousMagic = MagicPercentage;
 	MagicValue += (MagicChange/FullMagic);
 	if(GunOverheatMaterial)
 	{
 		FP_Gun->SetMaterial(0, GunOverheatMaterial);
 	}
+
 	MyTimeline.PlayFromStart();
 }

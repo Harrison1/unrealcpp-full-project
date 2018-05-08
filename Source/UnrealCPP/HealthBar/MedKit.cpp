@@ -5,7 +5,6 @@
 // https://harrisonmcguire.com
 
 #include "MedKit.h"
-#include "UnrealCPPCharacter.h"
 
 // Sets default values
 AMedKit::AMedKit()
@@ -15,11 +14,11 @@ AMedKit::AMedKit()
 
 void AMedKit::OnOverlap(AActor* MyOverlappedActor, AActor* OtherActor)
 {
-	MyCharacter = Cast<AUnrealCPPCharacter>(OtherActor);
-
-	if ( (OtherActor != nullptr ) && (OtherActor != this) && MyCharacter ) 
+	if ( (OtherActor != nullptr ) && (OtherActor != this) ) 
 	{
-		if (MyCharacter->GetHealth() < 1.0f)
+		MyCharacter = Cast<AUnrealCPPCharacter>(OtherActor);
+
+		if (MyCharacter && MyCharacter->GetHealth() < 1.0f)
 		{
 			MyCharacter->UpdateHealth(100.0f);
 			Destroy();

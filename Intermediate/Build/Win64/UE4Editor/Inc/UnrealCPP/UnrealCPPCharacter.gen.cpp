@@ -150,7 +150,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 				{ "Category", "Magic" },
 				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
-				{ "ToolTip", "Get Health" },
+				{ "ToolTip", "Get Magic" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "GetMagic", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14020401, sizeof(UnrealCPPCharacter_eventGetMagic_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
@@ -411,7 +411,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_DamageTimer, "DamageTimer" }, // 2917780145
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHealth, "GetHealth" }, // 2617765578
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetHealthIntText, "GetHealthIntText" }, // 662683509
-				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetMagic, "GetMagic" }, // 1334226551
+				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetMagic, "GetMagic" }, // 4105599089
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_GetMagicIntText, "GetMagicIntText" }, // 2539877593
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_PlayFlash, "PlayFlash" }, // 517973654
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_ReceivePointDamage, "ReceivePointDamage" }, // 1062761891
@@ -700,7 +700,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUnrealCPPCharacter, 154051916);
+	IMPLEMENT_CLASS(AUnrealCPPCharacter, 3951396284);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AUnrealCPPCharacter(Z_Construct_UClass_AUnrealCPPCharacter, &AUnrealCPPCharacter::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("AUnrealCPPCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AUnrealCPPCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

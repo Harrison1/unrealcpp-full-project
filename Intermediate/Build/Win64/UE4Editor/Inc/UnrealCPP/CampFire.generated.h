@@ -18,6 +18,14 @@ struct FHitResult;
 
 #define UnrealCPP_Source_UnrealCPP_HealthBar_CampFire_h_18_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execApplyFireDamage) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ApplyFireDamage(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnOverlapEnd) \
 	{ \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
@@ -46,6 +54,14 @@ struct FHitResult;
 
 
 #define UnrealCPP_Source_UnrealCPP_HealthBar_CampFire_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execApplyFireDamage) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ApplyFireDamage(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnOverlapEnd) \
 	{ \

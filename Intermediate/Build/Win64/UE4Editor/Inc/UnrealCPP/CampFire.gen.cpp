@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeCampFire() {}
 	UNREALCPP_API UClass* Z_Construct_UClass_ACampFire();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_UnrealCPP();
+	UNREALCPP_API UFunction* Z_Construct_UFunction_ACampFire_ApplyFireDamage();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_ACampFire_OnOverlapBegin();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
@@ -31,10 +32,26 @@ void EmptyLinkFunctionForGeneratedCodeCampFire() {}
 	{
 		UClass* Class = ACampFire::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "ApplyFireDamage", &ACampFire::execApplyFireDamage },
 			{ "OnOverlapBegin", &ACampFire::execOnOverlapBegin },
 			{ "OnOverlapEnd", &ACampFire::execOnOverlapEnd },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	UFunction* Z_Construct_UFunction_ACampFire_ApplyFireDamage()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "HealthBar/CampFire.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ACampFire, "ApplyFireDamage", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UFunction* Z_Construct_UFunction_ACampFire_OnOverlapBegin()
 	{
@@ -148,6 +165,7 @@ void EmptyLinkFunctionForGeneratedCodeCampFire() {}
 				(UObject* (*)())Z_Construct_UPackage__Script_UnrealCPP,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
+				{ &Z_Construct_UFunction_ACampFire_ApplyFireDamage, "ApplyFireDamage" }, // 4232976806
 				{ &Z_Construct_UFunction_ACampFire_OnOverlapBegin, "OnOverlapBegin" }, // 2616970309
 				{ &Z_Construct_UFunction_ACampFire_OnOverlapEnd, "OnOverlapEnd" }, // 2293270636
 			};
@@ -219,7 +237,7 @@ void EmptyLinkFunctionForGeneratedCodeCampFire() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACampFire, 794360937);
+	IMPLEMENT_CLASS(ACampFire, 1798028981);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACampFire(Z_Construct_UClass_ACampFire, &ACampFire::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("ACampFire"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACampFire);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

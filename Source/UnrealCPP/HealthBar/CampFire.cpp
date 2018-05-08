@@ -6,16 +6,13 @@
 
 #include "CampFire.h"
 #include "Kismet/GameplayStatics.h"
-
+#include "TimerManager.h"
 
 // Sets default values
 ACampFire::ACampFire()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-
 	MyBoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("My Box Component"));
-    MyBoxComponent->InitBoxExtent(FVector(25,25,25));
+    MyBoxComponent->InitBoxExtent(FVector(50.0f,50.0f,50.0f));
     RootComponent = MyBoxComponent;
 
     Fire = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("My Fire"));
@@ -26,24 +23,6 @@ ACampFire::ACampFire()
     MyBoxComponent->OnComponentEndOverlap.AddDynamic(this, &ACampFire::OnOverlapEnd);
 
     bCanApplyDamage = false;
-
-}
-
-// Called when the game starts or when spawned
-void ACampFire::BeginPlay()
-{
-	Super::BeginPlay();
-}
-
-// Called every frame
-void ACampFire::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-    if(bCanApplyDamage)
-    {
-        UGameplayStatics::ApplyPointDamage(MyCharacter, 200.0f, GetActorLocation(), MyHit, nullptr, this, FireDamageType);
-    }
 }
 
 void ACampFire::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -53,10 +32,20 @@ void ACampFire::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class 
         bCanApplyDamage = true;
         MyCharacter = Cast<AActor>(OtherActor);
         MyHit = SweepResult;
+        GetWorldTimerManager().SetTimer(FireTimerHandle, this, &ACampFire::ApplyFireDamage, 2.2f, true, 0.0f);
     }
 }
 
 void ACampFire::OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
     bCanApplyDamage = false;
+    GetWorldTimerManager().ClearTimer(FireTimerHandle);
+}
+
+void ACampFire::ApplyFireDamage()
+{
+    if(bCanApplyDamage)
+    {
+        UGameplayStatics::ApplyPointDamage(MyCharacter, 200.0f, GetActorLocation(), MyHit, nullptr, this, FireDamageType);
+    }
 }

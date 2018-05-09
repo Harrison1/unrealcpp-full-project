@@ -216,8 +216,11 @@ void AUnrealCPPCharacter::OnFire()
 					}
 				}
 
+				MyTimeline.Stop();
+				GetWorldTimerManager().ClearTimer(MagicTimerHandle);
 				SetMagicChange(-20.0f);
-
+				GetWorldTimerManager().SetTimer(MagicTimerHandle, this, &AUnrealCPPCharacter::UpdateMagic, 5.0f, false);
+			
 			}
 		}
 	}
@@ -379,6 +382,8 @@ void AUnrealCPPCharacter::SetMagicValue()
 {
 	TimelineValue = MyTimeline.GetPlaybackPosition();
     CurveFloatValue = PreviousMagic + MagicValue*MagicCurve->GetFloatValue(TimelineValue);
+	Magic = CurveFloatValue*FullHealth;
+	Magic = FMath::Clamp(Magic, 0.0f, FullMagic);
     MagicPercentage = CurveFloatValue;
 	MagicPercentage = FMath::Clamp(MagicPercentage, 0.0f, 1.0f);
 }
@@ -420,21 +425,19 @@ void AUnrealCPPCharacter::UpdateHealth(float HealthChange)
 	HealthPercentage = Health/FullHealth;
 }
 
-void AUnrealCPPCharacter::UpdateMagic(float MagicChange)
+void AUnrealCPPCharacter::UpdateMagic()
 {
-	Magic += MagicChange;
-	Magic = FMath::Clamp(Magic, 0.0f, FullMagic);
 	PreviousMagic = MagicPercentage;
 	MagicPercentage = Magic/FullMagic;
+	MagicValue = 1.0f;
+	MyTimeline.PlayFromStart();
 }
 
 void AUnrealCPPCharacter::SetMagicChange(float MagicChange)
 {
 	bCanUseMagic = false;
-	Magic += MagicChange ;
-	Magic = FMath::Clamp(Magic, 0.0f, FullMagic);
 	PreviousMagic = MagicPercentage;
-	MagicValue += (MagicChange/FullMagic);
+	MagicValue = (MagicChange/FullMagic);
 	if(GunOverheatMaterial)
 	{
 		FP_Gun->SetMaterial(0, GunOverheatMaterial);

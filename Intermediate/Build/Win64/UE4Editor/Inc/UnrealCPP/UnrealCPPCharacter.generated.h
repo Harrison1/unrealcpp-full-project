@@ -58,10 +58,9 @@ struct FHitResult;
  \
 	DECLARE_FUNCTION(execUpdateMagic) \
 	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_MagicChange); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->UpdateMagic(Z_Param_MagicChange); \
+		P_THIS->UpdateMagic(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -178,10 +177,9 @@ struct FHitResult;
  \
 	DECLARE_FUNCTION(execUpdateMagic) \
 	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_MagicChange); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->UpdateMagic(Z_Param_MagicChange); \
+		P_THIS->UpdateMagic(); \
 		P_NATIVE_END; \
 	} \
  \

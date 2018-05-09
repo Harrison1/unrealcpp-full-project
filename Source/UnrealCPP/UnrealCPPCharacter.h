@@ -119,11 +119,17 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Magic")
 	UCurveFloat *MagicCurve;
 
+	UPROPERTY(EditAnywhere, Category = "Magic")
 	FTimeline MyTimeline;
-	float CurveFloatValue;
-	float TimelineValue;
+
+	UPROPERTY(EditAnywhere, Category = "Magic")
 	FTimerHandle MemberTimerHandle;
 
+	UPROPERTY(EditAnywhere, Category = "Magic")
+	FTimerHandle MagicTimerHandle;
+
+	float CurveFloatValue;
+	float TimelineValue;
 	bool bCanUseMagic;
 
 	/** Get Health */
@@ -164,7 +170,7 @@ public:
 
 	/** Set Damage State */
 	UFUNCTION()
-	void UpdateMagic(float MagicChange);
+	void UpdateMagic();
 
 	/** Play Flash */
 	UFUNCTION(BlueprintPure, Category = "Health")

@@ -37,6 +37,8 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_UpdateHealth();
 	UNREALCPP_API UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_UpdateMagic();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterialInterface_NoRegister();
+	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FTimerHandle();
+	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FTimeline();
 	ENGINE_API UClass* Z_Construct_UClass_UCurveFloat_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
@@ -372,24 +374,16 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 	}
 	UFunction* Z_Construct_UFunction_AUnrealCPPCharacter_UpdateMagic()
 	{
-		struct UnrealCPPCharacter_eventUpdateMagic_Parms
-		{
-			float MagicChange;
-		};
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MagicChange = { UE4CodeGen_Private::EPropertyClass::Float, "MagicChange", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(UnrealCPPCharacter_eventUpdateMagic_Parms, MagicChange), METADATA_PARAMS(nullptr, 0) };
-			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MagicChange,
-			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
 				{ "ToolTip", "Set Damage State" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "UpdateMagic", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, sizeof(UnrealCPPCharacter_eventUpdateMagic_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AUnrealCPPCharacter, "UpdateMagic", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
 		}
 		return ReturnFunction;
@@ -420,7 +414,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetMagicState, "SetMagicState" }, // 2939536851
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_SetMagicValue, "SetMagicValue" }, // 2277391685
 				{ &Z_Construct_UFunction_AUnrealCPPCharacter_UpdateHealth, "UpdateHealth" }, // 916929438
-				{ &Z_Construct_UFunction_AUnrealCPPCharacter_UpdateMagic, "UpdateMagic" }, // 1912504587
+				{ &Z_Construct_UFunction_AUnrealCPPCharacter_UpdateMagic, "UpdateMagic" }, // 123654213
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -443,6 +437,27 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GunDefaultMaterial = { UE4CodeGen_Private::EPropertyClass::Object, "GunDefaultMaterial", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, GunDefaultMaterial), Z_Construct_UClass_UMaterialInterface_NoRegister, METADATA_PARAMS(NewProp_GunDefaultMaterial_MetaData, ARRAY_COUNT(NewProp_GunDefaultMaterial_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MagicTimerHandle_MetaData[] = {
+				{ "Category", "Magic" },
+				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_MagicTimerHandle = { UE4CodeGen_Private::EPropertyClass::Struct, "MagicTimerHandle", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, MagicTimerHandle), Z_Construct_UScriptStruct_FTimerHandle, METADATA_PARAMS(NewProp_MagicTimerHandle_MetaData, ARRAY_COUNT(NewProp_MagicTimerHandle_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MemberTimerHandle_MetaData[] = {
+				{ "Category", "Magic" },
+				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_MemberTimerHandle = { UE4CodeGen_Private::EPropertyClass::Struct, "MemberTimerHandle", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, MemberTimerHandle), Z_Construct_UScriptStruct_FTimerHandle, METADATA_PARAMS(NewProp_MemberTimerHandle_MetaData, ARRAY_COUNT(NewProp_MemberTimerHandle_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MyTimeline_MetaData[] = {
+				{ "Category", "Magic" },
+				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_MyTimeline = { UE4CodeGen_Private::EPropertyClass::Struct, "MyTimeline", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010008000000001, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, MyTimeline), Z_Construct_UScriptStruct_FTimeline, METADATA_PARAMS(NewProp_MyTimeline_MetaData, ARRAY_COUNT(NewProp_MyTimeline_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MagicCurve_MetaData[] = {
 				{ "Category", "Magic" },
@@ -655,6 +670,9 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_GunOverheatMaterial,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_GunDefaultMaterial,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MagicTimerHandle,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MemberTimerHandle,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MyTimeline,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MagicCurve,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_redFlash,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MagicValue,
@@ -700,7 +718,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUnrealCPPCharacter, 3951396284);
+	IMPLEMENT_CLASS(AUnrealCPPCharacter, 86521313);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AUnrealCPPCharacter(Z_Construct_UClass_AUnrealCPPCharacter, &AUnrealCPPCharacter::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("AUnrealCPPCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AUnrealCPPCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

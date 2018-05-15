@@ -6,7 +6,6 @@ D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\CameraDirector\CameraDirector.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\CameraShake\MyCameraShake.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\CollidingPawn\CollidingPawn.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\CollidingPawn\CollidingPawnMovementComponent.h
-D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\ConsoleLog\ConsoleLog.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\CreateStaticMesh\CreateStaticMesh.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\DestroyActorOnOverlap\DestroyActorOnOverlap.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\FindPlayerPosition\FindPlayerPosition.h
@@ -35,10 +34,6 @@ D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\SetViewTarget\SetViewTarget.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\SetViewTargetBlend\SetViewTargetBlend.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\SwingDoor\SwingDoor.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\TimerActor\TimerActor.h
-D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\TriggerBox\MyTriggerBox.h
-D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\TriggerBoxSpecificActor\TriggerBoxSpecificActor.h
-D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\TriggerVolume\MyTriggerVolume.h
-D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\TriggerVolumeSpecificActor\TriggerVolumeSpecificActor.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPCharacter.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPGameMode.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.h

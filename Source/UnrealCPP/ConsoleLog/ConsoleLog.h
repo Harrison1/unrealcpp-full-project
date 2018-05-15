@@ -1,31 +1,31 @@
-// Harrison McGuire
-// UE4 Version 4.18.2
-// https://github.com/Harrison1/unrealcpp
-// https://severallevels.io
-// https://harrisonmcguire.com
+// // Harrison McGuire
+// // UE4 Version 4.18.2
+// // https://github.com/Harrison1/unrealcpp
+// // https://severallevels.io
+// // https://harrisonmcguire.com
 
 
-#pragma once
+// #pragma once
 
-#include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
-#include "ConsoleLog.generated.h"
+// #include "CoreMinimal.h"
+// #include "GameFramework/Actor.h"
+// #include "ConsoleLog.generated.h"
 
-UCLASS()
-class UNREALCPP_API AConsoleLog : public AActor
-{
-	GENERATED_BODY()
+// UCLASS()
+// class UNREALCPP_API AConsoleLog : public AActor
+// {
+// 	GENERATED_BODY()
 	
-public:	
-	// Sets default values for this actor's properties
-	AConsoleLog();
+// public:	
+// 	// Sets default values for this actor's properties
+// 	AConsoleLog();
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+// protected:
+// 	// Called when the game starts or when spawned
+// 	virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+// public:	
+// 	// Called every frame
+// 	virtual void Tick(float DeltaTime) override;
 	
-};
+// };

@@ -508,13 +508,6 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_FullMagic = { UE4CodeGen_Private::EPropertyClass::Float, "FullMagic", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, FullMagic), METADATA_PARAMS(NewProp_FullMagic_MetaData, ARRAY_COUNT(NewProp_FullMagic_MetaData)) };
 #if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PreviousHealth_MetaData[] = {
-				{ "Category", "Health" },
-				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PreviousHealth = { UE4CodeGen_Private::EPropertyClass::Float, "PreviousHealth", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, PreviousHealth), METADATA_PARAMS(NewProp_PreviousHealth_MetaData, ARRAY_COUNT(NewProp_PreviousHealth_MetaData)) };
-#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealthPercentage_MetaData[] = {
 				{ "Category", "Health" },
 				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
@@ -680,7 +673,6 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MagicPercentage,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Magic,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_FullMagic,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_PreviousHealth,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HealthPercentage,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Health,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_FullHealth,
@@ -718,7 +710,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUnrealCPPCharacter, 86521313);
+	IMPLEMENT_CLASS(AUnrealCPPCharacter, 1216884768);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AUnrealCPPCharacter(Z_Construct_UClass_AUnrealCPPCharacter, &AUnrealCPPCharacter::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("AUnrealCPPCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AUnrealCPPCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

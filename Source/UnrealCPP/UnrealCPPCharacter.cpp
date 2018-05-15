@@ -95,7 +95,6 @@ void AUnrealCPPCharacter::BeginPlay()
 	FullHealth = 1000.0f;
 	Health = FullHealth;
 	HealthPercentage = 1.0f;
-	PreviousHealth = HealthPercentage;
 	bCanBeDamaged = true;
 
 	FullMagic = 100.0f;
@@ -421,7 +420,6 @@ void AUnrealCPPCharacter::UpdateHealth(float HealthChange)
 {
 	Health += HealthChange;
 	Health = FMath::Clamp(Health, 0.0f, FullHealth);
-	PreviousHealth = HealthPercentage;
 	HealthPercentage = Health/FullHealth;
 }
 

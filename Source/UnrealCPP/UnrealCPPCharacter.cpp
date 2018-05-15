@@ -359,7 +359,7 @@ FText AUnrealCPPCharacter::GetHealthIntText()
 
 FText AUnrealCPPCharacter::GetMagicIntText()
 {
-	int32 MP = FMath::RoundHalfFromZero(MagicPercentage*FullMagic);
+	int32 MP = FMath::RoundHalfFromZero(MagicPercentage * 100);
 	FString MPS = FString::FromInt(MP);
 	FString FullMPS = FString::FromInt(FullMagic);
 	FString MagicHUD = MPS + FString(TEXT("/")) + FullMPS;

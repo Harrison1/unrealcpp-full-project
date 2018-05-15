@@ -111,7 +111,7 @@ public:
 	float MagicValue;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	float redFlash;
+	bool redFlash;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Magic")
 	UCurveFloat *MagicCurve;

@@ -381,10 +381,8 @@ void AUnrealCPPCharacter::SetMagicValue()
 {
 	TimelineValue = MyTimeline.GetPlaybackPosition();
     CurveFloatValue = PreviousMagic + MagicValue*MagicCurve->GetFloatValue(TimelineValue);
-	Magic = CurveFloatValue*FullHealth;
-	Magic = FMath::Clamp(Magic, 0.0f, FullMagic);
-    MagicPercentage = CurveFloatValue;
-	MagicPercentage = FMath::Clamp(MagicPercentage, 0.0f, 1.0f);
+	Magic = FMath::Clamp(CurveFloatValue*FullHealth, 0.0f, FullMagic);
+	MagicPercentage = FMath::Clamp(CurveFloatValue, 0.0f, 1.0f);
 }
 
 void AUnrealCPPCharacter::SetMagicState()
@@ -418,8 +416,7 @@ void AUnrealCPPCharacter::ReceivePointDamage(float Damage, const UDamageType * D
 
 void AUnrealCPPCharacter::UpdateHealth(float HealthChange)
 {
-	Health += HealthChange;
-	Health = FMath::Clamp(Health, 0.0f, FullHealth);
+	Health = FMath::Clamp(Health += HealthChange, 0.0f, FullHealth);
 	HealthPercentage = Health/FullHealth;
 }
 

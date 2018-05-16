@@ -471,7 +471,8 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 				{ "ModuleRelativePath", "UnrealCPPCharacter.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_redFlash = { UE4CodeGen_Private::EPropertyClass::Float, "redFlash", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AUnrealCPPCharacter, redFlash), METADATA_PARAMS(NewProp_redFlash_MetaData, ARRAY_COUNT(NewProp_redFlash_MetaData)) };
+			auto NewProp_redFlash_SetBit = [](void* Obj){ ((AUnrealCPPCharacter*)Obj)->redFlash = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_redFlash = { UE4CodeGen_Private::EPropertyClass::Bool, "redFlash", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AUnrealCPPCharacter), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_redFlash_SetBit)>::SetBit, METADATA_PARAMS(NewProp_redFlash_MetaData, ARRAY_COUNT(NewProp_redFlash_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MagicValue_MetaData[] = {
 				{ "Category", "Magic" },
@@ -710,7 +711,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealCPPCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUnrealCPPCharacter, 1216884768);
+	IMPLEMENT_CLASS(AUnrealCPPCharacter, 3513659471);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AUnrealCPPCharacter(Z_Construct_UClass_AUnrealCPPCharacter, &AUnrealCPPCharacter::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("AUnrealCPPCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AUnrealCPPCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

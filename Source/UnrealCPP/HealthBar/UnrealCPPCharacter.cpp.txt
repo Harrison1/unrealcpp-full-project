@@ -1,5 +1,9 @@
 // Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 
+// Helpful Links
+// http://api.unrealengine.com/INT/API/Runtime/Engine/GameFramework/AActor/ReceivePointDamage/index.html
+// http://api.unrealengine.com/INT/API/Runtime/Engine/GameFramework/AActor/TakeDamage/index.html
+
 #include "UnrealCPPCharacter.h"
 #include "UnrealCPPProjectile.h"
 #include "Animation/AnimInstance.h"

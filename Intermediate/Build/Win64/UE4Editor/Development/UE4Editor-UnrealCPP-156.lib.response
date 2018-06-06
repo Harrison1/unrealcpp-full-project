@@ -8,6 +8,7 @@
 /NODEFAULTLIB
 "D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
 "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealCPP\Module.UnrealCPP.cpp.obj"
+"D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealCPP\TriggerBoxSpecificActor.cpp.obj"
 "D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UnrealCPP\Module.UnrealCPP.gen.cpp.obj"
 "D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealCPP\PCLaunch.rc.res"
 "D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"

@@ -4,8 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "Components/TimelineComponent.h"
-#include "Components/BoxComponent.h"
 #include "UnrealCPPCharacter.generated.h"
 
 class UInputComponent;
@@ -53,10 +51,6 @@ public:
 protected:
 	virtual void BeginPlay();
 
-	virtual void Tick(float DeltaTime) override;
-
-	// virtual float TakeDamage(float DamageAmount, struct FDamageEvent const & DamageEvent, class AController * EventInstigator, AActor * DamageCauser);
-
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
@@ -85,105 +79,6 @@ public:
 	/** Whether to use motion controller location for aiming. */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	uint32 bUsingMotionControllers : 1;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	float FullHealth;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	float Health;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	float HealthPercentage;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	float FullMagic;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Magic")
-	float Magic;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Magic")
-	float MagicPercentage;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Magic")
-	float PreviousMagic;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Magic")
-	float MagicValue;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	bool redFlash;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Magic")
-	UCurveFloat *MagicCurve;
-
-	UPROPERTY(EditAnywhere, Category = "Magic")
-	FTimeline MyTimeline;
-
-	UPROPERTY(EditAnywhere, Category = "Magic")
-	FTimerHandle MemberTimerHandle;
-
-	UPROPERTY(EditAnywhere, Category = "Magic")
-	FTimerHandle MagicTimerHandle;
-
-	float CurveFloatValue;
-	float TimelineValue;
-	bool bCanUseMagic;
-
-	/** Get Health */
-	UFUNCTION(BlueprintPure, Category = "Health")
-	float GetHealth();
-
-	/** Get Magic */
-	UFUNCTION(BlueprintPure, Category = "Magic")
-	float GetMagic();
-
-	/** Get Health Text */
-	UFUNCTION(BlueprintPure, Category = "Health")
-	FText GetHealthIntText();
-
-	/** Get Magic Text */
-	UFUNCTION(BlueprintPure, Category = "Magic")
-	FText GetMagicIntText();
-
-	/** Damage Timer */
-	UFUNCTION()
-	void DamageTimer();
-
-	/** Set Damage State */
-	UFUNCTION()
-	void SetDamageState();
-
-	/** Set Magic Value */
-	UFUNCTION()
-	void SetMagicValue();
-
-	/** Set Damage State */
-	UFUNCTION()
-	void SetMagicState();
-
-	/** Set Damage State */
-	UFUNCTION()
-	void SetMagicChange(float MagicChange);
-
-	/** Set Damage State */
-	UFUNCTION()
-	void UpdateMagic();
-
-	/** Play Flash */
-	UFUNCTION(BlueprintPure, Category = "Health")
-	bool PlayFlash();
-
-	UPROPERTY(EditAnywhere, Category = "Magic")
-	class UMaterialInterface* GunDefaultMaterial;
-
-	UPROPERTY(EditAnywhere, Category = "Magic")
-	class UMaterialInterface* GunOverheatMaterial;
-
-	UFUNCTION()
-	void ReceivePointDamage(float Damage, const UDamageType * DamageType, FVector HitLocation, FVector HitNormal, UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo);
-
-	UFUNCTION(BlueprintCallable, Category = "Power")
-	void UpdateHealth(float HealthChange);
 
 protected:
 	

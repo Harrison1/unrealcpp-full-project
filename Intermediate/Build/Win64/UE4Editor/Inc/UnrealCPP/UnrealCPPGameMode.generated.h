@@ -8,35 +8,14 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-enum class EGamePlayState : int32;
 #ifdef UNREALCPP_UnrealCPPGameMode_generated_h
 #error "UnrealCPPGameMode.generated.h already included, missing '#pragma once' in UnrealCPPGameMode.h"
 #endif
 #define UNREALCPP_UnrealCPPGameMode_generated_h
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execGetCurrentState) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(EGamePlayState*)Z_Param__Result=P_THIS->GetCurrentState(); \
-		P_NATIVE_END; \
-	}
-
-
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execGetCurrentState) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(EGamePlayState*)Z_Param__Result=P_THIS->GetCurrentState(); \
-		P_NATIVE_END; \
-	}
-
-
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_INCLASS_NO_PURE_DECLS \
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_RPC_WRAPPERS
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAUnrealCPPGameMode(); \
 	friend UNREALCPP_API class UClass* Z_Construct_UClass_AUnrealCPPGameMode(); \
@@ -46,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_INCLASS \
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAUnrealCPPGameMode(); \
 	friend UNREALCPP_API class UClass* Z_Construct_UClass_AUnrealCPPGameMode(); \
@@ -56,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_STANDARD_CONSTRUCTORS \
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	UNREALCPP_API AUnrealCPPGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AUnrealCPPGameMode) \
@@ -69,7 +48,7 @@ private: \
 public:
 
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_ENHANCED_CONSTRUCTORS \
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UNREALCPP_API AUnrealCPPGameMode(AUnrealCPPGameMode&&); \
@@ -80,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AUnrealCPPGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AUnrealCPPGameMode)
 
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_PRIVATE_PROPERTY_OFFSET
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_19_PROLOG
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_GENERATED_BODY_LEGACY \
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_PRIVATE_PROPERTY_OFFSET
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_10_PROLOG
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_PRIVATE_PROPERTY_OFFSET \
-	UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_RPC_WRAPPERS \
-	UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_INCLASS \
-	UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_STANDARD_CONSTRUCTORS \
+	UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_PRIVATE_PROPERTY_OFFSET \
+	UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_RPC_WRAPPERS \
+	UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_INCLASS \
+	UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_GENERATED_BODY \
+#define UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_PRIVATE_PROPERTY_OFFSET \
-	UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
-	UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_INCLASS_NO_PURE_DECLS \
-	UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_22_ENHANCED_CONSTRUCTORS \
+	UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_PRIVATE_PROPERTY_OFFSET \
+	UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_INCLASS_NO_PURE_DECLS \
+	UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -108,8 +87,4 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #define CURRENT_FILE_ID UnrealCPP_Source_UnrealCPP_UnrealCPPGameMode_h
 
 
-#define FOREACH_ENUM_EGAMEPLAYSTATE(op) \
-	op(EGamePlayState::EPlaying) \
-	op(EGamePlayState::EGameOver) \
-	op(EGamePlayState::EUnknown) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

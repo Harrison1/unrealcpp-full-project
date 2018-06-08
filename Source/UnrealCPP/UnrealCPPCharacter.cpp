@@ -11,8 +11,6 @@
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
-#include "Kismet/KismetMathLibrary.h"
-#include "TimerManager.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -84,36 +82,12 @@ AUnrealCPPCharacter::AUnrealCPPCharacter()
 
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
-
 }
 
 void AUnrealCPPCharacter::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
-
-	FullHealth = 1000.0f;
-	Health = FullHealth;
-	HealthPercentage = 1.0f;
-	bCanBeDamaged = true;
-
-	FullMagic = 100.0f;
-	Magic = FullMagic;
-	MagicPercentage = 1.0f;
-	PreviousMagic = MagicPercentage;
-	MagicValue = 0.0f;
-	bCanUseMagic = true;
-
-	if (MagicCurve)
-    {
-        FOnTimelineFloat TimelineCallback;
-        FOnTimelineEventStatic TimelineFinishedCallback;
-
-        TimelineCallback.BindUFunction(this, FName("SetMagicValue"));
-        TimelineFinishedCallback.BindUFunction(this, FName{ TEXT("SetMagicState") });
-        MyTimeline.AddInterpFloat(MagicCurve, TimelineCallback);
-        MyTimeline.SetTimelineFinishedFunc(TimelineFinishedCallback);
-    }
 
 	//Attach gun mesh component to Skeleton, doing it here because the skeleton is not yet created in the constructor
 	FP_Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
@@ -129,13 +103,6 @@ void AUnrealCPPCharacter::BeginPlay()
 		VR_Gun->SetHiddenInGame(true, true);
 		Mesh1P->SetHiddenInGame(false, true);
 	}
-}
-
-void AUnrealCPPCharacter::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-	MyTimeline.TickTimeline(DeltaTime);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -174,7 +141,7 @@ void AUnrealCPPCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 void AUnrealCPPCharacter::OnFire()
 {
 	// try and fire a projectile
-	if (ProjectileClass != NULL && !FMath::IsNearlyZero(Magic, 0.001f) && bCanUseMagic)
+	if (ProjectileClass != NULL)
 	{
 		UWorld* const World = GetWorld();
 		if (World != NULL)
@@ -197,30 +164,24 @@ void AUnrealCPPCharacter::OnFire()
 
 				// spawn the projectile at the muzzle
 				World->SpawnActor<AUnrealCPPProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
-
-				// try and play the sound if specified
-				if (FireSound != NULL)
-				{
-					UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
-				}
-
-				// try and play a firing animation if specified
-				if (FireAnimation != NULL)
-				{
-					// Get the animation object for the arms mesh
-					UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
-					if (AnimInstance != NULL)
-					{
-						AnimInstance->Montage_Play(FireAnimation, 1.f);
-					}
-				}
-
-				MyTimeline.Stop();
-				GetWorldTimerManager().ClearTimer(MagicTimerHandle);
-				SetMagicChange(-20.0f);
-				GetWorldTimerManager().SetTimer(MagicTimerHandle, this, &AUnrealCPPCharacter::UpdateMagic, 5.0f, false);
-			
 			}
+		}
+	}
+
+	// try and play the sound if specified
+	if (FireSound != NULL)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+	}
+
+	// try and play a firing animation if specified
+	if (FireAnimation != NULL)
+	{
+		// Get the animation object for the arms mesh
+		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+		if (AnimInstance != NULL)
+		{
+			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
 }
@@ -336,107 +297,4 @@ bool AUnrealCPPCharacter::EnableTouchscreenMovement(class UInputComponent* Playe
 	}
 	
 	return false;
-}
-
-float AUnrealCPPCharacter::GetHealth()
-{
-	return HealthPercentage;
-}
-
-float AUnrealCPPCharacter::GetMagic()
-{
-	return MagicPercentage;
-}
-
-FText AUnrealCPPCharacter::GetHealthIntText()
-{
-	int32 HP = FMath::RoundHalfFromZero(HealthPercentage * 100);
-	FString HPS = FString::FromInt(HP);
-	FString HealthHUD = HPS + FString(TEXT("%"));
-	FText HPText = FText::FromString(HealthHUD);
-	return HPText;
-}
-
-FText AUnrealCPPCharacter::GetMagicIntText()
-{
-	int32 MP = FMath::RoundHalfFromZero(MagicPercentage * 100);
-	FString MPS = FString::FromInt(MP);
-	FString FullMPS = FString::FromInt(FullMagic);
-	FString MagicHUD = MPS + FString(TEXT("/")) + FullMPS;
-	FText MPText = FText::FromString(MagicHUD);
-	return MPText;
-}
-
-void AUnrealCPPCharacter::SetDamageState()
-{
-	bCanBeDamaged = true;
-}
-
-void AUnrealCPPCharacter::DamageTimer()
-{
-	GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &AUnrealCPPCharacter::SetDamageState, 2.0f, false);
-}
-
-void AUnrealCPPCharacter::SetMagicValue()
-{
-	TimelineValue = MyTimeline.GetPlaybackPosition();
-    CurveFloatValue = PreviousMagic + MagicValue*MagicCurve->GetFloatValue(TimelineValue);
-	Magic = FMath::Clamp(CurveFloatValue*FullHealth, 0.0f, FullMagic);
-	MagicPercentage = FMath::Clamp(CurveFloatValue, 0.0f, 1.0f);
-}
-
-void AUnrealCPPCharacter::SetMagicState()
-{
-	bCanUseMagic = true;
-	MagicValue = 0.0;
-	if(GunDefaultMaterial)
-	{
-		FP_Gun->SetMaterial(0, GunDefaultMaterial);
-	}
-}
-
-bool AUnrealCPPCharacter::PlayFlash()
-{
-	if(redFlash)
-	{
-		redFlash = false;
-		return true;
-	}
-
-	return false;
-}
-
-void AUnrealCPPCharacter::ReceivePointDamage(float Damage, const UDamageType * DamageType, FVector HitLocation, FVector HitNormal, UPrimitiveComponent * HitComponent, FName BoneName, FVector ShotFromDirection, AController * InstigatedBy, AActor * DamageCauser, const FHitResult & HitInfo)
-{
-	bCanBeDamaged = false;
-	redFlash = true;
-	UpdateHealth(-Damage);
-	DamageTimer();
-}
-
-void AUnrealCPPCharacter::UpdateHealth(float HealthChange)
-{
-	Health = FMath::Clamp(Health += HealthChange, 0.0f, FullHealth);
-	HealthPercentage = Health/FullHealth;
-}
-
-void AUnrealCPPCharacter::UpdateMagic()
-{
-	PreviousMagic = MagicPercentage;
-	MagicPercentage = Magic/FullMagic;
-	MagicValue = 1.0f;
-	MyTimeline.PlayFromStart();
-}
-
-void AUnrealCPPCharacter::SetMagicChange(float MagicChange)
-{
-	bCanUseMagic = false;
-	PreviousMagic = MagicPercentage;
-	MagicValue = (MagicChange/FullMagic);
-	if(GunOverheatMaterial)
-	{
-		FP_Gun->SetMaterial(0, GunOverheatMaterial);
-	}
-
-	MyTimeline.PlayFromStart();
 }

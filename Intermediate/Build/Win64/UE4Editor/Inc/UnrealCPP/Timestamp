@@ -12,8 +12,6 @@ D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\DestroyActorOnOverlap\DestroyActor
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\FindPlayerPosition\FindPlayerPosition.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\FloatingActor\FloatingActor.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\GetNumberOfPawns\GetNumberOfPawns.h
-D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\HealthBar\CampFire.h
-D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\HealthBar\MedKit.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\HideActor\HideActor.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\LightSwitchPushButton\LightSwitchPushButton.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\LightSwitchTrigger\LightSwitchTrigger.h
@@ -35,7 +33,6 @@ D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\SetViewTarget\SetViewTarget.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\SetViewTargetBlend\SetViewTargetBlend.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\SwingDoor\SwingDoor.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\TimerActor\TimerActor.h
-D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\TriggerBoxSpecificActor\TriggerBoxSpecificActor.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPCharacter.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPGameMode.h
 D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPPHUD.h

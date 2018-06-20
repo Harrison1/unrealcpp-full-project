@@ -1,4 +1,4 @@
-﻿Log file open, 06/18/18 06:20:23
+﻿Log file open, 06/20/18 07:46:19
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: UnrealCPP
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1112612352) SRandInit(-1112612352).
+LogInit: Display: RandInit(-1252216356) SRandInit(-1252216356).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.259252
+LogStats: Stats thread started at 3.107437
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,8 +84,8 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.115s to configure plugins.
-LogModuleManager: Display: Found up-to-date module file ../../../../../Unreal Projects/UnrealCPP/Binaries/Win64/UE4Editor-UnrealCPP-2118.dll (API version 3944462).
+LogStreaming: Display: Took  0.506s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../Unreal Projects/UnrealCPP/Binaries/Win64/UE4Editor-UnrealCPP-9202.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -220,1229 +220,174 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
 LogInit: Base Directory: D:/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.012s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.06.18-10.20.25:576][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.18-10.20.25:576][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.06.18-10.20.25:588][  0]LogInit: Computer: HARRYPC
-[2018.06.18-10.20.25:588][  0]LogInit: User: Harrison
-[2018.06.18-10.20.25:588][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.06.18-10.20.25:588][  0]LogInit: High frequency timer resolution =3.514610 MHz
-[2018.06.18-10.20.25:588][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.06.18-10.20.25:588][  0]LogMemory: Platform Memory Stats for Windows
-[2018.06.18-10.20.25:588][  0]LogMemory: Process Physical Memory: 274.22 MB used, 274.22 MB peak
-[2018.06.18-10.20.25:588][  0]LogMemory: Process Virtual Memory: 264.80 MB used, 264.80 MB peak
-[2018.06.18-10.20.25:588][  0]LogMemory: Physical Memory: 4888.93 MB used,  11452.06 MB free, 16340.99 MB total
-[2018.06.18-10.20.25:588][  0]LogMemory: Virtual Memory: 4795.14 MB used,  11452.06 MB free, 134217728.00 MB total
-[2018.06.18-10.20.25:605][  0]LogInit: Using OS detected language (en-US).
-[2018.06.18-10.20.25:605][  0]LogInit: Using OS detected locale (en-US).
-[2018.06.18-10.20.25:610][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.06.18-10.20.26:034][  0]LogStreaming: Display: Took  0.428s to EndInitTextLocalization.
-[2018.06.18-10.20.26:034][  0]LogInit: Setting process to per monitor DPI aware
-[2018.06.18-10.20.26:066][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.06.18-10.20.26:066][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.06.18-10.20.26:422][  0]LogD3D11RHI: D3D11 adapters:
-[2018.06.18-10.20.26:470][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.06.18-10.20.26:470][  0]LogD3D11RHI:       4043/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.06.18-10.20.26:472][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.06.18-10.20.26:472][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.06.18-10.20.26:472][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.06.18-10.20.26:478][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.06.18-10.20.26:478][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2018.06.18-10.20.26:478][  0]LogWindows: EnumDisplayDevices:
-[2018.06.18-10.20.26:478][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2018.06.18-10.20.26:478][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.06.18-10.20.26:478][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.06.18-10.20.26:479][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.06.18-10.20.26:479][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.06.18-10.20.26:479][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2018.06.18-10.20.26:479][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.06.18-10.20.26:479][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.06.18-10.20.26:479][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2018.06.18-10.20.26:518][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.18-10.20.26:518][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.18-10.20.26:518][  0]LogD3D11RHI: Async texture creation enabled
-[2018.06.18-10.20.26:538][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.06.18-10.20.26:586][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../Unreal Projects/UnrealCPP/Intermediate/Shaders/WorkingDirectory/10628/).
-[2018.06.18-10.20.26:586][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harrison/AppData/Local/Temp/UnrealShaderWorkingDir/106C2E1C47C7A56461BACABC1E6FF322/'.
-[2018.06.18-10.20.26:835][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.06.18-10.20.26:847][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.06.18-10.20.26:862][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.06.18-10.20.26:876][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.06.18-10.20.26:889][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.06.18-10.20.26:901][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.06.18-10.20.26:914][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.06.18-10.20.26:927][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.06.18-10.20.26:933][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.06.18-10.20.26:944][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.06.18-10.20.26:955][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.06.18-10.20.26:967][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.06.18-10.20.26:978][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.06.18-10.20.26:990][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.06.18-10.20.27:001][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.06.18-10.20.27:024][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.06.18-10.20.27:024][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.06.18-10.20.27:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.06.18-10.20.27:038][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.06.18-10.20.27:075][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.06.18-10.20.27:087][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.06.18-10.20.27:104][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.06.18-10.20.27:119][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.06.18-10.20.27:132][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.06.18-10.20.27:145][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.06.18-10.20.27:145][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.06.18-10.20.27:266][  0]LogXGEController: Cleaning working directory: C:/Users/Harrison/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.06.18-10.20.27:266][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.06.18-10.20.27:266][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.06.18-10.20.27:266][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.06.18-10.20.28:124][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.06.18-10.20.28:200][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.18-10.20.28:200][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.06.18-10.20.28:200][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.06.18-10.20.28:200][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.06.18-10.20.28:200][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.06.18-10.20.28:200][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.06.18-10.20.28:222][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.06.18-10.20.28:238][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Harrison/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.06.18-10.20.28:238][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.06.18-10.20.28:238][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.06.18-10.20.28:254][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.06.18-10.20.28:254][  0]LogSlate: Using Freetype 2.6.0
-[2018.06.18-10.20.28:256][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.18-10.20.28:256][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.18-10.20.28:495][  0]LogAssetRegistry: FAssetRegistry took 0.0309 seconds to start up
-[2018.06.18-10.20.28:903][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.18-10.20.33:051][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.06.18-10.20.33:054][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.06.18-10.20.33:054][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.06.18-10.20.33:054][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.06.18-10.20.33:054][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.06.18-10.20.33:054][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.06.18-10.20.33:103][  0]LogNetVersion: UnrealCPP , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2553546984)
-[2018.06.18-10.20.33:915][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.176157 seconds
-[2018.06.18-10.20.33:923][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.06.18-10.20.33:924][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2018.06.18-10.20.33:924][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.06.18-10.20.36:648][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.06.18-10.20.36:680][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.06.18-10.20.37:107][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024a64b8bf60, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.20.37:116][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024a64b8bf60, Size=72
-[2018.06.18-10.20.37:116][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024a65003380, Size=72, Default__FirstPerson_AnimBP_C Function /Engine/Transient.REINST_FirstPerson_AnimBP_C_0:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.20.37:123][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024a64fab560, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.20.37:215][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.406873ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
-[2018.06.18-10.20.37:224][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.809194ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
-[2018.06.18-10.20.37:408][  0]SourceControl: Source control is disabled
-[2018.06.18-10.20.37:408][  0]SourceControl: Source control is disabled
-[2018.06.18-10.20.37:430][  0]SourceControl: Source control is disabled
-[2018.06.18-10.20.37:451][  0]SourceControl: Source control is disabled
-[2018.06.18-10.20.38:044][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.06.18-10.20.38:255][  0]LogOcInput: OculusInput pre-init called
-[2018.06.18-10.20.38:374][  0]LogEngine: Initializing Engine...
-[2018.06.18-10.20.38:378][  0]LogHMD: Failed to initialize OpenVR with code 105
-[2018.06.18-10.20.38:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.18-10.20.38:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.18-10.20.38:579][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.06.18-10.20.38:605][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.18-10.20.38:619][  0]LogInit: FAudioDevice initialized.
-[2018.06.18-10.20.38:755][  0]LogDerivedDataCache: Saved boot cache 0.13s 78MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.18-10.20.38:767][  0]LogInit: Texture streaming: Enabled
-[2018.06.18-10.20.38:781][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.06.18-10.20.38:796][  0]LogInit: Transaction tracking system initialized
-[2018.06.18-10.20.38:816][  0]BlueprintLog: New page: Editor Load
-[2018.06.18-10.20.38:911][  0]LocalizationService: Localization service is disabled
-[2018.06.18-10.20.39:021][  0]LogConsoleResponse: Display: 
-[2018.06.18-10.20.39:158][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.06.18-10.20.39:158][  0]LogCook: Display: Mobile HDR setting 1
-[2018.06.18-10.20.39:158][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.06.18-10.20.39:158][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.18-10.20.39:158][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.18-10.20.39:605][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/' took 0.02s
-[2018.06.18-10.20.39:605][  0]SourceControl: Source control is disabled
-[2018.06.18-10.20.39:605][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.06.18-10.20.39:606][  0]LightingResults: New page: Lighting Build
-[2018.06.18-10.20.39:608][  0]MapCheck: New page: Map Check
-[2018.06.18-10.20.39:608][  0]LightingResults: New page: Lighting Build
-[2018.06.18-10.20.39:618][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024a65003380, Size=72
-[2018.06.18-10.20.39:806][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.06.18-10.20.39:816][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.06.18-10.20.39:834][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.06.18-10.20.40:061][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 227.307ms to complete.
-[2018.06.18-10.20.40:061][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.456
-[2018.06.18-10.20.40:188][  0]LogCollectionManager: Loaded 0 collections in 0.001633 seconds
-[2018.06.18-10.20.40:229][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Saved/Collections/' took 0.01s
-[2018.06.18-10.20.40:229][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Developers/Harrison/Collections/' took 0.01s
-[2018.06.18-10.20.40:229][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Collections/' took 0.01s
-[2018.06.18-10.20.40:229][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.06.18-10.20.40:275][  0]LogContentBrowser: Native class hierarchy populated in 0.0454 seconds. Added 2491 classes and 594 folders.
-[2018.06.18-10.20.40:321][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0408 seconds. Added 0 classes and 0 folders.
-[2018.06.18-10.20.40:449][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0397 seconds. Added 0 classes and 0 folders.
-[2018.06.18-10.20.40:496][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0388 seconds. Added 1 classes and 2 folders.
-[2018.06.18-10.20.40:581][  0]LogSlate: Took 0.000957 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.06.18-10.20.40:583][  0]LogSlate: Took 0.000664 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.06.18-10.20.40:589][  0]LogSlate: Took 0.000598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.06.18-10.20.40:590][  0]LogSlate: Took 0.000566 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.06.18-10.20.40:762][  0]LogRenderer: Reallocating scene render targets to support 1148x612 Format 10 NumSamples 1 (Frame:1).
-[2018.06.18-10.20.40:920][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0352 seconds. Added 0 classes and 0 folders.
-[2018.06.18-10.20.40:920][  0]LogLoad: (Engine Initialization) Total time: 18.80 seconds
-[2018.06.18-10.20.40:921][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.06.18-10.20.41:280][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.06.18-10.20.41:605][  1]LogAssetRegistry: Asset discovery search completed in 13.1352 seconds
-[2018.06.18-10.20.41:607][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.06.18-10.20.41:608][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000281 seconds (updated 0 objects)
-[2018.06.18-10.22.10:154][402]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-10.22.10:264][402]LogSlate: Took 0.021989 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.18-10.23.43:221][209]LogSlate: Took 0.002117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.18-10.23.43:397][209]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0534 seconds. Added 7 classes and 3 folders.
-[2018.06.18-10.23.43:486][209]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0533 seconds. Added 1 classes and 2 folders.
-[2018.06.18-10.23.44:412][209]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
-[2018.06.18-10.23.44:532][209]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0658 seconds. Added 1 classes and 0 folders.
-[2018.06.18-10.23.47:013][209]LogSlate: Took 0.048590 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.06.18-10.23.47:364][209]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.1186 seconds. Added 1 classes and 0 folders.
-[2018.06.18-10.23.50:913][486]LogRenderer: Reallocating scene render targets to support 1148x888 Format 10 NumSamples 1 (Frame:313).
-[2018.06.18-10.23.51:266][528]LogSlate: Window 'SK_Mannequin_Arms_PhysicsAsset' being destroyed
-[2018.06.18-10.24.31:056][177]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-10.24.45:215][816]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_1.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.06.18-10.24.45:288][816]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.Actor_1.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2018.06.18-10.24.52:204][582]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_2.DebugSkelMeshComponent_1) Already registered. Aborting.
-[2018.06.18-10.24.52:263][582]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_2.DebugSkelMeshComponent_1) - call TermArticulated first.
-[2018.06.18-10.24.52:735][582]LogSlate: Took 0.044174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.06.18-10.24.59:344][342]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_3.DebugSkelMeshComponent_2) Already registered. Aborting.
-[2018.06.18-10.24.59:406][342]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_3.DebugSkelMeshComponent_2) - call TermArticulated first.
-[2018.06.18-10.25.00:143][342]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.06.18-10.25.31:185][932]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.Actor_4.DebugSkelMeshComponent_10) Already registered. Aborting.
-[2018.06.18-10.25.32:163][932]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0649 seconds. Added 116 classes and 0 folders.
-[2018.06.18-10.25.33:025][932]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae1165d00, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.06.18-10.25.33:029][932]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae1165cf8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.06.18-10.25.34:121][932]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.Actor_4.DebugSkelMeshComponent_10) - call TermArticulated first.
-[2018.06.18-10.30.15:663][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Animations/FirstPerson_AnimBP" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset" SILENT=true
-[2018.06.18-10.30.15:902][413]LogSavePackage: Save=177.30ms
-[2018.06.18-10.30.15:902][413]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPerson_AnimBP1C648B2E47E1CC059A86C6ADEE38F062.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset'
-[2018.06.18-10.30.15:928][413]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset
-[2018.06.18-10.30.16:613][493]BlueprintLog: New page: Compile FirstPerson_AnimBP
-[2018.06.18-10.30.16:649][493]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024a64fab560, Size=72
-[2018.06.18-10.30.16:649][493]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024a14cfc220, Size=72, Default__FirstPerson_AnimBP_C Function /Engine/Transient.REINST_FirstPerson_AnimBP_C_2:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.30.16:657][493]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024a154deb10, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.32.03:982][227]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ab9809f90, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.32.09:180][841]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ab9809f90, Size=4
-[2018.06.18-10.32.09:180][841]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024aeb6c6b68, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_4:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.32.09:186][841]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024aeb6c46a8, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.32.27:336][956]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024aeb6c46a8, Size=4
-[2018.06.18-10.32.27:336][956]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024aa2b81f50, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_5:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.32.27:343][956]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024aa2b82468, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.32.51:544][828]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024aa2b82468, Size=4
-[2018.06.18-10.32.51:544][828]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024af07d5b28, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_6:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.32.51:551][828]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024af07d68e0, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.32.55:452][289]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024af07d68e0, Size=4
-[2018.06.18-10.32.55:452][289]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024af07d68e0, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_7:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.32.55:458][289]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024af07d73a8, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.34.29:902][517]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024af07d73a8, Size=4
-[2018.06.18-10.34.29:902][517]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae4eb5f90, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_8:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.34.29:908][517]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae4eb5618, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.34.33:508][939]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae4eb5618, Size=4
-[2018.06.18-10.34.33:508][939]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024af0a30a68, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_9:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.34.33:513][939]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024af0a30af8, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.35.53:319][434]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024af0a30af8, Size=4
-[2018.06.18-10.35.53:319][434]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024af07d6570, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_10:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.35.53:362][434]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024af07d48e8, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.35.53:374][434]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024af07d48e8, Size=4
-[2018.06.18-10.35.53:375][434]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024af07d48e8, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_11:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.35.53:388][434]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024af07d5198, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.36.45:504][515]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024af07d5198, Size=4
-[2018.06.18-10.36.45:504][515]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ab9808fe8, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_12:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.36.45:523][515]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ab980b068, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.36.45:535][515]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ab980b068, Size=4
-[2018.06.18-10.36.45:535][515]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ab980b068, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_13:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.36.45:547][515]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ab98099a0, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.37.20:653][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024a14cfc220, Size=72
-[2018.06.18-10.37.20:655][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024af07d68e0, Size=4
-[2018.06.18-10.37.20:655][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024af07d5b28, Size=4
-[2018.06.18-10.37.20:656][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024aa2b81f50, Size=4
-[2018.06.18-10.37.20:656][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024aeb6c6b68, Size=4
-[2018.06.18-10.37.20:656][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae4eb5f90, Size=4
-[2018.06.18-10.37.20:656][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024af0a30a68, Size=4
-[2018.06.18-10.37.20:657][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024af07d6570, Size=4
-[2018.06.18-10.37.20:657][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024af07d48e8, Size=4
-[2018.06.18-10.37.20:657][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ab9808fe8, Size=4
-[2018.06.18-10.37.20:658][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ab980b068, Size=4
-[2018.06.18-10.37.20:666][760]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.049
-[2018.06.18-10.37.20:684][760]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Animations/FirstPerson_AnimBP] ([1] browsable assets)...
-[2018.06.18-10.37.20:713][760]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP]
-[2018.06.18-10.37.20:714][760]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Animations/FirstPerson_AnimBP]
-[2018.06.18-10.37.20:830][760]LogSavePackage: Save=104.46ms
-[2018.06.18-10.37.20:830][760]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPerson_AnimBP_Auto17CCCDFE349678CD143802E9921F1B83A.tmp' to '../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/Animations/FirstPerson_AnimBP_Auto1.uasset'
-[2018.06.18-10.37.20:837][760]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/Animations/FirstPerson_AnimBP_Auto1.uasset
-[2018.06.18-10.37.20:837][760]LogFileHelpers: Auto-saving content packages took 0.170
-[2018.06.18-10.41.38:794][933]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ab98099a0, Size=4
-[2018.06.18-10.41.38:794][933]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ab9565e50, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_14:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.41.38:801][933]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ab9564650, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.41.49:901][258]BlueprintLog: New page: Compile FirstPerson_AnimBP
-[2018.06.18-10.41.49:911][258]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ab9564650, Size=4
-[2018.06.18-10.41.49:912][258]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae4776f90, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_15:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.41.49:920][258]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024a154deb10, Size=72
-[2018.06.18-10.41.49:921][258]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ab78376f0, Size=72, Default__FirstPerson_AnimBP_C Function /Engine/Transient.REINST_FirstPerson_AnimBP_C_16:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.41.49:927][258]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae5522340, Size=80, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.41.50:010][258]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae4776f90, Size=4
-[2018.06.18-10.41.50:010][258]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ab9565e50, Size=4
-[2018.06.18-10.41.56:043][976]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024aeb6c5108, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.42.01:811][650]BlueprintLog: New page: Compile FirstPerson_AnimBP
-[2018.06.18-10.42.01:819][650]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024aeb6c5108, Size=4
-[2018.06.18-10.42.01:819][650]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024af07d6140, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_18:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.42.01:828][650]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae5522340, Size=80
-[2018.06.18-10.42.01:828][650]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae3f74130, Size=80, FirstPerson_AnimBP_C_6 Function /Engine/Transient.REINST_FirstPerson_AnimBP_C_19:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.42.01:835][650]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024aae36b3d0, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.42.01:917][650]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ab78376f0, Size=72
-[2018.06.18-10.42.01:917][650]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024af07d6140, Size=4
-[2018.06.18-10.42.03:066][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Animations/FirstPerson_AnimBP" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset" SILENT=true
-[2018.06.18-10.42.03:119][779]LogSavePackage: Save=48.13ms
-[2018.06.18-10.42.03:119][779]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPerson_AnimBPB1D62267489833EE30C4CEA10A3D11E9.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset'
-[2018.06.18-10.42.03:126][779]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset
-[2018.06.18-10.42.26:660][575]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_5.DebugSkelMeshComponent_13) Already registered. Aborting.
-[2018.06.18-10.42.42:496][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-10.43.05:166][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-10.43.17:300][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-10.43.25:425][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-10.43.34:659][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-10.43.42:504][286]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.Actor_6.PhysicsAssetEditorSkeletalMeshComponent_1) Already registered. Aborting.
-[2018.06.18-10.43.45:911][615]LogSlate: Window 'SK_FPGun_PhysicsAsset' being destroyed
-[2018.06.18-10.43.54:592][635]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-10.44.18:672][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-10.44.22:507][886]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_7.DebugSkelMeshComponent_14) Already registered. Aborting.
-[2018.06.18-10.44.29:123][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-10.44.41:064][970]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.Actor_8.DebugSkelMeshComponent_15) Already registered. Aborting.
-[2018.06.18-10.46.15:951][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-10.48.01:004][ 24]LogSlate: Window 'FirstPersonCharacter' being destroyed
-[2018.06.18-10.48.01:008][ 24]LogSlate: Window 'FirstPersonCharacter' being destroyed
-[2018.06.18-10.48.05:474][464]LogActor: Warning: ActorLineTrace /Engine/Transient.World_28:PersistentLevel.ActorLineTrace_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2018.06.18-10.49.14:791][322]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2018.06.18-10.49.14:993][323]LogShaderCompilers: Display: Shaders left to compile 44
-[2018.06.18-10.49.14:993][323]LogShaderCompilers: Display: Shaders left to compile 34
-[2018.06.18-10.49.14:993][323]LogShaderCompilers: Display: Shaders left to compile 24
-[2018.06.18-10.49.14:993][323]LogShaderCompilers: Display: Shaders left to compile 14
-[2018.06.18-10.49.15:011][323]LogMaterial: Missing cached shader map for material Material_1, compiling. 
-[2018.06.18-10.49.15:102][325]LogMaterial: Missing cached shader map for material Material_2, compiling. 
-[2018.06.18-10.49.15:150][326]LogMaterial: Missing cached shader map for material Material_3, compiling. 
-[2018.06.18-10.49.18:081][666]LogShaderCompilers: Display: Shaders left to compile 136
-[2018.06.18-10.49.18:202][679]LogShaderCompilers: Display: Shaders left to compile 126
-[2018.06.18-10.49.18:287][689]LogShaderCompilers: Display: Shaders left to compile 116
-[2018.06.18-10.49.19:243][800]LogShaderCompilers: Display: Shaders left to compile 106
-[2018.06.18-10.49.19:338][811]LogShaderCompilers: Display: Shaders left to compile 96
-[2018.06.18-10.49.19:629][845]LogShaderCompilers: Display: Shaders left to compile 86
-[2018.06.18-10.49.19:728][851]LogShaderCompilers: Display: Shaders left to compile 76
-[2018.06.18-10.49.20:928][977]LogShaderCompilers: Display: Shaders left to compile 66
-[2018.06.18-10.49.21:130][999]LogShaderCompilers: Display: Shaders left to compile 56
-[2018.06.18-10.49.21:224][ 10]LogShaderCompilers: Display: Shaders left to compile 46
-[2018.06.18-10.49.21:567][ 49]LogShaderCompilers: Display: Shaders left to compile 36
-[2018.06.18-10.49.22:548][154]LogShaderCompilers: Display: Shaders left to compile 26
-[2018.06.18-10.49.22:548][154]LogShaderCompilers: Display: Shaders left to compile 16
-[2018.06.18-10.49.22:995][203]LogShaderCompilers: Display: Shaders left to compile 6
-[2018.06.18-10.49.24:142][315]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae3f74130, Size=80
-[2018.06.18-10.49.24:348][315]LogSavePackage: Save=176.20ms
-[2018.06.18-10.49.24:348][315]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPersonExampleMap3AE29BE34020E63986F960993D77830F.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2018.06.18-10.49.24:355][315]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
-[2018.06.18-10.49.25:657][315]LogSavePackage: Save=1124.19ms
-[2018.06.18-10.49.25:658][315]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPersonExampleMap_BuiltData7A80A36A42A41692416523BAF4CC39C3.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2018.06.18-10.49.25:661][315]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2018.06.18-10.49.53:941][445]LogSlate: Window 'Pick Parent Class' being destroyed
-[2018.06.18-10.50.11:315][278]LogSlate: Window 'Delete Assets' being destroyed
-[2018.06.18-10.50.39:816][605]LogSlate: Window 'Pick Parent Class' being destroyed
-[2018.06.18-10.51.03:316][629]LogSlate: Window 'Pick Skeletal Mesh' being destroyed
-[2018.06.18-10.51.08:713][915]LogSlate: Window 'New Physics Asset' being destroyed
-[2018.06.18-10.51.10:999][161]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.Actor_9.PhysicsAssetEditorSkeletalMeshComponent_2) Already registered. Aborting.
-[2018.06.18-10.51.13:435][390]LogSlate: Window 'NewPhysicsAsset*' being destroyed
-[2018.06.18-10.51.13:438][390]LogSlate: Window 'NewPhysicsAsset*' being destroyed
-[2018.06.18-10.51.20:241][964]LogSlate: Window 'Delete Assets' being destroyed
-[2018.06.18-10.51.22:099][964]LogSkeletalMesh: Building Skeletal Mesh SK_FPGun...
-[2018.06.18-10.51.22:153][964]LogSkeletalMesh: Built Skeletal Mesh [0.05s] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
-[2018.06.18-10.51.25:740][166]LogSlate: Window 'Delete Assets' being destroyed
-[2018.06.18-10.51.28:646][491]LogSavePackage: Save=120.80ms
-[2018.06.18-10.51.28:646][491]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPersonExampleMap6A3ABE874BFED55ACCA44BA1B5F9A889.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2018.06.18-10.51.28:659][491]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
-[2018.06.18-10.51.29:532][491]LogSavePackage: Save=792.89ms
-[2018.06.18-10.51.29:532][491]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPersonExampleMap_BuiltDataFEF528D94F66934499628E989F0F77A4.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2018.06.18-10.51.29:536][491]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2018.06.18-10.51.30:725][631]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.18-10.51.30:867][631]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-10.51.30:902][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.18-10.51.31:009][631]PIE: New page: PIE session: FirstPersonExampleMap (Jun 18, 2018, 2:51:30 AM)
-[2018.06.18-10.51.31:025][631]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.06.18-10.51.31:153][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.127318s)
-[2018.06.18-10.51.31:156][631]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.06.18-10.51.31:157][631]LogPlayLevel: PIE: World Init took: (0.003504s)
-[2018.06.18-10.51.31:158][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.133553s)
-[2018.06.18-10.51.31:215][631]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.18-10.51.31:225][631]LogInit: FAudioDevice initialized.
-[2018.06.18-10.51.31:299][631]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.06.18-10.51.31:314][631]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.06.18-06.51.31
-[2018.06.18-10.51.31:356][631]LogWorld: Bringing up level for play took: 0.054838
-[2018.06.18-10.51.31:645][631]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.1090 seconds. Added 11 classes and 0 folders.
-[2018.06.18-10.51.31:670][631]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.301
-[2018.06.18-10.51.31:670][631]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-10.51.40:633][646]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-10.51.40:729][646]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-10.51.50:743][823]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.18-10.51.51:957][962]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.18-10.51.51:974][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun.uasset" SILENT=true
-[2018.06.18-10.51.52:005][962]LogSavePackage: Save=19.19ms
-[2018.06.18-10.51.52:005][962]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun94BD223947E8B696DEB4AB9A277F76E9.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun.uasset'
-[2018.06.18-10.51.52:012][962]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun.uasset
-[2018.06.18-10.51.59:949][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-10.52.54:237][301]LogSlate: Window 'Pick Skeletal Mesh' being destroyed
-[2018.06.18-10.53.36:552][532]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.Actor_10.DebugSkelMeshComponent_16) Already registered. Aborting.
-[2018.06.18-10.53.52:467][358]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-10.54.18:383][373]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-10.54.44:576][376]LogSlate: Window 'FirstPersonExampleMap - Level Blueprint Editor' being destroyed
-[2018.06.18-10.55.03:829][331]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
-[2018.06.18-10.55.04:104][331]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh1P)
-[2018.06.18-10.55.12:435][685]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.18-10.56.49:588][789]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.Actor_11.DebugSkelMeshComponent_17) Already registered. Aborting.
-[2018.06.18-10.56.49:615][789]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_34:PersistentLevel.Actor_11.DebugSkelMeshComponent_17) - call TermArticulated first.
-[2018.06.18-10.56.58:496][809]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.Actor_12.DebugSkelMeshComponent_18) Already registered. Aborting.
-[2018.06.18-10.56.58:519][809]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_35:PersistentLevel.Actor_12.DebugSkelMeshComponent_18) - call TermArticulated first.
-[2018.06.18-10.57.06:692][741]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.Actor_13.DebugSkelMeshComponent_19) Already registered. Aborting.
-[2018.06.18-10.57.06:723][741]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_36:PersistentLevel.Actor_13.DebugSkelMeshComponent_19) - call TermArticulated first.
-[2018.06.18-10.57.07:126][741]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.06.18-10.57.09:721][ 46]LogSlate: Window 'FirstPersonFire_Montage' being destroyed
-[2018.06.18-10.57.09:723][ 46]LogSlate: Window 'FirstPersonFire_Montage' being destroyed
-[2018.06.18-10.57.10:730][135]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.Actor_14.DebugSkelMeshComponent_21) Already registered. Aborting.
-[2018.06.18-10.57.10:761][135]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_38:PersistentLevel.Actor_14.DebugSkelMeshComponent_21) - call TermArticulated first.
-[2018.06.18-10.57.11:054][135]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.06.18-10.57.12:534][304]LogSlate: Window 'FirstPersonFire_Montage' being destroyed
-[2018.06.18-10.57.12:538][304]LogSlate: Window 'FirstPersonFire_Montage' being destroyed
-[2018.06.18-10.57.13:599][403]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.Actor_15.DebugSkelMeshComponent_23) Already registered. Aborting.
-[2018.06.18-10.57.13:863][403]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_41:PersistentLevel.Actor_15.DebugSkelMeshComponent_23) - call TermArticulated first.
-[2018.06.18-10.58.17:253][915]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024b24b98ac8, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.58.19:310][157]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024b24b98ac8, Size=4
-[2018.06.18-10.58.19:310][157]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024b24b98ac8, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_21:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.58.19:316][157]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024b24b9a358, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.58.21:716][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024b24b9a358, Size=4
-[2018.06.18-10.58.21:716][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae4eb69a0, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_22:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.58.21:722][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae4eb76b0, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.58.21:726][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae4eb76b0, Size=4
-[2018.06.18-10.58.21:727][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae4eb76b0, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_23:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.58.21:733][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae4eb76c0, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.58.44:507][135]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae4eb76c0, Size=4
-[2018.06.18-10.58.44:507][135]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024b264a80d8, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_24:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.58.44:514][135]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024b264a82d8, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.59.01:979][219]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024b264a82d8, Size=4
-[2018.06.18-10.59.01:980][219]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae47763d0, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_25:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.59.01:986][219]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae47777f8, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.59.03:414][387]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae47777f8, Size=4
-[2018.06.18-10.59.03:414][387]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ac07dc728, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_26:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.59.03:420][387]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ac07dd920, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.59.03:424][387]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ac07dd920, Size=4
-[2018.06.18-10.59.03:424][387]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ac07dd920, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_27:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-10.59.03:430][387]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ac07dde70, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-11.01.44:444][ 70]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae4eb69a0, Size=4
-[2018.06.18-11.01.44:447][ 70]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ac07dd920, Size=4
-[2018.06.18-11.01.44:447][ 70]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ac07dc728, Size=4
-[2018.06.18-11.01.44:448][ 70]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae47763d0, Size=4
-[2018.06.18-11.01.44:448][ 70]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024b264a80d8, Size=4
-[2018.06.18-11.01.44:448][ 70]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae4eb76b0, Size=4
-[2018.06.18-11.01.44:449][ 70]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024b24b98ac8, Size=4
-[2018.06.18-11.01.44:460][ 70]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.035
-[2018.06.18-11.01.44:462][ 70]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Animations/FirstPerson_AnimBP] ([1] browsable assets)...
-[2018.06.18-11.01.44:473][ 70]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP]
-[2018.06.18-11.01.44:474][ 70]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Animations/FirstPerson_AnimBP]
-[2018.06.18-11.01.44:536][ 70]LogSavePackage: Save=50.87ms
-[2018.06.18-11.01.44:536][ 70]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPerson_AnimBP_Auto2C5CBE5BC4558601BA9530D8BCCC80880.tmp' to '../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/Animations/FirstPerson_AnimBP_Auto2.uasset'
-[2018.06.18-11.01.44:539][ 70]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/Animations/FirstPerson_AnimBP_Auto2.uasset
-[2018.06.18-11.01.44:539][ 70]LogFileHelpers: Auto-saving content packages took 0.079
-[2018.06.18-11.02.18:729][634]Cmd: TRANSACTION UNDO
-[2018.06.18-11.02.18:730][634]LogEditorTransaction: Undo Move Components
-[2018.06.18-11.02.23:972][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.02.42:676][231]Cmd: TRANSACTION UNDO
-[2018.06.18-11.02.42:676][231]LogEditorTransaction: Undo Modify Component(s)
-[2018.06.18-11.02.50:808][ 80]Cmd: TRANSACTION UNDO
-[2018.06.18-11.02.50:808][ 80]LogEditorTransaction: Undo Modify Component(s)
-[2018.06.18-11.02.51:138][114]Cmd: TRANSACTION UNDO
-[2018.06.18-11.02.51:138][114]LogEditorTransaction: Undo Modify Component(s)
-[2018.06.18-11.02.51:641][169]Cmd: TRANSACTION UNDO
-[2018.06.18-11.02.51:641][169]LogEditorTransaction: Undo Modify Component(s)
-[2018.06.18-11.02.52:327][249]Cmd: TRANSACTION UNDO
-[2018.06.18-11.02.52:327][249]LogEditorTransaction: Undo Delete current selection
-[2018.06.18-11.02.52:328][249]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ac07dde70, Size=4
-[2018.06.18-11.02.52:329][249]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae1f4c1e0, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_28:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-11.02.52:335][249]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae1f4c350, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-11.02.53:054][332]Cmd: TRANSACTION UNDO
-[2018.06.18-11.02.53:054][332]LogEditorTransaction: Undo Rename Node
-[2018.06.18-11.02.53:056][332]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae1f4c350, Size=4
-[2018.06.18-11.02.53:056][332]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae217efb0, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_29:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-11.02.53:063][332]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae217c5e8, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-11.02.56:839][780]Cmd: TRANSACTION UNDO
-[2018.06.18-11.02.56:839][780]LogEditorTransaction: Undo Add Node
-[2018.06.18-11.02.56:840][780]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae217c5e8, Size=4
-[2018.06.18-11.02.56:841][780]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae16640f8, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_30:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-11.02.56:847][780]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae1665178, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-11.02.59:470][ 78]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae1f4c1e0, Size=4
-[2018.06.18-11.02.59:471][ 78]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae16640f8, Size=4
-[2018.06.18-11.02.59:471][ 78]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae217efb0, Size=4
-[2018.06.18-11.02.59:607][ 78]LogSavePackage: Save=116.27ms
-[2018.06.18-11.02.59:607][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPersonExampleMapA2B6FA28464888CEBB6FE0ADBEF7C274.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2018.06.18-11.02.59:620][ 78]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
-[2018.06.18-11.03.00:589][ 78]LogSavePackage: Save=868.42ms
-[2018.06.18-11.03.00:589][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPersonExampleMap_BuiltDataC0F5E4E347465041A7ECFF8C3F6D31C1.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2018.06.18-11.03.00:593][ 78]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2018.06.18-11.03.01:827][220]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.18-11.03.01:844][220]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.03.01:845][220]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.06.18-11.03.01:854][220]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae1665178, Size=4
-[2018.06.18-11.03.01:854][220]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ae1f4dd98, Size=4, Default__SKEL_FirstPerson_AnimBP_C Function /Engine/Transient.REINST_SKEL_FirstPerson_AnimBP_C_31:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-11.03.01:854][220]LogPlayLevel: [PlayLevel] Compiling FirstPerson_AnimBP before play...
-[2018.06.18-11.03.01:863][220]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024aae36b3d0, Size=72
-[2018.06.18-11.03.01:863][220]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ac3873ec0, Size=72, Default__FirstPerson_AnimBP_C Function /Engine/Transient.REINST_FirstPerson_AnimBP_C_32:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-11.03.01:870][220]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024a1d8ab7e0, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.06.18-11.03.01:950][220]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ac3873ec0, Size=72
-[2018.06.18-11.03.01:950][220]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae1f4dd98, Size=4
-[2018.06.18-11.03.01:952][220]LogPlayLevel: PlayLevel: Blueprint regeneration took 107 ms (1 blueprints)
-[2018.06.18-11.03.01:952][220]PIE: New page: PIE session: FirstPersonExampleMap (Jun 18, 2018, 3:03:01 AM)
-[2018.06.18-11.03.01:953][220]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.06.18-11.03.01:966][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012712s)
-[2018.06.18-11.03.01:967][220]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.06.18-11.03.01:967][220]LogPlayLevel: PIE: World Init took: (0.001067s)
-[2018.06.18-11.03.01:967][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014569s)
-[2018.06.18-11.03.02:031][220]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.18-11.03.02:041][220]LogInit: FAudioDevice initialized.
-[2018.06.18-11.03.02:073][220]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.06.18-11.03.02:075][220]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.06.18-07.03.02
-[2018.06.18-11.03.02:076][220]LogWorld: Bringing up level for play took: 0.001845
-[2018.06.18-11.03.02:077][220]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.291
-[2018.06.18-11.03.02:077][220]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.03.04:101][460]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.03.04:132][460]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.03.07:166][801]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
-[2018.06.18-11.03.17:054][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.08.19:912][ 36]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_16.PhysicsAssetEditorSkeletalMeshComponent_3) Already registered. Aborting.
-[2018.06.18-11.08.46:498][283]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.Actor_17.DebugSkelMeshComponent_25) Already registered. Aborting.
-[2018.06.18-11.08.46:522][283]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_44:PersistentLevel.Actor_17.DebugSkelMeshComponent_25) - call TermArticulated first.
-[2018.06.18-11.08.50:363][705]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_18.DebugSkelMeshComponent_26) Already registered. Aborting.
-[2018.06.18-11.08.50:387][705]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_45:PersistentLevel.Actor_18.DebugSkelMeshComponent_26) - call TermArticulated first.
-[2018.06.18-11.08.58:816][561]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.Actor_19.DebugSkelMeshComponent_27) Already registered. Aborting.
-[2018.06.18-11.09.30:577][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.09.43:588][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.09.45:213][ 15]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.13.02:407][462]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.026
-[2018.06.18-11.13.02:409][462]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Animations/FirstPerson_AnimBP] ([1] browsable assets)...
-[2018.06.18-11.13.02:438][462]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP]
-[2018.06.18-11.13.02:438][462]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Animations/FirstPerson_AnimBP]
-[2018.06.18-11.13.02:507][462]LogSavePackage: Save=56.99ms
-[2018.06.18-11.13.02:507][462]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPerson_AnimBP_Auto3CFA9823F491A4295C00B479A501F07E4.tmp' to '../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/Animations/FirstPerson_AnimBP_Auto3.uasset'
-[2018.06.18-11.13.02:510][462]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Saved/Autosaves/Game/FirstPerson/Animations/FirstPerson_AnimBP_Auto3.uasset
-[2018.06.18-11.13.02:510][462]LogFileHelpers: Auto-saving content packages took 0.102
-[2018.06.18-11.17.43:331][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.18.25:672][854]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.18-11.18.25:690][854]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.18.25:691][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.18-11.18.25:692][854]PIE: New page: PIE session: FirstPersonExampleMap (Jun 18, 2018, 3:18:25 AM)
-[2018.06.18-11.18.25:692][854]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.06.18-11.18.25:706][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013641s)
-[2018.06.18-11.18.25:707][854]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.06.18-11.18.25:707][854]LogPlayLevel: PIE: World Init took: (0.001231s)
-[2018.06.18-11.18.25:707][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015548s)
-[2018.06.18-11.18.25:765][854]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.18-11.18.25:788][854]LogInit: FAudioDevice initialized.
-[2018.06.18-11.18.25:825][854]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.06.18-11.18.25:832][854]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.06.18-07.18.25
-[2018.06.18-11.18.25:834][854]LogWorld: Bringing up level for play took: 0.007677
-[2018.06.18-11.18.25:838][854]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.53
-[2018.06.18-11.18.25:840][854]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.19.08:697][691]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.19.08:761][691]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.19.53:544][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.19.53:607][673]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.18-11.19.53:625][673]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.19.53:626][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.18-11.19.53:626][673]PIE: New page: PIE session: FirstPersonExampleMap (Jun 18, 2018, 3:19:53 AM)
-[2018.06.18-11.19.53:627][673]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.06.18-11.19.53:641][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014632s)
-[2018.06.18-11.19.53:642][673]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.06.18-11.19.53:643][673]LogPlayLevel: PIE: World Init took: (0.000998s)
-[2018.06.18-11.19.53:643][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016264s)
-[2018.06.18-11.19.53:671][673]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.18-11.19.53:681][673]LogInit: FAudioDevice initialized.
-[2018.06.18-11.19.53:714][673]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.06.18-11.19.53:716][673]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.06.18-07.19.53
-[2018.06.18-11.19.53:717][673]LogWorld: Bringing up level for play took: 0.001898
-[2018.06.18-11.19.53:718][673]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.651
-[2018.06.18-11.19.53:718][673]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.19.58:673][261]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.18-11.20.00:555][483]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.20.00:587][483]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.20.06:194][125]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.20.06:195][125]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.18-11.20.06:195][125]PIE: New page: SIE session: FirstPersonExampleMap (Jun 18, 2018, 3:20:06 AM)
-[2018.06.18-11.20.06:195][125]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.06.18-11.20.06:208][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012712s)
-[2018.06.18-11.20.06:209][125]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.06.18-11.20.06:209][125]LogPlayLevel: PIE: World Init took: (0.001036s)
-[2018.06.18-11.20.06:209][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014352s)
-[2018.06.18-11.20.06:240][125]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.18-11.20.06:250][125]LogInit: FAudioDevice initialized.
-[2018.06.18-11.20.06:282][125]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.06.18-11.20.06:284][125]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.06.18-07.20.06
-[2018.06.18-11.20.06:285][125]LogWorld: Bringing up level for play took: 0.001895
-[2018.06.18-11.20.06:318][125]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.05
-[2018.06.18-11.20.06:430][125]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.20.34:665][453]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.20.34:750][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.20.34:814][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.21.04:497][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
-[2018.06.18-11.21.04:512][974]LogSavePackage: Save=4.76ms
-[2018.06.18-11.21.04:513][974]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun_SkeletonB42A82EC425F8C9F1B25118A044DB7B8.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2018.06.18-11.21.04:519][974]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
-[2018.06.18-11.21.09:206][500]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.21.09:207][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.18-11.21.09:207][500]PIE: New page: PIE session: FirstPersonExampleMap (Jun 18, 2018, 3:21:09 AM)
-[2018.06.18-11.21.09:207][500]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.06.18-11.21.09:221][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013139s)
-[2018.06.18-11.21.09:222][500]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.06.18-11.21.09:222][500]LogPlayLevel: PIE: World Init took: (0.001136s)
-[2018.06.18-11.21.09:222][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014956s)
-[2018.06.18-11.21.09:251][500]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.18-11.21.09:261][500]LogInit: FAudioDevice initialized.
-[2018.06.18-11.21.09:293][500]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.06.18-11.21.09:295][500]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.06.18-07.21.09
-[2018.06.18-11.21.09:296][500]LogWorld: Bringing up level for play took: 0.001847
-[2018.06.18-11.21.09:297][500]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.928
-[2018.06.18-11.21.09:297][500]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.21.11:789][795]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.21.11:823][795]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.22.01:811][925]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.22.17:588][744]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.22.17:673][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
-[2018.06.18-11.22.17:683][753]LogSavePackage: Save=5.06ms
-[2018.06.18-11.22.17:683][753]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun_Skeleton9E51BAEA4D38146072CEF99D44D7A53A.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2018.06.18-11.22.17:690][753]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
-[2018.06.18-11.22.23:647][412]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.22.33:499][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.22.49:270][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.22.59:047][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.23.14:323][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.23.21:165][621]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.23.21:266][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
-[2018.06.18-11.23.21:277][632]LogSavePackage: Save=5.62ms
-[2018.06.18-11.23.21:277][632]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun_SkeletonC01D063C456683687FBDADB26D452807.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2018.06.18-11.23.21:280][632]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
-[2018.06.18-11.23.24:144][975]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.18-11.23.24:163][975]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.23.24:163][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.18-11.23.24:164][975]PIE: New page: PIE session: FirstPersonExampleMap (Jun 18, 2018, 3:23:24 AM)
-[2018.06.18-11.23.24:164][975]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.06.18-11.23.24:177][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013058s)
-[2018.06.18-11.23.24:178][975]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.06.18-11.23.24:178][975]LogPlayLevel: PIE: World Init took: (0.001088s)
-[2018.06.18-11.23.24:179][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014815s)
-[2018.06.18-11.23.24:209][975]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.18-11.23.24:219][975]LogInit: FAudioDevice initialized.
-[2018.06.18-11.23.24:254][975]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.06.18-11.23.24:256][975]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.06.18-07.23.24
-[2018.06.18-11.23.24:257][975]LogWorld: Bringing up level for play took: 0.002221
-[2018.06.18-11.23.24:258][975]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.11
-[2018.06.18-11.23.24:258][975]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.23.26:336][221]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.23.26:369][221]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.23.34:774][144]Cmd: TRANSACTION UNDO
-[2018.06.18-11.23.34:774][144]LogEditorTransaction: Undo Translate Bone
-[2018.06.18-11.23.35:271][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.23.35:291][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.Actor_19.DebugSkelMeshComponent_27) Already registered. Aborting.
-[2018.06.18-11.23.35:307][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.Actor_17.DebugSkelMeshComponent_25) Already registered. Aborting.
-[2018.06.18-11.23.35:326][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_18.DebugSkelMeshComponent_26) Already registered. Aborting.
-[2018.06.18-11.23.35:329][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_16.PhysicsAssetEditorSkeletalMeshComponent_3) Already registered. Aborting.
-[2018.06.18-11.23.35:396][144]Cmd: TRANSACTION UNDO
-[2018.06.18-11.23.35:397][144]LogEditorTransaction: Undo Translate Bone
-[2018.06.18-11.23.36:081][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.23.36:081][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.Actor_19.DebugSkelMeshComponent_27) Already registered. Aborting.
-[2018.06.18-11.23.36:082][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.Actor_17.DebugSkelMeshComponent_25) Already registered. Aborting.
-[2018.06.18-11.23.36:094][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_18.DebugSkelMeshComponent_26) Already registered. Aborting.
-[2018.06.18-11.23.36:095][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_16.PhysicsAssetEditorSkeletalMeshComponent_3) Already registered. Aborting.
-[2018.06.18-11.23.36:141][144]Cmd: TRANSACTION UNDO
-[2018.06.18-11.23.36:141][144]LogEditorTransaction: Undo Translate Bone
-[2018.06.18-11.23.36:692][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.23.36:693][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.Actor_19.DebugSkelMeshComponent_27) Already registered. Aborting.
-[2018.06.18-11.23.36:693][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.Actor_17.DebugSkelMeshComponent_25) Already registered. Aborting.
-[2018.06.18-11.23.36:700][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_18.DebugSkelMeshComponent_26) Already registered. Aborting.
-[2018.06.18-11.23.36:701][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_16.PhysicsAssetEditorSkeletalMeshComponent_3) Already registered. Aborting.
-[2018.06.18-11.23.36:732][144]Cmd: TRANSACTION UNDO
-[2018.06.18-11.23.36:732][144]LogEditorTransaction: Undo Translate Bone
-[2018.06.18-11.23.37:294][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.23.37:294][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.Actor_19.DebugSkelMeshComponent_27) Already registered. Aborting.
-[2018.06.18-11.23.37:295][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.Actor_17.DebugSkelMeshComponent_25) Already registered. Aborting.
-[2018.06.18-11.23.37:302][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_18.DebugSkelMeshComponent_26) Already registered. Aborting.
-[2018.06.18-11.23.37:303][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_16.PhysicsAssetEditorSkeletalMeshComponent_3) Already registered. Aborting.
-[2018.06.18-11.23.37:352][144]Cmd: TRANSACTION UNDO
-[2018.06.18-11.23.37:352][144]LogEditorTransaction: Undo Translate Bone
-[2018.06.18-11.23.38:026][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.23.38:027][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.Actor_19.DebugSkelMeshComponent_27) Already registered. Aborting.
-[2018.06.18-11.23.38:027][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.Actor_17.DebugSkelMeshComponent_25) Already registered. Aborting.
-[2018.06.18-11.23.38:035][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_18.DebugSkelMeshComponent_26) Already registered. Aborting.
-[2018.06.18-11.23.38:036][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_16.PhysicsAssetEditorSkeletalMeshComponent_3) Already registered. Aborting.
-[2018.06.18-11.23.38:065][144]Cmd: TRANSACTION UNDO
-[2018.06.18-11.23.38:066][144]LogEditorTransaction: Undo Translate Bone
-[2018.06.18-11.23.38:752][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.23.38:753][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.Actor_19.DebugSkelMeshComponent_27) Already registered. Aborting.
-[2018.06.18-11.23.38:753][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.Actor_17.DebugSkelMeshComponent_25) Already registered. Aborting.
-[2018.06.18-11.23.38:762][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_18.DebugSkelMeshComponent_26) Already registered. Aborting.
-[2018.06.18-11.23.38:762][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_16.PhysicsAssetEditorSkeletalMeshComponent_3) Already registered. Aborting.
-[2018.06.18-11.23.38:796][144]Cmd: TRANSACTION UNDO
-[2018.06.18-11.23.38:796][144]LogEditorTransaction: Undo Rename Socket
-[2018.06.18-11.23.39:458][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.23.39:459][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.Actor_19.DebugSkelMeshComponent_27) Already registered. Aborting.
-[2018.06.18-11.23.39:461][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.Actor_17.DebugSkelMeshComponent_25) Already registered. Aborting.
-[2018.06.18-11.23.39:482][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_18.DebugSkelMeshComponent_26) Already registered. Aborting.
-[2018.06.18-11.23.39:483][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_16.PhysicsAssetEditorSkeletalMeshComponent_3) Already registered. Aborting.
-[2018.06.18-11.23.39:541][144]Cmd: TRANSACTION UNDO
-[2018.06.18-11.23.39:541][144]LogEditorTransaction: Undo Rename Socket
-[2018.06.18-11.23.40:143][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.23.40:143][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.Actor_19.DebugSkelMeshComponent_27) Already registered. Aborting.
-[2018.06.18-11.23.40:144][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.Actor_17.DebugSkelMeshComponent_25) Already registered. Aborting.
-[2018.06.18-11.23.40:152][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_18.DebugSkelMeshComponent_26) Already registered. Aborting.
-[2018.06.18-11.23.40:153][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_16.PhysicsAssetEditorSkeletalMeshComponent_3) Already registered. Aborting.
-[2018.06.18-11.23.40:188][144]Cmd: TRANSACTION UNDO
-[2018.06.18-11.23.40:188][144]LogEditorTransaction: Undo Clicking on Component (tree view)
-[2018.06.18-11.23.40:844][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.23.40:844][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.Actor_19.DebugSkelMeshComponent_27) Already registered. Aborting.
-[2018.06.18-11.23.40:845][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.Actor_17.DebugSkelMeshComponent_25) Already registered. Aborting.
-[2018.06.18-11.23.40:854][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_18.DebugSkelMeshComponent_26) Already registered. Aborting.
-[2018.06.18-11.23.40:854][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_16.PhysicsAssetEditorSkeletalMeshComponent_3) Already registered. Aborting.
-[2018.06.18-11.23.43:294][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.23.59:069][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.23.59:167][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
-[2018.06.18-11.23.59:177][112]LogSavePackage: Save=4.99ms
-[2018.06.18-11.23.59:177][112]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun_Skeleton273E13984240A9B881A464B130FDCFFC.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2018.06.18-11.23.59:183][112]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
-[2018.06.18-11.24.00:917][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
-[2018.06.18-11.24.00:927][313]LogSavePackage: Save=5.25ms
-[2018.06.18-11.24.00:928][313]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun_Skeleton143F592245BBF1E802723485F1D7F53D.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2018.06.18-11.24.00:931][313]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
-[2018.06.18-11.24.01:115][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
-[2018.06.18-11.24.01:126][333]LogSavePackage: Save=5.92ms
-[2018.06.18-11.24.01:126][333]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun_Skeleton12A32C8B46A44B1057EA9C9272FB7E6C.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2018.06.18-11.24.01:130][333]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
-[2018.06.18-11.24.46:995][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.24.47:088][884]Candidate modules for hot reload:
-[2018.06.18-11.24.47:088][884]  UnrealCPP
-[2018.06.18-11.24.47:088][884]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe UnrealCPP -ModuleWithSuffix=UnrealCPP,9202 Win64 Development -editorrecompile -canskiplink "D:/Unreal Projects/UnrealCPP/UnrealCPP.uproject" ]
-[2018.06.18-11.24.47:091][884]Warning: Starting HotReload took  0.0s.
-[2018.06.18-11.24.54:670][784]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
-[2018.06.18-11.24.56:183][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.26.41:963][265]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.41:963][265]LogEditorTransaction: Undo Edit X
-[2018.06.18-11.26.42:062][265]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.42:398][284]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.42:398][284]LogEditorTransaction: Undo Edit Y
-[2018.06.18-11.26.42:494][284]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.42:914][329]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.42:914][329]LogEditorTransaction: Undo Edit X
-[2018.06.18-11.26.43:009][329]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.43:632][399]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.43:633][399]LogEditorTransaction: Undo Edit Y
-[2018.06.18-11.26.43:759][399]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.44:152][437]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.44:152][437]LogEditorTransaction: Undo Edit X
-[2018.06.18-11.26.44:247][437]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.44:605][477]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.44:605][477]LogEditorTransaction: Undo Edit Y
-[2018.06.18-11.26.44:702][477]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.45:143][523]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.45:143][523]LogEditorTransaction: Undo Edit X
-[2018.06.18-11.26.45:255][523]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.45:610][562]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.45:611][562]LogEditorTransaction: Undo Edit Y
-[2018.06.18-11.26.45:705][562]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.46:052][592]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.46:052][592]LogEditorTransaction: Undo Edit X
-[2018.06.18-11.26.46:147][592]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.46:636][645]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.46:636][645]LogEditorTransaction: Undo Edit Y
-[2018.06.18-11.26.46:730][645]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.47:100][684]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.47:101][684]LogEditorTransaction: Undo Clicking on Component (tree view)
-[2018.06.18-11.26.47:216][684]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.47:571][722]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.47:571][722]LogEditorTransaction: Undo Clicking on Component (tree view)
-[2018.06.18-11.26.47:696][722]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.48:035][758]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.48:035][758]LogEditorTransaction: Undo Clicking on Component (tree view)
-[2018.06.18-11.26.48:145][758]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.48:701][820]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.48:701][820]LogEditorTransaction: Undo Clicking on Component (tree view)
-[2018.06.18-11.26.48:810][820]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.49:171][859]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.49:171][859]LogEditorTransaction: Undo Clicking on Component (tree view)
-[2018.06.18-11.26.49:320][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.49:671][895]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.49:671][895]LogEditorTransaction: Undo Clicking on Component (tree view)
-[2018.06.18-11.26.49:885][895]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.57:325][772]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.57:326][772]LogEditorTransaction: Undo Clicking on Actors
-[2018.06.18-11.26.57:478][772]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.57:541][775]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.57:541][775]LogEditorTransaction: Undo Translate Bone
-[2018.06.18-11.26.57:638][775]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.57:726][778]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.57:726][778]LogEditorTransaction: Undo Clicking on Component (tree view)
-[2018.06.18-11.26.57:848][778]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.26.57:909][779]Cmd: TRANSACTION UNDO
-[2018.06.18-11.26.57:909][779]LogEditorTransaction: Undo Clicking on Component (tree view)
-[2018.06.18-11.26.58:106][779]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.32.27:851][202]CompilerResultsLog: New page: Compilation - Jun 18, 2018, 3:32:27 AM
-[2018.06.18-11.32.27:869][202]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.06.18-11.32.27:870][202]CompilerResultsLog: Creating makefile for hot reloading UnrealCPP (working set of source files changed)
-[2018.06.18-11.32.27:871][202]CompilerResultsLog: Compiling game modules for hot reload
-[2018.06.18-11.32.27:872][202]CompilerResultsLog: Performing 4 actions (4 in parallel)
-[2018.06.18-11.32.27:873][202]CompilerResultsLog: Module.UnrealCPP.gen.cpp
-[2018.06.18-11.32.27:874][202]CompilerResultsLog: Module.UnrealCPP.cpp
-[2018.06.18-11.32.27:874][202]CompilerResultsLog: [3/4] Link UE4Editor-UnrealCPP-9202.dll
-[2018.06.18-11.32.27:875][202]CompilerResultsLog: [4/4] Link UE4Editor-UnrealCPP-9202.lib
-[2018.06.18-11.32.27:875][202]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-9202.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-9202.exp
-[2018.06.18-11.32.27:878][202]CompilerResultsLog:    Creating library D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-9202.suppressed.lib and object D:\Unreal Projects\UnrealCPP\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealCPP-9202.suppressed.exp
-[2018.06.18-11.32.27:880][202]CompilerResultsLog: Total build time: 460.36 seconds (Local executor: 377.46 seconds)
-[2018.06.18-11.32.27:893][202]LogMainFrame: MainFrame: Module compiling took 460.808 seconds
-[2018.06.18-11.32.28:049][202]LogHotReload: Re-instancing MyCameraShake after hot-reload.
-[2018.06.18-11.32.28:186][202]LogContentBrowser: Native class hierarchy updated for 'UnrealCPP' in 0.0350 seconds. Added 39 classes and 36 folders.
-[2018.06.18-11.32.28:189][202]Display: HotReload successful (21 functions remapped  0 scriptstructs remapped)
-[2018.06.18-11.32.28:672][202]LogContentBrowser: Native class hierarchy populated in 0.0419 seconds. Added 2500 classes and 601 folders.
-[2018.06.18-11.32.28:720][202]Display: HotReload took 461.6s.
-[2018.06.18-11.36.24:044][492]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.18-11.36.24:050][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
-[2018.06.18-11.36.24:068][492]LogSavePackage: Save=4.91ms
-[2018.06.18-11.36.24:068][492]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun_Skeleton253E1F8C490ABF91EB2338BDC41631B3.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2018.06.18-11.36.24:076][492]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
-[2018.06.18-11.36.26:789][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
-[2018.06.18-11.36.26:799][813]LogSavePackage: Save=5.12ms
-[2018.06.18-11.36.26:799][813]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun_SkeletonEA82115144CB03812EF4C0BF5CAF98D2.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2018.06.18-11.36.26:803][813]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
-[2018.06.18-11.36.29:374][ 83]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.18-11.36.29:392][ 83]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.36.29:392][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.18-11.36.29:393][ 83]PIE: New page: PIE session: FirstPersonExampleMap (Jun 18, 2018, 3:36:29 AM)
-[2018.06.18-11.36.29:393][ 83]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.06.18-11.36.29:407][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014314s)
-[2018.06.18-11.36.29:408][ 83]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.06.18-11.36.29:409][ 83]LogPlayLevel: PIE: World Init took: (0.001097s)
-[2018.06.18-11.36.29:409][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016154s)
-[2018.06.18-11.36.29:532][ 83]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.18-11.36.29:559][ 83]LogInit: FAudioDevice initialized.
-[2018.06.18-11.36.29:602][ 83]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.06.18-11.36.29:609][ 83]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.06.18-07.36.29
-[2018.06.18-11.36.29:611][ 83]LogWorld: Bringing up level for play took: 0.007250
-[2018.06.18-11.36.29:615][ 83]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.753
-[2018.06.18-11.36.29:616][ 83]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.36.31:794][339]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.36.31:830][339]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.37.14:397][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.37.16:149][781]Cmd: TRANSACTION UNDO
-[2018.06.18-11.37.16:149][781]LogEditorTransaction: Undo Translate Bone
-[2018.06.18-11.37.16:246][781]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.37.36:185][971]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.37.36:280][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
-[2018.06.18-11.37.36:291][981]LogSavePackage: Save=5.67ms
-[2018.06.18-11.37.36:291][981]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun_SkeletonDDEBA2C54AE33F89F4166CA57AB50C1A.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2018.06.18-11.37.36:297][981]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
-[2018.06.18-11.37.38:113][194]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.18-11.37.38:131][194]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.37.38:131][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.18-11.37.38:132][194]PIE: New page: PIE session: FirstPersonExampleMap (Jun 18, 2018, 3:37:38 AM)
-[2018.06.18-11.37.38:132][194]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.06.18-11.37.38:145][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012972s)
-[2018.06.18-11.37.38:146][194]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.06.18-11.37.38:147][194]LogPlayLevel: PIE: World Init took: (0.001084s)
-[2018.06.18-11.37.38:147][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014777s)
-[2018.06.18-11.37.38:175][194]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.18-11.37.38:186][194]LogInit: FAudioDevice initialized.
-[2018.06.18-11.37.38:217][194]LogLoad: Game class is 'UnrealCPPGameMode'
-[2018.06.18-11.37.38:221][194]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.06.18-07.37.38
-[2018.06.18-11.37.38:222][194]LogWorld: Bringing up level for play took: 0.003500
-[2018.06.18-11.37.38:224][194]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.144
-[2018.06.18-11.37.38:225][194]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.37.40:798][496]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.37.40:831][496]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.06.18-11.37.47:457][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.37.50:088][532]Cmd: TRANSACTION UNDO
-[2018.06.18-11.37.50:088][532]LogEditorTransaction: Undo Translate Bone
-[2018.06.18-11.37.50:186][532]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.37.51:463][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
-[2018.06.18-11.37.51:473][658]LogSavePackage: Save=5.22ms
-[2018.06.18-11.37.51:473][658]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun_Skeleton431085D947A763F8D69EE09D47862114.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2018.06.18-11.37.51:477][658]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
-[2018.06.18-11.37.57:466][357]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
-[2018.06.18-11.38.00:935][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.38.03:969][ 50]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_48:PersistentLevel.Actor_21.DebugSkelMeshComponent_29) Already registered. Aborting.
-[2018.06.18-11.38.18:618][647]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.38.27:753][709]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.38.27:872][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
-[2018.06.18-11.38.27:883][722]LogSavePackage: Save=5.38ms
-[2018.06.18-11.38.27:883][722]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun_SkeletonA4CC2AFE4E7954A5BFF4C29B7797897F.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2018.06.18-11.38.27:886][722]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
-[2018.06.18-11.38.43:026][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.38.43:116][499]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_49:PersistentLevel.Actor_22.PhysicsAssetEditorSkeletalMeshComponent_4) Already registered. Aborting.
-[2018.06.18-11.38.50:996][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.39.33:974][374]Cmd: TRANSACTION UNDO
-[2018.06.18-11.39.33:974][374]LogEditorTransaction: Undo Translate Bone
-[2018.06.18-11.39.34:305][374]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_20.DebugSkelMeshComponent_28) Already registered. Aborting.
-[2018.06.18-11.39.34:305][374]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_48:PersistentLevel.Actor_21.DebugSkelMeshComponent_29) Already registered. Aborting.
-[2018.06.18-11.39.34:325][374]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_49:PersistentLevel.Actor_22.PhysicsAssetEditorSkeletalMeshComponent_4) Already registered. Aborting.
-[2018.06.18-11.39.39:418][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.39.39:512][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
-[2018.06.18-11.39.39:522][982]LogSavePackage: Save=5.56ms
-[2018.06.18-11.39.39:522][982]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun_Skeleton03551A074F1481849ECD66B340B9FA15.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2018.06.18-11.39.39:527][982]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
-[2018.06.18-11.39.49:758][136]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.41.03:567][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.41.23:871][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.41.23:963][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
-[2018.06.18-11.41.23:977][627]LogSavePackage: Save=9.25ms
-[2018.06.18-11.41.23:977][627]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun_Skeleton4662E06B4AE68DC4889857B41B4C122F.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2018.06.18-11.41.23:980][627]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
-[2018.06.18-11.41.30:428][299]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_50:PersistentLevel.Actor_23.DebugSkelMeshComponent_30) Already registered. Aborting.
-[2018.06.18-11.41.32:164][461]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_51:PersistentLevel.Actor_24.DebugSkelMeshComponent_31) Already registered. Aborting.
-[2018.06.18-11.41.45:227][895]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.42.03:849][984]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.42.03:941][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
-[2018.06.18-11.42.03:953][994]LogSavePackage: Save=4.96ms
-[2018.06.18-11.42.03:954][994]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun_SkeletonC5072CB747F489ED1BA854B67C573678.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2018.06.18-11.42.03:956][994]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
-[2018.06.18-11.42.11:625][826]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_52:PersistentLevel.Actor_25.DebugSkelMeshComponent_32) Already registered. Aborting.
-[2018.06.18-11.43.19:762][812]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.43.19:863][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
-[2018.06.18-11.43.19:873][823]LogSavePackage: Save=5.39ms
-[2018.06.18-11.43.19:873][823]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun_Skeleton97FD4D7B4E5E8B80876337BFC7036D97.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2018.06.18-11.43.19:877][823]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
-[2018.06.18-11.43.26:342][560]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_53:PersistentLevel.Actor_26.DebugSkelMeshComponent_33) Already registered. Aborting.
-[2018.06.18-11.43.36:800][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.18-11.44.04:866][947]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_54:PersistentLevel.Actor_27.PhysicsAssetEditorSkeletalMeshComponent_5) Already registered. Aborting.
-[2018.06.18-11.44.06:159][ 68]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_55:PersistentLevel.Actor_28.DebugSkelMeshComponent_34) Already registered. Aborting.
-[2018.06.18-11.45.48:103][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Animations/FirstPerson_AnimBP" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset" SILENT=true
-[2018.06.18-11.45.48:160][822]LogSavePackage: Save=45.49ms
-[2018.06.18-11.45.48:160][822]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/FirstPerson_AnimBPB77B77AA42BC220E82F8F8AB188DBED1.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset'
-[2018.06.18-11.45.48:169][822]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset
-[2018.06.18-11.45.48:173][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton" FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" SILENT=true
-[2018.06.18-11.45.48:183][822]LogSavePackage: Save=4.81ms
-[2018.06.18-11.45.48:184][822]LogSavePackage: Moving '../../../../../Unreal Projects/UnrealCPP/Saved/SK_FPGun_Skeleton5B8CBE9D40E9A4E6847B88B1B9E149DE.tmp' to '../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2018.06.18-11.45.48:190][822]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Projects/UnrealCPP/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
-[2018.06.18-11.45.50:558][ 84]LogSlate: Window 'UnrealCPP - Unreal Editor' being destroyed
-[2018.06.18-11.45.50:969][ 85]Cmd: QUIT_EDITOR
-[2018.06.18-11.45.51:199][ 85]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.06.18-11.45.51:233][ 85]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.06.18-11.45.51:234][ 85]LogExit: Preparing to exit.
-[2018.06.18-11.45.51:587][ 85]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/UnrealCPP/Content/' was aborted.
-[2018.06.18-11.45.51:658][ 85]LogExit: Editor shut down
-[2018.06.18-11.45.51:685][ 85]LogExit: Transaction tracking system shut down
-[2018.06.18-11.45.51:744][ 85]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae1165d00, Size=4
-[2018.06.18-11.45.51:744][ 85]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ae1165cf8, Size=4
-[2018.06.18-11.45.51:746][ 85]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024a1d8ab7e0, Size=72
-[2018.06.18-11.45.51:966][ 85]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.06.18-11.45.51:966][ 85]LogDirectoryWatcher: A directory notification for '../../../../../Unreal Projects/UnrealCPP/Content/' was aborted.
-[2018.06.18-11.45.51:966][ 85]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2018.06.18-11.45.51:966][ 85]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2018.06.18-11.45.51:966][ 85]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.06.18-11.45.51:966][ 85]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.06.18-11.45.51:966][ 85]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.06.18-11.45.51:967][ 85]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.06.18-11.45.52:473][ 85]LogExit: Object subsystem successfully closed.
-[2018.06.18-11.45.52:493][ 85]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.06.18-11.45.52:502][ 85]LogD3D11RHI: Shutdown
-[2018.06.18-11.45.52:502][ 85]LogD3D11RHI: CleanupD3DDevice
-[2018.06.18-11.45.52:516][ 85]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.06.18-11.45.52:533][ 85]LogModuleManager: Shutting down and abandoning module UnrealCPP (593)
-[2018.06.18-11.45.52:533][ 85]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (592)
-[2018.06.18-11.45.52:534][ 85]LogModuleManager: Shutting down and abandoning module BlueprintGraph (590)
-[2018.06.18-11.45.52:534][ 85]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (588)
-[2018.06.18-11.45.52:534][ 85]LogModuleManager: Shutting down and abandoning module AnimationEditor (586)
-[2018.06.18-11.45.52:534][ 85]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (584)
-[2018.06.18-11.45.52:534][ 85]LogModuleManager: Shutting down and abandoning module PinnedCommandList (582)
-[2018.06.18-11.45.52:534][ 85]LogModuleManager: Shutting down and abandoning module SkeletonEditor (580)
-[2018.06.18-11.45.52:534][ 85]LogModuleManager: Shutting down and abandoning module PhysicsAssetEditor (578)
-[2018.06.18-11.45.52:534][ 85]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
-[2018.06.18-11.45.52:534][ 85]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
-[2018.06.18-11.45.52:534][ 85]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
-[2018.06.18-11.45.52:534][ 85]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
-[2018.06.18-11.45.52:534][ 85]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.19/FeaturePacks/' was aborted.
-[2018.06.18-11.45.52:540][ 85]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
-[2018.06.18-11.45.52:540][ 85]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
-[2018.06.18-11.45.52:540][ 85]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
-[2018.06.18-11.45.52:540][ 85]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/UnrealCPP/Content/Collections/' was aborted.
-[2018.06.18-11.45.52:540][ 85]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/UnrealCPP/Content/Developers/Harrison/Collections/' was aborted.
-[2018.06.18-11.45.52:540][ 85]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/UnrealCPP/Saved/Collections/' was aborted.
-[2018.06.18-11.45.52:540][ 85]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module BspMode (546)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
-[2018.06.18-11.45.52:541][ 85]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
-[2018.06.18-11.45.52:542][ 85]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
-[2018.06.18-11.45.52:542][ 85]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
-[2018.06.18-11.45.52:542][ 85]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
-[2018.06.18-11.45.52:542][ 85]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
-[2018.06.18-11.45.52:542][ 85]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
-[2018.06.18-11.45.52:542][ 85]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
-[2018.06.18-11.45.52:542][ 85]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
-[2018.06.18-11.45.52:542][ 85]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
-[2018.06.18-11.45.52:542][ 85]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
-[2018.06.18-11.45.52:542][ 85]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
-[2018.06.18-11.45.52:542][ 85]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
-[2018.06.18-11.45.52:542][ 85]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
-[2018.06.18-11.45.52:542][ 85]LogModuleManager: Shutting down and abandoning module SessionServices (500)
-[2018.06.18-11.45.52:542][ 85]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
-[2018.06.18-11.45.52:542][ 85]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
-[2018.06.18-11.45.52:542][ 85]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
-[2018.06.18-11.45.52:547][ 85]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
-[2018.06.18-11.45.52:547][ 85]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
-[2018.06.18-11.45.52:547][ 85]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
-[2018.06.18-11.45.52:547][ 85]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
-[2018.06.18-11.45.52:547][ 85]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
-[2018.06.18-11.45.52:548][ 85]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
-[2018.06.18-11.45.52:548][ 85]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
-[2018.06.18-11.45.52:548][ 85]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
-[2018.06.18-11.45.53:085][ 85]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
-[2018.06.18-11.45.53:085][ 85]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
-[2018.06.18-11.45.53:085][ 85]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
-[2018.06.18-11.45.53:085][ 85]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
-[2018.06.18-11.45.53:085][ 85]LogModuleManager: Shutting down and abandoning module MergeActors (468)
-[2018.06.18-11.45.53:085][ 85]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
-[2018.06.18-11.45.53:086][ 85]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
-[2018.06.18-11.45.53:086][ 85]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
-[2018.06.18-11.45.53:086][ 85]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
-[2018.06.18-11.45.53:086][ 85]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
-[2018.06.18-11.45.53:086][ 85]LogModuleManager: Shutting down and abandoning module XmlParser (456)
-[2018.06.18-11.45.53:086][ 85]LogModuleManager: Shutting down and abandoning module Blutility (454)
-[2018.06.18-11.45.53:086][ 85]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
-[2018.06.18-11.45.53:087][ 85]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
-[2018.06.18-11.45.53:088][ 85]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
-[2018.06.18-11.45.53:089][ 85]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
-[2018.06.18-11.45.53:089][ 85]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
-[2018.06.18-11.45.53:089][ 85]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
-[2018.06.18-11.45.53:089][ 85]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
-[2018.06.18-11.45.53:089][ 85]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
-[2018.06.18-11.45.53:089][ 85]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
-[2018.06.18-11.45.53:155][ 85]LogModuleManager: Shutting down and abandoning module AutomationController (434)
-[2018.06.18-11.45.53:155][ 85]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
-[2018.06.18-11.45.53:155][ 85]LogModuleManager: Shutting down and abandoning module Layers (430)
-[2018.06.18-11.45.53:155][ 85]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
-[2018.06.18-11.45.53:156][ 85]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
-[2018.06.18-11.45.53:156][ 85]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
-[2018.06.18-11.45.53:156][ 85]LogModuleManager: Shutting down and abandoning module Persona (422)
-[2018.06.18-11.45.53:157][ 85]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
-[2018.06.18-11.45.53:157][ 85]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
-[2018.06.18-11.45.53:157][ 85]LogModuleManager: Shutting down and abandoning module Kismet (416)
-[2018.06.18-11.45.53:174][ 85]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
-[2018.06.18-11.45.53:175][ 85]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
-[2018.06.18-11.45.53:183][ 85]LogModuleManager: Shutting down and abandoning module Toolbox (410)
-[2018.06.18-11.45.53:183][ 85]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
-[2018.06.18-11.45.53:183][ 85]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
-[2018.06.18-11.45.53:183][ 85]LogModuleManager: Shutting down and abandoning module OutputLog (404)
-[2018.06.18-11.45.53:184][ 85]LogModuleManager: Shutting down and abandoning module GammaUI (402)
-[2018.06.18-11.45.53:184][ 85]LogModuleManager: Shutting down and abandoning module Documentation (400)
-[2018.06.18-11.45.53:185][ 85]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
-[2018.06.18-11.45.53:185][ 85]LogModuleManager: Shutting down and abandoning module MovieScene (396)
-[2018.06.18-11.45.53:185][ 85]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
-[2018.06.18-11.45.53:185][ 85]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
-[2018.06.18-11.45.53:185][ 85]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
-[2018.06.18-11.45.53:185][ 85]LogModuleManager: Shutting down and abandoning module PortalServices (388)
-[2018.06.18-11.45.53:185][ 85]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
-[2018.06.18-11.45.53:185][ 85]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
-[2018.06.18-11.45.53:185][ 85]LogModuleManager: Shutting down and abandoning module AIModule (382)
-[2018.06.18-11.45.53:185][ 85]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
-[2018.06.18-11.45.53:186][ 85]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
-[2018.06.18-11.45.53:186][ 85]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
-[2018.06.18-11.45.53:391][ 85]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
-[2018.06.18-11.45.53:391][ 85]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
-[2018.06.18-11.45.53:391][ 85]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
-[2018.06.18-11.45.53:391][ 85]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
-[2018.06.18-11.45.53:391][ 85]LogModuleManager: Shutting down and abandoning module OculusInput (366)
-[2018.06.18-11.45.53:391][ 85]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
-[2018.06.18-11.45.53:391][ 85]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
-[2018.06.18-11.45.53:391][ 85]LogModuleManager: Shutting down and abandoning module CableComponent (360)
-[2018.06.18-11.45.53:391][ 85]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
-[2018.06.18-11.45.53:392][ 85]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
-[2018.06.18-11.45.53:392][ 85]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
-[2018.06.18-11.45.53:392][ 85]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
-[2018.06.18-11.45.53:392][ 85]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
-[2018.06.18-11.45.53:392][ 85]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
-[2018.06.18-11.45.53:392][ 85]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
-[2018.06.18-11.45.53:392][ 85]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
-[2018.06.18-11.45.53:392][ 85]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
-[2018.06.18-11.45.53:406][ 85]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
-[2018.06.18-11.45.53:406][ 85]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
-[2018.06.18-11.45.53:407][ 85]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
-[2018.06.18-11.45.53:407][ 85]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
-[2018.06.18-11.45.53:407][ 85]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
-[2018.06.18-11.45.53:407][ 85]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
-[2018.06.18-11.45.53:407][ 85]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
-[2018.06.18-11.45.53:407][ 85]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
-[2018.06.18-11.45.53:407][ 85]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
-[2018.06.18-11.45.53:408][ 85]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
-[2018.06.18-11.45.53:408][ 85]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
-[2018.06.18-11.45.53:408][ 85]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
-[2018.06.18-11.45.53:408][ 85]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
-[2018.06.18-11.45.53:408][ 85]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
-[2018.06.18-11.45.53:408][ 85]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
-[2018.06.18-11.45.53:408][ 85]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
-[2018.06.18-11.45.53:408][ 85]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
-[2018.06.18-11.45.53:409][ 85]LogModuleManager: Shutting down and abandoning module SourceControl (305)
-[2018.06.18-11.45.53:409][ 85]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
-[2018.06.18-11.45.53:409][ 85]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
-[2018.06.18-11.45.53:409][ 85]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
-[2018.06.18-11.45.53:409][ 85]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
-[2018.06.18-11.45.53:409][ 85]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
-[2018.06.18-11.45.53:409][ 85]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
-[2018.06.18-11.45.53:410][ 85]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
-[2018.06.18-11.45.53:410][ 85]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
-[2018.06.18-11.45.53:410][ 85]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
-[2018.06.18-11.45.53:410][ 85]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
-[2018.06.18-11.45.53:410][ 85]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
-[2018.06.18-11.45.53:410][ 85]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
-[2018.06.18-11.45.53:410][ 85]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
-[2018.06.18-11.45.53:410][ 85]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
-[2018.06.18-11.45.53:410][ 85]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
-[2018.06.18-11.45.53:511][ 85]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
-[2018.06.18-11.45.53:611][ 85]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
-[2018.06.18-11.45.53:611][ 85]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
-[2018.06.18-11.45.53:611][ 85]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
-[2018.06.18-11.45.53:611][ 85]LogModuleManager: Shutting down and abandoning module DataValidation (262)
-[2018.06.18-11.45.53:611][ 85]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
-[2018.06.18-11.45.53:612][ 85]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2018.06.18-11.45.53:617][ 85]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2018.06.18-11.45.53:617][ 85]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
-[2018.06.18-11.45.53:618][ 85]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2018.06.18-11.45.53:618][ 85]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2018.06.18-11.45.53:618][ 85]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/UnrealCPP/Binaries/Win64' was aborted.
-[2018.06.18-11.45.53:622][ 85]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
-[2018.06.18-11.45.53:627][ 85]LogModuleManager: Shutting down and abandoning module TreeMap (247)
-[2018.06.18-11.45.53:627][ 85]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
-[2018.06.18-11.45.53:627][ 85]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
-[2018.06.18-11.45.53:627][ 85]LogModuleManager: Shutting down and abandoning module LiveLink (240)
-[2018.06.18-11.45.54:405][ 85]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2018.06.18-11.45.54:406][ 85]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2018.06.18-11.45.54:406][ 85]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2018.06.18-11.45.54:410][ 85]LogModuleManager: Shutting down and abandoning module Media (233)
-[2018.06.18-11.45.54:417][ 85]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
-[2018.06.18-11.45.54:418][ 85]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
-[2018.06.18-11.45.54:418][ 85]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
-[2018.06.18-11.45.54:418][ 85]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
-[2018.06.18-11.45.54:418][ 85]LogModuleManager: Shutting down and abandoning module Overlay (222)
-[2018.06.18-11.45.54:418][ 85]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
-[2018.06.18-11.45.54:418][ 85]LogModuleManager: Shutting down and abandoning module VREditor (218)
-[2018.06.18-11.45.54:418][ 85]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
-[2018.06.18-11.45.54:418][ 85]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
-[2018.06.18-11.45.54:418][ 85]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
-[2018.06.18-11.45.54:418][ 85]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
-[2018.06.18-11.45.54:419][ 85]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
-[2018.06.18-11.45.54:419][ 85]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
-[2018.06.18-11.45.54:419][ 85]LogModuleManager: Shutting down and abandoning module UMG (204)
-[2018.06.18-11.45.54:419][ 85]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
-[2018.06.18-11.45.54:419][ 85]LogModuleManager: Shutting down and abandoning module Sequencer (202)
-[2018.06.18-11.45.54:420][ 85]LogModuleManager: Shutting down and abandoning module MessageLog (199)
-[2018.06.18-11.45.54:420][ 85]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
-[2018.06.18-11.45.54:420][ 85]LogModuleManager: Shutting down and abandoning module Slate (192)
-[2018.06.18-11.45.54:420][ 85]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
-[2018.06.18-11.45.54:428][ 85]LogModuleManager: Shutting down and abandoning module MRMesh (188)
-[2018.06.18-11.45.54:428][ 85]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
-[2018.06.18-11.45.54:428][ 85]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
-[2018.06.18-11.45.54:428][ 85]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
-[2018.06.18-11.45.54:428][ 85]LogModuleManager: Shutting down and abandoning module Networking (180)
-[2018.06.18-11.45.54:428][ 85]LogModuleManager: Shutting down and abandoning module Core (178)
-[2018.06.18-11.45.54:428][ 85]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
-[2018.06.18-11.45.54:428][ 85]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
-[2018.06.18-11.45.54:429][ 85]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
-[2018.06.18-11.45.54:429][ 85]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
-[2018.06.18-11.45.54:429][ 85]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
-[2018.06.18-11.45.54:429][ 85]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
-[2018.06.18-11.45.54:429][ 85]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
-[2018.06.18-11.45.54:429][ 85]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
-[2018.06.18-11.45.54:429][ 85]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
-[2018.06.18-11.45.54:430][ 85]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
-[2018.06.18-11.45.54:463][ 85]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2018.06.18-11.45.54:533][ 85]LogDerivedDataCache: Shutdown
-[2018.06.18-11.45.54:533][ 85]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2018.06.18-11.45.54:533][ 85]LogXGEController: Cleaning working directory: C:/Users/Harrison/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.06.18-11.45.54:534][ 85]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2018.06.18-11.45.54:535][ 85]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2018.06.18-11.45.54:535][ 85]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2018.06.18-11.45.54:535][ 85]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2018.06.18-11.45.54:535][ 85]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2018.06.18-11.45.54:535][ 85]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2018.06.18-11.45.54:535][ 85]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2018.06.18-11.45.54:535][ 85]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2018.06.18-11.45.54:535][ 85]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2018.06.18-11.45.54:535][ 85]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2018.06.18-11.45.54:536][ 85]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2018.06.18-11.45.54:536][ 85]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2018.06.18-11.45.54:536][ 85]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2018.06.18-11.45.54:536][ 85]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2018.06.18-11.45.54:536][ 85]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2018.06.18-11.45.54:536][ 85]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2018.06.18-11.45.54:536][ 85]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
-[2018.06.18-11.45.54:536][ 85]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
-[2018.06.18-11.45.54:536][ 85]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
-[2018.06.18-11.45.54:536][ 85]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
-[2018.06.18-11.45.54:536][ 85]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
-[2018.06.18-11.45.54:537][ 85]LogModuleManager: Shutting down and abandoning module Messaging (109)
-[2018.06.18-11.45.54:537][ 85]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
-[2018.06.18-11.45.54:537][ 85]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
-[2018.06.18-11.45.54:537][ 85]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
-[2018.06.18-11.45.54:537][ 85]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
-[2018.06.18-11.45.54:537][ 85]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
-[2018.06.18-11.45.54:537][ 85]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
-[2018.06.18-11.45.54:537][ 85]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
-[2018.06.18-11.45.54:537][ 85]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
-[2018.06.18-11.45.54:537][ 85]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
-[2018.06.18-11.45.54:537][ 85]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
-[2018.06.18-11.45.54:537][ 85]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
-[2018.06.18-11.45.54:537][ 85]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
-[2018.06.18-11.45.54:537][ 85]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
-[2018.06.18-11.45.54:538][ 85]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
-[2018.06.18-11.45.54:538][ 85]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
-[2018.06.18-11.45.54:538][ 85]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
-[2018.06.18-11.45.54:538][ 85]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
-[2018.06.18-11.45.54:538][ 85]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
-[2018.06.18-11.45.54:538][ 85]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
-[2018.06.18-11.45.54:538][ 85]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
-[2018.06.18-11.45.54:538][ 85]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2018.06.18-11.45.54:538][ 85]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2018.06.18-11.45.54:538][ 85]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2018.06.18-11.45.54:538][ 85]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2018.06.18-11.45.54:538][ 85]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2018.06.18-11.45.54:538][ 85]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2018.06.18-11.45.54:538][ 85]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2018.06.18-11.45.54:539][ 85]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.06.18-11.45.54:539][ 85]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.06.18-11.45.54:539][ 85]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.06.18-11.45.54:539][ 85]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.06.18-11.45.54:539][ 85]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.06.18-11.45.54:539][ 85]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.06.18-11.45.54:539][ 85]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6CAB54AA-471E-9CD8-7C37-B19DBC2CA6A9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=07a50e9e4784e1d9f8c14c83201a7933%7Ceb337136c818478297c24695534e6726%7C508d3d38-1a1d-4cf8-96d3-4a73429fbbd3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.06.18-11.45.54:557][ 85]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.06.18-11.45.54:560][ 85]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.06.18-11.45.54:572][ 85]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.06.18-11.45.54:572][ 85]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.06.18-11.45.54:572][ 85]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.06.18-11.45.54:573][ 85]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.06.18-11.45.54:573][ 85]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.06.18-11.45.54:573][ 85]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.06.18-11.45.54:602][ 85]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.06.18-11.45.54:602][ 85]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.06.18-11.45.54:603][ 85]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.06.18-11.45.54:603][ 85]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.06.18-11.45.54:603][ 85]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.06.18-11.45.54:603][ 85]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.06.18-11.45.54:603][ 85]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.06.18-11.45.54:603][ 85]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.06.18-11.45.54:603][ 85]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.06.18-11.45.54:603][ 85]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.06.18-11.45.54:603][ 85]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.06.18-11.45.54:609][ 85]LogExit: Exiting.
-[2018.06.18-11.45.54:628][ 85]Log file closed, 06/18/18 07:45:54
+[2018.06.20-11.46.27:133][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.20-11.46.27:133][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.20-11.46.27:313][  0]LogInit: Computer: HARRYPC
+[2018.06.20-11.46.27:313][  0]LogInit: User: Harrison
+[2018.06.20-11.46.27:313][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.06.20-11.46.27:314][  0]LogInit: High frequency timer resolution =3.514608 MHz
+[2018.06.20-11.46.27:315][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.06.20-11.46.27:315][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.20-11.46.27:315][  0]LogMemory: Process Physical Memory: 274.52 MB used, 274.52 MB peak
+[2018.06.20-11.46.27:315][  0]LogMemory: Process Virtual Memory: 264.91 MB used, 264.91 MB peak
+[2018.06.20-11.46.27:315][  0]LogMemory: Physical Memory: 5255.27 MB used,  11085.72 MB free, 16340.99 MB total
+[2018.06.20-11.46.27:315][  0]LogMemory: Virtual Memory: 4795.14 MB used,  11085.72 MB free, 134217728.00 MB total
+[2018.06.20-11.46.28:267][  0]LogInit: Using OS detected language (en-US).
+[2018.06.20-11.46.28:267][  0]LogInit: Using OS detected locale (en-US).
+[2018.06.20-11.46.28:571][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.06.20-11.46.29:501][  0]LogStreaming: Display: Took  1.227s to EndInitTextLocalization.
+[2018.06.20-11.46.29:524][  0]LogInit: Setting process to per monitor DPI aware
+[2018.06.20-11.46.29:966][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.20-11.46.29:967][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.20-11.46.33:747][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.20-11.46.33:861][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.06.20-11.46.33:861][  0]LogD3D11RHI:       4043/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.06.20-11.46.33:863][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.20-11.46.33:863][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.20-11.46.33:863][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.20-11.46.33:867][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.20-11.46.33:868][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.06.20-11.46.33:868][  0]LogWindows: EnumDisplayDevices:
+[2018.06.20-11.46.33:868][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.06.20-11.46.33:868][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.06.20-11.46.33:868][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.06.20-11.46.33:868][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.06.20-11.46.33:868][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.20-11.46.33:868][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.06.20-11.46.33:868][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.20-11.46.33:868][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.20-11.46.33:868][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.06.20-11.46.33:901][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.20-11.46.33:901][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.20-11.46.33:901][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.20-11.46.34:143][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 3)
+[2018.06.20-11.46.34:289][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../Unreal Projects/UnrealCPP/Intermediate/Shaders/WorkingDirectory/14616/).
+[2018.06.20-11.46.34:298][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Harrison/AppData/Local/Temp/UnrealShaderWorkingDir/C6F404924D17C045DAFDD0A9148215F7/'.
+[2018.06.20-11.46.35:494][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.20-11.46.35:549][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.20-11.46.35:571][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.20-11.46.35:587][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.20-11.46.35:616][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.20-11.46.35:629][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.20-11.46.35:648][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.20-11.46.35:685][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.20-11.46.35:700][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.20-11.46.35:716][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.20-11.46.35:731][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.20-11.46.35:741][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.20-11.46.35:752][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.06.20-11.46.35:763][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.20-11.46.35:774][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.20-11.46.35:796][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.20-11.46.35:796][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.20-11.46.35:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.20-11.46.35:838][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.20-11.46.35:970][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.20-11.46.35:991][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.20-11.46.36:006][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.20-11.46.36:017][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.20-11.46.36:028][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.20-11.46.36:052][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.20-11.46.36:052][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.20-11.46.37:220][  0]LogXGEController: Cleaning working directory: C:/Users/Harrison/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.06.20-11.46.37:220][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.20-11.46.37:232][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.20-11.46.37:232][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.20-11.46.43:666][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.20-11.46.44:148][  0]LogDerivedDataCache: Loaded boot cache 0.48s 78MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.20-11.46.44:148][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.20-11.46.44:148][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.20-11.46.44:148][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.20-11.46.44:149][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/UnrealCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.20-11.46.44:149][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.20-11.46.44:249][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.20-11.46.44:261][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Harrison/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.20-11.46.44:261][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.06.20-11.46.44:261][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.06.20-11.46.44:335][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.20-11.46.44:384][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.20-11.46.44:472][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.20-11.46.44:472][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.20-11.46.52:644][  0]LogAssetRegistry: FAssetRegistry took 0.0327 seconds to start up
+[2018.06.20-11.46.55:602][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.20-11.46.57:158][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.20-11.46.57:194][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.20-11.46.57:206][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.20-11.46.57:206][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.20-11.46.57:206][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.20-11.46.57:206][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.20-11.46.57:681][  0]LogNetVersion: UnrealCPP , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2553546984)
+[2018.06.20-11.47.03:050][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.246130 seconds
+[2018.06.20-11.47.03:063][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.06.20-11.47.03:063][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.06.20-11.47.03:063][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.20-11.47.30:056][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.20-11.47.30:128][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.20-11.47.31:791][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000218f286f420, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.06.20-11.47.31:920][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000218f286f420, Size=72
+[2018.06.20-11.47.31:920][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000218f27f7010, Size=72, Default__FirstPerson_AnimBP_C Function /Engine/Transient.REINST_FirstPerson_AnimBP_C_0:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.06.20-11.47.32:011][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000218f27a30b0, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.06.20-11.47.33:698][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [17.759876ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
+[2018.06.20-11.47.33:727][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.722809ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2018.06.20-11.47.34:703][  0]SourceControl: Source control is disabled
+[2018.06.20-11.47.34:703][  0]SourceControl: Source control is disabled
+[2018.06.20-11.47.34:725][  0]SourceControl: Source control is disabled
+[2018.06.20-11.47.34:746][  0]SourceControl: Source control is disabled
+[2018.06.20-11.47.35:948][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.20-11.47.36:180][  0]LogOcInput: OculusInput pre-init called
+[2018.06.20-11.47.36:750][  0]LogEngine: Initializing Engine...
+[2018.06.20-11.47.36:893][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.06.20-11.47.36:923][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.20-11.47.36:923][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.20-11.47.38:186][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.20-11.47.38:364][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.20-11.47.38:538][  0]LogInit: FAudioDevice initialized.
+[2018.06.20-11.47.38:714][  0]LogDerivedDataCache: Saved boot cache 0.18s 78MB C:/Users/Harrison/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.20-11.47.38:754][  0]LogInit: Texture streaming: Enabled
+[2018.06.20-11.47.38:821][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.20-11.47.38:938][  0]LogInit: Transaction tracking system initialized
+[2018.06.20-11.47.39:273][  0]BlueprintLog: New page: Editor Load
+[2018.06.20-11.47.40:353][  0]LocalizationService: Localization service is disabled
+[2018.06.20-11.47.41:113][  0]LogConsoleResponse: Display: 
+[2018.06.20-11.47.43:446][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.20-11.47.43:446][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.20-11.47.43:446][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.20-11.47.43:446][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.20-11.47.43:447][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.20-11.47.43:471][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/' took 0.04s
+[2018.06.20-11.47.45:488][  0]SourceControl: Source control is disabled
+[2018.06.20-11.47.45:530][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/UnrealCPP/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.20-11.47.45:548][  0]LightingResults: New page: Lighting Build
+[2018.06.20-11.47.45:643][  0]MapCheck: New page: Map Check
+[2018.06.20-11.47.45:643][  0]LightingResults: New page: Lighting Build
+[2018.06.20-11.47.45:776][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000218f27f7010, Size=72
+[2018.06.20-11.47.46:899][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.06.20-11.47.47:440][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.20-11.47.47:567][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.20-11.47.47:837][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 269.114ms to complete.
+[2018.06.20-11.47.47:837][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.322
+[2018.06.20-11.47.49:570][  0]LogCollectionManager: Loaded 0 collections in 0.001823 seconds
+[2018.06.20-11.47.49:738][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Saved/Collections/' took 0.01s
+[2018.06.20-11.47.49:738][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Developers/Harrison/Collections/' took 0.01s
+[2018.06.20-11.47.49:739][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/UnrealCPP/Content/Collections/' took 0.01s
+[2018.06.20-11.47.49:739][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.06.20-11.47.49:934][  0]LogContentBrowser: Native class hierarchy populated in 0.1936 seconds. Added 2491 classes and 594 folders.
+[2018.06.20-11.47.50:057][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0646 seconds. Added 0 classes and 0 folders.
+[2018.06.20-11.47.51:925][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.1107 seconds. Added 0 classes and 0 folders.
+[2018.06.20-11.47.52:098][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.1200 seconds. Added 1 classes and 2 folders.
+[2018.06.20-11.47.53:069][  0]LogSlate: Took 0.028329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.20-11.47.53:100][  0]LogSlate: Took 0.024883 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.20-11.47.53:186][  0]LogSlate: Took 0.029757 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.20-11.47.53:814][  0]LogRenderer: Reallocating scene render targets to support 1148x612 Format 10 NumSamples 1 (Frame:1).
+[2018.06.20-11.47.54:448][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0665 seconds. Added 0 classes and 0 folders.
+[2018.06.20-11.47.54:448][  0]LogLoad: (Engine Initialization) Total time: 106.40 seconds
+[2018.06.20-11.47.54:448][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.20-11.47.54:469][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.20-11.47.54:572][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.20-11.47.54:716][  0]LogSlate: Took 0.016960 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.20-11.47.54:931][  1]LogAssetRegistry: Asset discovery search completed in 62.3096 seconds
+[2018.06.20-11.47.54:933][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.06.20-11.47.54:933][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)

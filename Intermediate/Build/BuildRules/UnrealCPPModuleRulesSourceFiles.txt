@@ -1,3 +1,3 @@
-D:\Unreal Projects\UnrealCPP\Source\UnrealCPP\UnrealCPP.Build.cs
-D:\Unreal Projects\UnrealCPP\Source\UnrealCPP.Target.cs
-D:\Unreal Projects\UnrealCPP\Source\UnrealCPPEditor.Target.cs
+D:\Unreal Projects\UnrealCPP - 4.19.2\Source\UnrealCPP\UnrealCPP.Build.cs
+D:\Unreal Projects\UnrealCPP - 4.19.2\Source\UnrealCPP.Target.cs
+D:\Unreal Projects\UnrealCPP - 4.19.2\Source\UnrealCPPEditor.Target.cs

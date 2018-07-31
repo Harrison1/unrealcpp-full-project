@@ -4,8 +4,8 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "GeneratedCppIncludes.h"
-#include "FindPlayerPosition/FindPlayerPosition.h"
+#include "UObject/GeneratedCppIncludes.h"
+#include "UnrealCPP/FindPlayerPosition/FindPlayerPosition.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -25,40 +25,49 @@ void EmptyLinkFunctionForGeneratedCodeFindPlayerPosition() {}
 	{
 		return AFindPlayerPosition::StaticClass();
 	}
+	struct Z_Construct_UClass_AFindPlayerPosition_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UE4CodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_AFindPlayerPosition_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_AActor,
+		(UObject* (*)())Z_Construct_UPackage__Script_UnrealCPP,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFindPlayerPosition_Statics::Class_MetaDataParams[] = {
+		{ "IncludePath", "FindPlayerPosition/FindPlayerPosition.h" },
+		{ "ModuleRelativePath", "FindPlayerPosition/FindPlayerPosition.h" },
+	};
+#endif
+	const FCppClassTypeInfoStatic Z_Construct_UClass_AFindPlayerPosition_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<AFindPlayerPosition>::IsAbstract,
+	};
+	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AFindPlayerPosition_Statics::ClassParams = {
+		&AFindPlayerPosition::StaticClass,
+		DependentSingletons, ARRAY_COUNT(DependentSingletons),
+		0x009000A0u,
+		nullptr, 0,
+		nullptr, 0,
+		nullptr,
+		&StaticCppClassTypeInfo,
+		nullptr, 0,
+		METADATA_PARAMS(Z_Construct_UClass_AFindPlayerPosition_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AFindPlayerPosition_Statics::Class_MetaDataParams))
+	};
 	UClass* Z_Construct_UClass_AFindPlayerPosition()
 	{
 		static UClass* OuterClass = nullptr;
 		if (!OuterClass)
 		{
-			static UObject* (*const DependentSingletons[])() = {
-				(UObject* (*)())Z_Construct_UClass_AActor,
-				(UObject* (*)())Z_Construct_UPackage__Script_UnrealCPP,
-			};
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-				{ "IncludePath", "FindPlayerPosition/FindPlayerPosition.h" },
-				{ "ModuleRelativePath", "FindPlayerPosition/FindPlayerPosition.h" },
-			};
-#endif
-			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
-				TCppClassTypeTraits<AFindPlayerPosition>::IsAbstract,
-			};
-			static const UE4CodeGen_Private::FClassParams ClassParams = {
-				&AFindPlayerPosition::StaticClass,
-				DependentSingletons, ARRAY_COUNT(DependentSingletons),
-				0x00900080u,
-				nullptr, 0,
-				nullptr, 0,
-				nullptr,
-				&StaticCppClassTypeInfo,
-				nullptr, 0,
-				METADATA_PARAMS(Class_MetaDataParams, ARRAY_COUNT(Class_MetaDataParams))
-			};
-			UE4CodeGen_Private::ConstructUClass(OuterClass, ClassParams);
+			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_AFindPlayerPosition_Statics::ClassParams);
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFindPlayerPosition, 3466693599);
+	IMPLEMENT_CLASS(AFindPlayerPosition, 901751979);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFindPlayerPosition(Z_Construct_UClass_AFindPlayerPosition, &AFindPlayerPosition::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("AFindPlayerPosition"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFindPlayerPosition);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

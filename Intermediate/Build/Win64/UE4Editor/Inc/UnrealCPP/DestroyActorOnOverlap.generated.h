@@ -4,8 +4,8 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UPrimitiveComponent;
@@ -16,7 +16,7 @@ struct FHitResult;
 #endif
 #define UNREALCPP_DestroyActorOnOverlap_generated_h
 
-#define UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_RPC_WRAPPERS \
+#define UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnOverlapBegin) \
 	{ \
@@ -33,7 +33,7 @@ struct FHitResult;
 	}
 
 
-#define UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnOverlapBegin) \
 	{ \
@@ -50,27 +50,25 @@ struct FHitResult;
 	}
 
 
-#define UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_INCLASS_NO_PURE_DECLS \
+#define UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesADestroyActorOnOverlap(); \
-	friend UNREALCPP_API class UClass* Z_Construct_UClass_ADestroyActorOnOverlap(); \
+	friend struct Z_Construct_UClass_ADestroyActorOnOverlap_Statics; \
 public: \
-	DECLARE_CLASS(ADestroyActorOnOverlap, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/UnrealCPP"), NO_API) \
-	DECLARE_SERIALIZER(ADestroyActorOnOverlap) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(ADestroyActorOnOverlap, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UnrealCPP"), NO_API) \
+	DECLARE_SERIALIZER(ADestroyActorOnOverlap)
 
 
-#define UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_INCLASS \
+#define UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesADestroyActorOnOverlap(); \
-	friend UNREALCPP_API class UClass* Z_Construct_UClass_ADestroyActorOnOverlap(); \
+	friend struct Z_Construct_UClass_ADestroyActorOnOverlap_Statics; \
 public: \
-	DECLARE_CLASS(ADestroyActorOnOverlap, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/UnrealCPP"), NO_API) \
-	DECLARE_SERIALIZER(ADestroyActorOnOverlap) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(ADestroyActorOnOverlap, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UnrealCPP"), NO_API) \
+	DECLARE_SERIALIZER(ADestroyActorOnOverlap)
 
 
-#define UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_STANDARD_CONSTRUCTORS \
+#define UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ADestroyActorOnOverlap(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ADestroyActorOnOverlap) \
@@ -83,7 +81,7 @@ private: \
 public:
 
 
-#define UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_ENHANCED_CONSTRUCTORS \
+#define UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ADestroyActorOnOverlap(ADestroyActorOnOverlap&&); \
@@ -94,32 +92,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ADestroyActorOnOverlap); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ADestroyActorOnOverlap)
 
 
-#define UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_PRIVATE_PROPERTY_OFFSET
-#define UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_13_PROLOG
-#define UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_GENERATED_BODY_LEGACY \
+#define UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_PRIVATE_PROPERTY_OFFSET
+#define UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_13_PROLOG
+#define UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_PRIVATE_PROPERTY_OFFSET \
-	UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_RPC_WRAPPERS \
-	UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_INCLASS \
-	UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_STANDARD_CONSTRUCTORS \
+	UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_PRIVATE_PROPERTY_OFFSET \
+	UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_RPC_WRAPPERS \
+	UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_INCLASS \
+	UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_GENERATED_BODY \
+#define UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_PRIVATE_PROPERTY_OFFSET \
-	UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_INCLASS_NO_PURE_DECLS \
-	UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_ENHANCED_CONSTRUCTORS \
+	UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_PRIVATE_PROPERTY_OFFSET \
+	UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_INCLASS_NO_PURE_DECLS \
+	UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID UnrealCPP_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h
+#define CURRENT_FILE_ID UnrealCPP___4_19_2_Source_UnrealCPP_DestroyActorOnOverlap_DestroyActorOnOverlap_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

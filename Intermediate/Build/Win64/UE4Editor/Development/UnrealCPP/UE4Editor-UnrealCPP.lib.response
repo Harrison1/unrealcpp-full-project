@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UnrealCPP.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Projects\UnrealCPP - 4.19.2\Intermediate\Build\Win64\UnrealCPPEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Unreal Projects\UnrealCPP - 4.19.2\Intermediate\Build\Win64\UE4Editor\Development\UnrealCPP\Module.UnrealCPP.cpp.obj"
+"D:\Unreal Projects\UnrealCPP - 4.19.2\Intermediate\Build\Win64\UE4Editor\Development\UnrealCPP\Module.UnrealCPP.gen.cpp.obj"
+"D:\Unreal Projects\UnrealCPP - 4.19.2\Intermediate\Build\Win64\UE4Editor\Development\UnrealCPP\PCLaunch.rc.res"
+/OUT:"D:\Unreal Projects\UnrealCPP - 4.19.2\Intermediate\Build\Win64\UE4Editor\Development\UnrealCPP\UE4Editor-UnrealCPP.lib"

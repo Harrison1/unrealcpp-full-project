@@ -4,8 +4,8 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "GeneratedCppIncludes.h"
-#include "AddRadialForce/AddRadialForce.h"
+#include "UObject/GeneratedCppIncludes.h"
+#include "UnrealCPP/AddRadialForce/AddRadialForce.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -25,40 +25,49 @@ void EmptyLinkFunctionForGeneratedCodeAddRadialForce() {}
 	{
 		return AAddRadialForce::StaticClass();
 	}
+	struct Z_Construct_UClass_AAddRadialForce_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UE4CodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_AAddRadialForce_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_AActor,
+		(UObject* (*)())Z_Construct_UPackage__Script_UnrealCPP,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAddRadialForce_Statics::Class_MetaDataParams[] = {
+		{ "IncludePath", "AddRadialForce/AddRadialForce.h" },
+		{ "ModuleRelativePath", "AddRadialForce/AddRadialForce.h" },
+	};
+#endif
+	const FCppClassTypeInfoStatic Z_Construct_UClass_AAddRadialForce_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<AAddRadialForce>::IsAbstract,
+	};
+	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AAddRadialForce_Statics::ClassParams = {
+		&AAddRadialForce::StaticClass,
+		DependentSingletons, ARRAY_COUNT(DependentSingletons),
+		0x009000A0u,
+		nullptr, 0,
+		nullptr, 0,
+		nullptr,
+		&StaticCppClassTypeInfo,
+		nullptr, 0,
+		METADATA_PARAMS(Z_Construct_UClass_AAddRadialForce_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AAddRadialForce_Statics::Class_MetaDataParams))
+	};
 	UClass* Z_Construct_UClass_AAddRadialForce()
 	{
 		static UClass* OuterClass = nullptr;
 		if (!OuterClass)
 		{
-			static UObject* (*const DependentSingletons[])() = {
-				(UObject* (*)())Z_Construct_UClass_AActor,
-				(UObject* (*)())Z_Construct_UPackage__Script_UnrealCPP,
-			};
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-				{ "IncludePath", "AddRadialForce/AddRadialForce.h" },
-				{ "ModuleRelativePath", "AddRadialForce/AddRadialForce.h" },
-			};
-#endif
-			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
-				TCppClassTypeTraits<AAddRadialForce>::IsAbstract,
-			};
-			static const UE4CodeGen_Private::FClassParams ClassParams = {
-				&AAddRadialForce::StaticClass,
-				DependentSingletons, ARRAY_COUNT(DependentSingletons),
-				0x00900080u,
-				nullptr, 0,
-				nullptr, 0,
-				nullptr,
-				&StaticCppClassTypeInfo,
-				nullptr, 0,
-				METADATA_PARAMS(Class_MetaDataParams, ARRAY_COUNT(Class_MetaDataParams))
-			};
-			UE4CodeGen_Private::ConstructUClass(OuterClass, ClassParams);
+			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_AAddRadialForce_Statics::ClassParams);
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAddRadialForce, 3114053790);
+	IMPLEMENT_CLASS(AAddRadialForce, 3139794646);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAddRadialForce(Z_Construct_UClass_AAddRadialForce, &AAddRadialForce::StaticClass, TEXT("/Script/UnrealCPP"), TEXT("AAddRadialForce"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAddRadialForce);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
